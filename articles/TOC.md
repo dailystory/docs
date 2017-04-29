@@ -18,6 +18,12 @@
 ## [Pages](/pages/)
 ## [Links](/links/)
 
+# Account
+## [Settings](/account/settings)
+## [Manage Users](/account/manage-users)
+## [Personal Settings](/account/personal-settings)
+## [Tracking Code](/install)
+
 # Integrations
 ## [reCAPTCHA](/integrations/recaptcha)
 ## [WordPress](/integrations/wordpress)
