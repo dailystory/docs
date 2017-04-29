@@ -9,10 +9,10 @@ The DailyStory tracking code, also called a tracking tag, is a small piece of Ja
 > The DailyStory tracking tag is similar to other tags, such as Google Analytics.
 
 You can find the DailyStory tracking tag on the user drop down when you are signed in to DailyStory:
-![Tracking Tag](/install/install-01.png "Tracking Tag")
+![Tracking Tag](/articles/install/install-01.png "Tracking Tag")
 
 This will take you to the Account Settings > DailyStory Site ID and Tracking Code page:
-![DailyStory Site ID and Tracking Code page](/install/install-02.png "DailyStory Site ID and Tracking Code page")
+![DailyStory Site ID and Tracking Code page](/articles/install/install-02.png "DailyStory Site ID and Tracking Code page")
 
 > The Site ID, which is already included in the JavaScript tracking code, is a unique identifier that helps DailyStory know data is coming from your website.
 
