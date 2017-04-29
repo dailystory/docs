@@ -2,6 +2,9 @@
 ## [What is DailyStory?](/)
 ## [New? Start Here](/quickstart)
 
+# Core Concepts
+## [Campaigns](/campaigns/)
+
 # Features
 ## [Popups](/acquisition/popups/)
 

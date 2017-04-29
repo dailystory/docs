@@ -1,7 +1,7 @@
 ---
 layout: _ArticleLayout
 title: Campaigns
-description: my docs go here.
+description: Campaigns are the cornerstone of DailyStory
 ---
 #Campaigns
 Campaigns are the cornerstone of DailyStory - everything in DailyStory first starts with a campaign. New leads are assigned to campaigns and all capabilities around reporting, budgeting and lead generation first require a campaign they are associated with.
