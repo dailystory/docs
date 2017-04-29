@@ -22,13 +22,13 @@ Once you are in your WordPress admin area, click the menu option on the left tha
 
 Next, click 'Add New' in the Plugins menu on the left. This brings up another screen on the right with two options for installing plugins:
 
-![WordPress Plugins](/install/wordpress-02.png "WordPress Plugins")
+![WordPress Plugins](/articles/install/wordpress-02.png "WordPress Plugins")
 
 Type DailyStory into the 'Search plugins...' text box. This will return a list of any plugins that have the word 'DailyStory'. It will also do a check to ensure that the plugin is compatible with the version of WordPress you are running
 
 The DailyStory plugin should look similar to this:
 
-![DailyStory WordPress Plugins](/install/wordpress-03.png "DailyStory WordPress Plugins")
+![DailyStory WordPress Plugins](/articles/install/wordpress-03.png "DailyStory WordPress Plugins")
 
 Next, click the 'Install Now' button.
 
@@ -42,7 +42,7 @@ Go to the [Tracking Code page](/install) where you can find your Site ID.
 
 Copy the code shown in the Site ID text box. We'll use this to enable the plugin:
 
-![DailyStory Site Id](/install/siteid-01.png "DailyStory Site Id")
+![DailyStory Site Id](/articles/install/siteid-01.png "DailyStory Site Id")
 
 > Note, if you don't have a DailyStory account, but want to try out our WordPress plugin - you can always [start a free 30-day trial](https://www.dailystory.com/trial).
 
@@ -52,4 +52,4 @@ Once you have a DailyStory Site ID you can activate the plugin.
 
 Go back to WordPress > Plugins, active the plugin and then click 'Settings' to configure the DailyStory plugin settings. Finally, enter the DailyStory Site ID and click 'Save Settings':
 
-![Activate Plugin](/install/wordpress-04.png "Activate Plugin")
+![Activate Plugin](/articles/install/wordpress-04.png "Activate Plugin")
