@@ -1,7 +1,7 @@
 ---
 layout: _ArticleLayout
-title: What is a retargeting pixel
-description: my docs go here.
+title: Welcome to DailyStory's documentation
+description: Documentation for DailyStory marketing automation platform
 ---
 # What is Dailystory?
 DailyStory is a marketing automation platform designed help businesses manage and measure their digital marketing investments.
