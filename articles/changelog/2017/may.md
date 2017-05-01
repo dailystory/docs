@@ -1,6 +1,6 @@
 ---
 layout: _ArticleLayout
-title: April 2017 Product Update
+title: May 2017 Product Update
 description: Product Updates for May 2017
 ---
 # May 1, 2017
