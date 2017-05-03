@@ -3,6 +3,18 @@ layout: _ArticleLayout
 title: May 2017 Product Update
 description: Product Updates for May 2017
 ---
+# May 3, 2017
+A few small updates today that improve overall performance.
+
+* Converted all lead paths to go through queue for faster writes. 
+* This also included improvements to the popup.
+* Fixed bug in web activity item that was preventing drill down on lead page.
+* Added option when creating new lead to not send a new lead notification (e.g. on bulk import)
+* A few bug fixes to salesforce integration to handle close date on leads
+* Simplified the lead import job
+
+We also enabled the UK data center.
+
 # May 1, 2017
 Quite a few updates for the start of May:
 
