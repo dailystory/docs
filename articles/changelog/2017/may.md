@@ -13,6 +13,15 @@ A few small updates today that improve overall performance.
 * A few bug fixes to salesforce integration to handle close date on leads
 * Simplified the lead import job
 
+Updated UX for login.dailystory.com
+
+* Simplified trial sign up
+* Simplified forgot password, reset password, invitation and welcome with cleaner UX
+
+Added new Lead PageView Report
+
+* Provides a list of page views broken down by qualified leads
+
 We also enabled the UK data center.
 
 # May 1, 2017
