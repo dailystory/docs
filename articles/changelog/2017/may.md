@@ -3,6 +3,9 @@ layout: _ArticleLayout
 title: May 2017 Product Update
 description: Product Updates for May 2017
 ---
+# May 6, 2017
+Added support for alternative URL in tracking URLs for Google
+
 # May 3, 2017
 A few small updates today that improve overall performance.
 
