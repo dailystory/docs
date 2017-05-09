@@ -3,6 +3,16 @@ layout: _ArticleLayout
 title: May 2017 Product Update
 description: Product Updates for May 2017
 ---
+# May 9, 2017
+
+Small bug fixes
+
+* Fixed bug in send test email
+* Updated contact DsId property to include setter/getter logic for dsid formatting
+* Added Api entry as a lead creation type
+* Updates to Lead PageView Report
+* Some clean-up on aisle 5 (more UX nits with login)
+
 # May 6, 2017
 Added support for alternative URL in tracking URLs for Google
 
@@ -16,16 +26,18 @@ A few small updates today that improve overall performance.
 * A few bug fixes to salesforce integration to handle close date on leads
 * Simplified the lead import job
 
-Updated UX for login.dailystory.com
-
-* Simplified trial sign up
-* Simplified forgot password, reset password, invitation and welcome with cleaner UX
-
 Added new Lead PageView Report
 
 * Provides a list of page views broken down by qualified leads
 
 We also enabled the UK data center.
+
+# May 2, 2017
+Updated trial, login and logout pages to simplify them more.
+
+* Changed reset, forgot password, welcome and invitation to use a floating boxy style UX
+* Removed the requirement when creating a trial to enter your company name, now just Trial Account"
+* Moved common login functionality to login.js
 
 # May 1, 2017
 Quite a few updates for the start of May:
