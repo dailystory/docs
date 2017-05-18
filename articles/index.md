@@ -4,7 +4,7 @@ title: Welcome to DailyStory's documentation
 description: Documentation for DailyStory marketing automation platform
 ---
 # What is Dailystory?
-DailyStory is a marketing automation platform designed help businesses manage and measure their digital marketing investments.
+DailyStory is an account based marketing platform built to help B2B Customer Success teams keep and grow their customers.
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="//www.youtube.com/embed/zM4h_KHVD1I" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 <a href="https://www.dailystory.com">To learn more about DailyStory features, please visit the www.dailystory.com website.</a>
