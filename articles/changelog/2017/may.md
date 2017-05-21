@@ -3,6 +3,18 @@ layout: _ArticleLayout
 title: May 2017 Product Update
 description: Product Updates for May 2017
 ---
+# May 21, 2017
+
+* Updates to form designer to simplify
+* Consolidated form designer css
+* Updated licensing flow to match with changes
+* Updated email designer for test email to only support a single test message
+* Added call to action button in form designer - text box only was bad UX
+* Added call to action default value and automatic default if left blank
+* Fixed bug in email tester that would cause a double email to be sent in some cases
+* Updated text in upload contact to reflect that bulk import can take 10-15 minutes to update
+* Improvements to bulk import / lead import jobs to make it much faster. Basically job runs until queue is empty vs. working in sets
+
 # May 9, 2017
 
 Small bug fixes
