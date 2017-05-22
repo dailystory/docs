@@ -4,7 +4,7 @@ title: Web Forms
 description: Web forms are used to collect information about your visitors.
 ---
 # What is a DailyStory Web Form?
-DailyStory enables you to quickly and easily create web forms that can be shown on your website, in our mobile application, a DailyStory landing page, or elsewhere using the DailyStory API.
+A DailyStory Web Form enables you to quickly and easily create forms that can be shown on your website, in your mobile application, a DailyStory landing page, or elsewhere using the DailyStory API.
 
 Creating new web forms and editing existing webforms can be found by:
 
@@ -17,7 +17,7 @@ This opens the All Web Forms list which shows a list of all web forms. Clicking 
 
 To create a new web form, click <code>+ New Web Form</code>
 
-## Create a Web Form
+## Creating a Web Form
 When the <code>+ New Web Form</code> button is clicked the Create New Web Form designer is opened.
 
 The first step is to select a campaign that the web form is associated with: 
@@ -32,7 +32,7 @@ Once the campaign is selected the Web Form Designer is available:
 	
 ![DailyStory Web Form Designer](/articles/acquisition/web-forms/webforms-03.png "DailyStory Web Form Designer")
 	
-## Web Form Designer	
+## Using the Web Form Designer	
 The Web Form Designer enables you to create or edit an existing web form. Each web form requires:
 	
 * **A name** - a friendly name for the web form, such as Contact Us.
@@ -121,7 +121,7 @@ The screen shot below shows an example form that includes reCAPTCHA:
 ![Web Form with reCAPTCHA](/articles/acquisition/web-forms/webforms-04.png "Web Form with reCAPTCHA")
 
 ### Unique Id
-Once a web form is saved, or when it is edited, some additional properties about the webform are availabe. The Unique Id provides access to an id that uniquely identifies the form. This is used in the DailyStory APIs and for integrations such as [WordPress](/articles/integrations/wordpress).
+Once a web form is saved, or when it is edited, some additional properties about the webform are availabe. The Unique Id provides access to an id that uniquely identifies the form. This is used in the DailyStory APIs and for integrations such as [WordPress](/integrations/wordpress).
 	
 ![Web Form Unique Id](/articles/acquisition/web-forms/webforms-12.png "Web Form Unique Id")
 	
