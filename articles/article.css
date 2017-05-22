@@ -1,6 +1,7 @@
 ﻿body {
 	font-family: 'Open Sans', sans-serif;
-	color: #747c84;
+    font-size: 16px;
+    color: #333;
 }
 
 h1 {
@@ -50,9 +51,7 @@ h5 {
 p {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
     margin-top: 15px;
-    font-size: 16px;
     line-height: 1.5em;
-    color: #333;
 }
 
 blockquote {
