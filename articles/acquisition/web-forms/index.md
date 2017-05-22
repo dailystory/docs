@@ -39,3 +39,24 @@ The Web Form Designer enables you to create or edit an existing web form. Each w
 * **A destination URL** - where the form should send the browser once the form is completed.
 
 The web form itself can have multiple form items, but the email address field is required and cannot be removed.
+
+> If you attempt to remove the Email address form item an message will be shown that this form item is required and cannot be removed.
+
+### Form Options
+The Form Options section enable you to change some optional settings for the web form.
+
+**Call to Action**
+The Call to Action enables you to change the text shown on the call to action button for the web form. By default this is set to <code>Submit</code>.
+
+If you would like the call to action to be something else, such as <code>Yes, please follow-up</code>, simply enter that text here.
+
+** Form Layout**
+The Form Layout option provides you with the ability to control some layout control of the web form. While the main styling of the web form is done with CSS, you can select:
+	
+* Display form labels - form labels (text above the form field) will be shown.
+* Hide form labels - form labels (text above the form field) will not be shown.
+
+> While displaying or not displaying form labels can also be controlled through CSS, this setting determines if DailyStory renders the HTML itself.
+
+**Use reCAPTCHA**
+If [reCAPTCHA integration](/integrations/recaptcha) is enabled 
