@@ -42,6 +42,49 @@ The web form itself can have multiple form items, but the email address field is
 
 > If you attempt to remove the Email address form item an message will be shown that this form item is required and cannot be removed.
 
+### Add / Edit Form Items
+The Web Form Designer provides a simple preview of what your final web form will look like.
+
+> This does not take into consideration any CSS applies to your web form.
+
+Form items can be added, edited, removed and reordered using the designer.
+
+#### Add Web Form Item
+To add a web form item, click the drop down to select the type of form item to add. For example, to add a new textbox field click the Form item drop down and select textbox:
+
+![Add form item](/articles/acquisition/web-forms/webforms-05.png "Add form item")
+
+Next, a new form is shown
+
+##### Textbox and Textarea
+When Textbox or Textarea is selected the following options are availabe:
+
+![Textarea form](/articles/acquisition/web-forms/webforms-06.png "Textarea form")
+
+* Form label - this is the text shown with the form field
+* Form placeholder - this is helpful text shown within the form field
+* Lead field mapped to - the lead field in DailyStory to map the entered value to
+* Make this required - prevents the form from being submitted unless this field is completed
+
+Let's look an example: adding a new required form field for phone number:
+
+![Add phone number](/articles/acquisition/web-forms/webforms-07.png "Add phone number")	
+
+Next, we'll click 'Add form item' and this new field will be shown in the live preview:
+	
+![Add phone number form](/articles/acquisition/web-forms/webforms-08.png "Add phone number form")	
+
+##### Dropdown list
+DailyStory forms also support drop down lists so you can pre-define the values to be selected:
+	
+![Add drop down](/articles/acquisition/web-forms/webforms-09.png "Add drop down")	
+
+> Unlike the textbox and textarea form items, there is not an option to set a form placeholder.
+
+Drop down choices are set by entering a single option on each line. For example, if you want to ask the user to select their job title from a pre-defined list you can enter a single choice on each line. If you want to use a specific value different from the text use a comma (with no spaces):
+	
+![Drop down example](/articles/acquisition/web-forms/webforms-10.png "Drop down example")	
+
 ### Form Options
 The Form Options section enable you to change some optional settings for the web form.
 
@@ -63,6 +106,6 @@ If [reCAPTCHA integration](/integrations/recaptcha) is an enabled integration yo
 
 > Provided by Google, reCAPTCHA is a free service that protects your website from spam and abuse by adding a simple test to your web or mobile experience.
 
-The screen shot below show an example form that includes reCAPTCHA:
+The screen shot below shows an example form that includes reCAPTCHA:
 
 ![Web Form with reCAPTCHA](/articles/acquisition/web-forms/webforms-04.png "Web Form with reCAPTCHA")
