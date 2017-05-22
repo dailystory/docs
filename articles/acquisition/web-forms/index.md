@@ -45,12 +45,12 @@ The web form itself can have multiple form items, but the email address field is
 ### Form Options
 The Form Options section enable you to change some optional settings for the web form.
 
-**Call to Action**
+#### Call to Action
 The Call to Action enables you to change the text shown on the call to action button for the web form. By default this is set to <code>Submit</code>.
 
 If you would like the call to action to be something else, such as <code>Yes, please follow-up</code>, simply enter that text here.
 
-** Form Layout**
+#### Form Layout
 The Form Layout option provides you with the ability to control some layout control of the web form. While the main styling of the web form is done with CSS, you can select:
 	
 * Display form labels - form labels (text above the form field) will be shown.
@@ -58,5 +58,11 @@ The Form Layout option provides you with the ability to control some layout cont
 
 > While displaying or not displaying form labels can also be controlled through CSS, this setting determines if DailyStory renders the HTML itself.
 
-**Use reCAPTCHA**
-If [reCAPTCHA integration](/integrations/recaptcha) is enabled 
+#### Use reCAPTCHA
+If [reCAPTCHA integration](/integrations/recaptcha) is an enabled integration you can add reCAPTCHA support to your web form.
+
+> Provided by Google, reCAPTCHA is a free service that protects your website from spam and abuse by adding a simple test to your web or mobile experience.
+
+The screen shot below show an example form that includes reCAPTCHA:
+
+![Web Form with reCAPTCHA](/articles/acquisition/web-forms/webforms-04.png "Web Form with reCAPTCHA")
