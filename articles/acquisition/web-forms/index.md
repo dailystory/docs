@@ -85,6 +85,16 @@ Drop down choices are set by entering a single option on each line. For example,
 	
 ![Drop down example](/articles/acquisition/web-forms/webforms-10.png "Drop down example")	
 
+#### Edit Web Form Item
+Editing a web form item is simple. Just click on the fom item to edit. It will turn yellow and the form item are displayed to the right.
+
+![Edit form item](/articles/acquisition/web-forms/webforms-11.png "Edit form item")	
+
+Click Update form item to save any changes and you will see this immediately reflected in the Live Preview.
+
+#### Delete Web Form Item
+Deleting a web form item is similar to editing. The only difference is that you click the Remove form item button.
+
 ### Form Options
 The Form Options section enable you to change some optional settings for the web form.
 
@@ -109,3 +119,9 @@ If [reCAPTCHA integration](/integrations/recaptcha) is an enabled integration yo
 The screen shot below shows an example form that includes reCAPTCHA:
 
 ![Web Form with reCAPTCHA](/articles/acquisition/web-forms/webforms-04.png "Web Form with reCAPTCHA")
+
+### Unique Id
+Once a web form is saved, or when it is edited, some additional properties about the webform are availabe. The Unique Id provides access to an id that uniquely identifies the form. This is used in the DailyStory APIs and for integrations such as [WordPress](/articles/integrations/wordpress).
+	
+![Web Form Unique Id](/articles/acquisition/web-forms/webforms-12.png "Web Form Unique Id")
+	
