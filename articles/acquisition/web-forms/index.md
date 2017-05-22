@@ -13,9 +13,20 @@ Creating new web forms and editing existing webforms can be found by:
 	
 ![DailyStory Web Form](/articles/acquisition/web-forms/webforms-01.png "DailyStory Web Form")
 
-This opens the All Web Forms list which shows a list of all web forms. Clicking on a web form will open the Edit Web Form Designer.
+This opens the All Web Forms list which shows a list: 
 
-To create a new web form, click <code>+ New Web Form</code>
+![All Web Forms](/articles/acquisition/web-forms/webforms-13.png "All Web Forms")
+
+Clicking on a web form will open the [Edit Web Form designer](/acquisition/web-forms/#using-the-web-form-designer). To [create a new web form](/acquisition/web-forms/#creating-a-web-form), click the '+ New Web Form' button.
+
+## Common Questions
+Below are some common questions regarding DailyStory's Web Forms.
+	
+### What happens when the form is submitted?
+When a visitor successfully completes a form the contents of the form are sent to DailyStory. The visitor is redirected to another page, typically a thank you page, that is identified as the 'Destination URL' in when [designing your web form](/acquisition/web-forms/#using-the-web-form-designer).
+
+### What are the best practices for using web forms?
+A best practice is to ensure your web form has a thank you page - this is the Destination URL when designing your web form - and that the web form sends an email to confirm receipt. Sending a thank you should also be used to validate the deliverability of the email address that the visitor provided. If the email address is invalid, you can remove them from the campaign. All of this can be configured in the [Campaign Workflow](/campaigns/#Workflow).
 
 ## Creating a Web Form
 When the <code>+ New Web Form</code> button is clicked the Create New Web Form designer is opened.
@@ -124,4 +135,9 @@ The screen shot below shows an example form that includes reCAPTCHA:
 Once a web form is saved, or when it is edited, some additional properties about the webform are availabe. The Unique Id provides access to an id that uniquely identifies the form. This is used in the DailyStory APIs and for integrations such as [WordPress](/integrations/wordpress).
 	
 ![Web Form Unique Id](/articles/acquisition/web-forms/webforms-12.png "Web Form Unique Id")
+
+## Using Your Web Form
 	
+### Is the web form shown using an iFrame or JavaScript?
+It is possible to use an iFrame or JavaScript to embed the form in your web page, the recommended method is to either use the native integration with popular CMS applications, such as [WordPress](/integrations/wordpress), or one of the SDKs we have ([PHP](https://github.com/dailystory/SDKs/tree/master/PHP) and [.NET](https://github.com/dailystory/SDKs/tree/master/DotNet)). These are designed to display the DailyStory web form within your site directly and enables easy styling.
+
