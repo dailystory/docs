@@ -23,7 +23,7 @@ Clicking on a web form will open the [Edit Web Form designer](/acquisition/web-f
 Below are some common questions regarding DailyStory's Web Forms.
 
 ### How do I add the web form to my existing website?
-Once you've created a web form in DailyStory [you have several options for publishing it](/acquisition/web-forms/#using-your-web-form). The recommended method is to either use the native integration with popular CMS applications, such as [WordPress](/integrations/wordpress), or one of the SDKs ([PHP](https://github.com/dailystory/SDKs/tree/master/PHP) and [.NET](https://github.com/dailystory/SDKs/tree/master/DotNet)). These are designed to display the DailyStory web form within your site directly.
+Once you've created a web form in DailyStory [you have several options for publishing it](/acquisition/web-forms/#publishing-your-web-form). The recommended method is to either use the native integration with popular CMS applications, such as [WordPress](/integrations/wordpress), or one of the SDKs ([PHP](https://github.com/dailystory/SDKs/tree/master/PHP) and [.NET](https://github.com/dailystory/SDKs/tree/master/DotNet)). These are designed to display the DailyStory web form within your site directly.
 	
 ### What happens when the form is submitted?
 When a visitor successfully completes a form the contents of the form are sent to DailyStory. The visitor is redirected to another page, typically a thank you page, that is identified as the 'Destination URL' in when [designing your web form](/acquisition/web-forms/#using-the-web-form-designer).
@@ -139,6 +139,6 @@ Once a web form is saved, or when it is edited, some additional properties about
 	
 ![Web Form Unique Id](/articles/acquisition/web-forms/webforms-12.png "Web Form Unique Id")
 
-## Using Your Web Form
+## Publishing Your Web Form
 	
 

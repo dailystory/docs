@@ -3,15 +3,12 @@ layout: _ArticleLayout
 title: WordPress Integration
 description: Integration for DailyStory and WordPress
 ---
-# WordPress Integration with DailyStory
+# WordPress Integration for DailyStory
+DailyStory enables integration with WordPress that is simple to setup and easy to use. The integration makes use of a [DailyStory plugin for WordPress](/install/wordpress). Just install the plugin and you'll be ready to use the integration.
 
-# WordPress Plugin
-The DailyStory WordPress plug does two things:
+> The DailyStory WordPress plugin adds DailyStory visitor tracking to your WordPress website and also enables the DailyStory WordPress shortcodes.
 
-1. It automatically adds the tracking code to every page within your WordPress site. With the tracking code installed you will receive insights into what prospective customers are doing on your site. It also adds the ability for you to easily inject A/B testing of content, display exit intent or other popups and helps manage the page triggers and workflow scoring (with more to come).
-2. The WordPress plugin also adds support for embedding DailyStory behavior into your WordPress pages or posts using shortcodes. WordPress shortcodes enable you to easily add functionality when writing content.
-
-# Shortcodes
+## Shortcodes
 <table class="table">
 <tbody>
 <tr>
@@ -19,7 +16,7 @@ The DailyStory WordPress plug does two things:
 <td><strong> Description</strong></td>
 </tr>
 <tr>
-<td width="25%"><code>[[ds-webform id="#"]]</code></td>
+<td width="25%" nowrap><code>[[ds-webform id="#"]]</code></td>
 <td>The webform shortcode is built to enable you to use DailyStory WebForms in your WordPress pages and posts. Using this shortcode you can quickly build landing pages in WordPress and easily get that data back into DailyStory. Once the form is submitted DailyStory runs it through its workflow engine. This shortcode request the id of the DailyStory form you wish to display.</td>
 </tr>
 </tbody>
