@@ -3,6 +3,18 @@ layout: _ArticleLayout
 title: May 2017 Product Update
 description: Product Updates for May 2017
 ---
+# May 23, 2017
+
+* Fixed login bug that would appear when switching between logins or if a login existing in another tab.
+* Fixed another bug with Debug logic; simple redirect fixed this to ensure cookie and credentials were written out.
+* Fixed bug with web form that caused editing the call to action button to change another button's text.
+* Fixed bug with web forms that prevented a pre-existing call to action text from getting updated
+* Popup reporting had a bug with how it calculated conversions.
+* Improvements to popup reporting to use a join to connect with lead table
+* Updates to web tracking callback to remove checks for a json string from popup
+* Updates to CMS functionality to add support for horizontal web forms
+* Fix in Ds Javascript API to handle a case where the popup was not reseting the overflow on the body tag. Still not sure this is 100% addressed.
+
 # May 21, 2017
 
 * Updates to form designer to simplify
