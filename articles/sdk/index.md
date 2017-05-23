@@ -26,7 +26,7 @@ Next, get the Unique Id of the DailyStory Web Form you want to include. You can 
 <ol class="step"><li value="4">Call the WebForm API</li></ol>
 Open or create an ASP.NET page and include a reference to the <code>DailyStory.SDK.DotNet</code>:
 	
-<pre class="brush: c#; html-script: true">
+<pre class="brush: csharp">
 @using DailyStory.SDK.DotNet
 </pre>
 
