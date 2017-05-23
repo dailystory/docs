@@ -140,5 +140,7 @@ Once a web form is saved, or when it is edited, some additional properties about
 ![Web Form Unique Id](/articles/acquisition/web-forms/webforms-12.png "Web Form Unique Id")
 
 ## Publishing Your Web Form
-	
+A web form created in DailyStory can be published three ways:
+
+* Application integration - such as the [WordPress shortcode	]()
 
