@@ -57,6 +57,7 @@ p {
 blockquote {
     background-color: #eee;
     padding: 20px 15px;
+    margin: 30px 0;
 }
 
 blockquote p {

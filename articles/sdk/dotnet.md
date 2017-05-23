@@ -11,7 +11,7 @@ DailyStory Web Forms enable you to [create, design and manage web forms](/acquis
 
 > A web form is part of a [DailyStory campaign](/campaigns/) and once a form is submitted the contents are used to either create a new lead within a campaign or add to an existing lead.
 
-### How to use
+### How to use WebForm
 To include a DailyStory Web Form in your existing ASP.NET application, follow these steps:
 	
 <ol class="step"><li value="1">Add the .NET SDK Library</li></ol>
@@ -61,3 +61,7 @@ Finally, DailyStory additionally provides some pre-built CSS files to add form v
 Now our web form looks a little nicer:
 	
 ![Simple Web Form](/articles/sdk/dotnet-02.png "Simple Web Form")
+
+There are several [pre-built CSS templates](/acquisition/web-forms/#styling-your-web-form) to choose from. For example, if you want a simple horizontal form you can replace the <code>base_webform.css</code> with <code>base_webform-horizontal.css</code> and change the Web Form Layout to [Hide Form Labels](/acquisition/web-forms/#form-layout):
+	
+![Simple Web Form](/articles/sdk/dotnet-03.png "Simple Web Form")
