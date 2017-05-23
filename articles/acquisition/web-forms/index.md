@@ -144,8 +144,8 @@ A web form created in DailyStory can be published three ways:
 
 * Application integration - such as the [WordPress shortcode	](/integrations/wordpress#web-form-shortcode)
 * DailyStory Page - [DailyStory Pages](/features/pages#landing-pages) can be used to display forms
-* Using the SDK/API - using the [DailyStory SDK](https://github.com/dailystory/SDKs) to render forms in your web application 
+* [Using the SDK/API](/sdk/dotnet) - using the DailyStory SDK to render forms in your web application 
 
-Publishing a web form using application integration or in a DailyStory page are both documented using the above links. 
+Publishing a web form using application integration or in a DailyStory page are both documented using the links above. 
 
 ## Styling your Web Form

@@ -24,6 +24,6 @@ Insert your tracking code here
 &lt;/head&gt;
 </pre>
 
-> If you aren't comfortable doing this. <a href="https://www.dailystory.com/contact-us">We can help.</a>
+> If you aren't comfortable doing this <a href="https://www.dailystory.com/contact-us">we would be happy to help.</a>
 
 We are building plugins for other popular content publishing tools and support [Google Tag Manager](/install/google-tag-manager).

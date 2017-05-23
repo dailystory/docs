@@ -11,7 +11,7 @@ DailyStory Web Forms enable you to [create, design and manage web forms](/acquis
 
 > A web form is part of a [DailyStory campaign](/campaigns/) and once a form is submitted the contents are used to either create a new lead within a campaign or add to an existing lead.
 
-### How to use WebForm
+### How to include a Web Form in ASP.NET
 To include a DailyStory Web Form in your existing ASP.NET application, follow these steps:
 	
 <ol class="step"><li value="1">Add the .NET SDK Library</li></ol>
@@ -19,9 +19,12 @@ Either compile the .NET SDK yourself, or use the pre-compiled <code>DailyStory.S
 
 <ol class="step"><li value="2">Get your DailyStory Site Id</li></ol>
 Find your DailyStory Site Id, as this will be required to use the .NET SDK. You can [find your Site Id on the Tracking Code page](/install) in your DailyStory application.
+![DailyStory Site ID and Tracking Code page](/articles/install/install-02.png "DailyStory Site ID and Tracking Code page")
 
 <ol class="step"><li value="3">Get your DailyStory Web Form ID</li></ol>
 Next, get the Unique Id of the DailyStory Web Form you want to include. You can [find your Web Form Unique Id](/acquisition/web-forms/#unique-id) by clicking on any Web Form.
+
+![Web Form Unique Id](/articles/acquisition/web-forms/webforms-12.png "Web Form Unique Id")
 
 <ol class="step"><li value="4">Call the WebForm API</li></ol>
 Open or create an ASP.NET page and include a reference to the <code>DailyStory.SDK.DotNet</code> and render the web form using the static <code>RenderWebForm</code> method:
@@ -32,7 +35,7 @@ Open or create an ASP.NET page and include a reference to the <code>DailyStory.S
 @Html.Raw(WebForm.RenderWebForm("[Your Site Id]", "[Your Web Form Id]"))
 </pre>
 
-> Replace [Your Site Id] and [Your Form Id] with the values from step 2 and step 3.
+> Replace [Your Site Id] and [Your Form Id] with the values from your DailyStory application from step 2 and step 3.
 
 When you run this page, you should see something similar to this:
 	
