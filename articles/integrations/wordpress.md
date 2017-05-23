@@ -43,7 +43,7 @@ Next, publish the page or post and view it in your browser.
 
 When WordPress receives the request it will see the shortcode <code>[ds-webform id="a2vmy"]</code>. It will route that request to the DailyStory plugin to process. The plugin will make an API call to DailyStory, fetch the appropriate form, progressively render its layout, add javascript for validation, add stylesheets and optionally render a Google reCAPTCHA.
 
-When your request completes you won't see <code>[ds-webform id="a2vmy"] (unless there was a problem), but you will instead see the HTML form that you designed on DailyStory. 
+When your request completes you won't see <code>[ds-webform id="a2vmy"]</code> (unless there was a problem), but you will instead see the HTML form that you designed on DailyStory. 
 
 Submissions to that form are POSTed to DailyStory and new content is accessible in your lead queue associated with the campaign for that Web Form.
 

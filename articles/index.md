@@ -1,7 +1,7 @@
 ---
 layout: _ArticleLayout
 title: Welcome to DailyStory's documentation
-description: Documentation for DailyStory marketing automation platform
+description: Documentation for the DailyStory account based marketing platform
 ---
 # What is Dailystory?
 DailyStory is an account based marketing platform built to help B2B Customer Success teams keep and grow their customers.

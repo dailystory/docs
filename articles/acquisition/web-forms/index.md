@@ -139,8 +139,13 @@ Once a web form is saved, or when it is edited, some additional properties about
 	
 ![Web Form Unique Id](/articles/acquisition/web-forms/webforms-12.png "Web Form Unique Id")
 
-## Publishing Your Web Form
+## Publishing your Web Form
 A web form created in DailyStory can be published three ways:
 
-* Application integration - such as the [WordPress shortcode	]()
+* Application integration - such as the [WordPress shortcode	](/integrations/wordpress#web-form-shortcode)
+* DailyStory Page - [DailyStory Pages](/features/pages#landing-pages) can be used to display forms
+* Using the SDK/API - using the [DailyStory SDK](https://github.com/dailystory/SDKs) to render forms in your web application 
 
+Publishing a web form using application integration or in a DailyStory page are both documented using the above links. 
+
+## Styling your Web Form

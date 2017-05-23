@@ -14,9 +14,9 @@
 ## [Triggers](/acquisition/triggers/)
 ## [Web Forms](/acquisition/web-forms/)
 ## [Paid Search](/acquisition/paid-search/)
-## [Emails](/emails/)
-## [Pages](/pages/)
-## [Links](/links/)
+## [Emails](/features/emails/)
+## [Pages](/features/pages/)
+## [Links](/features/links/)
 
 # Account
 ## [Settings](/account/settings)
@@ -29,6 +29,9 @@
 ## [WordPress](/integrations/wordpress)
 ## [Salesforce](/integrations/salesforce)
 ## [Mailgun](/integrations/mailgun)
+
+# SDK / APIs
+## [.NET SDK](/sdk/dotnet)
 
 # Installing DailyStory
 ## [Tracking Code](/install)
