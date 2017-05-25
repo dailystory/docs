@@ -271,6 +271,82 @@ The table below provides a list of the field name values used in a custom form t
 <td>Contact</td>
 <td>Last name of the contact.</td>
 </tr>
+<tr>
+<td>FullName</td>
+<td>Contact</td>
+<td>Full name of the contact. When set, full name will then populate first and last name.</td>
+</tr>
+<tr>
+<td>Email</td>
+<td>Contact</td>
+<td>Email address of the contact.</td>
+</tr>
+<tr>
+<td>Title</td>
+<td>Contact</td>
+<td>Job title of the contact, e.g. Marketing Manager</td>
+</tr>
+<tr>
+<td>Company</td>
+<td>Contact</td>
+<td>Job title of the contact, e.g. Marketing Manager</td>
+</tr>
+<tr>
+<td>NumberOfEmployees</td>
+<td>Contact</td>
+<td>Number of employees in the organization, e.g. 100</td>
+</tr>
+<tr>
+<td>WebSite</td>
+<td>Contact</td>
+<td>Url to the company's website</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>Contact</td>
+<td>Primary phone number</td>
+</tr>
+<tr>
+<td>MobilePhone</td>
+<td>Contact</td>
+<td>Mobile phone number</td>
+</tr>
+<tr>
+<td>Country</td>
+<td>Contact</td>
+<td>Country, e.g. United States</td>
+</tr>
+<tr>
+<td>City</td>
+<td>Contact</td>
+<td>City, e.g. New York</td>
+</tr>
+<tr>
+<td>PostalCode</td>
+<td>Contact</td>
+<td>Postal or zip code</td>
+</tr>
+<tr>
+<td>Address</td>
+<td>Contact</td>
+<td>Address, e.g. 123 My Street</td>
+</tr>
+<tr>
+<td>Region</td>
+<td>Contact</td>
+<td>Region or state, e.g. California</td>
+</tr>
+<tr>
+<td>LeadSource</td>
+<td>Lead</td>
+<td>Source where the lead originated, e.g. Contact Us Form</td>
+</tr>
+<tr>
+<td>Description</td>
+<td>Lead</td>
+<td>Free form text, such as reason for contacting us</td>
+</tr>
+
 </tbody>
 </table>
 
