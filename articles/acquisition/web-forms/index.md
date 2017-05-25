@@ -142,10 +142,10 @@ Once a web form is saved, or when it is edited, some additional properties about
 ## Publishing your Web Form
 A web form created in DailyStory can be published four ways:
 
-* Application integration - such as the [WordPress shortcode	](/integrations/wordpress#web-form-shortcode).
-* DailyStory Page - create [DailyStory Pages](/features/pages#landing-pages) that include your Web Form.
-* DailyStory SDK - use the [DailyStory SDK](/sdk/) to render forms in your web application.
-* Custom HTML form - write your own HTML and POST to the DailyStory Web Form.
+* Application integration - such as the [WordPress shortcode	](/integrations/wordpress#web-form-shortcode)
+* DailyStory Page - create [DailyStory Pages](/features/pages#landing-pages) that include your Web Form
+* DailyStory SDK - use the [DailyStory SDK](/sdk/) to render forms in your web application
+* Custom HTML form - write your own HTML and POST to the DailyStory Web Form
 
 The table below will help you select the right option for your DailyStory Web Form.
 
@@ -185,8 +185,42 @@ The table below will help you select the right option for your DailyStory Web Fo
 ### Creating a Custom HTML form
 You can also create your own custom HTML form and POST directly to the DailyStory Web Form URL. This gives you the greatest flexibility with regards to design and layout of your form.
 
-> You can easily convert your existing forms to publish to DailyStory.
+> If you have existing forms on your website, you can easily convert your existing forms to publish to DailyStory.
 
-Publishing a web form using application integration or in a DailyStory page are both documented using the links above. 
+To create a custom form:
+	
+<ol class="step"><li value="1">Configure the &lt;form&gt;</li></ol>
+The &lt;form&gt; needs to be configured to POST the values to your DailyStory Web Form URL. The format of this URL is:
+
+<code>https://cms-1.dailystory.com/PostForm/[Site Id]/[Web Form Id]</code>
+
+For example, if your DailyStory Site Id is <code>1234567890</code> and your Web Form Id is <code>a2vmy</code> your &lt;form&gt; would look as follows:
+	
+<pre class="brush: js; html-script: true">
+&lt;form method="POST" action="https://cms-1.dailystory.com/PostForm/1234567890/a2vmy" &gt;
+</pre>	
+
+<ol class="step"><li value="2">Add hidden &lt;input&gt; fields</li></ol>
+The DailyStory Id is a unique identifier used to identify customers and visitors. This hidden field is required and set to the value of the <code>_ds</code> cookie which is created as part of the DailyStory JavaScript tag.
+
+<pre class="brush: js; html-script: true">
+&lt;input type="hidden" name="dsid" value="dsid" &gt;
+</pre>	
+
+<ol class="step"><li value="3">Add JQuery and Landing Page Script</li></ol>
+The &lt;input type="hidden" name="dsid" value="dsid" &gt; needs to be set to the DailyStory Id of the current visitor.
+
+> The dsid needs to be set after the page completes loading. If the form is the first page a visitor lands on the DailyStory Id will not be written until after the page completes loading.
+
+You can write your own JavaScript to set the value of the hidden <code>&lt;input&gt;</code> to the value in the <code>_ds</code> cookie, but the recommended way is to include JQuery and our helper library:
+	
+<pre class="brush: js; html-script: true">
+&lt;iscript src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"&gt;&lt;i/script&gt;
+
+&lt;iscript type="text/javascript" src="//localhost:90/Scripts/ds-landingpages.js"&gt;&lt;i/script&gt;
+</pre>	
+
 
 ## Styling your Web Form
