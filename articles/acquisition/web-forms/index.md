@@ -200,13 +200,24 @@ For example, if your DailyStory Site Id is <code>1234567890</code> and your Web 
 &lt;form method="POST" action="https://cms-1.dailystory.com/PostForm/1234567890/a2vmy" &gt;
 </pre>	
 
-<ol class="step"><li value="2">Add hidden &lt;input&gt; fields</li></ol>
+<ol class="step"><li value="2">Add required form fields</li></ol>
+DailyStory expects to find two form fields:
+
+* DailyStory Id - form field name <code>dsid</code>
+* Email address - form field name <code>Email</code>	
+	
 The DailyStory Id is a unique identifier used to identify customers and visitors. This hidden field is required and set to the value of the <code>_ds</code> cookie which is created as part of the DailyStory JavaScript tag.
 
 <pre class="brush: js; html-script: true">
 &lt;input type="hidden" name="dsid" value="dsid" &gt;
 </pre>	
 
+A valid email address must be included with the <code>&lt;form&gt;</code> submit and must use the <code>name</code> value of <code>Email</code>:
+
+<pre class="brush: js; html-script: true">
+&lt;input type="text" name="Email" &gt;
+</pre>	
+	
 <ol class="step"><li value="3">Add JQuery and Landing Page Script</li></ol>
 The <code>&lt;input type="hidden" name="dsid" value="dsid" &gt;</code> needs to be set to the DailyStory Id of the current visitor.
 
@@ -222,5 +233,17 @@ You can write your own JavaScript to set the value of the hidden <code>&lt;input
 &lt;script type="text/javascript" src="https//cms-1.dailystory.com/Scripts/ds-landingpages.js"&gt;&lt;/script&gt;
 </pre>	
 
+<ol class="step"><li value="4">Set form field names</li></ol>
+The final required step is set the form field names to match the field values supported by DailyStory.
+
+For example, to capture the company name on a form a form field's name must be set to <code>Company</code>.
+
+<pre class="brush: js; html-script: true">
+&lt;input type="text" name="Company"&gt;
+</pre>	
+
+A full list of the DailyStory form fields is published here.
+
+You can include additional custom form fields as well. The values of these fields will be available as part of the DailyStory contact.
 
 ## Styling your Web Form
