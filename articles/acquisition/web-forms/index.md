@@ -236,14 +236,42 @@ You can write your own JavaScript to set the value of the hidden <code>&lt;input
 <ol class="step"><li value="4">Set form field names</li></ol>
 The final required step is set the form field names to match the field values supported by DailyStory.
 
-For example, to capture the company name on a form a form field's name must be set to <code>Company</code>.
+For example, to capture the company name on a form, a form field's name must be set to <code>Company</code>.
 
 <pre class="brush: js; html-script: true">
 &lt;input type="text" name="Company"&gt;
 </pre>	
 
-A full list of the DailyStory form fields is published here.
+A full list of the DailyStory form fields is published below.
 
-You can include additional custom form fields as well. The values of these fields will be available as part of the DailyStory contact.
+> You can include additional custom form fields as well. The values of these fields will be available as part of the DailyStory contact.
+
+#### Custom Web Form Lead Fields
+The table below provides a list of the field name values used in a custom form that populate corresponding values in the [lead](/lead) and [contact](/contact).
+
+<table class="table">
+<thead>
+	<th>Field Name</th>
+	<th>Maps To</th>
+	<th>Description</th>
+</thead>
+<tbody>
+<tr>
+<td>Salutation</td>
+<td>Contact</td>
+<td>Saluation for the contact, e.g. Mr., Mrs., Dr., Ms.</td>
+</tr>
+<tr>
+<td>FirstName</td>
+<td>Contact</td>
+<td>First name of the contact.</td>
+</tr>
+<tr>
+<td>LastName</td>
+<td>Contact</td>
+<td>Last name of the contact.</td>
+</tr>
+</tbody>
+</table>
 
 ## Styling your Web Form
