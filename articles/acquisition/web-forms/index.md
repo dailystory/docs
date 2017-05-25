@@ -140,11 +140,52 @@ Once a web form is saved, or when it is edited, some additional properties about
 ![Web Form Unique Id](/articles/acquisition/web-forms/webforms-12.png "Web Form Unique Id")
 
 ## Publishing your Web Form
-A web form created in DailyStory can be published three ways:
+A web form created in DailyStory can be published four ways:
 
-* Application integration - such as the [WordPress shortcode	](/integrations/wordpress#web-form-shortcode)
-* DailyStory Page - [DailyStory Pages](/features/pages#landing-pages) can be used to display forms
-* [Using the SDK/API](/sdk/dotnet) - using the DailyStory SDK to render forms in your web application 
+* Application integration - such as the [WordPress shortcode	](/integrations/wordpress#web-form-shortcode).
+* DailyStory Page - create [DailyStory Pages](/features/pages#landing-pages) that include your Web Form.
+* DailyStory SDK - use the [DailyStory SDK](/sdk/) to render forms in your web application.
+* Custom HTML form - write your own HTML and POST to the DailyStory Web Form.
+
+The table below will help you select the right option for your DailyStory Web Form.
+
+<table class="table">
+<thead>
+	<th></td>
+	<th>Application Integration</th>
+	<th>DailyStory Page</th>
+	<th>DailyStory SDK</th>
+	<th>Custom Form</th>
+</thead>
+<tbody>
+<tr>
+<td><strong>Complexity</strong></td>
+<td>Low</td>
+<td>Medium</td>
+<td>High</td>
+<td>High</td>
+</tr>
+<tr>
+<td><strong>Skill Set</strong></td>
+<td>Content Developer</td>
+<td>Content Developer</td>
+<td>Web Developer</td>
+<td>Web Developer</td>
+</tr>
+<tr>
+<td><strong>Customization</strong></td>
+<td>Limited (CSS)</td>
+<td>Limited (CSS)</td>
+<td>CSS & JavaScript</td>
+<td>Full</td>
+</tr>
+</tbody>
+</table>
+
+### Creating a Custom HTML form
+You can also create your own custom HTML form and POST directly to the DailyStory Web Form URL. This gives you the greatest flexibility with regards to design and layout of your form.
+
+> You can easily convert your existing forms to publish to DailyStory.
 
 Publishing a web form using application integration or in a DailyStory page are both documented using the links above. 
 

@@ -3,6 +3,12 @@ layout: _ArticleLayout
 title: May 2017 Product Update
 description: Product Updates for May 2017
 ---
+# May 25, 2017
+
+* Added support in Web Forms for adding text in the form
+* Added support for horizontal css forms
+* Updates to web forms landing page javascript
+
 # May 23, 2017
 
 * Fixed login bug that would appear when switching between logins or if a login existing in another tab.
