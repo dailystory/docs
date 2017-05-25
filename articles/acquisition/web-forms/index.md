@@ -208,18 +208,18 @@ The DailyStory Id is a unique identifier used to identify customers and visitors
 </pre>	
 
 <ol class="step"><li value="3">Add JQuery and Landing Page Script</li></ol>
-The &lt;input type="hidden" name="dsid" value="dsid" &gt; needs to be set to the DailyStory Id of the current visitor.
+The <code>&lt;input type="hidden" name="dsid" value="dsid" &gt;</code> needs to be set to the DailyStory Id of the current visitor.
 
 > The dsid needs to be set after the page completes loading. If the form is the first page a visitor lands on the DailyStory Id will not be written until after the page completes loading.
 
 You can write your own JavaScript to set the value of the hidden <code>&lt;input&gt;</code> to the value in the <code>_ds</code> cookie, but the recommended way is to include JQuery and our helper library:
 	
 <pre class="brush: js; html-script: true">
-&lt;iscript src="https://code.jquery.com/jquery-3.2.1.min.js"
+&lt;script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"&gt;&lt;i/script&gt;
+        crossorigin="anonymous"&gt;&lt;/script&gt;
 
-&lt;iscript type="text/javascript" src="//localhost:90/Scripts/ds-landingpages.js"&gt;&lt;i/script&gt;
+&lt;script type="text/javascript" src="https//cms-1.dailystory.com/Scripts/ds-landingpages.js"&gt;&lt;/script&gt;
 </pre>	
 
 
