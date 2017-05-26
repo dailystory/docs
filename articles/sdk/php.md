@@ -89,5 +89,7 @@ There are several [pre-built CSS templates](/acquisition/web-forms/#styling-your
 	
 ![Simple Web Form](/articles/sdk/dotnet-03.png "Simple Web Form")
 
+> If you are actively testing a webform or make changes you can invalidate the PHP web form file cache by include <code>__dsCache=refresh</code> in the URL of any page that is rendering a web form.
+
 #### More Examples
 If you would like to see more examples please see our [PHP examples in the SDK](https://github.com/dailystory/SDKs/tree/master/PHP/examples).
