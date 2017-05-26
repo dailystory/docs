@@ -1,24 +1,24 @@
 ---
 layout: _ArticleLayout
-title: DailyStory .NET SDK Documentation
-description: Documentation for DailyStory's .NET SDK
+title: DailyStory PHP SDK Documentation
+description: Documentation for DailyStory's PHP SDK
 ---
-# DailyStory .NET SDK
-The DailyStory .NET SDK is an [open source library hosted on GitHub](https://github.com/dailystory/SDKs/tree/master/DotNet) used by .NET developers to integrate DailyStory's capabilities into their .NET application.
+# DailyStory PHP SDK
+The DailyStory PHP SDK is an [open source library hosted on GitHub](https://github.com/dailystory/SDKs/tree/master/PHP) used by PHP developers to integrate DailyStory's capabilities into their PHP application.
 
 ## DailyStory Web Forms
 DailyStory Web Forms enable you to [create, design and manage web forms](/acquisition/web-forms/) within DailyStory. You can then include those forms within your web application to request information from visitors, such as a signing up for a newsletter. 
 
 > A web form is part of a [DailyStory campaign](/campaigns/) and once a form is submitted the contents are used to either create a new lead within a campaign or add to an existing lead.
 
-### How to include a Web Form in ASP.NET
-To include a DailyStory Web Form in your existing ASP.NET application, follow these steps:
+### How to include a Web Form in PHP
+To include a DailyStory Web Form in your existing PHP application, follow these steps:
 	
-<ol class="step"><li value="1">Add the .NET SDK Library</li></ol>
-Either compile the .NET SDK yourself, or use the pre-compiled <code>DailyStory.SDK.DotNet.dll</code> library included with the SDK, and include it in the \bin folder of your ASP.NET application.
+<ol class="step"><li value="1">Get the PHP SDK Class Files</li></ol>
+Include the PHP Class files in your PHP application. For DailyStory Web Forms you will need the [dailystory_webform.php](https://github.com/dailystory/SDKs/blob/master/PHP/dailystory_webform.php) class file.
 
 <ol class="step"><li value="2">Get your DailyStory Site Id</li></ol>
-Find your DailyStory Site Id, as this will be required to use the .NET SDK. You can [find your Site Id on the Tracking Code page](/install) in your DailyStory application.
+Find your DailyStory Site Id, as this will be required to use the PHP SDK. You can [find your Site Id on the Tracking Code page](/install) in your DailyStory application.
 ![DailyStory Site ID and Tracking Code page](/articles/install/install-02.png "DailyStory Site ID and Tracking Code page")
 
 <ol class="step"><li value="3">Get your DailyStory Web Form ID</li></ol>
@@ -27,15 +27,21 @@ Next, get the Unique Id of the DailyStory Web Form you want to include. You can 
 ![Web Form Unique Id](/articles/acquisition/web-forms/webforms-12.png "Web Form Unique Id")
 
 <ol class="step"><li value="4">Call the WebForm API</li></ol>
-Open or create an ASP.NET page and include a reference to the <code>DailyStory.SDK.DotNet</code> and render the web form using the static <code>RenderWebForm</code> method:
+Open or create a PHP page and include the <code>dailystory_webform.php</code> class. Next, create an instance of the DailyStoryWebForm object and call it's <code>renderWebForm</code> method passing in your DailyStory Site Id and Web Form Id:
 	
-<pre class="brush: csharp">
-@using DailyStory.SDK.DotNet
-&lt;h1&gt;Hello world!&lt;/h1&gt;
-@Html.Raw(WebForm.RenderWebForm("[Your Site Id]", "[Your Web Form Id]"))
+<pre class="brush: php">
+<?php
+require_once('dailystory_webform.php');
+
+// Create an instance of the web form
+$webform = new DailyStoryWebForm();
+
+// Get the web form
+echo $webform->renderWebForm($siteId,$formId);
+?>
 </pre>
 
-> Replace [Your Site Id] and [Your Form Id] with the values from your DailyStory application from step 2 and step 3.
+> Replace $siteId and $formId are the values from your DailyStory application from step 2 and step 3.
 
 When you run this page, you should see something similar to this:
 	
@@ -53,8 +59,16 @@ DailyStory also provides an optional JavaScript library that automatically takes
 
 Finally, DailyStory additionally provides some pre-built CSS files to add form validation and basic styling. These are completely optional:
 
-<pre class="brush: csharp">
-@using DailyStory.SDK.DotNet
+<pre class="brush: php">
+<?php
+require_once('dailystory_webform.php');
+
+// Create an instance of the web form
+$webform = new DailyStoryWebForm();
+
+// Get the web form
+$form = $webform->renderWebForm($siteId,$formId);
+?>
 &lt;head&gt;
 	&lt;script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -64,7 +78,7 @@ Finally, DailyStory additionally provides some pre-built CSS files to add form v
     &lt;link rel="stylesheet" id="ds-webform-css" href="https://cms-1.dailystory.com/Content/base_webform.css?ver=1.0.2" type="text/css" media="all"&gt;
 &lt;/head&gt;
 &lt;h1&gt;Hello world!&lt;/h1&gt;
-@Html.Raw(WebForm.RenderWebForm("[Your Site Id]", "[Your Web Form Id]"))
+<?php echo $form?>
 </pre>
 
 Now our web form looks a little nicer:
@@ -76,4 +90,4 @@ There are several [pre-built CSS templates](/acquisition/web-forms/#styling-your
 ![Simple Web Form](/articles/sdk/dotnet-03.png "Simple Web Form")
 
 #### More Examples
-If you would like to see more examples please see our [.NET Example Application in the SDK](https://github.com/dailystory/SDKs/tree/master/DotNet/ExampleWebApp).
+If you would like to see more examples please see our [PHP examples in the SDK](https://github.com/dailystory/SDKs/tree/master/PHP/examples).

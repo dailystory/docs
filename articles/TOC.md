@@ -32,6 +32,7 @@
 
 # SDK / APIs
 ## [.NET SDK](/sdk/dotnet)
+## [PHP SDK](/sdk/php)
 
 # Installing DailyStory
 ## [Tracking Code](/install)
