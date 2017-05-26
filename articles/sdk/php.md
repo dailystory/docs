@@ -30,7 +30,7 @@ Next, get the Unique Id of the DailyStory Web Form you want to include. You can 
 Open or create a PHP page and include the <code>dailystory_webform.php</code> class. Next, create an instance of the DailyStoryWebForm object and call it's <code>renderWebForm</code> method passing in your DailyStory Site Id and Web Form Id:
 	
 <pre class="brush: php">
-<?php
+&lt;?php
 require_once('dailystory_webform.php');
 
 // Create an instance of the web form
@@ -38,7 +38,7 @@ $webform = new DailyStoryWebForm();
 
 // Get the web form
 echo $webform->renderWebForm($siteId,$formId);
-?>
+?&gt;
 </pre>
 
 > Replace $siteId and $formId are the values from your DailyStory application from step 2 and step 3.
@@ -60,7 +60,7 @@ DailyStory also provides an optional JavaScript library that automatically takes
 Finally, DailyStory additionally provides some pre-built CSS files to add form validation and basic styling. These are completely optional:
 
 <pre class="brush: php">
-<?php
+&lt;?php
 require_once('dailystory_webform.php');
 
 // Create an instance of the web form
@@ -68,7 +68,7 @@ $webform = new DailyStoryWebForm();
 
 // Get the web form
 $form = $webform->renderWebForm($siteId,$formId);
-?>
+?&gt;
 &lt;head&gt;
 	&lt;script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -78,7 +78,7 @@ $form = $webform->renderWebForm($siteId,$formId);
     &lt;link rel="stylesheet" id="ds-webform-css" href="https://cms-1.dailystory.com/Content/base_webform.css?ver=1.0.2" type="text/css" media="all"&gt;
 &lt;/head&gt;
 &lt;h1&gt;Hello world!&lt;/h1&gt;
-<?php echo $form?>
+&lt;?php echo $form?&gt;
 </pre>
 
 Now our web form looks a little nicer:
