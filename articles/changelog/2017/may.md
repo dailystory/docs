@@ -3,6 +3,26 @@ layout: _ArticleLayout
 title: May 2017 Product Update
 description: Product Updates for May 2017
 ---
+# May 26, 2017
+
+Number of bug fixes, improvements and stub in a few new features based on customer feedback.
+
+* Updating licensing logic to check for users that do not have a credit card for their account. Example, they paid via invoice.
+* Added a new public API for looking up a dsid by email address. This is for one of our Telligent customers for the integration we are building.
+* Added a new tracking event to enable customers to create, send and track custom events with their campaigns. Added to the DailyStory JavaScript API.
+* Version update for DailyStory javascript API to version 1.3. Added new event tracking logic, new ds_ready event, fixed a bug in sayHello function that cause querystring conflicts
+* Big update to web form editing. Simplified and added support for free text within the forms.
+* Fixed navigation elements in administration
+* Added Text option for web form in enum
+* Added GetContactByEmailAsync method that looks up using the site id
+* Added EventQueueItem for user events
+* Fixed issue in license check, now by passes users in the DailyStory admin role.
+* Fixed bug in link tracking to show customer domain if one is mapped to Dailystory
+* Fixed bug in PayPerClick Keyword summary that was calculating with MCL instead of MQL
+* Fixed bugs in popup reports
+* Updated SQL in select users lookup to skip DailyStory admin id
+
+
 # May 25, 2017
 
 * Added support in Web Forms for adding text in the form
