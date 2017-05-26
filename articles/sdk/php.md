@@ -27,7 +27,7 @@ Next, get the Unique Id of the DailyStory Web Form you want to include. You can 
 ![Web Form Unique Id](/articles/acquisition/web-forms/webforms-12.png "Web Form Unique Id")
 
 <ol class="step"><li value="4">Call the WebForm API</li></ol>
-Open or create a PHP page and include the <code>dailystory_webform.php</code> class. Next, create an instance of the DailyStoryWebForm object and call it's <code>renderWebForm</code> method passing in your DailyStory Site Id and Web Form Id:
+Open or create a PHP page and include the <code>dailystory_webform.php</code> class. Next, create an instance of the DailyStoryWebForm object and call its <code>renderWebForm</code> method passing in your DailyStory Site Id and Web Form Id:
 	
 <pre class="brush: php">
 &lt;?php
