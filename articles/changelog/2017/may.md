@@ -3,6 +3,21 @@ layout: _ArticleLayout
 title: May 2017 Product Update
 description: Product Updates for May 2017
 ---
+# May 29, 2017
+
+Bug fixes and improvements to DailyStory JavaScript library 
+
+* Fixed reference problem with mobile and tablet checks.
+* Added event for exit (ds_exit)
+* Cleaned up some issues with cover in preparation for release
+
+Other fixes / improvements
+
+* Added HTML tab for pages. Much better than tinymce source
+* Added tooltips to pages
+* Removed code option from pages and email editors
+* Added test page for DailyStory javascript API
+
 # May 26, 2017
 
 Number of bug fixes, improvements and stub in a few new features based on customer feedback.
