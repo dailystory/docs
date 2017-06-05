@@ -7,6 +7,7 @@
 ## [Campaigns](/campaigns/)
 ## [Leads](/leads/)
 ## [Contacts](/contacts/)
+## [Accounts](/accounts/)
 ## [Reports](/reports/)
 
 # Features

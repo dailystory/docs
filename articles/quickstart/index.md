@@ -17,4 +17,9 @@ The tracking tag is a small piece of JavaScript that needs to be added to the <c
 > The DailyStory tracking tag is similar to other tags, such as Google Analytics.
 
 <ol class="step"><li value="2">Create a Campaign</li></ol>
-Once you have the tracking tag setup. You'll want to create some campaigns'
+Once you have the tracking tag setup, you'll want to [create some campaigns](/campaigns/#creating-a-campaign).
+
+> We've created a campaign for you already: My First Campaign.
+
+Everything in DailyStory is associated with a campaign. For example, if you have a set of customers that you want to enroll in a drip campaign, send emails for a new trial, or track signups on a form, you'll first need a campaign.
+
