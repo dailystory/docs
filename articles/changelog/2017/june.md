@@ -4,6 +4,21 @@ title: June 2017 Product Update
 description: Product Updates for June 2017
 ---
 
+# June 14, 2017
+
+* Added UpdateSearch web job for updating Azure search with changes to Contacts and Accounts
+* Updated all jobs to .NET 4.5.2
+* Updated lightning.css to add css for account status
+* Added support for create account flow
+* Added API for account
+* Updated contact controller to redirect to contact when search returns single result
+* Added javascript file for updating account
+* Removed requirement for Company name when creating a new contact
+* Updated account detail to include website activity and stubs for account scores
+* Fixed HTML bugs in campaign create/edit
+* Changed accept / reject lead to use colored buttons to stand out more
+* Added Cancel option to save buttons library
+
 # June 11, 2017
 
 * Move to .NET 4.5.2 and library upgrades
