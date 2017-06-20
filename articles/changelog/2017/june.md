@@ -3,6 +3,22 @@ layout: _ArticleLayout
 title: June 2017 Product Update
 description: Product Updates for June 2017
 ---
+# June 18, 2017
+
+* Add API to account controller to return website engagement score
+* Changed all emails to use async and added Email Model
+
+
+# June 16, 2017
+
+* Performance improvements to jobs to decrease SQL calls
+* Added check to campaign workflow to skip campaigns that didn't have workflows
+* Converted ProcessTriggerQueue to continuous program empties a queue
+* Removed old files from ProcessWebLeads
+* Changed sleep logic in WebTrackingQueue
+* Fixed bug in Salesforce Sync and added support for updating opportunity values
+* Initial checkin of Account Score job
+* Updated UpdateSearch job to handle account and contact deletes to remove from index
 
 # June 14, 2017
 
