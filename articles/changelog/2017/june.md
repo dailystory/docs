@@ -3,6 +3,29 @@ layout: _ArticleLayout
 title: June 2017 Product Update
 description: Product Updates for June 2017
 ---
+#June 28, 2017
+
+* Added version checker for blue green deployments
+* Added 30 new unit tests to increase coverage
+* Refactoring on campaign for async, datacenter and test results
+* Added VersionInfo to common
+* Updates to connection provider for various datacenters
+* Refactor Email and Email Template based on test coverage
+* Fixed bug in how merge tags handled unsubscribe for notification emails
+* Fixed bug in how page view checks were done in licens check class
+* Removed HTML for unsubscribe for notification emails
+* Update Rules and CampaignRuleSet to use async
+* Fixed bug in RuleSelector for Expression evaluation of Equals on Decimal and Numeric types
+* Refactored Tenant to use MemoryCache instead of web cache
+
+#June 27, 2017
+
+* Bug in how deactivated tenants were being handled caused 500 errors from TrackController
+* Bug in update web stats was causing current day to not be indexed
+* Change to how unfound tenants are handled
+* Cleaned up unsubscribe and wrapped in try/catch
+* Added unsubscribe link automatically if *|UNSUBSCRIBE|* not found
+
 #June 26, 2017
 
 * Performance improvements to campaign workflows job
