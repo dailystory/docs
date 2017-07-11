@@ -29,6 +29,7 @@
 ## [reCAPTCHA](/integrations/recaptcha)
 ## [WordPress](/integrations/wordpress)
 ## [Salesforce](/integrations/salesforce)
+## [MailChimp](/integrations/mailchimp)
 ## [Mailgun](/integrations/mailgun)
 
 # SDK / APIs
