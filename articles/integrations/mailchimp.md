@@ -15,11 +15,13 @@ There are several steps required to configure DailyStory and MailChimp integrati
 To get started you will need to create an account on <a target="_blank" rel="noopener noreferrer" href="https://mailchimp.com">MailChimp</a> and <a target="_blank" rel="noopener noreferrer" href="http://kb.mailchimp.com/lists/growth/create-a-new-list">create one or more lists</a>. For example, a newsletter list.
 
 <ol class="step"><li value="2">MailChimp API Keys</li></ol>
-Once you have a MailChimp account and one or more lists created, you will need to get your API. Within MailChimp first navigate to your MailChimp Account:
+Once you have a MailChimp account and one or more lists created, you will need to get your API key. 
+
+Within MailChimp navigate to your MailChimp Account:
 
 ![MailChimp Account](/articles/integrations/mailchimp-01.png "MailChimp Account")
 
-Within Account select Extras > API Keys:
+Within Account select Extras > API keys:
 
 ![MailChimp Account API Keys](/articles/integrations/mailchimp-02.png "MailChimp Account API Keys")	
 
@@ -44,6 +46,6 @@ Click on MailChimp:
 	
 Enter the API Key from MailChimp and click Save. 
 
-Once MailChimp integration is enabled you can add a 'Add lead to MailChimp List' in a Campaign's Workflow and select the Mailing List to add that contact to:
+Once MailChimp integration is enabled you can choose 'Add lead to MailChimp List' in a Campaign's Workflow and select the Mailing List to add that contact to:
 
 ![Workflow Step](/articles/integrations/mailchimp-06.png "Workflow Step")
