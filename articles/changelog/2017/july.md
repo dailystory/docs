@@ -14,6 +14,10 @@ description: Product Updates for July 2017
 * Removing use of LightningContext.User from generic methods in Common class
 * Removed track clicks toggle (always on)
 * Added 404 handler for non-customers
+* Added more unit tests for API coverage
+* Fixed bug in MailgunSync
+* Added status code to ApiResponse class to enable developers to better handle conditions
+* Additional updates/improvements to common class
 
 #July 11, 2017
 
