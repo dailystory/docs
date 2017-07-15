@@ -4,9 +4,9 @@ title: Campaigns
 description: Campaigns are the cornerstone of DailyStory
 ---
 #Campaigns
-Campaigns are the cornerstone of DailyStory - everything in DailyStory first starts with a campaign. 
+Campaigns are the cornerstone of DailyStory - everything in DailyStory is associated back to a campaign. 
 
-[Contacts](/contacts) are assigned to campaigns as leads. All capabilities around reporting,and account activity are associated with a campaign.
+[Contacts](/contacts) are assigned to campaigns as leads. All capabilities around reporting and account activity are associated with a campaign.
 
 ![Campaigns](/articles/campaigns/campaigns-01.png "Campaigns")
 
@@ -14,9 +14,11 @@ DailyStory supports an unlimited number of campaigns and there is no restriction
 
 > A best practice is to create a campaign for specific activities such as *Black Friday Sales* or *Free Trial*.
 
-You do not need to recreate campaigns to add new leads to your campaign. For example, if you are running a drip campaign to communicate with a new customer just add the contact to the campaign. Contacts within a campaign are called leads and each lead is progressed through the campaigns workflow individually.
+You do not need to recreate campaigns to add new leads to your campaign. For example, if you are running a drip campaign to communicate with a new customer, just add the contact to the campaign. 
 
-> If a campaign had 10 workflow steps it is possible for leads to be at different steps in the workflow.
+Contacts within a campaign are called leads and each lead is progressed through the campaigns workflow individually. In DailyStory a single contact can be part of multiple campaigns.
+
+> It's important to note that if a campaign had 10 workflow steps it is possible for the campaign's leads to each be at different steps in the campaign's workflow.
 
 ## Creating a Campaign
 To create a new campaign click the '+ New Campaign' button from the 'All Campaigns' menu option in the navigation. This brings up the Create a New Campaign form:
