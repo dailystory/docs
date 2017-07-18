@@ -3,6 +3,32 @@ layout: _ArticleLayout
 title: July 2017 Product Update
 description: Product Updates for July 2017
 ---
+#July 17, 2017
+
+* Updated trial workflow to auto-sign in users
+* Update Messages controller to handle exceptions
+* Cleaned up trial process in Home Controller
+* Refactored email controller and class to better handle errors
+* Refactored Contact based on new test cases
+* Better error message on Email API
+* Added additional unit tests
+* More error handling based on unit tests
+* Added exception handling for Data Provider 
+* Refactored lead to use date last contacted for date lookups
+* Refactored Contact Document based on unit tests
+* Added more exception handling to Tenant
+* Created Trial class to contain trial logic for testing
+* Updates to validation class
+
+#July 15, 2017
+
+* Completed refactoring of email and email templates and associated tests
+* Added new license exception class
+* Completed refactoring of notification and associated tests
+* Converted from return types to exceptions
+* Began standardizing cache key names
+* Removed non-async methods from email providers
+
 #July 13, 2017
 
 * Added custom error handlers for API
