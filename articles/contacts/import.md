@@ -4,9 +4,9 @@ title: Import Contacts
 description: Import contacts into DailyStory
 ---
 #Import Contacts
-Contact can easily be bulk imported into DailyStory using DailyStory's Bulk Import tool. And the only required field to import a contact is an email address.
+Contacts can easily be bulk imported into DailyStory using DailyStory's Bulk Import tool. The only required field to import a contact is an email address.
 
-> The Bulk Import tool can load new contact from text or from a CSV file.
+> The Bulk Import tool can load new contacts from text or from a CSV file.
 
 To find the Bulk Import tool click Accounts > All Contacts:
 	
@@ -27,11 +27,13 @@ This will open the Bulk Import tool:
 ##Load from text
 To load new contacts from text file simply copy/paste the contact information you wish to import.
 
-Each contact should start on a new line and contacts that contain spaces or commas should be enclosed with double-quotes. After selecting the contacts to import click next and on the next screen you can map contacts to fields.
+Each contact should start on a new line and contacts that contain spaces or commas should be enclosed with double-quotes. 
 
 For example:
 	
 <code>Amy Jones,amy@example.com,"ACME, Inc."</code> 
+
+After selecting the contacts to import click next and on the next screen you can map contacts to fields.
 
 **important:** do not put spaces after commas. Use quotes if content contains a comma
 
@@ -52,19 +54,24 @@ Next, save the file locally as a CSV file:
 ![Excel](/articles/contacts/excel-02.png "Excel")
 
 ##Map Contact Fields
-After loading from text or selecting a CSV, you are taken to the final screen where you tell DailyStory how to import the contacts:
+After selecting how to load contacts, you are taken to the final screen where you tell DailyStory how to import the contacts:
 	
 ![Map Fields](/articles/contacts/contacts-05.png "Map Fields")
 
-For each field you will need to either map it to the appropriate field in DailyStory or choose to ignore it:
+For each field you will need to either map it to the appropriate field in DailyStory or choose to ignore it (remember, you must select an email address as it is the only required field):
 	
 ![Choose Field](/articles/contacts/contacts-06.png "Choose Field")
 
-For example, we'll map Fullname to <code>Full name</code>, Email Address to <code>Email address</code>, and Company to <code>Company or organization name<code>
+For example, we'll map: 
+* Fullname to <code>Full name</code>
+* Email Address to <code>Email address</code>,
+* Company to <code>Company or organization name</code>
 
-Next you can optionally select a [campaign](/campaigns) to add the contact to. A contact can be part of one or more campaign and contact in a campaign is called a lead.
+Next you can optionally select a [campaign](/campaigns) to add the contact to. A contact can be part of one or more campaigns and contact in a campaign is called a lead.
 
-Finally, since the CSV file we imported had headers we'll check "Do not import first row" and the click Import Contacts:
+Finally, since the CSV file we imported had headers we'll check "Do not import first row" and the click Import Contacts.
+
+After the contacts are imported we'll see:
 	
 ![Imported](/articles/contacts/contacts-07.png "Imported")
 
@@ -72,5 +79,4 @@ Finally, since the CSV file we imported had headers we'll check "Do not import f
 Some important information about contact import:
 	
 * You can reimport the same contact multiple times. If new information is found, the existing contact will be updated as long as the email addresses are the same.
-* New lead notification emails are not sent for contacts that are also added to a campaign.
-* If a new contact is added to a campaign and a lead that is of status: <code>Active</code>, <code>Qualified</code>, or <code>Rejected</code> already exists for that contact they will not be readded.
+* When adding contacts to a campaign, new lead notification emails are not sent and if a lead that is of status: <code>Active</code>, <code>Qualified</code>, or <code>Rejected</code> already exists for that contact it will not be re-added.
