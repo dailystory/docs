@@ -15,13 +15,13 @@ Creating and editing emails with the DailyStory email editor is simple an intuit
 
 On the top menu select Content > Emails:
 
-![Emails Menu](/articles/features/email-01.png "Email Menu")
+![Emails Menu](/articles/features/emails-01.png "Email Menu")
 
 This will open up a page listing All Emails. From here you can select an existing email to edit or click the + New Email button to create a new email.
 
 > This page also provide some insights into Delivered, Opened, Clicked and Bounced statistics for emails.
 
-![All Emails](/articles/features/email-02.png "All Emails")
+![All Emails](/articles/features/emails-02.png "All Emails")
 
 ### Create Email
 Clicking + New Email will open up the New Email page. When the page opens you will first need to select the [Campaign](/campaigns) the email will be associated with.
@@ -30,7 +30,7 @@ Clicking + New Email will open up the New Email page. When the page opens you wi
 
 After selecting a campaign, you will be presented with the DailyStory email editor:
 
-![New Email](/articles/features/email-03.png "All Email")
+![New Email](/articles/features/emails-03.png "All Email")
 
 The email editor has 3 tabs and you can use any of them for authoring your email.
 
