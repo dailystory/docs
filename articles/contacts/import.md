@@ -39,7 +39,7 @@ For example:
 To load new contacts from a CSV (Comma Separated Value) file just click "Select a CSV file to upload". After selecting a file you can map contacts to fields on the next screen.
 
 ###How to create a CSV file from Excel
-Create a new Excel file or use our sample CSV file.
+Create a new Excel file or <a href="/articles/contacts/contacts.csv">use our sample CSV file</a>.
 
 > Column headers are optional, but recommeded
 
