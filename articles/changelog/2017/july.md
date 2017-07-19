@@ -3,6 +3,22 @@ layout: _ArticleLayout
 title: July 2017 Product Update
 description: Product Updates for July 2017
 ---
+#July 18, 2017
+
+* Added support for image upload in email editor
+* Refactor Campaign class based on unit tests
+* Update to most recent version of Tiny MCE
+* Fixed conflicting column bug with Contacts
+* Update to Contact class to use ContactStatus
+* Internal clean-up / method renaming
+* Added caching to reports to improve performance
+* Added server side validation check for urls
+* Update image store to handle support for folders
+* Refactored webhooks based on tests
+* Updated Jobs to use dedicated server to prevent blue/green name issues
+* Updated CampaignWorkflow to use enum values instead of hardcoded ints
+* 
+
 #July 17, 2017
 
 * Updated trial workflow to auto-sign in users
