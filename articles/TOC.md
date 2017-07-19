@@ -15,9 +15,9 @@
 ## [Triggers](/acquisition/triggers/)
 ## [Web Forms](/acquisition/web-forms/)
 ## [Paid Search](/acquisition/paid-search/)
-## [Emails](/features/emails/)
-## [Pages](/features/pages/)
-## [Links](/features/links/)
+## [Emails](/features/emails)
+## [Pages](/features/pages)
+## [Links](/features/links)
 
 # Account
 ## [Settings](/account/settings)
