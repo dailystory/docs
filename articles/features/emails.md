@@ -51,9 +51,9 @@ Emails require that you provide a from address, a subject and a body.
 
 The From address must be a valid email address. For example:
 
-<code>Renew your membership &lt;sales@somecorp.com&gt;</code>
-<code>Rob Howard &lt;rob@dailystory.com&gt;</code>
-<code>hello@dailystory.com</code>
+* <code>Renew your membership &lt;sales@somecorp.com&gt;</code>
+* <code>Rob Howard &lt;rob@dailystory.com&gt;</code>
+* <code>hello@dailystory.com</code>
 
 > A good best practice is to use a descriptive name in the from if the email isn't coming from a person.
 
