@@ -123,5 +123,6 @@ For example if the *|FNAME|* Merge Tag was used, but the contact does not have a
 
 Becomes:
 <code>Hi</code>
+### Edit Email
 	
 
