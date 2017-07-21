@@ -3,6 +3,34 @@ layout: _ArticleLayout
 title: July 2017 Product Update
 description: Product Updates for July 2017
 ---
+#July 20, 2017
+
+* Update LeadStats job to better handle last seen and first seen
+* Update ProcessLeadQueue to ignore duplicates
+* Update Common to use ArgumentException
+* Update Contact to use upper case on words
+* Refactored ContentPages
+* Added document provider to connection provider
+* Updated data import to not import duplicate leads
+* Updated Email to use ArgumentException
+* Updated Lead QueueItem for duplicate handling
+* Updated integration tests for refactoring
+* Updated Lead to better handle data integrity on save
+* Refactor LinkTracking
+* Refactor RetargetPixel
+* Added caching support to conversion rate report
+* Refactored ContactDocument
+* Added Async operation on Get Tenant
+* Added Trial class for populating new trials with sample data
+* Updated trigger web job to reflect moves in jobs
+* Added support for javascript tests
+* Added upload image support for email
+* Refactored controllers based on design changes
+* Updated DS script to better handle paths and urls in pages check
+* Removed event from campaigns temporarily
+* Fixed bug in FriendlyDateTime
+* Fixed bug in LInkTracking javascript campaign picker
+
 #July 18, 2017
 
 * Added support for image upload in email editor
