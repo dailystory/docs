@@ -4,7 +4,30 @@ title: Popups
 description: Popups can be shown automatically or using the API.
 ---
 # What is a DailyStory Popup?
+A DailyStory Popup enables you to display a popup window in a web or mobile experiece:
 
+![DailyStory Popup](/articles/acquisition/popups/popup-04.png "DailyStory Popup")
+
+Popups can be shown on specific pages and configured to automatically show after a certain amount of time has passed or if the visitor is leaving the site.	
+
+## Creating and Editing a Popup
+
+### Configuring Close/Cancel Button and Behavior
+
+![Close Cancel](/articles/acquisition/popups/popup-03.png "Close Cancel")
+
+The Close/Cancel button options present three toggles:
+
+* **Display button** - enabled by default, this determines if the Close/Cancel button is shown.
+* **Display quick close** - enabled by default, this determines if the X in the upper-right corner is shown.
+* **Easy ignore** - disabled by default, this allows clicking outside of the popup or pressing escape to close the pop-up.
+
+> It is important to note that it is possible to configure the popup with no way to close except for the call to action.
+
+In addition to the behavior toggles there are options for setting the button colors/style.
+
+Finally, the Set Close/Cancel Options also enable you to configure how long to hide the popup after the close/cancel button is clicked. The recommendation is 1 week.
+	
 ## How do I enable a DailyStory Popup?
 Popups can automatically be shown on every page of your website or on specific pages, or paths, of your website. 
 
