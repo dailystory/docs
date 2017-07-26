@@ -17,7 +17,18 @@ To creae a new popup go to Acquisition > Exit Intent. This will show you a list 
 
 Clicking either will open the popup editor:
 
-![Popup Editor](/articles/acquisition/popups/popup-05.png "Popup Editor")	
+![Popup Editor](/articles/acquisition/popups/popup-05.png "Popup Editor")
+
+The popup editor provides a live preview of your popup. You can enter a title, body, call to action button text, call to action url, close/cancel button text and select a background image. All of these settings will be immediately refelected in the live preview window.
+
+Some fields have additional options that can be configured. You can also add form fields for name and email address. This is useful if you provide an offer such as a newsletter signup or download.
+
+### Configuring Title Options	
+The Title Options enable you to set the font color and font size of the title text:
+	
+![Title Options](/articles/acquisition/popups/popup-07.png "Title Options")
+
+> These options configure CSS settings for <code>#ds_pop .content h1</code>
 	
 ### Configuring Close/Cancel Button and Behavior
 
