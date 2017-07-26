@@ -3,6 +3,35 @@ layout: _ArticleLayout
 title: July 2017 Product Update
 description: Product Updates for July 2017
 ---
+#July 25, 2017
+
+* Added QUnit tests for DailyStory javascript libraries
+* Refactored page loading and progress loading to display messages
+* Refactored controllers to pass data center via tenant directly
+* Refactored naming on misc async methods
+* Added better exception handling to forgot password
+* Updated Ds script to continue to improve page path analysis
+* Added easy close option and delete state cookie to popup
+* Updated Contact and Lead tables to use Friendly Date formatter
+* Fixed bug in login for forgot password (wrong url in error message)
+* Converted trial to use new progress on/off for long running data creation process
+* Fixed bug in license banner path
+* Updated unit tests
+* Moved all jobs to use built in Azure publishing
+* Fixed bugs in cron for jobs that was causing over execution
+* Updates to campaign workflows to ensure single lead goes through a workflow
+* Moved trial clean up logic into Trial class
+* Began moving logic out of search job and into respective object classes
+* Refactored TrackingListStats to no longer be a per-tenant loop job
+* Added search connection string management to connection provider
+* Refactored lead based on tests
+* Added IsExpired check to license
+* Added logic to lookup tables based on tests
+* Refactored CampaignRuleSet based on common patterns
+* Updated Trial class to handle creation of trial data set
+* Refactored User based on test cases
+* Refactored CampaignWorkflow based on test cases
+
 #July 20, 2017
 
 * Update LeadStats job to better handle last seen and first seen
