@@ -29,8 +29,32 @@ The Title Options enable you to set the font color and font size of the title te
 ![Title Options](/articles/acquisition/popups/popup-07.png "Title Options")
 
 > These options configure CSS settings for <code>#ds_pop .content h1</code>
+
+### Configuring Body Content	
+Body content should be brief. You can use the return key to create line breaks in the content.
 	
-### Configuring Close/Cancel Button and Behavior
+> The body content is wrapped in a <p> tag with <br> to handle line breaks. CSS settings for <code>#ds_pop .content p</code>
+
+You can configure the text and background color of the body content in Background Options.
+
+### Configuring Call to Action Button
+The Call to Action button is the primary action you want viewers to take. When clicked, the call to action button can navigate to another URL or submit a lead capture form (see Lead Capture Web Form).
+
+The Call to Action Options enable you to configure the color/style of the call to action button:
+
+![Call to Action Options](/articles/acquisition/popups/popup-08.png "Call to Action Options")
+
+> The call to action button applies CSS settings for <code>#ds_pop a#ds_pop_action_button</code>
+
+### Configuring Call to Action URL
+The Call to Action URL is the URL to redirect the visitor to when the Call to Action button is clicked.
+
+> If a Lead Capture Web Form is configured the form will submit and then redirect to this URL.
+	
+### Configuring Close/Cancel Button
+The Close/Cancel button is used to close the popup because the offer presented to the visitor is not of interest.
+
+> By default, when the Close/Cancel button is clicked the popup will not be shown again to that visitor for one week.
 
 ![Close Cancel](/articles/acquisition/popups/popup-03.png "Close Cancel")
 
@@ -45,7 +69,23 @@ The Close/Cancel button options present three toggles:
 In addition to the behavior toggles there are options for setting the button colors/style.
 
 Finally, the Set Close/Cancel Options also enable you to configure how long to hide the popup after the close/cancel button is clicked. The recommendation is 1 week.
-	
+
+### Configuring Background
+The Background Options enable you to set an image used in the background of the popup as well as the text and background colors:
+
+![Background Options](/articles/acquisition/popups/popup-09.png "Background Options")
+
+> The background color and image set CSS for <code>#ds_pop</code> and the background text color for <code>#ds_pop .content</code>
+
+> You can provide a URL to your own image file or upload an image to DailyStory.
+
+### Configuring Lead Capture Form
+The Lead Capture Form enables use to capture visitor information and create new leads within a DailyStory campaign.
+
+![Lead Capture Form](/articles/acquisition/popups/popup-10.png "Lead Capture Form")
+
+> If you use the Lead Capture Form, the email address is required and the fullname is optional.
+
 ## How do I enable a DailyStory Popup?
 Popups can automatically be shown on every page of your website or on specific pages, or paths, of your website. 
 
