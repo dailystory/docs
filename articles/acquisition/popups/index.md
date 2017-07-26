@@ -11,7 +11,14 @@ A DailyStory Popup enables you to display a popup window in a web or mobile expe
 Popups can be shown on specific pages and configured to automatically show after a certain amount of time has passed or if the visitor is leaving the site.	
 
 ## Creating and Editing a Popup
+To creae a new popup go to Acquisition > Exit Intent. This will show you a list of all the existing popups. You can edit a popup by clicking on it and you can create a new popup by clicking the + New Exit Intent button:
+	
+![All Popups](/articles/acquisition/popups/popup-06.png "All Popups")
 
+Clicking either will open the popup editor:
+
+![Popup Editor](/articles/acquisition/popups/popup-05.png "Popup Editor")	
+	
 ### Configuring Close/Cancel Button and Behavior
 
 ![Close Cancel](/articles/acquisition/popups/popup-03.png "Close Cancel")
