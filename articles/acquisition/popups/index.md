@@ -46,6 +46,8 @@ The Call to Action Options enable you to configure the color/style of the call t
 
 > The call to action button applies CSS settings for <code>#ds_pop a#ds_pop_action_button</code>
 
+When the Call to Action button is clicked the popup will not be shown to this user again.
+
 ### Configuring Call to Action URL
 The Call to Action URL is the URL to redirect the visitor to when the Call to Action button is clicked.
 
@@ -80,11 +82,24 @@ The Background Options enable you to set an image used in the background of the 
 > You can provide a URL to your own image file or upload an image to DailyStory.
 
 ### Configuring Lead Capture Form
-The Lead Capture Form enables use to capture visitor information and create new leads within a DailyStory campaign.
+The Lead Capture Form enables you to capture visitor information and create new leads within a DailyStory campaign.
 
 ![Lead Capture Form](/articles/acquisition/popups/popup-10.png "Lead Capture Form")
 
 > If you use the Lead Capture Form, the email address is required and the fullname is optional.
+
+### Advanced Options
+The Advanced Options provide capabilities that customers can change, but are completely optional and typically not used.
+
+![Advanced Options](/articles/acquisition/popups/popup-11.png "Advanced Options")
+
+The Close Forever button is an additional behavior added to your popup that displays an additional button or link. Unlike the Close/Cancel button, the Close Forever button will not show the popup again to that user for one year.
+
+You can additionally configure other automated behaviors of the popup.
+
+The **Automatically display if no browser activity** will display the popup if the visitor has no activity for the specified time period. For example, if they open your page in a new tab or do something else, when they come back the popup will be displayed if the specified time has elapsed.
+
+The **Minimum visitor time on site** controls the minimum amount of time the visitor must be on the website before the popup can be shown. This is useful if a visitor goes to your site and immediately leaves. It is designed to ensure that if a visitor stays longer than the specified time, they must be enagaged.
 
 ## How do I enable a DailyStory Popup?
 Popups can automatically be shown on every page of your website or on specific pages, or paths, of your website. 
