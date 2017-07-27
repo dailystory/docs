@@ -25,7 +25,7 @@ This will open up a page listing All Emails. From here you can select an existin
 
 ![All Emails](/articles/features/emails-02.png "All Emails")
 
-### Create Email
+### Creating and Editing An Email
 Clicking + New Email will open up the New Email page. When the page opens you will first need to select the [campaign](/campaigns) the email will be associated with.
 
 > If you create an email in one campaign and want to use it in another campaign, just edit the email and click 'Create a Copy'
@@ -122,8 +122,6 @@ Any merge tags used in the email that don't exist for the contact you are sendin
 
 For example if the <code>\*|FNAME|\*</code> merge tag was used, but the contact does not have a Firstname field this:	 <code>Hi \*|FNAME|\*</code> Becomes: <code>Hi</code>
 
-### Edit Email
-	
 ## Testing your Email
 There are several options for testing emails.
 
