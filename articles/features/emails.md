@@ -40,11 +40,11 @@ The email editor has 3 tabs and you can use any of them for authoring your email
 * **Rich Edit** - provides a rich, WYSIWYG editor with toolbars.
 * **HTML (Advanced)** - edit the raw HTML used in your email.
 
-On the right you will find a list of Merge Tags that you can use within your email. 
+On the right you will find a list of [merge tags](/reference#merge-tag) that you can use within your email. 
 
-> DailyStory makes extensive use of Merge Tags throughout the product and whenever possible we provide a list of the Merge Tags available.  
+> DailyStory makes extensive use of merge tags throughout the product and whenever possible we provide a list of the merge tags available.  
 
-Finally, you can also select an [Email Template](/features/email-templates). An email template enable you to create a reusable layout and then add your email's body content to that layout.
+Finally, you can also select an [email template](/features/email-templates). An email template enable you to create a reusable layout and then add your email's body content to that layout.
 
 #### Required Email Fields
 Emails require that you provide a from address, a subject and a body.
@@ -118,9 +118,9 @@ In both the subject and body of your email you can include Merge Tags:
 
 > Important, if an *|UNSUBSCRIBE|* merge tag is not found an unsubscribe link will automatically be included in the email. An unsubscribe header with this link is also sent as part of the email - these are best practices to ensure the email is not flagged as SPAM.
 
-Any Merge Tags used in the email that don't exist for the contact you are sending to are automatically removed.
+Any merge tags used in the email that don't exist for the contact you are sending to are automatically removed.
 
-For example if the *|FNAME|* Merge Tag was used, but the contact does not have a Firstname field this:	
+For example if the <code>*|FNAME|*</code> merge tag was used, but the contact does not have a Firstname field this:	
 <code>Hi *|FNAME|*</code>
 
 Becomes:
