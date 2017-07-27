@@ -138,5 +138,9 @@ Clicking Send a test email will open up a window. Enter a valid email address to
 
 ![Test email recipient](/articles/features/emails-05.png "Test email recipient")
 
-The test email will use the test lead/contact information.
+The test email will use the [test lead/contact information](/reference#test-lead) for any merge fields found in the email.
 
+### Email Addresses DailyStory Ignores
+For testing and demonstration purposes you can use recipient addresses ending in <code>@test.com</code> and <code>@example.com</code>. However, these emails will never be sent.
+
+If you want to test sending emails, such as running a test lead through a workflow, we recommend using a disposable email address such as <a href="http://www.fakemailgenerator.com/" rel="noopener noreferrer">Fake Mail Generator</a>.
