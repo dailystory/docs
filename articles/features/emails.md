@@ -98,11 +98,11 @@ In both the subject and body of your email you can include Merge Tags:
 <td>The current date</td>
 </tr>
 <tr>
-<td width="25%" nowrap><code>*|DATE|*</code></td>
+<td width="25%" nowrap><code>*|TIME|*</code></td>
 <td>The current time</td>
 </tr>
 <tr>
-<td width="25%" nowrap><code>*|DATE|*</code></td>
+<td width="25%" nowrap><code>*|TITLE|*</code></td>
 <td>The recipient's title</td>
 </tr>
 <tr>
@@ -116,15 +116,12 @@ In both the subject and body of your email you can include Merge Tags:
 </tbody>
 </table>
 
-> Important, if an *|UNSUBSCRIBE|* merge tag is not found an unsubscribe link will automatically be included in the email. An unsubscribe header with this link is also sent as part of the email - these are best practices to ensure the email is not flagged as SPAM.
+> Important, if an <code>*|UNSUBSCRIBE|*</code> merge tag is not found an unsubscribe link will automatically be included in the email. An unsubscribe header with this link is also sent as part of the email - these are best practices to ensure the email is not flagged as SPAM.
 
 Any merge tags used in the email that don't exist for the contact you are sending to are automatically removed.
 
-For example if the <code>*|FNAME|*</code> merge tag was used, but the contact does not have a Firstname field this:	
-<code>Hi *|FNAME|*</code>
+For example if the <code>*|FNAME|*</code> merge tag was used, but the contact does not have a Firstname field this:	 <code>Hi *|FNAME|*</code> Becomes: <code>Hi</code>
 
-Becomes:
-<code>Hi</code>
 ### Edit Email
 	
 
