@@ -3,6 +3,17 @@ layout: _ArticleLayout
 title: July 2017 Product Update
 description: Product Updates for July 2017
 ---
+#July 26, 2017
+
+* Updated popup editor with new close/cancel options
+* Changed Tenant Timeoneoffset to store timezone string for dst calculations
+* Compressed CSS files
+* Updated/added more unit tests
+* Better datetime handling in date formatters
+* Added DST calculations to timezone lookup tables
+* Added option in exit intent to hide close/cancel button
+* Changes to EmailWorkflowRules to handle DST
+
 #July 25, 2017
 
 * Added QUnit tests for DailyStory javascript libraries

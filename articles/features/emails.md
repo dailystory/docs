@@ -8,10 +8,12 @@ DailyStory Emails enable you to create personalized and targeted emails that can
 
 > In fact while DailyStory can be used to send bulk emails, we don't recommend it.
 
-Additionally, DailyStory supports integration with several transaction email systems. Our transactional email platform of choice is [Mailgun](https://www.mailgun.com) and unless you select an alternative all of your emails will be sent through our [Mailgun integration](/integrations/mailgun).
+Additionally, DailyStory supports integration with several transactional email systems. Our transactional email platform of choice is [Mailgun](https://www.mailgun.com). 
+
+> Unless you select an alternative all of your emails will be sent through our [Mailgun integration](/integrations/mailgun) with a sending domain of dailystory.net.
 
 ## Creating and Editing Emails
-Creating and editing emails with the DailyStory email editor is simple an intuitive.
+Creating and editing emails with the DailyStory email editor is simple and intuitive.
 
 On the top menu select Content > Emails:
 
@@ -24,7 +26,7 @@ This will open up a page listing All Emails. From here you can select an existin
 ![All Emails](/articles/features/emails-02.png "All Emails")
 
 ### Create Email
-Clicking + New Email will open up the New Email page. When the page opens you will first need to select the [Campaign](/campaigns) the email will be associated with.
+Clicking + New Email will open up the New Email page. When the page opens you will first need to select the [campaign](/campaigns) the email will be associated with.
 
 > If you create an email in one campaign and want to use it in another campaign, just edit the email and click 'Create a Copy'
 
