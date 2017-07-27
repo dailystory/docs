@@ -116,11 +116,11 @@ In both the subject and body of your email you can include Merge Tags:
 </tbody>
 </table>
 
-> Important, if an <code>*|UNSUBSCRIBE|*</code> merge tag is not found an unsubscribe link will automatically be included in the email. An unsubscribe header with this link is also sent as part of the email - these are best practices to ensure the email is not flagged as SPAM.
+> Important, if an <code>\*|UNSUBSCRIBE|\*</code> merge tag is not found an unsubscribe link will automatically be included in the email. An unsubscribe header with this link is also sent as part of the email - these are best practices to ensure the email is not flagged as SPAM.
 
 Any merge tags used in the email that don't exist for the contact you are sending to are automatically removed.
 
-For example if the <code>*|FNAME|*</code> merge tag was used, but the contact does not have a Firstname field this:	 <code>Hi *|FNAME|*</code> Becomes: <code>Hi</code>
+For example if the <code>\*|FNAME|\*</code> merge tag was used, but the contact does not have a Firstname field this:	 <code>Hi \*|FNAME|\*</code> Becomes: <code>Hi</code>
 
 ### Edit Email
 	
