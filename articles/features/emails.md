@@ -48,9 +48,9 @@ Finally, you can also select an [email template](/features/email-templates). An 
 
 #### Required Email Fields
 Emails require that you provide a from address, a subject and a body.
-
+##### To
 > The To: address will be set automatically when the email is used within a workflow or sent via the API.
-
+##### From
 The From address must be a valid email address. For example:
 
 * <code>Renew your membership &lt;sales@somecorp.com&gt;</code>
@@ -58,14 +58,14 @@ The From address must be a valid email address. For example:
 * <code>hello@dailystory.com</code>
 
 > A good best practice is to use a descriptive name in the from if the email isn't coming from a person.
-
-The Subject should be a descriptive introduction to the body of your email message.
-
-The Body of your email contains the message you want to send.
+##### Subject
+The Subject should be a descriptive introduction to the body of your email message. The subject may contain merge tags.
+##### Body
+The Body of your email contains the message you want to send. The body may contain merge tags.
 
 > While it is possible to edit the HTML of the email and use style sheets, be aware that it is best to use inline styles as most email clients do not recognize style sheets.
 
-#### Email Merge Tags
+### Email Merge Tags
 In both the subject and body of your email you can include Merge Tags:
 <table class="table">
 <tbody>
@@ -124,4 +124,19 @@ For example if the <code>\*|FNAME|\*</code> merge tag was used, but the contact 
 
 ### Edit Email
 	
+## Testing your Email
+There are several options for testing emails.
+
+### Send a test email
+From directly within an email you can use the Sent a test email button to send yourself, or someone else, a test email.
+
+> Important, you must save your email prior to sending a test email if you want to see current changes.
+
+![Send test email](/articles/features/emails-04.png "Send test email")
+
+Clicking Send a test email will open up a window. Enter a valid email address to send your test email to.
+
+![Test email recipient](/articles/features/emails-05.png "Test email recipient")
+
+The test email will use the test lead/contact information.
 
