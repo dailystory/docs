@@ -3,6 +3,21 @@ layout: _ArticleLayout
 title: July 2017 Product Update
 description: Product Updates for July 2017
 ---
+#July 28, 2017
+
+* Fixed timezone bug in users
+
+#July 27, 2017
+
+* Added auto-resizing for tenant logo
+* Addes support for copy/paste upload for images in emails, email templates, pages, and page templates
+* Added BodyNoTemplate for email editing experience when working with templates
+* Updated test lead for documentation
+* Fixed typo in notification email
+* Updated image store to add additional capabilities
+* Better handling for webhooks
+* Another fix for EmailWorkflowRule to handle am/pm changes
+
 #July 26, 2017
 
 * Updated popup editor with new close/cancel options
