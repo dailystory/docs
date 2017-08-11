@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: DailyStory .NET SDK Documentation
-description: Documentation for DailyStory's .NET SDK
----
+{
+title: 'DailyStory .NET SDK Documentation',
+description: 'Documentation for DailyStory\'s .NET SDK'
+}
 # DailyStory .NET SDK
 The DailyStory .NET SDK is an [open source library hosted on GitHub](https://github.com/dailystory/SDKs/tree/master/DotNet) used by .NET developers to integrate DailyStory's capabilities into their .NET application.
 

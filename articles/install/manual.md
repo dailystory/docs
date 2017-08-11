@@ -1,8 +1,7 @@
-﻿---
-layout: _ArticleLayout
-title: Manually install DailyStory tracking tag
-description: Install the DailyStory tracking tag directly into your web page.
----
+﻿{
+	title: 'Manually install DailyStory tracking tag',
+	description: 'Install the DailyStory tracking tag directly into your web page.'
+}
 # Manually Add The Tracking Tag
 The tracking tag can be manually added to your website very easily ... as long as you are comfortable editing HTML pages. 
 

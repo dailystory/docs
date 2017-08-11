@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Google reCAPTCHA
-description: Details on integration of Google reCAPTCHA within DailyStory
----
+{
+	title: 'Google reCAPTCHA',
+	description: 'Details on integration of Google reCAPTCHA within DailyStory'
+}
 # What is reCAPTCHA?
 [Provided by Google](https://www.google.com/recaptcha/intro/index.html), reCAPTCHA is a free service that protects your website from spam and abuse by adding a simple test to your web or mobile experience.
 

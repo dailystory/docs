@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Dashboard
-description: The Dashboard is the start page for DailyStory
----
+{
+title: 'Dashboard',
+description: 'The Dashboard is the start page for DailyStory'
+}
 #Dashboard
 When you first sign in to DailyStory you will be presented with a dashboard. The dashboard provides an at-a-glance overview of important KPIs and graphs to help you quickly understand how you are performing.
 

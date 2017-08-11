@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Campaigns
-description: Campaigns are the cornerstone of DailyStory
----
+{
+	title: 'Campaigns',
+	description: 'Campaigns are the cornerstone of DailyStory'
+}
 #Campaigns
 Campaigns are the cornerstone of DailyStory - everything in DailyStory is associated back to a campaign. 
 

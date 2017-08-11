@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Import Contacts
-description: Import contacts into DailyStory
----
+{
+	title: 'Import Contacts',
+	description: 'Import contacts into DailyStory'
+}
 #Import Contacts
 Contacts can easily be bulk imported into DailyStory using DailyStory's Bulk Import tool. The only required field to import a contact is an email address.
 

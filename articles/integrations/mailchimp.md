@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: MailChimp Integration
-description: Integration for DailyStory and MailChimp
----
+{
+	title: 'MailChimp Integration',
+	description: 'Integration for DailyStory and MailChimp'
+}
 # MailChimp Integration for DailyStory
 DailyStory is built to send personalized 1:1 emails. For bulk email marketing, such as a newsletters, we recommend using MailChimp. DailyStory's integration with MailChimp enables you to easily add contacts to MailChimp lists after progressing them through a [DailyStory Workflow](/features/workflow).
  

@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Product Updates 2017
-description: Product Updates for 2017
----
+{
+	title: 'Product Updates 2017',
+	description: 'Product Updates for 2017'
+}
 # Product Updates for 2017
 
 * [August 2017](2017/august)

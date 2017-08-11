@@ -1,8 +1,7 @@
-﻿---
-layout: _ArticleLayout
-title: SquareSpace Installation Guide
-description: Installing the DailyStory tracking code in SquareSpace
----
+﻿{
+	title: 'SquareSpace Installation Guide',
+	description: 'Installing the DailyStory tracking code in SquareSpace'
+}
 #Install DailyStory Tracking Tag in SquareSpace
 Squarespace is a SaaS-based content management system-integrated website builder, blogging platform, hosting service and domain name registrar. The system allows individuals and businesses to create and maintain websites and blogs. 
 

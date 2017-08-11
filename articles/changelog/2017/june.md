@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: June 2017 Product Update
-description: Product Updates for June 2017
----
+{
+	title: 'June 2017 Product Update',
+	description: 'Product Updates for June 2017'
+}
 #June 28, 2017
 
 * Added version checker for blue green deployments

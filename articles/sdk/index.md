@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: DailyStory SDK Documentation
-description: Documentation for DailyStory's SDK
----
+{
+title: 'DailyStory SDK Documentation',
+description: 'Documentation for DailyStory\'s SDK'
+}
 # DailyStory SDK
 The DailyStory SDKs are [open source and published on GitHub](https://github.com/dailystory/SDKs/). There are currently two published SDKs.
 

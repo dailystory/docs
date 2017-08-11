@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Reference
-description: Terms used by DailyStory
----
+{
+	title: 'Reference',
+	description: 'Terms used by DailyStory'
+}
 #Terms used by DailyStory
 
 ## Merge Tag

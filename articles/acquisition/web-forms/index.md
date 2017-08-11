@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Web Forms
-description: Web forms are used to collect information about your visitors.
----
+{
+	title: 'Web Forms',
+	description: 'Web forms are used to collect information about your visitors.'
+}
 # DailyStory Web Forms
 A DailyStory Web Form enables you to quickly and easily create forms that can be shown on your website, in your mobile application, a DailyStory landing page, or elsewhere using the DailyStory API.
 

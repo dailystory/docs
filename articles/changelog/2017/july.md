@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: July 2017 Product Update
-description: Product Updates for July 2017
----
+{	
+	title: 'July 2017 Product Update',
+	description: 'Product Updates for July 2017'
+}
 #July 28, 2017
 
 * Fixed timezone bug in users

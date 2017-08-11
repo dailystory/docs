@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Emails
-description: Emails managed by DailyStory
----
+{
+title: 'Emails',
+description: 'Emails managed by DailyStory'
+}
 #DailyStory Emails
 DailyStory Emails enable you to create personalized and targeted emails that can be sent from any person or alias, such as 'support', within your organization. This is different than bulk marketing emails such as a newsletter.
 

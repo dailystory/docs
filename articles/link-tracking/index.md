@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Link Tracking
-description: my docs go here.
----
+{
+	title: 'Link Tracking',
+	description: 'Link tracking enables marketers to measure the relationship between marketing activities and the results generated from those activities.'
+}
 # What is link tracking?
 Link tracking enables marketers to measure the relationship between marketing activities and the results generated from those activities.
 

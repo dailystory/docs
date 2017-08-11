@@ -1,8 +1,26 @@
----
-layout: _ArticleLayout
-title: August 2017 Product Update
-description: Product Updates for August 2017
----
+{
+	title: 'August 2017 Product Update',
+	description: 'Product Updates for August 2017'
+}
+#August 10, 2017
+
+* DailyStory chat alpha
+
+#August 8, 2017
+
+* Improvements to redirect handling
+* Improvements to paid search and link tracking
+
+#August 5, 2017
+
+* Overhaul of DS script for both popups and slide form
+* Update for Slide Form
+* Fixed bug in campaign stats calculation from refactor
+* Refactor lead stats to not use tenant loop
+* Better coordinated cron runs
+* Added clean up job
+* 
+
 #August 3, 2017
 
 * Fixed sorting issue with lead table

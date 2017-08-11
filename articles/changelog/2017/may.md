@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: May 2017 Product Update
-description: Product Updates for May 2017
----
+{
+	title: 'May 2017 Product Update',
+	description: 'Product Updates for May 2017'
+}
 # May 29, 2017
 
 Bug fixes and improvements to DailyStory JavaScript library 

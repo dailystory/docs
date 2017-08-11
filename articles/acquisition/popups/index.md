@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Popups
-description: Popups can be shown automatically or using the API.
----
+{
+	title: 'Popups',
+	description: 'Popups can be shown automatically or using the API.'
+}
 # What is a DailyStory Popup?
 A DailyStory Popup enables you to display a popup window in a web or mobile experiece:
 

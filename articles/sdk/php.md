@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: DailyStory PHP SDK Documentation
-description: Documentation for DailyStory's PHP SDK
----
+{
+title: 'DailyStory PHP SDK Documentation',
+description: 'Documentation for DailyStory\'s PHP SDK'
+}
 # DailyStory PHP SDK
 The DailyStory PHP SDK is an [open source library hosted on GitHub](https://github.com/dailystory/SDKs/tree/master/PHP) used by PHP developers to integrate DailyStory's capabilities into their PHP application.
 

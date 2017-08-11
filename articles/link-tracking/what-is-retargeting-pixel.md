@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: What is a retargeting pixel
-description: my docs go here.
----
+{
+	title: 'What is a retargeting pixel',
+	description: 'Retarget potential customers across ad networks'
+}
 # What is a retargeting pixel?
 When you share a link in email, Twitter, LinkedIn or other websites and that link does not go back to your website you miss an opportunity to market to a potential customer.
 

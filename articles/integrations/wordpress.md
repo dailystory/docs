@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: WordPress Integration
-description: Integration for DailyStory and WordPress
----
+{
+	title: 'WordPress Integration',
+	description: 'Integration for DailyStory and WordPress'
+}
 # WordPress Integration for DailyStory
 DailyStory enables integration with WordPress that is simple to setup and easy to use. The integration makes use of a [DailyStory plugin for WordPress](/install/wordpress). Just install the plugin and you'll be ready to use the integration.
 

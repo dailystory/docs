@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: DailyStory JavaScript API
-description: Documentation for DailyStory's JavaScript API
----
+{
+	title: 'DailyStory JavaScript API',
+	description: 'Documentation for DailyStory\'s JavaScript API'
+}
 # DailyStory JavaScript API
 The [DailyStory Track Tag](/install) adds activity tracking, but it also loads the DailyStory JavaScript API.
 

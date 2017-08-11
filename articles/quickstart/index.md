@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: DailyStory QuickStart: Your Guide to Getting Started with DailyStory
-description: The DailyStory quickstart is a guide designed for new customers or users to help them get started.
----
+{
+	title: 'DailyStory QuickStart: Your Guide to Getting Started with DailyStory',
+	description: 'The DailyStory quickstart is a guide designed for new customers or users to help them get started.'
+}
 #Your Guide to Getting Started with DailyStory
 Welcome to DailyStory! We put this guide together to help you get started using DailyStory.
 

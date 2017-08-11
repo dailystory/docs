@@ -1,8 +1,7 @@
-﻿---
-layout: _ArticleLayout
-title: WordPress Installation Guide
-description: Installing the DailyStory tracking code in WordPress.
----
+﻿{
+	title: 'WordPress Installation Guide',
+	description: 'Installing the DailyStory tracking code in WordPress.'
+}
 #Install DailyStory Tracking Tag in WordPress.
 Installing the tracking tag in WordPress is very simple. You don't need to know PHP (that's the language/framework WordPress is written in) and you don't need to worry about trying to edit files within WordPress. Yes, we took care of all of that! All you need to do is have administrative rights to your WordPress site, an active DailyStory account ... and about 10 minutes.
 

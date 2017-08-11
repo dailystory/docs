@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Leads
-description: DailyStory Lead
----
+{
+	title: 'Leads',
+	description: 'DailyStory Lead'
+}
 # Lead
 A lead in DailyStory represents a [contact](/contacts) that is part of a [campaign](/campaigns). A contact can be part of no campaigns or many campaigns. When a contact is in a campaign it is called a lead.
 

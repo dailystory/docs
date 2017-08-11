@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Accounts
-description: Accounts represent the customers or leads that are managed by DailyStory
----
+{
+title: 'Accounts',
+description: 'Accounts represent the customers or leads that are managed by DailyStory'
+}
 #Accounts
 Accounts represent the customers or leads that are managed by DailyStory [Campaigns](/campaigns). 
 

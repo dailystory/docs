@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Salesforce Integration
-description: Integration for DailyStory and Salesforce
----
+{
+	title: 'Salesforce Integration',
+	description: 'Integration for DailyStory and Salesforce'
+}
 # Salesforce Integration for DailyStory
 DailyStory supports integration with Salesforce that enables:
 	

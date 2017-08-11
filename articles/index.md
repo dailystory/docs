@@ -1,8 +1,7 @@
----
-layout: _ArticleLayout
-title: Welcome to DailyStory's documentation
-description: Documentation for the DailyStory account based marketing platform
----
+{
+	title: 'Welcome to DailyStory\'s documentation'
+	description: 'Documentation for the DailyStory account based marketing platform'
+}
 # What is Dailystory?
 DailyStory is an account based marketing platform built to help B2B Customer Success teams keep and grow their customers.
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="//www.youtube.com/embed/zM4h_KHVD1I" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
