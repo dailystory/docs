@@ -1,5 +1,5 @@
 {
-	title: 'Welcome to DailyStory\'s documentation'
+	title: 'Welcome to DailyStory\'s documentation',
 	description: 'Documentation for the DailyStory account based marketing platform'
 }
 # What is Dailystory?
