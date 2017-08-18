@@ -1,4 +1,5 @@
 ﻿{
+  "site": "https://docs.dailystory.com",
   "isSearchEnabled": true,
 	"editPath": "https://github.com/dailystory/Mater/tree/master/src/",
 	"logo": {
