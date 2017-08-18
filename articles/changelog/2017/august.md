@@ -2,6 +2,25 @@
 	title: 'August 2017 Product Update',
 	description: 'Product Updates for August 2017'
 }
+#August 18, 2017
+* Added Export for PPC Search Keyword Summary Report
+* Added drill down / detail report for PPC Search Keyword Report
+* Performance improvements to PPC search reports
+* WebTrackingCallback detects item type from url
+* Remove json serialization from slide form
+* Refactor PayPerClick link tracking
+* Refactored date first seen, last seen and contacted
+* Added default to BodyNoTemplate for emails
+* Clean up and refactor LInkTracking
+* Added tests for ReportBase, PayPerClick, PPC Report
+* Abstracted Ds Json rendering to separate class
+* Fix bug with date last contacted
+
+#August 16, 2017
+
+* Update for chat to support mobile; s-ton of work over the past week.
+* Converted DailyStory scripts to use bundles and split-up respective files.
+
 #August 10, 2017
 
 * DailyStory chat alpha
@@ -19,7 +38,6 @@
 * Refactor lead stats to not use tenant loop
 * Better coordinated cron runs
 * Added clean up job
-* 
 
 #August 3, 2017
 
