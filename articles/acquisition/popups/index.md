@@ -24,6 +24,30 @@ The popup editor provides a live preview of your popup. You can enter a title, b
 
 Some fields have additional options that can be configured. You can also add form fields for name and email address. This is useful if you provide an offer such as a newsletter signup or download.
 
+### Popup Offer Interactions
+
+A popup offers typically has 2 types of interactions:
+
+* **Call to Action** - the Call to Action (CTA) can complete a form, such as a newsletter signup or navigate to another page. This is the primary objective of the popup offer.
+* **Close / Dismiss** - the Close or Dismiss button closes the Exit Intent and may navigate the user to another page or simply disappear.
+
+More advanced popup offers introduce nuances for dismissing the offer:
+
+Close, but remind me later - the visitor dismisses the popup but indicates that they would like to receive the offer again in the future.
+Close and ignore - this enables the visitor to dismiss the popup and to never show it again.
+These types of popup interactions are important because DailyStory tracks these interactions and enables you to test which converts best.
+
+### Metrics Tracked in Popup Offers
+
+DailyStory tracks several metrics related to popup offers:
+
+* **Impressions** - the number of times the popup offer is shown to visitors.
+* **Ignores** - the number of times no interaction with the popup offer takes place.
+* **Call to Action click** - the number of times the main popup call to action is clicked.
+* **Dismiss click** - the number of times the dismiss button is clicked.
+
+These metrics are shown in the reports for your popup offers.
+
 ### Configuring Title Options	
 The Title Options enable you to set the font color and font size of the title text:
 	
@@ -129,7 +153,7 @@ DailyStory's JavaScript API runs asynchronously after the page loads so it does 
 
 DailyStory Popups are loaded from the data center specific URL of your DailyStory tenant. For example, a tenant in data center US-1 with the tenant id of 1a2b3c4d loads its JSON from:
 
-<code>https://us-1.dailystory.com/ds/pp1a2b3c4d.json</code>
+<code>https://us-1.dailystory.com/ds/1a2b3c4d.json</code>
 
 This file will include any DailyStory Popups that are enabled for the tenant.
 
