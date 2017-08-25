@@ -2,6 +2,21 @@
 	title: 'August 2017 Product Update',
 	description: 'Product Updates for August 2017'
 }
+#August 22, 2017
+* Added archive support to chat
+* Added Chat conversation and message classes
+* Fix to Ip lookups to not include ports
+
+
+#August 21, 2017
+* Fix count bug in redirect tracking
+* Update DS library to including tracking scripts to address emtpy dsid issue
+* Bug in admin online count for chat
+* Add support for ip tracking redirect links
+* Changed GetIPAddress lookup to also perform validation
+* Updates to chat manager
+* Remove/hide Accounts
+
 #August 18, 2017
 * Added Export for PPC Search Keyword Summary Report
 * Added drill down / detail report for PPC Search Keyword Report

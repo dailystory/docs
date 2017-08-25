@@ -1,22 +1,24 @@
 {
-	title: 'Popups',
-	description: 'Popups can be shown automatically or using the API.'
+	title: 'Popup Offers',
+	description: 'Popup Offers can be shown automatically or using the API.'
 }
 # What is a DailyStory Popup?
-A DailyStory Popup enables you to display a popup window in a web or mobile experiece:
+A [DailyStory Popup Offer](https://www.dailystory.com/features/welcome-exit-offers/) is a feature of DailyStory that enables you to display a popup window in a web or mobile experiece:
 
-![DailyStory Popup](/articles/acquisition/popups/popup-04.png "DailyStory Popup")
+![DailyStory Popup](https://www.dailystory.com/files/imgs/welcome-exit-offers-sample.jpg "DailyStory Popup")
 
-Popups can be shown on specific pages and configured to automatically show after a certain amount of time has passed or if the visitor is leaving the site.	
+Popup Offers can be shown on specific pages, configured to automatically show after a certain amount of time has passed, when the visitor first arrives, or if the visitor is leaving the site.
+
+[Read more about the benefits of DailyStory Popup Offers at dailystory.com](https://www.dailystory.com/features/welcome-exit-offers/).
 
 ## Creating and Editing a Popup
-To creae a new popup go to Acquisition > Exit Intent. This will show you a list of all the existing popups. You can edit a popup by clicking on it and you can create a new popup by clicking the + New Exit Intent button:
+To creae a new popup offer go to Acquisition > Popup Offer. This will show you a list of all the existing popup offers. You can edit a popup by clicking on it and you can create a new popup by clicking the + New Exit Intent button:
 	
 ![All Popups](/articles/acquisition/popups/popup-06.png "All Popups")
 
 Clicking either will open the popup editor:
 
-![Popup Editor](/articles/acquisition/popups/popup-05.png "Popup Editor")
+![Popup Editor](https://www.dailystory.com/files/imgs/welcome-exit-offers-create.jpg "Popup Editor")
 
 The popup editor provides a live preview of your popup. You can enter a title, body, call to action button text, call to action url, close/cancel button text and select a background image. All of these settings will be immediately refelected in the live preview window.
 
@@ -27,7 +29,7 @@ The Title Options enable you to set the font color and font size of the title te
 	
 ![Title Options](/articles/acquisition/popups/popup-07.png "Title Options")
 
-> These options configure CSS settings for <code>#ds_pop .content h1</code>
+> These options configure CSS settings for <code>#ds_pop h1</code>
 
 ### Configuring Body Content	
 Body content should be brief. You can use the return key to create line breaks in the content.
