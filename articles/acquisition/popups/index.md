@@ -58,7 +58,7 @@ The Title Options enable you to set the font color and font size of the title te
 ### Configuring Body Content	
 Body content should be brief. You can use the return key to create line breaks in the content.
 	
-> The body content is wrapped in a <p> tag with <br> to handle line breaks. CSS settings for <code>#ds_pop .content p</code>
+> The body content is wrapped in a &lt;p&gt; tag with &lt;br&gt; to handle line breaks. CSS settings for <code>#ds_pop .content p</code>
 
 You can configure the text and background color of the body content in Background Options.
 
@@ -104,7 +104,7 @@ The Background Options enable you to set an image used in the background of the 
 
 > The background color and image set CSS for <code>#ds_pop</code> and the background text color for <code>#ds_pop .content</code>
 
-> You can provide a URL to your own image file or upload an image to DailyStory.
+You can also provide a URL to your own image file or upload an image to DailyStory.
 
 ### Configuring Lead Capture Form
 The Lead Capture Form enables you to capture visitor information and create new leads within a DailyStory campaign.
@@ -149,13 +149,13 @@ To use the JavaScript API to force a popup you will need the <code>id</code> of 
 <code>https://us-1.dailystory.com/Acquisition/EditExitIntent/35</code>
 
 ## The DailyStory Popup Json File
-DailyStory's JavaScript API runs asynchronously after the page loads so it does not interfere with your page rendering. It also asynchronously loads several JSON files, which can be cached by the client browser.
+DailyStory's JavaScript API runs asynchronously after the page loads and does not interfere with your page rendering. It also asynchronously loads a JSON file, which is cached by the client browser.
 
 DailyStory Popups are loaded from the data center specific URL of your DailyStory tenant. For example, a tenant in data center US-1 with the tenant id of 1a2b3c4d loads its JSON from:
 
 <code>https://us-1.dailystory.com/ds/1a2b3c4d.json</code>
 
-This file will include any DailyStory Popups that are enabled for the tenant.
+This file will include any DailyStory Popups that are enabled for the tenant as well as other DailyStory features you have enabled.
 
 > Important: due to caching of the file, if you enable a popup in DailyStory it may not be available immediately.
 
@@ -174,7 +174,7 @@ The DailyStory API uses browser events to call your code after DailyStory is loa
 
 > Important: DailyStory loads all its files after the main page loads. This ensures that the user's content is displayed as quickly as possible.
 
-## Showing a popup on exit intent
+## Show a specific popup offer when the visitor is leaving
 To show a popup when the visitor is leaving your website using the JavaScript API, add the following script:
 
 <script type="syntaxhighlighter" class="brush: js">
