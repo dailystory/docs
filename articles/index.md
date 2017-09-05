@@ -1,9 +1,9 @@
 {
 	title: 'Welcome to DailyStory\'s documentation',
-	description: 'Documentation for the DailyStory account based marketing platform'
+	description: 'Documentation for the DailyStory Customer Engagement Platform'
 }
-# What is Dailystory?
-DailyStory is an account based marketing platform built to help B2B Customer Success teams keep and grow their customers.
+# What is DailyStory?
+DailyStory is a Customer Enagement Platform that helps businesses create better customer engagement with their current and future customers.
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="//www.youtube.com/embed/zM4h_KHVD1I" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 <a href="https://www.dailystory.com">To learn more about DailyStory features, please visit the www.dailystory.com website.</a>
