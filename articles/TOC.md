@@ -14,7 +14,7 @@
 ## [Popups](/acquisition/popups/)
 ## [Triggers](/acquisition/triggers/)
 ## [Web Forms](/acquisition/web-forms/)
-## [Magic Forms](/features/magicforms)
+## [Magic Forms](/acquisition/magic-forms/)
 ## [Paid Search](/acquisition/paid-search/)
 ## [Emails](/features/emails)
 ## [Pages](/features/pages)
