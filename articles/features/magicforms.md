@@ -11,7 +11,7 @@ Use DailyStory Magic Forms when you cannot use a [DailyStory Web Form](/acquisit
 
 Once you've setup DailyStory Magic Forms for your existing HTML form, DailyStory will capture customer data, optionally pre-populate forms, and associate the identifying email address with a DailyStory record. 
 
-DailyStory does all this without requiring any changes to your existing forms.
+DailyStory does all this without requiring any changes to your existing forms or the addition of any custom code.
 
 ## Creating and Editing a Magic Form
 
@@ -27,19 +27,21 @@ The Magic Form editor is very simple, but does have several required fields.
 
 **Name** The name of the Magic Form must be set. This is used mainly as a helpful reference for identiying the Magic Form.
 
-**Url** The full URL to the page containing the existing HTML form. For example, www.dailystory.com/contact-us. The full URL including the domain is required because some forms may not be on a different domain such as Eloqua.
+**Url** The full URL to the page containing the existing HTML form. For example, www.dailystory.com/contact-us. The full URL, including the domain, is required.
 
-**Campaign** The [campaign](/campaigns/) within DailyStory that new leads should be created for. When the form associated with the DailyStory Magic Form is submitted the data from the form will be used to create a new lead in this campaign.
+**Campaign** The [campaign](/campaigns/) within DailyStory that new leads should be created in. When the form associated with the DailyStory Magic Form is submitted the data from the form will be used to create a new lead in this campaign.
 
-**Enabled** The Enabled toggle controls whether or not the Magic Form is enabled. When disabled DailyStory will not collect data from your web form.
+**Enabled** The Enabled toggle controls whether or not the Magic Form is enabled. When disabled the Magic Form is paused will not collect data from your web form.
 
-> Changes to Enabled/Disabled status can take up to 20 minutes to take effect.
+> Changes to enabled/disabled status can take up to 20 minutes to take effect.
 
-**Form Fields** The form fields contain the mapping between your form and a DailyStory lead. For example, if you have a form field named C_Email_Address you would map it to Email address.
+**Form Fields** The form fields contain the mapping between your form and a DailyStory lead. For example, if you have a form field named ```C_Email_Address``` you would map it to ```Email address```.
 
-> The Email address field must be mapped to.
+> The Lead Email address field must be mapped to a field in your form. It is the only required form field. All other fields are optional.
 
-Not all of your form fields will be mapped to DailyStory Magic Forms.  And Magic Forms are not meant to replace your existing automation system. Rather it provides association between a visitor and an email address. 
+Not all of your form fields will be mapped to DailyStory Magic Forms.  And Magic Forms are not meant to replace your existing automation system. Rather it provides association between a visitor and an email address and attributes the lead to the appropriate campaign.
+
+In addition to capturing the form fields, DailyStory will also capture the unique DailyStory Id of the visitor and their IP address.
 
 [image]
 
