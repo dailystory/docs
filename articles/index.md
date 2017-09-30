@@ -3,7 +3,7 @@
 	description: 'Documentation for the DailyStory Customer Engagement Platform'
 }
 # What is DailyStory?
-DailyStory is a Customer Enagement Platform that helps businesses create better customer engagement with their current and future customers.
+DailyStory is a Customer Enagement Platform that makes it easy for businesses to track, convert, and manage visitors through the process of becoming a customer
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="//www.youtube.com/embed/zM4h_KHVD1I" width="300" height="150" allowfullscreen="allowfullscreen"></iframe></div>
 
 <a href="https://www.dailystory.com">To learn more about DailyStory features, please visit the www.dailystory.com website.</a>
