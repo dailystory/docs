@@ -2,8 +2,27 @@
 	title: 'September 2017 Product Update',
 	description: 'Product Updates for September 2017'
 }
+# September 29, 2017
+* Misc bug fixes
+* Added support for link summary report
+* Improvements to magic forms
+
+# September 28, 2017
+* Fixed problem with invitation and joining on a social account
+
+# September 26, 2017
+* Add support for managing multiple account
+* Add support for magic forms
+* Updated Unit tests
+* Better management of identity through claims
+
+# September 25, 2017
+* Fix UX in reporting for dates that have no value
+* Initial checkin of auto-form wireups
+
 # September 22, 2017
 * Fix bug in redirect with password
+* Handle invitations to non-email accounts
 
 # September 21, 2017
 * Added click fraud report
