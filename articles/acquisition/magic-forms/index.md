@@ -53,9 +53,9 @@ Simply click the Auto-discover button next to the URL and DailyStory will popula
 ## Add Form Fields
 If Magic Forms cannot auto-discover your form fields, you will need to add them yourself.
 
-Type the name of the form field - this corresponds to the ```name``` value of a form element. For example, this form element ```&lt;input type="text" name="FirstName"&gt;``` has a name field of ```FirstName```. Next, select the appropriate DailyStory Lead field to map ```FirstName``` to, e.g. ```First name```.
+Type the name of the form field - this corresponds to the ```name``` value of a form element. For example, this form element ```<input type="text" name="FirstName">``` has a name field of ```FirstName```. Next, select the appropriate DailyStory Lead field to map ```FirstName``` to, e.g. ```First name```.
 
 ## Known Issues
-Magic Forms require that the form uses an ```&lt;input type="submit"&gt;``` button. We intend to add support for other form submit options in the future.
+Magic Forms require that the form uses an ```<input type="submit">``` button. We intend to add support for other form submit options in the future.
 
 We occassionally encounter forms that do not work with DailyStory Magic Forms. If your form does not work, [please let us know](https://www.dailystory.com/contact-us) and we'll see about adding support.
