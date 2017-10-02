@@ -2,6 +2,15 @@
 	title: 'September 2017 Product Update',
 	description: 'Product Updates for September 2017'
 }
+# September 30, 2017
+* Refactored Page Triggers to add async support
+* Updated DS script to check for older versions of IE and change the URL to remove querystring arguments.
+* Refactored Magic Forms, Web Forms and Triggers to not require selecting a campaign on start.
+* Added enabled/disabled on Web Forms
+* Fixed typo in license banner
+* Added support for removing users from an account
+* UrlBuilder initial checkin
+
 # September 29, 2017
 * Misc bug fixes
 * Added support for link summary report

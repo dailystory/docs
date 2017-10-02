@@ -181,6 +181,8 @@ The table below will help you select the right option for your DailyStory Web Fo
 </tbody>
 </table>
 
+If you have an exist web form that uses custom HTML or a Marketing Automation Platform, consider using [DailyStory Magic Forms](/acquisition/magic-forms/).
+
 ### Creating a Custom HTML form
 You can also create your own custom HTML form and POST directly to the DailyStory Web Form URL. This gives you the greatest flexibility with regards to design and layout of your form.
 

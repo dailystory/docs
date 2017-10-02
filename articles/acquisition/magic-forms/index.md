@@ -3,7 +3,7 @@ title: 'Magic Forms',
 description: 'Integrate with existing web forms such as Eloqua, Marketo, or custom web forms.'
 }
 # What is a DailyStory Magic Form?
-A DailyStory Magic Form enables you to integrate DailyStory with any web form on your website. This includes custom HTML forms or those built with Marketing Automation Platforms such as Marketo, Eloqua, HubSpot and many others web form applications.
+A DailyStory Magic Form enables you to integrate DailyStory with any web form on your website. This includes custom HTML forms or those built with Marketing Automation Platforms such as Marketo, Eloqua, HubSpot and many others HTML form applications.
 
 Use DailyStory Magic Forms when you cannot use a [DailyStory Web Form](/acquisition/web-forms/) or do not wish to use the [DailyStory API](/acquisition/web-forms/#creating-a-custom-html-form) for integration.
 
@@ -15,13 +15,13 @@ DailyStory does all this without requiring any changes to your existing forms or
 
 ## Creating and Editing a Magic Form
 
-To creae a new Magic Form go to Acquisition > Magic Forms. This will show you a list of all the existing Magic Forms. You can edit a Magic Form by clicking on it and you can create a new Magic Form by clicking the + New Magic Form button:
+To creae a new Magic Form go to Acquisition > Magic Forms. There you will find a list of all the existing Magic Forms. You can edit a Magic Form by clicking on it and you can create a new Magic Form by clicking the + New Magic Form button: 
 
-[image]
+![All Magic Forms](/articles/acquisition/magic-forms/magic-forms-01.jpg "All Magic Forms")
 
 Clicking either will open the Magic Form editor:
 
-[image]
+![Magic Form Editor](/articles/acquisition/magic-forms/magic-forms-02.jpg "Magic Form Editor")
 
 The Magic Form editor is very simple, but does have several required fields.
 
@@ -43,14 +43,19 @@ Not all of your form fields will be mapped to DailyStory Magic Forms.  And Magic
 
 In addition to capturing the form fields, DailyStory will also capture the unique DailyStory Id of the visitor and their IP address.
 
-[image]
-
 ## Auto-discover Form Fields
-The Magic Form editor can auto-discover your form fields. Simply click the Auto-discover button next to the URL and DailyStory will populate the Form fields with a list of the fields it finds. You will need to then map the discovered fields to the corresponding DailyStory lead fields.
+The Magic Form editor can auto-discover your form fields. 
+
+Simply click the Auto-discover button next to the URL and DailyStory will populate the Form fields with a list of the fields it finds. You will need to then map the discovered fields to the corresponding DailyStory lead fields.
 
 > Auto-discover will not work with all forms. For example, Marketo forms are generated dynamically with JavaScript and the fields must be manually added.
 
-## Known Issues
-Magic Forms requires that the form uses an &lt;input type="submit"&gt; button. We intend to add support for other form submit options.
+## Add Form Fields
+If Magic Forms cannot auto-discover your form fields, you will need to add them yourself.
 
-We occassionally encounter forms that do not work with DailyStory Magic Forms. If your form does not work, please let us know and we'll see about adding support.
+Type the name of the form field - this corresponds to the ```name``` value of a form element. For example, this form element ```&lt;input type="text" name="FirstName"&gt;``` has a name field of ```FirstName```. Next, select the appropriate DailyStory Lead field to map ```FirstName``` to, e.g. ```First name```.
+
+## Known Issues
+Magic Forms require that the form uses an ```&lt;input type="submit"&gt;``` button. We intend to add support for other form submit options in the future.
+
+We occassionally encounter forms that do not work with DailyStory Magic Forms. If your form does not work, [please let us know](https://www.dailystory.com/contact-us) and we'll see about adding support.
