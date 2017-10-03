@@ -5,6 +5,8 @@ description: 'Integrate with existing web forms such as Eloqua, Marketo, or cust
 # What is a DailyStory Magic Form?
 A DailyStory Magic Form enables you to integrate DailyStory with any web form on your website. This includes custom HTML forms or those built with Marketing Automation Platforms such as Marketo, Eloqua, HubSpot and many others HTML form applications.
 
+<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F3juMDdvmohM%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D3juMDdvmohM&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F3juMDdvmohM%2Fhqdefault.jpg&key=internal&type=text%2Fhtml&schema=youtube" width="500" height="281" scrolling="no" frameborder="0" allowfullscreen></iframe>
+
 Use DailyStory Magic Forms when you cannot use a [DailyStory Web Form](/acquisition/web-forms/) or do not wish to use the [DailyStory API](/acquisition/web-forms/#creating-a-custom-html-form) for integration.
 
 > To use Magic Forms, the [DailyStory tracking code](/install) must be included on the page of the webform.
