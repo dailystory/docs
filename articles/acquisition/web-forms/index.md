@@ -5,6 +5,8 @@
 # DailyStory Web Forms
 A DailyStory Web Form enables you to quickly and easily create forms that can be shown on your website, in your mobile application, a DailyStory landing page, or elsewhere using the DailyStory API.
 
+<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FBLBr5QR-zns%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBLBr5QR-zns&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FBLBr5QR-zns%2Fhqdefault.jpg&key=internal&type=text%2Fhtml&schema=youtube" width="500" height="281" scrolling="no" frameborder="0" allowfullscreen></iframe>
+
 Creating new web forms and editing existing webforms can be found by:
 
 * Signing in to your DailyStory account
