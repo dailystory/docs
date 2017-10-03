@@ -74,9 +74,9 @@
 * Added support for SignUp forms
 * Tidy up async support on Web Forms and clean up names
 
+# September 4, 2017
+* Added better support for welcome mat / popup cover
+
 # September 1, 2017
 * Bug in popup logic that was not correctly serializing dismiss cookie
 * Updated some feature names to align with feature descriptions
-
-# September 4, 2017
-* Added better support for welcome mat / popup cover
