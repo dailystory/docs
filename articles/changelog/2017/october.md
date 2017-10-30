@@ -2,6 +2,38 @@
 	title: 'October 2017 Product Update',
 	description: 'Product Updates for October 2017'
 }
+# October 27, 2017
+* Removed unused campaign achievements features
+* update Lead Stats job to use new tables for performance improvements
+* Improve performance of IP address lookups
+* Change Process Leads to call web hook to update lead activity
+* Fix bug in URL hash to force to lower case
+* Fix contact extended properties to serialize
+* Performance improvement to lead dequeue
+* Improve performance of salesforce sync and support field mappings
+
+# October 23, 2017
+* Updated magic forms to better handle multiple forms on a single page
+* Fixed bug in PageInfo that resulted in an empty title
+* Fixed bug in link summary report
+* Added support for form id in magic forms
+* Added new triggered web job for processing lead queue
+* Fix bug in web session with page lookup
+* Add support for custom lead fields in magic forms
+* Add email validation to magic forms
+
+# October 20, 2017
+* Big refactor for webstats to improve lookup time and overall performance
+* Added job for lead activity updates
+* Fix key conflict on ppc campaigns job
+* Better logic for ip lookup on web tracking queue processing
+
+# October 17, 2017
+* Added support to fetch element id and moved xpath selectors to ds
+* Updated some function visibility in Ds javascript library
+* Added support for finger print dsid generation for better cross-site support
+* Added support for selecting the submit button via post message
+
 # October 15, 2017
 * Fixed bug in Web Session report display
 * Changed lead detail to use Common formatter for City, Region and Country
