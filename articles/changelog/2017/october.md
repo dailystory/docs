@@ -2,6 +2,9 @@
 	title: 'October 2017 Product Update',
 	description: 'Product Updates for October 2017'
 }
+# October 30, 2017
+* Fix minor bug with extended field mappings in magic forms.
+
 # October 27, 2017
 * Removed unused campaign achievements features
 * update Lead Stats job to use new tables for performance improvements

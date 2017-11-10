@@ -36,6 +36,13 @@ Finally, set the contact email to your email address.
 
 ![Basic Information](/articles/integrations/salesforce-03.png "Basic Information")
 
+Optionally set other fields:
+* Logo image URL: https://ds-cdn.azureedge.net/files/brand/125x125.png
+* Icon URL: https://ds-cdn.azureedge.net/files/brand/16x16.png
+* Info URL: https://docs.dailystory.com/integrations/salesforce
+* Description: Used to connect DailyStory and Salesforce
+
+
 ## API
 Check <code>Enable OAuth Settings</code>, this will expand the list of available settings (see the screen shot below).
 
@@ -70,3 +77,16 @@ Click on Salesforce:
 From your DailyStory Connected App in Salesforce copy the values for <code>Consumer Key</code> and <code>Consumer Secret</code> into DailyStory and click Authorize.
 
 > You may be requested to sign in to Salesforce again
+
+## Advanced Configuration
+Once Salesforce integration is enabled you will also be able to configure several advanced Salesforce integration options.
+
+### Extended Field Mappings
+DailyStory will automatically populate common Salesforce fields that correspond to properties of a DailyStory lead, for example email address.
+
+However, if you are using a custom form or setting extended lead properties, you may want to publish these into Salesforce as well. This is precisely what the Advanced Configuration option for Extended Field Mappings does.
+
+For example, if you are capturing a values for <code>CurrentSubscribers</code> and you have a Salesforce custom field called <code>NumberOfSubscribers__c </code> you can configure DailyStory to populate that field in Salesforce when a lead is added from DailyStory.
+
+![Salesforce Extended Field Mappings](/articles/integrations/salesforce-07.png "Salesforce Extended Field Mappings")
+ 
