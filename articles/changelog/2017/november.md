@@ -2,6 +2,33 @@
 	title: 'November 2017 Product Update',
 	description: 'Product Updates for September 2017'
 }
+#November 26, 2017
+* Fix bug with description serialization on forms
+
+#November 15, 2017
+* Conversion events are highlighted better on the lead timeline
+* Reports export controller handles Lead Extended Properties
+* Add support for textareas on Magic Forms
+* Add support for assets section of campaigns to quickly see which DailyStory features are used
+* Add support for custom fields on webforms
+* Add support for Campaign listing in Popups, Content Pages, Magic Forms, Pay per click, 
+* Add full url property to Content Pages for editing
+* Add support for ICampaignAsset to Emails, Link Tracking, Magic Forms, Popup, Web Form
+* Reverse sort the web activity items for leads so page views are old > new
+* Update link tracking queue item insert to use creation date vs execution date
+* Bug in campaign ruleset with id management
+* Fix encoding bug for admin editing in Google Analytics
+
+# November 13, 2017
+* Http Verb tracking for redirects
+* Fix bug in encoding for Google Analytics in UX
+* Fix bug in trial setup
+
+# November 11, 2017
+* Fix bug in Magic Form location parsing
+* Better error logging for general exceptions
+* Bug in Popup reports from refactor
+
 # November 10, 2017
 * Refactor popups
 * Better log handling to prevent log flooding
