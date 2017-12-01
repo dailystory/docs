@@ -8,6 +8,7 @@
 ## [Leads](/leads/)
 ## [Contacts](/contacts/)
 ## [Accounts](/accounts/)
+## [Emails](/emails/)
 ## [Reports](/reports/)
 
 # Features
@@ -16,7 +17,6 @@
 ## [Web Forms](/acquisition/web-forms/)
 ## [Magic Forms](/acquisition/magic-forms/)
 ## [Paid Search](/acquisition/paid-search/)
-## [Emails](/features/emails)
 ## [Pages](/features/pages)
 ## [Links](/features/links)
 

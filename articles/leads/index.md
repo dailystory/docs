@@ -2,7 +2,7 @@
 	title: 'Leads',
 	description: 'DailyStory Lead'
 }
-# Lead
+# Leads
 A lead in DailyStory represents a [contact](/contacts) that is part of a [campaign](/campaigns). A contact can be part of no campaigns or many campaigns. When a contact is in a campaign it is called a lead.
 
 > For example, if a customer is part of a renewal campaign, but has also downloaded a white paper and signed up for a newsletter there is a single contact and three leads (presuming three campaigns: renewal, newsletter and white paper).
