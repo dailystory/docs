@@ -20,9 +20,7 @@ On the top menu select Content > Emails:
 
 This will open up a page listing All Emails. From here you can select an existing email to edit or click the + New Email button to create a new email.
 
-> This page also provide some insights into Delivered, Opened, Clicked and Bounced statistics for emails.
-
-Clicking on any of the numbers for Delivered, Opened, Clicked and Bounced will open reports for the email.
+Clicking on any of the numbers for Delivered, Opened, Clicked and Bounced will [open reports](#email-reporting) for the email.
 
 ![All Emails](/articles/emails/emails-02.png "All Emails")
 
