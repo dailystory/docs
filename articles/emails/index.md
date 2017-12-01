@@ -9,14 +9,14 @@ By using DailyStory's email marketing feature, DailyStory can track and attribut
 
 DailyStory emails can be sent through the @dailystory.net mail server or you can add integration with a transactional email platform such as [Mailgun](/integrations/mailgun), SendGrid or PostMark.
 
-> The benefit of using a transactional email platform to send your email is you can configure your own sending email domain. If not, your email send address will appear as `sales@example.com on behalf of @dailystory.net`
+> The benefit of using an integrated transactional email platform to send your email is you can configure your own sending email domain. If not, your email send address will appear as `sales@example.com on behalf of @dailystory.net`
 
 ## Creating and Editing Emails
 Creating and editing emails within the DailyStory email editor is simple and intuitive.
 
 On the top menu select Content > Emails:
 
-![Emails Menu](/emails/emails-01.png "Email Menu")
+![Emails Menu](/articles/emails/emails-01.png "Email Menu")
 
 This will open up a page listing All Emails. From here you can select an existing email to edit or click the + New Email button to create a new email.
 
@@ -24,7 +24,7 @@ This will open up a page listing All Emails. From here you can select an existin
 
 Clicking on any of the numbers for Delivered, Opened, Clicked and Bounced will open reports for the email.
 
-![All Emails](/emails/emails-02.png "All Emails")
+![All Emails](/articles/emails/emails-02.png "All Emails")
 
 Clicking + New Email will open up the New Email editor. When the page opens you will first need to select the [campaign](/campaigns) the email will be associated with.
 
@@ -32,7 +32,7 @@ Clicking + New Email will open up the New Email editor. When the page opens you 
 
 After selecting a campaign, you will be presented with the DailyStory email editor:
 
-![New Email](/emails/emails-03.png "All Email")
+![New Email](/articles/emails/emails-03.png "All Email")
 
 The email editor has 3 tabs and you can use any of them for authoring your email.
 
@@ -134,11 +134,11 @@ Use the Sent a test email button to send yourself (or someone else) a test email
 
 > Important, you must save your email prior to sending a test email. And, the test emails you send count towards your monthly send limits.
 
-![Send test email](/emails/emails-04.png "Send test email")
+![Send test email](/articles/emails/emails-04.png "Send test email")
 
 Clicking Send a test email will open up a window. Enter a valid email address to send your test email to.
 
-![Test email recipient](/emails/emails-05.png "Test email recipient")
+![Test email recipient]/articles/emails/emails-05.png "Test email recipient")
 
 The test email will use the [Test Contact](/reference#test-lead) for any merge fields found in the email.
 
@@ -150,7 +150,7 @@ If you want to test sending emails, such as running a test lead through a workfl
 ## Email Reporting
 You can review a summary of your email delivery by clicking on the Delivered number from the All Emails page. This will open the Email Delivery Report:
 
-![Email Delivery Report](/emails/emails-06.png "Email Delivery Report")
+![Email Delivery Report](/articles/emails/emails-06.png "Email Delivery Report")
 
 You can also click on Opened, Clicked, and Bounced for each email in the All Emails page. To view who opened the email, clicked on a link in the email or bounced. These reports are also accessible as links in the Email Delivery Report.
 
@@ -158,29 +158,29 @@ The Email Delivery Report provides visuals for sent/deliver/bounced and related 
 
 Next, you will find a graph detailing delivered/opened emails. You can also click on the link in the graph to see who opened the email.
 
-![Email Delivery Report Opens](/emails/emails-08.png "Email Delivery Report Opens")
+![Email Delivery Report Opens](/articles/emails/emails-08.png "Email Delivery Report Opens")
 
 After the delivered/opened graph you will find the opened/clicked report. You can also click on the link in the graph to see who clicked the email.
 
-![Email Delivery Report Clicks](/emails/emails-09.png "Email Delivery Report Clicks")
+![Email Delivery Report Clicks](/articles/emails/emails-09.png "Email Delivery Report Clicks")
 
 ### Bounced Email Report
 The Bounced Email Report provides a list of contacts that whose email address bounced for the sent email. The report can be filtered by time ranges and exported to a file that can be opened in Excel.
 
-![Email Bounce Report](/emails/emails-10.png "Email Bounce Report")
+![Email Bounce Report](/articles/emails/emails-10.png "Email Bounce Report")
 
 > Export files are scoped to the date range your select when viewing your report.
 
 ### Opened Email Report
 The Opened Email Report provides a list of which contacts opened the email. The report can be filtered by time ranges and exported to a file that can be opened in Excel.
 
-![Email Opened Report](/emails/emails-07.png "Email Opened Report")
+![Email Opened Report](/articles/emails/emails-07.png "Email Opened Report")
 
 > Export files are scoped to the date range your select when viewing your report.
 
 ### Clicked Email Report
 The Clicked Email Report provides a list of which contacts clicked a link in the email. The report can be filtered by time ranges and exported to a file that can be opened in Excel.
 
-![Email Clicked Report](/emails/emails-11.png "Email Clicked Report")
+![Email Clicked Report](/articles/emails/emails-11.png "Email Clicked Report")
 
 > Export files are scoped to the date range your select when viewing your report.
