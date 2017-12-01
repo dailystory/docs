@@ -2,8 +2,46 @@
 	title: 'November 2017 Product Update',
 	description: 'Product Updates for September 2017'
 }
+#November 30, 2017
+* Email delivery report with opens, clicks, and bounces
+* Email optout report
+* API /about end point
+* Refactor Campaign controller for better performance
+* Convert bulk import to use field map json file
+* Add EmailReports
+* Add Email Summary Report
+* Add optout report to navigation
+* Update LeadStats job to not use MailGun stats for opened or clicked
+* Refactor EmailRedirectQueue job to handle clicks and opens for emails
+* Update MailGun integration to ignore opens and clicks
+* Add event webhooks for Zapier support
+* Add ContactMapFile for better bulk import support on background jobs
+* Refactor license to allow for overriding default license limits
+* Refactor CampaignEmailReport and Add EmailSummaryReport
+* Update WebTrackingCallback to use queues to track email opens
+
+#November 28, 2017
+* Added support for Zapier triggers and actions beta
+* Refactor the API namespace
+* Add support for event webhooks for Zapier and other developers
+* Add support for PagedApiStatusResponse for paged responses from the API
+* Changed Do Not Contact to a toggle option and refactored
+* Added support for event webhooks when new lead is created
+* Added h:sender header for better MailGun on behalf of support
+* Initial check-in of WebhookEventQueue job
+* Api for subscribe/unsubscribe to webhook events. Mainly for Zapier for now
+* Added List api to api/lead
+* Fixed bug in opt-out
+* Changed opt out behavior in contact to use toggle button
+* Changed bulk import to background process
+
 #November 26, 2017
 * Fix bug with description serialization on forms
+* Refactor and clean up jobs
+* Fix bug in unsubscribe from lead notification emails
+* Initial updates for Zapier support
+* Bug with reseting DsId from querystring
+* Support for Zapier Trigger web hooks
 
 #November 15, 2017
 * Conversion events are highlighted better on the lead timeline
