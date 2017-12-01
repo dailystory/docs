@@ -31,10 +31,17 @@ All of DailyStory's platform is accessible through a REST API and WebHooks for r
 <tbody>
 <tr>
 <td><strong>Path</strong></td>
+<td><strong>Verb</strong></td>
 <td><strong>Description</strong></td>
 </tr>
 <tr>
-<td width="25%" nowrap><code>[/api/campaign/list](/sdk/api/campaign/list)</code></td>
+<td width="25%" nowrap><code><a href="/api/campaign/">/api/campaign/</a></code></td>
+<td>GET, POST, DELETE</td>
+<td>Get, create, or delete a campaign.</td>
+</tr>
+<tr>
+<td width="25%" nowrap><code><a href="/api/campaign/">/api/campaign/list</a></code></td>
+<td>GET</td>
 <td>Returns a list of active campaigns.</td>
 </tr>
 </tbody>
