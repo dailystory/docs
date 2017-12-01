@@ -34,6 +34,7 @@
 ## [Mailgun](/integrations/mailgun)
 
 # SDK / APIs
+## [REST API](/api/)
 ## [.NET SDK](/sdk/dotnet)
 ## [PHP SDK](/sdk/php)
 

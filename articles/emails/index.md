@@ -47,7 +47,8 @@ DailyStory makes extensive use of merge tags throughout the product and whenever
 Finally, you can also select an [email template](/features/email-templates). An email template enables you to create a re-usable layout. If you select an email template, you only need to provide the content in the email body.
 
 ### Required Email Fields
-DailyStory Emails require you provide a from address, a subject and a body.
+DailyStory Emails require you provide a from address, a subject and a body. The To is automatically set for you.
+
 #### To
 The To: address will be set automatically when the email is used within a workflow or sent via the API. 
 
@@ -125,18 +126,18 @@ Any merge tags used in the email that doesn't exist for the contact you are send
 For example if the <code>\*|FNAME|\*</code> merge tag was used, but the contact does not have a Firstname field this:	 <code>Hi \*|FNAME|\*</code> Becomes: <code>Hi</code>
 
 ## Testing your Email
-There are several options for testing emails.
+There are several options for testing emails. You can create a test campaign, add your email as a workflow and then add leads to the campaign. However, to test only the email, just use the Send a test email button in the email editor.
 
 ### Send a test email
 Use the Sent a test email button to send yourself (or someone else) a test email.
 
-> Important, you must save your email prior to sending a test email. And, the test emails you send count towards your monthly send limits.
+> Important, you must save your email prior to sending a test email. Test emails count towards your monthly send limits.
 
 ![Send test email](/articles/emails/emails-04.png "Send test email")
 
 Clicking Send a test email will open up a window. Enter a valid email address to send your test email to.
 
-![Test email recipient]/articles/emails/emails-05.png "Test email recipient")
+![Test email recipient](/articles/emails/emails-05.png "Test email recipient")
 
 The test email will use the [Test Contact](/reference#test-lead) for any merge fields found in the email.
 
@@ -146,13 +147,15 @@ For testing and demonstration purposes you can use recipient addresses ending in
 If you want to test sending emails, such as running a test lead through a workflow, we recommend using a disposable email address such as <a href="http://www.fakemailgenerator.com/" rel="noopener noreferrer">Fake Mail Generator</a>.
 
 ## Email Reporting
-You can review a summary of your email delivery by clicking on the Delivered number from the All Emails page. This will open the Email Delivery Report:
+Emails sent through DailyStory include detailed delivery reporting. You can review a summary of your email delivery by clicking on the Delivered number from the All Emails page. This will open the Email Delivery Report:
 
 ![Email Delivery Report](/articles/emails/emails-06.png "Email Delivery Report")
 
-You can also click on Opened, Clicked, and Bounced for each email in the All Emails page. To view who opened the email, clicked on a link in the email or bounced. These reports are also accessible as links in the Email Delivery Report.
+> You can also click on Opened, Clicked, and Bounced for each email in the All Emails page to view who opened the email, clicked on a link in the email or bounced. These reports are also accessible as links in the Email Delivery Report.
 
-The Email Delivery Report provides visuals for sent/deliver/bounced and related percentages for each. The sent/delivered/bounced graph is shown in the image above.
+The report provides several graphs to help you visualize your email delivery performance. 
+
+The first graph, shown in the image above, details sent/deliver/bounced along with % delivered for the selected date range.
 
 Next, you will find a graph detailing delivered/opened emails. You can also click on the link in the graph to see who opened the email.
 
