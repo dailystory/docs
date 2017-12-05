@@ -3,7 +3,7 @@
 	description: 'Product Updates for 2017'
 }
 # Product Updates for 2017
-
+* [December 2017](2017/december)
 * [November 2017](2017/november)
 * [October 2017](2017/october)
 * [September 2017](2017/september)

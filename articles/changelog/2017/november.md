@@ -1,6 +1,6 @@
 {
 	title: 'November 2017 Product Update',
-	description: 'Product Updates for September 2017'
+	description: 'Product Updates for November 2017'
 }
 #November 30, 2017
 * Email delivery report with opens, clicks, and bounces
