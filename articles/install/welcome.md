@@ -5,6 +5,8 @@
 # Welcome to the DailyStory Campaign Attribution Platform
 Everything you need to track and engage prospective customers and attribute them to the campaigns they participated in.
 
+![Splash](https://www.dailystory.com/files/imgs/tour-banner.png "Splash")
+
 <div class="row">
     <div class="col-md-4">
         <h2>Welcome Guide</h2>
