@@ -2,6 +2,40 @@
 	title: 'December 2017 Product Update',
 	description: 'Product Updates for December 2017'
 }
+# December 12, 2017
+* Add some async, including LeadModel
+* Update Contact export to use search filter
+* Refactor and improve manual lead creation UX
+* Handle some minor bugs
+* Hide fields in Leads and Contact with no data
+* Add search support to Leads
+* Improve page descriptions and formatting
+* Performance improvement to Process Workflows
+* Webhook event job needs to run continuously
+* Fix Extended Properties condition where could be null
+* Fix bug in bounced calculation that was summing the wrong column
+* Don't create leads for previously bounced contacts
+* Fix bug in Campaign Conversion report
+* Added search field management to Contact Document and added sortable to fullname
+* 
+
+# December 11, 2017
+* Added API key management
+* Added /api/lead/activity api for Zapier
+* Added license contraint for api key creation
+* Addressed UX issues with campaign list
+* Misc UX improvements
+* Added notification lead activity type for handling unknown activity types
+* Fixed some broken links
+
+# December 10, 2017
+* Refactored some methods for async to improve throughput
+* Fixed Campaign Email report
+* Fixed bug in export controller
+* Fixed bug in lead detail for search link
+* Pass through Leads unit tests
+* Updated campaign workflow so when a new step is added existing leads receive that workflow
+
 # December 8, 2017
 * Updated email reports to return leads vs contacts
 * Added support for Export List of leads in export controller
