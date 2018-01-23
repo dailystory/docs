@@ -1,6 +1,6 @@
 {
-	title: 'Product Updates 2017',
-	description: 'Product Updates for 2017'
+	title: 'Product Updates',
+	description: 'DailyStory Product Updates'
 }
 # Product Updates for 2018
 * [January 2018](2018/january)
