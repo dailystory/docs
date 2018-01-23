@@ -2,6 +2,48 @@
 	title: 'December 2017 Product Update',
 	description: 'Product Updates for December 2017'
 }
+# December 20, 2017
+* Better/faster updates for lead stats
+* Lookup for recently added leads
+* Ignore Link Tracking with HEAD requests
+* Campaign reporting improvements
+* Bulk write to storage for web stats
+
+# December 18, 2017
+* Added some better handling for adding removing leads to a campaign in bulk
+* Added some better handling for adding removing contacts to a list in bulk
+* Refactored List Array building out of stored procedure
+* Added REST API for managing leads /api/campaign/leads
+* Added some conditions for list 0 (all)
+* Added some checks for list management
+* Updated contact, list and campaign javascript libraries for handling edge conditions around select all
+* Small fix to accounts
+* Moved JavaScript from Leads.cshtml to separate javascript file
+* Updated leads table for UX
+* Added classes to paged leads UX for reference in select all javascript
+
+# December 15, 2017
+* Added Lists functionality for managing groups of contacts
+* Added export for contact lists
+* Add support for add all contacts
+* Add to Campaign Wizard
+* Contact List APIs
+* Support for GMail style select all of checkboxes on contacts
+* Search defined add/remove lists
+* More functional buttons for add/edit with drop down options
+* Added /update on Update Search to support adding an index
+* Fixed bug in add lead when contact was bounced
+* Added HasMoreResults to paged list and dictionary
+* Added List property to Contact Document for tracking member lists
+
+# December 13, 2017
+* Removed the trial data
+* Found an edge case bug in lead creation
+* UX cleanup
+* Added welcome pane for new users
+* Drop downs on main menu for quick actions
+* Added validation check when creating new leads that a campaign is set
+
 # December 12, 2017
 * Add some async, including LeadModel
 * Update Contact export to use search filter
@@ -17,7 +59,6 @@
 * Don't create leads for previously bounced contacts
 * Fix bug in Campaign Conversion report
 * Added search field management to Contact Document and added sortable to fullname
-* 
 
 # December 11, 2017
 * Added API key management

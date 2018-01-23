@@ -2,6 +2,9 @@
 	title: 'Product Updates 2017',
 	description: 'Product Updates for 2017'
 }
+# Product Updates for 2018
+* [January 2018](2018/january)
+
 # Product Updates for 2017
 * [December 2017](2017/december)
 * [November 2017](2017/november)
