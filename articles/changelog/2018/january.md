@@ -2,6 +2,23 @@
 	title: 'January 2018 Product Update',
 	description: 'Product Updates for January 2017'
 }
+# January 30, 2018
+* Fix bug in mult-tenant auth
+* Update Lead Origin Enum
+
+# January 29, 2018
+* Moved emails into generated views
+* UX improvements to sidebar layout
+* Updated preferences to be tenant specific
+* Fixed bug in contact export
+* Update Ds script for handling iframes
+* Fixed bug in web stats
+* Better daily digest
+
+# January 26, 2018
+* Added ranged dates to advanced search
+* Stub for supporting LinkedIn integration
+
 # January 23, 2018
 * Fix bug in email sync retry logic
 * Fix bug in date formatting for open report
@@ -32,7 +49,6 @@
 * Added date_contact_last_modified timestamp
 * Updated email tracking bug to be added before closing </body> tag
 * Fixed bug in Activity Item sorting that was happening after item was in cache
-* 
 
 # January 17, 2018
 * UX improvements to contact view
@@ -70,7 +86,7 @@
 * Better error handling for content pages
 * Bug in counts for emails opened and clicked (only counting unqiues)
 * Bug that overcounted (deleted) contacts
-* 
+ 
 # January 10, 2018
 * IFrame slug type for CMS content
 

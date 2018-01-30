@@ -2,8 +2,8 @@
 	title: 'Welcome',
 	description: 'This page is shown in the DailyStory application to new users.'
 }
-# Welcome to the DailyStory Campaign Attribution Platform
-Everything you need to track and engage prospective customers and attribute them to the campaigns they participated in.
+# Welcome to the DailyStory Marketing Attribution Platform
+DailyStory makes it easy to know how you found your best customers.
 
 ![Splash](https://www.dailystory.com/files/imgs/tour-banner.png "Splash")
 
