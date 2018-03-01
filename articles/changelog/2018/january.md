@@ -1,7 +1,15 @@
 {
 	title: 'January 2018 Product Update',
-	description: 'Product Updates for January 2017'
+	description: 'Product Updates for January 2018'
 }
+# January 31, 2018
+* Fix bug in DailyDigest
+* Stub ActivitySummary
+* Fix edge case bug in login UX
+* Fix behavior for new trials
+* Enhance FormatNumber to not require a zero replacement
+* Fix bug in campaign stats that had to do with Lead Origin enum
+
 # January 30, 2018
 * Fix bug in mult-tenant auth
 * Update Lead Origin Enum
