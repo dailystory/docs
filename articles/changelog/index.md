@@ -3,6 +3,7 @@
 	description: 'DailyStory Product Updates'
 }
 # Product Updates for 2018
+* [April 2018](2018/april)
 * [March 2018](2018/march)
 * [February 2018](2018/february)
 * [January 2018](2018/january)

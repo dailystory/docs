@@ -24,7 +24,7 @@ This will open the Bulk Import tool:
 ![Bulk Import Tool](/articles/contacts/contacts-04.png "Bulk Import Tool")
 
 ##Load from text
-To load new contacts from text file simply copy/paste the contact information you wish to import.
+To load new contacts from a text file simply copy/paste the contact information you wish to import.
 
 Each contact should start on a new line and contacts that contain spaces or commas should be enclosed with double-quotes. 
 
@@ -32,9 +32,9 @@ For example:
 	
 <code>Amy Jones,amy@example.com,"ACME, Inc."</code> 
 
-After selecting the contacts to import click next and on the next screen you can map contacts to fields.
+After entering the contacts to import click next. On the next screen you can map contacts to fields.
 
-**important:** do not put spaces after commas. Use quotes if content contains a comma
+**important:** do not put spaces after comma separated values. Use quotes if content contains a comma.
 
 ##Load from CSV
 To load new contacts from a CSV (Comma Separated Value) file just click "Select a CSV file to upload". After selecting a file you can map contacts to fields on the next screen.
@@ -53,22 +53,22 @@ Next, save the file locally as a CSV file:
 ![Excel](/articles/contacts/excel-02.png "Excel")
 
 ##Map Contact Fields
-After selecting how to load contacts, you are taken to the final screen where you tell DailyStory how to import the contacts:
+After selecting the data you are taken to the final screen where you tell DailyStory how to import the contacts:
 	
 ![Map Fields](/articles/contacts/contacts-05.png "Map Fields")
 
-For each field you will need to either map it to the appropriate field in DailyStory or choose to ignore it (remember, you must select an email address as it is the only required field):
+For each data field you will need to either map it to the appropriate field in DailyStory or choose to ignore it. And remember, you **must select an email address** as it is the only required field:
 	
 ![Choose Field](/articles/contacts/contacts-06.png "Choose Field")
 
 For example, we'll map: 
 * Fullname to <code>Full name</code>
-* Email Address to <code>Email address</code>,
+* Email Address to <code>Email address</code>
 * Company to <code>Company or organization name</code>
 
 Next you can optionally select a [campaign](/campaigns) to add the contact to. A contact can be part of one or more campaigns and contact in a campaign is called a lead.
 
-Finally, since the CSV file we imported had headers we'll check "Do not import first row" and the click Import Contacts.
+Finally, since the CSV file we imported had headers we'll check "Do not import first row" and then click Import Contacts.
 
 After the contacts are imported we'll see:
 	
