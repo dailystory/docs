@@ -3,6 +3,30 @@
 	description: 'Product Updates for April 2018'
 }
 # DailyStory Product Updates for April 2018
+## April 6, 2018
+* Feature: add support to handle ROT13 encoded URLs
+* Enhancement: add support to safely get extended properties from a contact
+* Bug: changed sort order of graph field list
+* Bug: clear cache on update lead
+* Enhancement: style changes on form inputs
+* Enhancement: removed box shadows from panels
+* Enhancement: tightened up panel UX
+* Enhancement: changed Lead API to use Update method and Save
+* Refactor: updated Lead Create Edit screens to handle extended profile fields
+* Enhancement: added link to campaigns in create edit for navigation
+* Bug: fixed UX bug on lead detail mark as qualified button
+* Bug: fixed bug in lead stats API
+
+## April 5, 2018
+* Feature: Add support for web view of email
+* Enhancement: Add support for checking if test DSID is being used
+* Enhancement: Moved EmailId to base class for merge tags webview
+* Feature: Added merge tag for webview of emails
+* Feature: Added preheader for emails
+* Enhancement: set test DSID as public in Lead
+* Bug: fixed some style issues with on/off button
+* Feature: add support for preheader and webview to email view page
+
 ## April 1, 2018
 * Feature: Profile graph data import initial check in
 * Bug: Fixed bug in email templating
@@ -33,4 +57,3 @@
 * Enhancement: updated rule model to support async loading
 * Enhancement: updated rules.js to handle operator type any
 * Enhancement: added UX for picking graph file and managing graph fields
-* 
