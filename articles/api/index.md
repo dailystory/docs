@@ -47,4 +47,19 @@ All of DailyStory's platform is accessible through a REST API and WebHooks for r
 </tbody>
 </table>
 
+### Lead
+<table class="table">
+<tbody>
+<tr>
+<td><strong>Path</strong></td>
+<td><strong>Verb</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/lead/#api-lead-list">/api/lead/list</a></code></td>
+<td>GET</td>
+<td>Returns a paged list of all leads.</td>
+</tr>
+</tbody>
+</table>
+
 ## WebHooks
