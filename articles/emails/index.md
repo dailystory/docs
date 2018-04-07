@@ -125,6 +125,31 @@ Any merge tags used in the email that doesn't exist for the contact you are send
 
 For example if the <code>\*|FNAME|\*</code> merge tag was used, but the contact does not have a Firstname field this:	 <code>Hi \*|FNAME|\*</code> Becomes: <code>Hi</code>
 
+## Advanced Options
+DailyStory includes advanced options for emails such as setting an email preheader and including a web view of the email.
+
+### Setting an Email Preheader
+The majority of email clients provide a snippet of text to preview the contents of an email in your inbox. This enables you to quickly scan your inbox and decide if you want read, save, or archive the email.
+
+This inbox preview text can be set using an [email preheader](https://www.dailystory.com/blog/email-preheader-improve-open-rates/).
+
+To set an email preheader click the Advanced Options tab. There you'll find an option to set the preheader.
+
+![PreHeader Text](/articles/emails/emails-12.png "PreHeader Text")
+
+This will include a hidden HTML div in the body of your email:
+	
+<pre class="brush: html">
+&lt;div class="preheader" style="display:none !important;
+visibility:hidden !important;
+mso-hide:all !important;
+font-size:1px;
+overflow:hidden !important;
+display:none !important;"&gt;
+The contents of your preheader text
+&lt;/div&gt;
+</pre>
+
 ## Testing your Email
 There are several options for testing emails. You can create a test campaign, add your email as a workflow and then add leads to the campaign. However, to test only the email, just use the Send a test email button in the email editor.
 
