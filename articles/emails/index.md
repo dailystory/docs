@@ -125,6 +125,17 @@ Any merge tags used in the email that doesn't exist for the contact you are send
 
 For example if the <code>\*|FNAME|\*</code> merge tag was used, but the contact does not have a Firstname field this:	 <code>Hi \*|FNAME|\*</code> Becomes: <code>Hi</code>
 
+Merge tags provide a simple way to personalize your email, but has some limitations. For more robust personalization of your email use personalization templates.
+
+### Email Personalization Templates
+Personalization templates provide all the same functionality as merge tags for personalization. 
+
+> Personalization Templates don't exist for merge tags such as <code>\*|BODY|\*</code>, <code>\*|WEBVIEW|\*</code>, \*|UNSUBSCRIBE|\*</code>.
+
+Personalization templates use a separate format. For example, to insert the user's first name use <code>{{user.firstname}}</code>
+
+[UNDONE]
+
 ## Advanced Options
 DailyStory includes advanced options for emails such as setting an email preheader and including a web view of the email.
 
