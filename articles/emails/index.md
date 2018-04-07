@@ -150,6 +150,19 @@ The contents of your preheader text
 &lt;/div&gt;
 </pre>
 
+### Enabling Email Web View
+A web view of your email enables people to click a link in your email and view the email in a web browser.
+
+> By default web view is disabled and no web view is available for your email.
+
+To enable a web view of your email first enable the web view by clicked the toggle button on the Advanced Options tab:
+	
+![Enable Web View](/articles/emails/emails-13.png "Enable Web View")
+
+Next, use the <code>*|WEBVIEW|*</code> merge tag to include a link in your email.
+
+> Note, the <code>*|WEBVIEW|*</code> merge tag only inserts the URL.
+
 ## Testing your Email
 There are several options for testing emails. You can create a test campaign, add your email as a workflow and then add leads to the campaign. However, to test only the email, just use the Send a test email button in the email editor.
 
