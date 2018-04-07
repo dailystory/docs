@@ -159,9 +159,9 @@ To enable a web view of your email first enable the web view by clicked the togg
 	
 ![Enable Web View](/articles/emails/emails-13.png "Enable Web View")
 
-Next, use the <code>*|WEBVIEW|*</code> merge tag to include a link in your email.
+Next, use the <code>\*|WEBVIEW|\*</code> merge tag to include a link in your email.
 
-> Note, the <code>*|WEBVIEW|*</code> merge tag only inserts the URL.
+> Note, the <code>\*|WEBVIEW|\*</code> merge tag only inserts the URL.
 
 Optionally use the preview link next to the web view toggle button to preview what the web view of your email looks like. It will be personalized using the [Test Contact](/reference#test-lead).
 
