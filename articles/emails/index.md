@@ -163,6 +163,10 @@ Next, use the <code>*|WEBVIEW|*</code> merge tag to include a link in your email
 
 > Note, the <code>*|WEBVIEW|*</code> merge tag only inserts the URL.
 
+Optionally use the preview link next to the web view toggle button to preview what the web view of your email looks like. It will be personalized using the [Test Contact](/reference#test-lead).
+
+The web view of the email is unique to each recipient. If personalization or merge tags are used in the email people who view the link will see the personalized view.
+
 ## Testing your Email
 There are several options for testing emails. You can create a test campaign, add your email as a workflow and then add leads to the campaign. However, to test only the email, just use the Send a test email button in the email editor.
 
