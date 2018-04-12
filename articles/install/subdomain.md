@@ -29,6 +29,10 @@ We *highly recommend* providing a certificate so that your pages hosted by Daily
 If you intend to create landing pages with forms, supplying a certificate will ensure [browsers do not show warnings](https://www.zdnet.com/article/google-tightens-noose-on-http-chrome-to-stick-not-secure-on-pages-with-search-fields/) for potentially insecure pages.
 
 <ol class="step"><li value="4">Configure your subdomain</li></ol>
-Login to your DailyStory account an navigate to Admin > Custom Subdomain under the advanced section.
+Login to your DailyStory account and navigate to Admin > Custom Subdomain under the advanced section:
+	
+![Custom subdomain](/articles/install/subdomain-01.png "Custom subdomain")
 
 Enter the subdomain and a URL to redirect to if the there is a problem on the subdomain, such as when a page cannot be found.
+
+> *Important* If you enter a URL starting with https:// you must provide DailyStory with a certificate for your subdomain.
