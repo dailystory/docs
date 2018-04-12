@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2018'
 }
 # DailyStory Product Updates for April 2018
+## April 11, 2018
+* Feature: better about page with tenant uid when custom domain for validation
+
 ## April 10, 2018
 * Feature: working on LinkedIn single sign on
 * Refactor: removed Workflow.css and integrated with forms
