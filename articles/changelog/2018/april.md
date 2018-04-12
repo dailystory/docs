@@ -3,6 +3,14 @@
 	description: 'Product Updates for April 2018'
 }
 # DailyStory Product Updates for April 2018
+## April 10, 2018
+* Feature: working on LinkedIn single sign on
+* Refactor: removed Workflow.css and integrated with forms
+* Bug: Fixed multiple issues with workflow javascript dealing with date/time rule
+* Bug: Fixed bugs with reporting on home page
+* Bug: Fixed status check in score leads
+* Feature: set titles in template pages from page title
+
 ## April 6, 2018
 * Feature: add support to handle ROT13 encoded URLs
 * Enhancement: add support to safely get extended properties from a contact

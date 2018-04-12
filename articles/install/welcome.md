@@ -2,8 +2,8 @@
 	title: 'Welcome',
 	description: 'This page is shown in the DailyStory application to new users.'
 }
-# Welcome to the DailyStory Marketing Attribution Platform
-DailyStory makes it easy to know how you found your best customers.
+# Welcome to the DailyStory Marketing Automation Platform
+DailyStory makes it easy to know how you found your best customers. And keep them.
 
 ![Splash](https://www.dailystory.com/files/imgs/tour-banner.png "Splash")
 
