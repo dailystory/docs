@@ -3,8 +3,21 @@
 	description: 'Product Updates for April 2018'
 }
 # DailyStory Product Updates for April 2018
+## April 12, 2018
+* Unit test updates
+* Bug: fix paging when date selected for periscope
+* Bug: Page templates
+
 ## April 11, 2018
 * Feature: better about page with tenant uid when custom domain for validation
+* Bug: update domain validation to check http or https
+* Bug: form UX margin
+* Enhancement: add mini error css
+* Enhancement: add subdomain to admin
+* Enhancement: add check if slug is unique
+* Enhancement: don't require UIG in known domains
+* Enhancement: updated alias ignore list
+* Enhancement: added behavior to Domain object
 
 ## April 10, 2018
 * Feature: working on LinkedIn single sign on
