@@ -2,25 +2,16 @@
 
 h1 {
     font-family: 'Fira Sans Condensed', sans-serif;
-    font-weight: 300;
-    font-size: 30px;
 }
 
 h2 {
-    font-size: 26px;
-    font-weight: 400;
-    margin: 50px 0 10px;
     font-family: 'Fira Sans Condensed', sans-serif;
-    color: #333;
 }
 
 h3 {
-    font-size: 20px;
-    margin: 30px 0 6px;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .h4, h4 {
-    font-size: 18px;
     font-family: 'Fira Sans Condensed', sans-serif;
 }
