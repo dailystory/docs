@@ -3,6 +3,35 @@
 	description: 'Product Updates for April 2018'
 }
 # DailyStory Product Updates for April 2018
+## April 17, 2018
+* Enhancement: updated Mailgun to include better support for bounce detail
+* Bug: Allow preview option for email web view
+* Enhancement: tracking links include retargeting if it exists
+
+## April 16, 2018
+* Refactor: Link Tracking
+* Bug: Link Tracking double-asking for campaign
+* Bug: Missing style on workflow
+* Bug: error in about json
+* Bug: edge case error handling empty nodes in email parser
+* Enhancement: add support for reason for email bounce
+
+## April 14, 2018
+* Refactor: Link Tracking simplification
+* Bug: fixed auth issue on forced logout could redirect to wrong url
+* Refactor: Link tracking use async and add model
+
+## April 13, 2018
+* Enhancement: updated CSS styles
+* Enhancement: date picker for link tracking only allows picking future dates
+* Bug: url validation is case insensitive
+* Enhancement: tightened up UX in admin settings for logo help text
+* Enhancement: updated Contact Table for iPad
+* Enhancement: updated save UX for iPad
+* Enhancement: updated email UX for iPad
+* Enhancement; updated Link Tracking JavaScript
+* Enhancement: updated sidebar Admin CSS
+
 ## April 12, 2018
 * Unit test updates
 * Bug: fix paging when date selected for periscope
