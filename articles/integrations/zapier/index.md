@@ -33,6 +33,6 @@ DailyStory provides several Zapier Actions:
 * Send Email - sends an email to a given lead.
 
 ## Common Use Cases
-* [GoToWebinar](/integrations/zapier/gotowebinar)
+* [GoToWebinar](/integrations/zapier/gotowebinar#capture-gotowebinar-attendees)
 
 
