@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2018'
 }
 # DailyStory Product Updates for April 2018
+## April 18, 2018
+* Bug: bug with ace editor not properly encoding html
+
 ## April 17, 2018
 * Enhancement: updated Mailgun to include better support for bounce detail
 * Bug: Allow preview option for email web view

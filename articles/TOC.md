@@ -18,7 +18,7 @@
 ## [Magic Forms](/acquisition/magic-forms/)
 ## [Paid Search](/acquisition/paid-search/)
 ## [Pages](/features/pages)
-## [Links](/features/links)
+## [Tracking Links](/link-tracking/)
 
 # Account
 ## [Settings](/account/settings)
@@ -32,6 +32,7 @@
 ## [Salesforce](/integrations/salesforce)
 ## [MailChimp](/integrations/mailchimp)
 ## [Mailgun](/integrations/mailgun)
+## [Zapier](/integrations/zapier/)
 
 # SDK / APIs
 ## [REST API](/api/)
