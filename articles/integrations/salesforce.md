@@ -1,12 +1,13 @@
 {
-	title: 'Salesforce Integration',
+	title: 'DailyStory + Salesforce',
 	description: 'Integration for DailyStory and Salesforce'
 }
-# Salesforce Integration for DailyStory
-DailyStory supports integration with Salesforce that enables:
+# DailyStory + Salesforce
+The DailyStory + Salesforce integration enables:
 	
 * Leads in DailyStory that are marked as Marketing Qualified are automatically created as a new lead in Salesforce.
 * Salesforce Opportunities can be associated with a DailyStory campaign.
+* Track Salesforce Opportunity value back to your DailyStory campaign.
 
 > DailyStory does not currently enable bi-directional sync with Salesforce. DailyStory can publish leads to Salesforce and read opportunity details.
 

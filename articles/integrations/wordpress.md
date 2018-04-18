@@ -1,9 +1,9 @@
 {
-	title: 'WordPress Integration',
+	title: 'DailyStory + WordPress',
 	description: 'Integration for DailyStory and WordPress'
 }
-# WordPress Integration for DailyStory
-DailyStory enables integration with WordPress that is simple to setup and easy to use. The integration makes use of a [DailyStory plugin for WordPress](/install/wordpress). Just install the plugin and you'll be ready to use the integration.
+# DailyStory + WordPress
+The DailyStory + WordPress integration is simple to setup and easy to use. The integration makes use of a [DailyStory plugin for WordPress](/install/wordpress). Just install the plugin and you'll be ready to use the integration.
 
 > The DailyStory WordPress plugin adds DailyStory visitor tracking to your WordPress website and also enables the DailyStory WordPress shortcodes.
 
