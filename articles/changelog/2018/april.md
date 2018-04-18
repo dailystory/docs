@@ -5,6 +5,9 @@
 # DailyStory Product Updates for April 2018
 ## April 18, 2018
 * Bug: bug with ace editor not properly encoding html
+* Bug: leads that cilcked a tracking link we not getting assigned to the origin campaign.
+* Enhancement: script bundles for leads
+* Bug: lead detail links for paid search
 
 ## April 17, 2018
 * Enhancement: updated Mailgun to include better support for bounce detail

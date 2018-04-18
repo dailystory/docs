@@ -17,7 +17,7 @@
 ## [Web Forms](/acquisition/web-forms/)
 ## [Magic Forms](/acquisition/magic-forms/)
 ## [Paid Search](/acquisition/paid-search/)
-## [Pages](/features/pages)
+## [Pages](/pages/)
 ## [Tracking Links](/link-tracking/)
 
 # Account
@@ -41,7 +41,7 @@
 
 # Installing DailyStory
 ## [Tracking Code](/install)
-## [Manual](/install/manual)
+## [Manual Setup](/install/manual)
 ## [WordPress](/install/wordpress)
 ## [SquareSpace](/install/squarespace)
 ## [Configure subdomain](/install/subdomain)
