@@ -44,4 +44,4 @@
 ## [Manual](/install/manual)
 ## [WordPress](/install/wordpress)
 ## [SquareSpace](/install/squarespace)
-
+## [Configure subdomain](/install/subdomain)
