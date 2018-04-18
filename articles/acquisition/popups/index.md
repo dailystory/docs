@@ -2,7 +2,7 @@
 	title: 'Popup Offers',
 	description: 'Popup Offers can be shown automatically or using the API.'
 }
-# What is a DailyStory Popup?
+# DailyStory Popups
 A [DailyStory Popup Offer](https://www.dailystory.com/features/welcome-exit-offers/) is a feature of DailyStory that enables you to display a popup window in a web or mobile experiece.
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F_uzD2F7RaLo%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_uzD2F7RaLo&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F_uzD2F7RaLo%2Fhqdefault.jpg&key=internal&type=text%2Fhtml&schema=youtube" width="500" height="281" scrolling="no" frameborder="0" allowfullscreen></iframe>
