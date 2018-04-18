@@ -19,7 +19,7 @@ Visit [Mailgun](https://www.mailgun.com) and create an account. There are a few 
 
 The good news, it's [free to send up to 10,000 emails](https://www.mailgun.com/pricing-1) per-month!
 
-<ol class="step"><li value="1">Mailgun API Keys</li></ol>
+<ol class="step"><li value="2">Mailgun API Keys</li></ol>
 After creating your account and setting everything up, you are ready to connect Mailgun to DailyStory.
 
 Login to Mailgun and visit your Account > Security page. Copy your Private API Key. 
