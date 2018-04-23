@@ -19,7 +19,7 @@ To create a new Paid Search Tracking Link go to Acquisition > Paid Search and fo
 
 Create a new Paid Search Tracking Link by setting a friendly name, selecting a campaign, setting the URL you want to send the user to, and optionally setting a monthly budget.
 
-![Create Paid Search Tracking Link](/articles/aquisition/paid-search/paid-search-01.png "Create Paid Search Tracking Link")
+![Create Paid Search Tracking Link](/articles/acquisition/paid-search/paid-search-01.png "Create Paid Search Tracking Link")
 
 > You can also add UTM codes directly to your Destination URL or add/edit UTM codes from the Google Analytics tab.
 
@@ -38,12 +38,12 @@ The Tracking Link URL is a URL that you can use to track link clicks from any ad
 
 For example, if you are running a Facebook Ad campaign, use the Tracking Link URL.
 
-![Tracking Link URL](/articles/aquisition/paid-search/paid-search-02.png "Tracking Link URL")
+![Tracking Link URL](/articles/acquisition/paid-search/paid-search-02.png "Tracking Link URL")
 
 ## Google AdWords Tracking Template
 The Google AdWord Tracking Template is a URL specific to Google AdWords and enables DailyStory to capture additional information provided by Google AdWords.
 
-![Google AdWords Tracking Template](/articles/aquisition/paid-search/paid-search-03.png "Google AdWords Tracking Template")
+![Google AdWords Tracking Template](/articles/acquisition/paid-search/paid-search-03.png "Google AdWords Tracking Template")
 
 ### Using the Google AdWords Tracking Template
 To use the Google AdWords Tracking Template, following the steps below.
@@ -62,13 +62,13 @@ Find an ad that corresponds to the page you want your DailyStory Paid Search Tra
 
 Edit this ad.
 
-![Google AdWords Edit Ad](/articles/aquisition/paid-search/paid-search-04.png "Google AdWords Edit Ad")
+![Google AdWords Edit Ad](/articles/acquisition/paid-search/paid-search-04.png "Google AdWords Edit Ad")
 
 <ol class="step"><li value="4">Expand ad options</li></ol>
 
 Click the arrow in the top-right of the screen of your Google Ad to see expanded edit options.
 
-![Google AdWords Edit Ad](/articles/aquisition/paid-search/paid-search-05.png "Google AdWords Edit Ad")
+![Google AdWords Edit Ad](/articles/acquisition/paid-search/paid-search-05.png "Google AdWords Edit Ad")
 
 Now you see the expanded view of the editor and can set additional Ad URL options.
 
@@ -76,7 +76,7 @@ Now you see the expanded view of the editor and can set additional Ad URL option
 
 Paste the Google AdWords Tracking URL copied from DailyStory into the Tracking template.
 
-![Google AdWords Edit Ad](/articles/aquisition/paid-search-06.png "Google AdWords Edit Ad")
+![Google AdWords Edit Ad](/articles/acquisition/paid-search-06.png "Google AdWords Edit Ad")
 
 Next, set the Custom parameter <code>_adgroup</code> to the name of your Ad group in Google AdWords.
 
