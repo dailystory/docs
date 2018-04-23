@@ -76,7 +76,7 @@ Now you see the expanded view of the editor and can set additional Ad URL option
 
 Paste the Google AdWords Tracking URL copied from DailyStory into the Tracking template.
 
-![Google AdWords Edit Ad](/articles/acquisition/paid-search-06.png "Google AdWords Edit Ad")
+![Google AdWords Edit Ad](/articles/acquisition/paid-search/paid-search-06.png "Google AdWords Edit Ad")
 
 Next, set the Custom parameter <code>_adgroup</code> to the name of your Ad group in Google AdWords.
 
