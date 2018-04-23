@@ -2,7 +2,7 @@
 	title: 'Campaigns',
 	description: 'Campaigns are the cornerstone of DailyStory'
 }
-#Campaigns
+# DailyStory Campaigns
 Campaigns are the cornerstone of DailyStory - everything in DailyStory is associated back to a campaign. 
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FVxbtl_DHzbA%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVxbtl_DHzbA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FVxbtl_DHzbA%2Fhqdefault.jpg&key=internal&type=text%2Fhtml&schema=youtube" width="500" height="281" scrolling="no" frameborder="0" allowfullscreen></iframe>

@@ -3,6 +3,32 @@
 	description: 'Product Updates for April 2018'
 }
 # DailyStory Product Updates for April 2018
+## April 22, 2018
+* Bug: fix issues with campaign workflow returning false positives
+* Bug: better handling for email validation with spammer emails
+* Refactor: Remove some old code and build warnings
+* Enhancement: prevent name collisions in magic forms
+* Enhancement: improve landing page
+* Enhancement: Added new reports KPISummary and Page Views
+* Bug: fix miscelaneous responsive design issues
+
+
+## April 20, 2018
+* Update integrations version
+* Bug: Better exception handling in SyncSalesforce
+* Bug: Handle bad email addresses in workflow
+	
+## April 19, 2018
+* Refactor: JSHint updates for magic forms
+* Test: Test files for Magic Forms
+* Refactor: Magic Forms support Query Strings
+* Feature: Personalization in PreHeader
+* Refactor: Forward Params
+* Bug: bug in parse pathing for magic forms
+* Feature: Campaign filter for email
+* Refactor: JSHint update for link tracking
+* Refactor: Refactor warning messages
+
 ## April 18, 2018
 * Bug: bug with ace editor not properly encoding html
 * Bug: leads that cilcked a tracking link we not getting assigned to the origin campaign.

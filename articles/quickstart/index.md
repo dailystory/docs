@@ -1,8 +1,8 @@
 {
-	title: 'DailyStory QuickStart: Your Guide to Getting Started with DailyStory',
+	title: 'DailyStory Quick Start: Your Guide to Getting Started with DailyStory',
 	description: 'The DailyStory quickstart is a guide designed for new customers or users to help them get started.'
 }
-#Your Guide to Getting Started with DailyStory
+# DailyStory Quick Start: Getting Started with DailyStory
 Welcome to DailyStory! We put this guide together to help you get started using DailyStory.
 
 It helps to follow along with a DailyStory account. If you don't have a DailyStory account, you can  <a target="_blank" href="https://www.dailystory.com/trial">create a 30-day trial to start</a>.
@@ -22,9 +22,19 @@ We have instructions for [installing the tracking tag manually](/install/manual)
 <ol class="step"><li value="2">Create a Campaign</li></ol>
 Once you have the tracking tag setup, you'll want to [create some campaigns](/campaigns/#creating-a-campaign).
 
-> Your DailyStory trial comes with several example campaigns.
-
 ![Sample Campaigns](/articles/quickstart/quickstart-01.png "Sample Campaigns")
 
+> Note, the number of campaigns is limited by your license
+
 Everything in DailyStory is associated with a campaign. For example, if you have a set of customers that you want to enroll in a drip campaign, send emails for a new trial, or track signups on a form, you'll first need a campaign.
+
+And creating a campaign is easy.
+
+We recommend you create campaigns for any marketing activity you want to track or measure. Such as a newsletter campaign, contact us campaign, or adwords campaign.
+
+> When you create any new assets, such as an [Email](/emails/), [Tracking Link](/link-tracking/), or [Landing Page](/pages/) you'll be prompted to either select a campaign or quickly create a new one.
+
+<ol class="step"><li value="3">Create a Lead in your Campaign</li></ol>
+
+![Sample Lead](/articles/quickstart/quickstart-02.png "Sample Lead")
 
