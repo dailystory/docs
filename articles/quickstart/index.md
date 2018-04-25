@@ -36,5 +36,17 @@ We recommend you create campaigns for any marketing activity you want to track o
 
 <ol class="step"><li value="3">Create a Lead in your Campaign</li></ol>
 
+Leads are created in your campaigns in several ways:
+	
+* **Manually** using the + Add Lead button and completing the Create Lead form.
+* **Contact Import** [bulk importing new contacts](/contacts/import) and assigning the imported contacts to a campaign.
+* **Forms** when visitors complete either a [Web From](/acquisition/web-forms/) or [Magic Form](/acquisition/magic-forms/).
+* **Popups** when visitors share their email address in a [popup](/acquisition/popups/).
+* **API** when the API is used to create a new lead, such as through [Zapier integration](/integrations/zapier/).
+
+> There is a [contact](/contacts/) for every lead. A contact who is in a campaign is called a lead.
+
+For example, if you have a Newsletter Signups campaign and Elon Musk signs up for your newsletter you will see a new lead in your Newsletter Signups campaign.
+
 ![Sample Lead](/articles/quickstart/quickstart-02.png "Sample Lead")
 

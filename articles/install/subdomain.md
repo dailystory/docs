@@ -10,12 +10,12 @@ To enable DailyStory to host your [subdomain](https://en.wikipedia.org/wiki/Subd
 And please note, DailyStory only supports subdomains for commercial customers.
 
 <ol class="step"><li value="1">Create a CNAME Record</li></ol>
-Create a DNS [CNAME record](https://en.wikipedia.org/wiki/CNAME_record) that points to pages.dailystory.com:
+Create a DNS [CNAME record](https://en.wikipedia.org/wiki/CNAME_record) that points to pages.dailystory.net:
 
 <pre>
 NAME                    TYPE   VALUE
 --------------------------------------------------
-pages.example.com.      CNAME  pages.dailystory.com.
+pages.example.com.      CNAME  pages.dailystory.net.
 </pre>
 
 <ol class="step"><li value="2">Tell us</li></ol>

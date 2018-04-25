@@ -3,6 +3,26 @@
 	description: 'Product Updates for April 2018'
 }
 # DailyStory Product Updates for April 2018
+## April 24, 2018
+* Refactor: Data Tables
+* Refactor: Updated CSS for material forms
+* Refactor: Remove description requirement for lists and campaigns
+* Refactor: Better mobile support for Chooser
+* Refactor: Campaign Create/Edit
+* Bug: Campaign license check
+
+## April 23, 2018
+* Enhancement: Better handling for Lead Stats HasVisited
+* Tests: added additional tests for HasVisited
+* Package updates for jobs
+* Enhancement: add support for LinkedIn sign up
+* Enhancement: continue link tracking refactor
+* Feature: added IconUrl to Tenant
+* Feature: added check to User for multiple accounts
+* Enhancement: improve mobile support in login
+* Enhancement: added better account chooser for multi-account users
+* Enhancement: add support for primary account
+
 ## April 22, 2018
 * Bug: fix issues with campaign workflow returning false positives
 * Bug: better handling for email validation with spammer emails
