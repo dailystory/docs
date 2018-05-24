@@ -3,6 +3,27 @@
 	description: 'Product Updates for April 2018'
 }
 # DailyStory Product Updates for April 2018
+## April 27, 2018
+* Update libraries
+* Refactor: Updates to CSS for Settings and Campaigns
+* Refactor: Async conversions
+* Feature: New sparklines for index and campaigns
+* Refactor: Improvements to Magic Form
+* Refactor: Updated campaign cards to improve performance
+* Refactor: Updated Email forms
+* Updated unit tests
+* Improvements to Salesforce Sync to handle duplicates and value type checking and coercion
+* Refactor: Removed property references to Campaign Stats
+* Bug: Handle null checks for Ro13Decode
+* Refactor: Updated link tracking orphan management
+* Bug: Link Tracking updated to use date created not date read from queue
+* Refactor: Conversion Rate Report rewrite
+* Refactor: Added new stats to campaign stats
+* Bug: Report base date time check could throw exception in edge case
+* Style updates for admin
+* Bug: Add special handling for Microsoft identity
+* Refactor: updated magic forms ux
+
 ## April 24, 2018
 * Refactor: Data Tables
 * Refactor: Updated CSS for material forms
