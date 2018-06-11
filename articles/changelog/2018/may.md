@@ -2,7 +2,13 @@
 	title: 'May 2018 Product Update',
 	description: 'Product Updates for May 2018'
 }
-# DailyStory Product Updates for May 2018<br />
+# DailyStory Product Updates for May 2018
+## May 24, 2018
+* Feature: add author name, image, etc. to social card
+* Refactor: optimize social css
+* Refactor: convert social to model
+* Refactor: style social cards
+
 ## May 23, 2018
 * Feature: add ability to set a campaign to auto-qualify leads
 * Feature: add date formatter for Tomorrow
