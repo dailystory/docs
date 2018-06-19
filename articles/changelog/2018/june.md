@@ -3,6 +3,63 @@
 	description: 'Product Updates for June 2018'
 }
 # DailyStory Product Updates for June 2018
+## June 18, 2018
+* Bug: fix mac UX bug in email editor
+* Refactor: move visit alerts javascript to bundles
+* Refactor: move field input support to a global css
+* Refactor: refactor pass on page triggers
+* Bug: ensure bad queue items don't over notify for leads
+* Refactor: add support for Common Remove Non Alphas for Field Graph
+* Refactor: add some check conditions for handlebars
+* Refactor: page triggers populates Name value of target
+
+## June 17, 2018
+* Refactor: continued split login into system tables
+* Upgrade tinymce
+
+## June 16, 2018
+* Refactor: split login into system tables
+
+## June 15, 2018
+* Update: remove data center dependency from CampaignStats
+* Update: remove data center dependency from CampaignWorkflows
+* Update: remove data center dependency from LeadStats
+* Update: remove data center dependency from ProcesEmailClickOpenQueue
+* Update: remove data center dependency from ProcessLinkTrackingQueue
+* Update: remove data center dependency from WebTrackQueueItem
+* Update: update libraries and remove data center dependency from RunAutomations
+* Update: update libraries and remove data center dependency from RunCleanup
+* Update: update libraries and remove data center dependency from RunMaintenance
+* Update: update libraries from SyncMailgun
+* Update: update libraries from SyncSalesforce
+* Update: update libraries and remove data center dependency from WebStats
+* Update: update libraries from UpdateAccountScores
+* Update: update job tests
+* Bug fix on HostInfo
+* Update unit tests
+* Update: UX changes to CSS
+* Refactor: Remove dead API in Campaign
+* Bug: Implement campaign add from search
+* Refactor: update packages
+* Refactor: text message updates with better messages
+* Update: update TinyMCE
+* Update: error message for bad url in track code tester
+* Update: added support for changing Lead text with site terms
+* Refactor: update to contact UX
+* Refactor: better UX on contract graph
+* Update: auto-set the email and mobile number for test messages
+* Refactor: text clean up
+* Update library packages for web
+
+## June 12, 2018
+* Update: import contact to kick off contact queue
+* Update: OpenStreetMap tests
+* Added: ContentEmailGallery
+* Added: Support for email creation from gallery id
+* Bug: bug in magic form looking for wrong field id
+* Refactor: UX work on segments
+* Added: preview email for Gallery
+
 ## June 10, 2018
 * Refactor: update geo parsing
 * Refactor: add support for filters 
