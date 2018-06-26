@@ -7,12 +7,12 @@ Use the Lead REST API to create or find leads in DailyStory.
 
 > Impor
 
-## Create a Lead
-To create a lead you must have an email address and the `Id` of the campaign the lead is part of. You can optionally send additional data as part of the API call.
+## Create a Lead or find an existing Lead
+To create a lead or find an existing lead you must have an email address and the `Id` of the campaign the lead is part of. You can optionally send additional data as part of the API call.
 
 > If a lead already exists within the campaign, a new lead will not be created and the return value will be the id of the existing lead.
 
-> If a lead does not already exist within the campaign, DailyStory will create a new contact and then create a lead in the specified campaign.
+If a lead does not already exist within the campaign, DailyStory will create a new contact and then create a lead in the specified campaign.
 
 <ol class="step"><li value="POST">`/API/Lead`</li></ol>
 
@@ -26,7 +26,7 @@ The body of the POST must include a JSON representation of the Lead. For example
 }
 </pre>
 
-To see all the available fields, [login to DailyStory](https://app.dailystory.com/login), and navigate to an existing lead. For example, `Lead/Detail/117604`, and change the URL to `API/Lead/117604` to see the JSON representation of this lead.
+To see all the available fields, [login to DailyStory](https://app.dailystory.com/login), and navigate to an existing lead. For example, `Lead/Detail/117604`. Then change the URL to `API/Lead/117604` to see the JSON representation of this lead.
 
 <pre class="brush: javascript">
 {
@@ -81,6 +81,32 @@ To see all the available fields, [login to DailyStory](https://app.dailystory.co
 }
 </pre>
 
+### Request body fields
+<table class="table">
+	<thead>
+	<tr>
+		<th>Field<th>
+		<th>Description<th>
+		<th>Format<th>
+		<th>Required<th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>email</td>
+	<td>The email address of the lead.</td>
+	<td>string</td>
+	<td>Yes</td>
+	</tr>
+	<tr>
+	<td>campaignId</td>
+	<td>The Id of the campaign the lead is part of.</td>
+	<td>number</td>
+	<td>Yes</td>
+	</tr>
+	</tbody>
+</table>
+
 To specify additional data, such as custom fields, use either `extendedProperties` or `leadExtendedProperties`. For example, if a customer downloaded your mobile app from the Apple App Store.
 
 <pre class="brush: javascript">
@@ -90,11 +116,11 @@ To specify additional data, such as custom fields, use either `extendedPropertie
 	...
 	"leadExtendedProperties": {
 		"appStore": "Apple",
-		"downloaded": 	"2018-07-26T00:18:02.623"
+		"downloaded": "2018-07-26T00:18:02.623"
 	}
 }
 </pre>
 
-Custom data added to `leadExtendedProperties` is available within the campaign for personalization, rules, and automations. Custom data added to `extendedProperties` is part of the Contact and can be used for segmentation.
+Custom data added to `leadExtendedProperties` is available within the campaign for personalization, rules, and automations. Custom data added to `extendedProperties` is part of the Contact and can be additionally used for segmentation.
 
 ## Sample response body
