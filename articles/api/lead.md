@@ -26,7 +26,7 @@ The body of the POST must include a JSON representation of the Lead. For example
 }
 </pre>
 
-To see all the available fields, [login to DailyStory](https://app.dailystory.com/login), and navigate to an existing lead. For example, `Lead/Detail/117604`. Then change the URL to `API/Lead/117604` to see the JSON representation of this lead.
+To see all the available fields, [login to DailyStory](https://app.dailystory.com/login), and navigate to an existing lead. For example, `Lead/Detail/117604`. Then change the URL to `API/Lead/117604` to see the JSON representation.
 
 <pre class="brush: javascript">
 {
@@ -104,8 +104,165 @@ To see all the available fields, [login to DailyStory](https://app.dailystory.co
 	<td>number</td>
 	<td>Yes</td>
 	</tr>
+	<tr>
+	<td>leadSource</td>
+	<td>Where the lead was created</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>description</td>
+	<td>Text describing the lead, e.g. the contents from a form.</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
 	</tbody>
 </table>
+
+When creating a lead the following fields can also be specified.
+
+> Important - if you are updating an existing lead, these fields will be ignored. Instead you will need to use the Contact API to update fields for an existing Contact.
+
+<table class="table">
+	<thead>
+	<tr>
+		<th>Field<th>
+		<th>Description<th>
+		<th>Format<th>
+		<th>Required<th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>salutation</td>
+	<td>Mr., Mrs., etc.</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>firstName</td>
+	<td>The first name of the person.</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>lastName</td>
+	<td>The last name of the person.</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>title</td>
+	<td>The person's title</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>numberOfEmployees</td>
+	<td>The number of employees or people in the organization</td>
+	<td>number</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>numberOfEmployees</td>
+	<td>The number of employees or people in the organization</td>
+	<td>number</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>industry</td>
+	<td>The <a target="_new" href="https://www.naics.com/search/">Standard Industrial Classification number</a> for the organization</td>
+	<td>number</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>annualRevenue</td>
+	<td>The annual revenue for the organization</td>
+	<td>number</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>website</td>
+	<td>A url for the person or organization</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>address</td>
+	<td>A street address</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>country</td>
+	<td>The two character country code of the person's location</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>region</td>
+	<td>The region or state of the person's location</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>city</td>
+	<td>The city of the person's location</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>postalCode</td>
+	<td>The postal or zip code of the person's location</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>geoCode</td>
+	<td>The latitude and longitude of the person's location</td>
+	<td>string, e.g. 47.60621,-122.33207</td>
+	<td>No</td>
+	</tr>
+	</tr>
+	<tr>
+	<td>company</td>
+	<td>The company or organization the person is part of</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>mobilePhone</td>
+	<td>Primary or mobile phone, used for Text Message campaigns</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>phone</td>
+	<td>Secondary or non-mobile phone</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>avatarPath</td>
+	<td>Url to the person's avatar or image</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>gender</td>
+	<td>Person's gender</td>
+	<td>number</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>dateOfBirth</td>
+	<td>Person's date of birth</td>
+	<td>date or null</td>
+	<td>No</td>
+	</tr>
+	</tbody>
+</table>
+
 
 To specify additional data, such as custom fields, use either `extendedProperties` or `leadExtendedProperties`. For example, if a customer downloaded your mobile app from the Apple App Store.
 
