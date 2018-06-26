@@ -85,10 +85,10 @@ To see all the available fields, [login to DailyStory](https://app.dailystory.co
 <table class="table">
 	<thead>
 	<tr>
-		<th>Field<th>
-		<th>Description<th>
-		<th>Format<th>
-		<th>Required<th>
+		<th>Field</th>
+		<th>Description</th>
+		<th>Format</th>
+		<th>Required</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -126,10 +126,10 @@ When creating a lead the following fields can also be specified.
 <table class="table">
 	<thead>
 	<tr>
-		<th>Field<th>
-		<th>Description<th>
-		<th>Format<th>
-		<th>Required<th>
+		<th>Field</th>
+		<th>Description</th>
+		<th>Format</th>
+		<th>Required</th>
 		</tr>
 	</thead>
 	<tbody>
