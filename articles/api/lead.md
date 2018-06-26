@@ -5,9 +5,9 @@
 # Lead REST API
 Use the Lead REST API to create or find leads in DailyStory.
 
-> Impor
+> Before working with a lead, always send a POST request to the lead API to get the Lead's Id. This will update the lead's activity date and ensure you have the correct id for the lead you wish to work with.
 
-## Create a Lead or find an existing Lead
+## Create a Lead or update an existing Lead
 To create a lead or find an existing lead you must have an email address and the `Id` of the campaign the lead is part of. You can optionally send additional data as part of the API call.
 
 > If a lead already exists within the campaign, a new lead will not be created and the return value will be the id of the existing lead.
@@ -263,7 +263,6 @@ When creating a lead the following fields can also be specified.
 	</tbody>
 </table>
 
-
 To specify additional data, such as custom fields, use either `extendedProperties` or `leadExtendedProperties`. For example, if a customer downloaded your mobile app from the Apple App Store.
 
 <pre class="brush: javascript">
@@ -281,3 +280,15 @@ To specify additional data, such as custom fields, use either `extendedPropertie
 Custom data added to `leadExtendedProperties` is available within the campaign for personalization, rules, and automations. Custom data added to `extendedProperties` is part of the Contact and can be additionally used for segmentation.
 
 ## Sample response body
+Returns `200 OK` when created. The body of the response includes a JSON object with additional data with the `Id` of the Lead.
+
+<pre class="brush: javascript">
+{
+    "Status": true,
+    "Message": "",
+    "Code": 200,
+    "Response": {
+        "id": "117699"
+    }
+}
+</pre>
