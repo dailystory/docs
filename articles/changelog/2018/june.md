@@ -3,6 +3,71 @@
 	description: 'Product Updates for June 2018'
 }
 # DailyStory Product Updates for June 2018
+## June 25, 2018
+* Feature: enable white label tenants to show their logo in UX
+* 
+
+## June 24, 2018
+* Bug: Strip re-captcha on form submit
+* Refactor: LeadQueueItem
+* Refactor: DailyDigest notification sends 204 if there are no leads or contacts
+* Refactor: Ensure web stats reports returns data
+* Allow access control origin on about
+* Refactor: admin level reset password
+* Bug: daily digest content was getting trimmed
+* Bug: social media account had bug with how updates were run
+
+## June 23, 2018
+* Bug: domain preview with custom domains built links incorrectly.
+* Refactor: Force TLS 1.2 on api requests
+* Refactor: Web Form lookup table
+* Refactor: integration table lookups
+* Bug: content pages failed on pages with an id of less than 1
+* Added cryptography class
+* Refactor: connection provider
+* Refactor: Link Tracking look up table
+* Refactor: safe cache keys across tenants
+
+## June 22, 2018
+* Refactor: guard rails around account / user management
+* Refactor: convert system account settings to encrypted
+* Refactor: better UX for add/remove user and guard rails.
+* Refactor: better domain lookup support
+
+## June 21, 2018
+* Refactor: better exceptions for notifications
+* Refactor: trigger web jobs.
+* Refactor: fix webstats build warnings
+* Refactor: fix leadstats build warnings
+* Refactor: updates to DailyDigest
+* Refactor: fix update ip address build warnings
+* Refactor: updated project build paths
+* Bug: redir string could be empty
+* Bug: web hook for jobs
+
+## June 20, 2018
+* Refactor: use environment variables for system lookups.
+* Refactor: better construction of app path
+* Created powershell scripts for changing local environment flags
+* Updated: updated how integrations handle connection lookups
+* Updated: mailgun error message
+* Bug: campaign account owner UID not set
+* Bug: better app path rewrite for different data center
+* Bug: non-breaking, but fixed null when creating new campaign in ux-campaign-selector
+* Refactor: updated some form styles
+* Bind content gallery to dc-1
+* Refactor: fix some old cms connection strings
+* Update: style enhancement on send test email
+* Bug: fix path dependency in image store
+
+## June 19, 2018
+* Bug: Support reverse link lookup to data center for tracking links
+* Refactor: Add ds_tenant_datacenter lookup table
+* Refactor: Remove use of tenant id for building connection strings
+* Bug: Css update for field
+* Bug: update terms of service links
+* Bug: update connection provider environment variable
+
 ## June 18, 2018
 * Bug: fix mac UX bug in email editor
 * Refactor: move visit alerts javascript to bundles
