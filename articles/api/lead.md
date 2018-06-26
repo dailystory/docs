@@ -8,7 +8,19 @@ Use the Lead REST API to create or find leads in DailyStory campaigns.
 > Impor
 
 ## Create a Lead
-To create a lead you need to have an email address and the `Id` of the campaign the lead is either in or will be created in.
+At minimum, to create a lead you need to have an email address and the `Id` of the campaign. You can pass additional data, including extended field data, as part of the API call:
+
+`POST /API/Lead `
+
+### POST Body
+The body of the POST is a JSON representation:
+	
+<pre class="brush: javascript">
+{
+	"campaignId": 69,
+	"email": "9d9dsftest@example.com",
+}
+</pre>
 
 Step 1 - create an API key: 
 https://us-1.dailystory.com/Admin/ApiKeys
