@@ -31,6 +31,7 @@ ol.api li {
     border: 1px solid #f0f0f0;
     font-weight: 400;
     font-size: 18px;
+    font-family: courier;
 }
 
 ol.api li:before {

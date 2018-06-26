@@ -14,7 +14,7 @@ To create a lead or find an existing lead you must have an email address and the
 
 If a lead does not already exist within the campaign, DailyStory will create a new contact and then create a lead in the specified campaign.
 
-<ol class="api"><li value="POST">`/API/Lead`</li></ol>
+<ol class="api"><li value="POST">/API/Lead</li></ol>
 
 ### Sample request body
 The body of the POST must include a JSON representation of the Lead. For example, to create a new lead in campaign 649 with the email api@example.com:
