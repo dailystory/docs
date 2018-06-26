@@ -8,11 +8,13 @@ Use the Lead REST API to create or find leads in DailyStory.
 > Before working with a lead, always send a POST request to the lead API to get the Lead's Id. This will update the lead's activity date and ensure you have the correct id for the lead you wish to work with.
 
 ## Create a Lead or update an existing Lead
-To create a lead or find an existing lead you must have an email address and the `Id` of the campaign the lead is part of. You can optionally send additional data as part of the API call.
+To create a lead or find an existing lead you must have an email address and the `Id` of the Campaign the lead is part of.
 
-> If a lead already exists within the campaign, a new lead will not be created and the return value will be the id of the existing lead.
+> If a lead already exists within the campaign the API will return the id of the existing lead. Otherwise, DailyStory will create a new contact and then create a lead in the specified campaign.
 
-If a lead does not already exist within the campaign, DailyStory will create a new contact and then create a lead in the specified campaign.
+The `Id` of the Campaign can be found by [logining into DailyStory](https://app.dailystory.com/login) and navigating to a campaign. The Campaign Id will be the number in the URL.
+
+![Campaign Id](/articles/api/lead/lead-01.png "Campaign Id")
 
 <ol class="api"><li value="POST">/API/Lead</li></ol>
 
@@ -26,7 +28,7 @@ The body of the POST must include a JSON representation of the Lead. For example
 }
 </pre>
 
-To see all the available fields, [login to DailyStory](https://app.dailystory.com/login), and navigate to an existing lead. For example, `Lead/Detail/117604`. Then change the URL to `API/Lead/117604` to see the JSON representation.
+To see all the available fields [login to DailyStory](https://app.dailystory.com/login) and navigate to an existing lead. For example, `Lead/Detail/117604`. Then change the URL to `API/Lead/117604` to see the JSON representation.
 
 <pre class="brush: javascript">
 {
