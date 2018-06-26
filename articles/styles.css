@@ -15,3 +15,41 @@ h3 {
 .h4, h4 {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
+
+ol.api li {
+    position: relative;
+    display: block;
+    padding: 0 20px 0 70px;
+    margin: 35px 0 0 -30px;
+    background: #f0f0f0;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;
+    height: 45px;
+    line-height: 42px;
+    border: 1px solid #f0f0f0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+ol.api li:before {
+    text-transform: uppercase;
+    content: "" attr(value);
+    counter-increment: li;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    margin-top: -1px;
+    background: #337ab7;
+    height: 45px;
+    line-height: 43px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: all .3s ease-out;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 15px;
+    text-shadow: 0 0 2px rgba(33,26,145,.35);
+}
