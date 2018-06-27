@@ -10,11 +10,11 @@ Use the Lead REST API to create or find leads in DailyStory.
 ## Create a Lead or update an existing Lead
 To create a lead or find an existing lead you must have an email address and the `Id` of the Campaign the lead is part of.
 
-> If a lead already exists within the campaign the API will return the id of the existing lead. Otherwise, DailyStory will create a new contact and then create a lead in the specified campaign.
-
 The `Id` of the Campaign can be found by [logining into DailyStory](https://app.dailystory.com/login) and navigating to a campaign. The Campaign Id will be the number in the URL.
 
 ![Campaign Id](/articles/api/lead/lead-01.png "Campaign Id")
+
+> If a lead already exists within the campaign the API will return the id of the existing lead. Otherwise, DailyStory will create a new contact and then create a lead in the specified campaign.
 
 <ol class="api"><li value="POST">/API/Lead</li></ol>
 
@@ -290,7 +290,119 @@ Returns `200 OK` when created. The body of the response includes a JSON object w
     "Message": "",
     "Code": 200,
     "Response": {
-        "id": "117699"
+        "id": "117604"
     }
+}
+</pre>
+
+## Get a Lead's Activities
+A Lead Activity captures actions taken by the lead. Examples include: emails sent, pages viewed, participating in a webinar, signing into another application, registering in a mobile app, or any other activity you want to attribute to a person.
+
+These actions are shown as a timeline when viewing a lead in the DailyStory.
+
+> To get the activities for a Lead, you must have the `Lead Id`
+
+<ol class="api"><li value="GET">/API/Lead/Activity/{Lead Id}</li></ol>
+
+## Sample response body
+Returns `200 OK`. The `Response` contains an 'activity' array of Lead Activities. 
+
+<pre class="brush: javascript">
+{
+    "Status": true,
+    "Message": "",
+    "Code": 200,
+    "Response": {
+    	"activity": "[{ ... }]"
+    }
+}
+</pre>
+
+## Add an Activity to a Lead
+A Lead Activity enables you to capture an action taken by a lead. Examples include: emails sent, pages viewed, participating in a webinar, signing into another application, registering in a mobile app, or any other activity you want to attribute to a person.
+
+These actions are shown as a timeline when viewing a lead in the DailyStory.
+
+> To add an Activity for a Lead or to retrieve a Lead's Activities, you must have the `Lead Id`
+
+<ol class="api"><li value="POST">/API/Lead/Activity/{Lead Id}</li></ol>
+
+### Sample request body
+The body of the POST must include a JSON representation of the Activty. For example, to create a new activity for a Lead with the `Id` of 117604:
+
+`HTTP POST /Lead/Activity/117604`
+<pre class="brush: javascript">
+{
+    name = "My First Activity",
+    description = "This is a description for my first activity"
+}
+</pre>
+
+When creating a Lead Activity you call also include an ActivityType. The Activity Type is used by DailyStory to perform special rules and formatting. For example, if you integrate with GoTo Webinar and want to submit an activity to DailyStory when someone registers for your webinar:
+
+`HTTP POST /Lead/Activity/117604`
+<pre class="brush: javascript">
+{
+	activityType = 500,
+    name = "My First Activity",
+    description = "This is a description for my first activity"
+}
+</pre>
+
+> To see the full list of numeric codes for various activity types, send a GET request to `/api/Lead/ActivityTypes`
+
+### Request body fields
+<table class="table">
+	<thead>
+	<tr>
+		<th>Field</th>
+		<th>Description</th>
+		<th>Format</th>
+		<th>Required</th>
+		</tr>
+	</thead>
+	<tbody>
+	<tr>
+	<td>name</td>
+	<td>Name of the activity.</td>
+	<td>string</td>
+	<td>Yes</td>
+	</tr>
+	<tr>
+	<td>description</td>
+	<td>A description of the activity.</td>
+	<td>string</td>
+	<td>Yes</td>
+	</tr>
+	<tr>
+	<td>activityType</td>
+	<td>A specific type of activity, otherwise defaults to the Notification activity type</td>
+	<td>number</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>data</td>
+	<td>Json data used when an activity type is specified.</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	<tr>
+	<td>data</td>
+	<td>Json data used when an activity type is specified.</td>
+	<td>string</td>
+	<td>No</td>
+	</tr>
+	</tbody>
+</table>
+
+## Sample response body
+Returns `200 OK` when created. The body of the response includes a JSON object with additional data.
+
+<pre class="brush: javascript">
+{
+    "Status": true,
+    "Message": "",
+    "Code": 200,
+    "Response": {}
 }
 </pre>
