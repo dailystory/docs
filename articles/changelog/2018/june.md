@@ -3,9 +3,39 @@
 	description: 'Product Updates for June 2018'
 }
 # DailyStory Product Updates for June 2018
+## June 30, 2018
+* Update: Advanced search to handle various error conditions in filters
+* Feature: Added search error hander
+* Bug: Mailgun could show as tenantdefined in some cases when it wasn't
+* Bug: TLS 1.2 for LInkedIn Api requests
+* Bug: bug in javascript handler for search
+* Bug: better test experience for popups
+* Bug: fix regression with search button 
+
+## June 29, 2018
+* Refactor: pass tenant instead of id
+* Bug: fixed serialization bug in ActivityTableEntity
+* Refactor: cache on tenantuid
+* Feature: add age calculation to common and remove from contact
+* Refactor: Separated SegmentList from Segment
+* Refactor: Connection provider
+* Refactor: add coerece bool to graph field
+* Feature: OpenStreetMap get first found location
+* Feature: added support for bool and double types to graph field
+* Feature: added fields to Activity Type
+* Bug: issues with lead pages checking wrong page size in some cases
+* Refactor: Lightning Context double-checks tenant uid
+* Refactor: logging
+* Refactor: update packages
+* Refactor: ContactDocument added more types and age
+* Refactor: Search Filter on Contact Document and parse querystring
+* Refactor: integrations datamanager, move all settings to azure tables
+* Refactor: start queue updates for scale on email
+* Refactor: UX for advanced search
+* Refactor: white label
+
 ## June 25, 2018
 * Feature: enable white label tenants to show their logo in UX
-* 
 
 ## June 24, 2018
 * Bug: Strip re-captcha on form submit
