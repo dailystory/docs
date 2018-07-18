@@ -5,7 +5,9 @@
 #Import Contacts
 Contacts can easily be bulk imported into DailyStory using DailyStory's Bulk Import tool. The only required field to import a contact is an email address.
 
-> The Bulk Import tool can load new contacts from text or from a CSV file.
+> *Important* the email address must be the first column in your CSV file. 
+
+The Bulk Import tool can load new contacts from text or from a CSV file.
 
 To find the Bulk Import tool click Accounts > All Contacts:
 	

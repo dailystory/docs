@@ -3,6 +3,37 @@
 	description: 'Product Updates for July 2018'
 }
 # DailyStory Product Updates for July 2018
+## July 16, 2018
+* Refactor: process link tracking queues
+* Enhancement: support for Google GeoCoding APIs
+* Refactor: force tenant data center in email
+* Refactor: log account not found exceptions
+* Refactor: look up address to get geocode
+* Refactor: side by wide display
+* Refactor: add in support to search selectors for contact search
+* Bug: gallery emails had a bad link
+* Refactor: add close option to test popup
+
+
+## July 15, 2018
+* Bug: WordPress forms can cause a DSId not to get written.
+* Enhancement: Better logging for exception handling in CMS
+* Enhancement: Import search selectors from CSV
+
+## July 13, 2018
+* Refactor: Improvements to SalesforceSync job
+* Refactor: Contact cache
+* Refactor: email address formatting to handle aliases
+* Bug: only add contacts to a segment if the contact is active on import
+* Enhancement: whitelabel domain work
+* Bug: Exception with short url names that start with f can confict with forms in cms
+ 
+## July 11, 2018
+* Enhancement: better field validation for contacts
+* Enhancement: improvements to contact import auto-add to segment
+* Refactor: folded ProcessContactQueue code into ContactQueueItem
+* Enhancement: whitelabel domain 
+
 ## July 10, 2018
 * Enhancement: Added skip rules for Workflow
 * Enhancement: Added search selectors
@@ -11,6 +42,9 @@
 * Enhancement: Added better error message in popup javascript
 * Enhancement: added support for rules in workflow
 * Enhancement: updated workflow UX to use MD checkbox
+* Bug: fake lead caused email links to break
+* Enhancement: added IsIndexed check to GraphField
+* Enhancement: better exception handling for Domain
 
 ## July 6, 2018
 * Refactor: EmailSend and EmailStatus queues
