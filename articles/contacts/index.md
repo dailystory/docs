@@ -18,7 +18,7 @@ From All Contacts you can select contacts and add them to a Campaign or Segment.
 
 ![Add Contacts to a Campaign](/articles/contacts/contacts-09.png "Add Contacts to a Campaign")
 
-Going through a list of contacts one by one to add them to your campaigns or segments is slow. Instead, you can filter the contacts shown using search.
+Going through a list of contacts one-by-one to add them to your campaigns or segments is slow. Instead, you can filter the contacts shown using search.
 
 ###Searching and Filtering All Contacts
 To quickly search your contacts you can type any text into the quick search text box. 
@@ -43,18 +43,40 @@ After completing the form and clicking search, the URL of the browser contains t
 
 Contacts can have user defined attributes. Enterprise customers of DailyStory can configure those properties for search. When the user defined attribute is searchable it is available in advanced search.
 
-For example, if your contact data is augmented with income data and is made available to search, you will find the field in advanced search.
+For example, if your contact data is augmented with elibibility date and income data, and those fields are available to search, you will find the fields in advanced search.
 
 ![User Defined Search](/articles/contacts/contacts-13.png "User Defined Search")
 
-For more examples of search, [see advanced search examples](/contacts/advanced-search)
-
 > Indexing of custom Contact Properties, such as those shown above, are only available to Enterprise customers of DailyStory.
 
-###Managing Contacts
-You can manage contacts 
+For more examples of search, [see advanced search examples](/contacts/advanced-search).
 
-###Importing Contacts
-To bulk import contacts use the [import contacts](import) tool.
+The Export button found at the bottom of All Contacts will be limited to the results defined in the search.
 
-##User Defined Attributes
+##Adding Contacts
+Contacts are manually added through the + Add Contact button on the All Contacts page, Bulk Contact Import, or through the API.
+
+Contacts are automatically added when someone completes a Web Form, Magic Form, or any other type of form associated with DailyStory if the contact does not already exist. A contact will also be created when a new lead is created and the underlying contact does not exist.
+
+###Add a Contact
+To add a single contact, click the + Add Contact button. This opens the Create a Contact form. The only field required to create a new contact is an email address.
+
+###Bulk Contact Import
+To bulk import contacts use the [bulk contact import](import) tool.
+
+##User Defined Fields
+To add user defined fields for your contacts go to Contacts > All Contacts. Next, click the down arrow to the right of the + Add Contact button and select Contact Fields.
+
+![User Defined Fields](/articles/contacts/contacts-14.png "User Defined Fields")
+
+This opens the Manage Contact Profile Fields which enables you to add an unlimited number of custom fields for your contacts. These fields are available through the DailyStory API and are available for use in personalization.
+
+> DailyStory Enterprise customers can additionally enable search indexing of these user defined contact fields.
+
+Simply add the name of the field you want to add, select the type (Text, Number, Date/Time, Yes or No, True or False) and then add your field.
+
+![User Defined Fields](/articles/contacts/contacts-15.png "User Defined Fields")
+
+Your user defined field is now available as a mapping option when importing contacts, as a mapped field in Web Forms and Magic Forms, and as an editable field when editing a contact.
+
+![User Defined Fields](/articles/contacts/contacts-16.png "User Defined Fields")
