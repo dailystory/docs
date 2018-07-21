@@ -9,5 +9,11 @@ While there is only a single contact for an individual managed by DailyStory, th
 
 A [lead](/leads) represents the contact within a specific campaign. When viewing a contact you can see the campaigns that contact is part of.
 
+##All Contacts
+To view all of you contact click Contacts > All Contacts. You will be presented with a list all contacts.
+
+![All Contacts](/articles/contacts/contacts-08.png "All Contacts")
+
+
 ## Importing Contacts
 To bulk import contacts use the [import contacts](import) tool.
