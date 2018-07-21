@@ -3,35 +3,35 @@
 ## [New? Start Here](/quickstart)
 
 # Core Concepts
-## [Dashboard](/dashboard/)
-## [Campaigns](/campaigns/)
-## [Leads](/leads/)
-## [Contacts](/contacts/)
 ## [Accounts](/accounts/)
+## [Campaigns](/campaigns/)
+## [Contacts](/contacts/)
+## [Dashboard](/dashboard/)
 ## [Emails](/emails/)
+## [Leads](/leads/)
 ## [Reports](/reports/)
 
 # Features
-## [Popups](/acquisition/popups/)
-## [Triggers](/acquisition/triggers/)
-## [Web Forms](/acquisition/web-forms/)
 ## [Magic Forms](/acquisition/magic-forms/)
 ## [Paid Search](/acquisition/paid-search/)
 ## [Pages](/pages/)
+## [Popups](/acquisition/popups/)
 ## [Tracking Links](/link-tracking/)
+## [Triggers](/acquisition/triggers/)
+## [Web Forms](/acquisition/web-forms/)
 
 # Account
-## [Settings](/account/settings)
 ## [Manage Users](/account/manage-users)
 ## [Personal Settings](/account/personal-settings)
+## [Settings](/account/settings)
 ## [Tracking Code](/install)
 
 # Integrations
-## [reCAPTCHA](/integrations/recaptcha)
-## [WordPress](/integrations/wordpress)
-## [Salesforce](/integrations/salesforce)
 ## [MailChimp](/integrations/mailchimp)
 ## [Mailgun](/integrations/mailgun)
+## [reCAPTCHA](/integrations/recaptcha)
+## [Salesforce](/integrations/salesforce)
+## [WordPress](/integrations/wordpress)
 ## [Zapier](/integrations/zapier/)
 
 # SDK / APIs
@@ -41,7 +41,7 @@
 
 # Installing DailyStory
 ## [Tracking Code](/install)
-## [Manual Setup](/install/manual)
-## [WordPress](/install/wordpress)
-## [SquareSpace](/install/squarespace)
 ## [Configure subdomain](/install/subdomain)
+## [Manual Setup](/install/manual)
+## [SquareSpace](/install/squarespace)
+## [WordPress](/install/wordpress)
