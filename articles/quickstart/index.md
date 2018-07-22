@@ -5,9 +5,7 @@
 # DailyStory Quick Start: Getting Started with DailyStory
 Welcome to DailyStory! We put this guide together to help you get started using DailyStory.
 
-It helps to follow along with a DailyStory account. If you don't have a DailyStory account, you can  <a target="_blank" href="https://www.dailystory.com/trial">create a 30-day trial to start</a>.
-
-You will find that your DailyStory trial is pre-populated with sample data. Feel free to delete this, modify it or add to it. You can easily delete this trial data later when you convert to a commercial edition.
+It helps to follow along with a DailyStory account. If you don't have a DailyStory account, you can  <a target="_blank" href="https://www.dailystory.com/trial">create a 21-day trial to start</a>.
 
 <ol class="step"><li value="1">Install the Tracking Tag</li></ol>
 
