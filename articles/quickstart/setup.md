@@ -34,3 +34,17 @@ Using these tools will enable you to see if your new DNS entry is properly resol
 DailyStory's software runs in Microsoft's Azure cloud. Because of security, if you test your new domain by going to it in a browser it will resolve to a landing page managed by Microsoft Azure and not to a page managed by DailyStory.
 
 To enable DailyStory to serve content for your domain you need to [send an email to us](hello@dailystory.com)
+
+
+### Optionally configure Email and a Domain
+You can start using DailyStory without setting up email or a custom domain. Email will be sent on your behalf through DailyStory's email system and your pages and content will be hosted on DailyStory's domain.
+
+People that receive your email will see the message as coming from:
+	
+`Anna Jones <anna@example.com> on behlaf of DailyStory`
+
+Landing pages or other content hosted on DailyStory will look like:
+	
+`https://dlystr.io/Sample-landing-page?_UID=4933ca402181fcf4a5c94713daaa9921`
+
+To configure your own email account and subdomain, please [follow the steps in our technical setup guide](/install/setup)

@@ -5,13 +5,11 @@
 # DailyStory Quick Start: Getting Started with DailyStory
 Welcome to DailyStory! We put this guide together to help you get started using DailyStory.
 
-## Technical Requirements
-The good news is: you don't need a degree in computer science to start using DailyStory. And, you won't need a team to setup and manage DailyStory.
+The good news is you don't need a degree in computer science to start using DailyStory. And, you won't need a team to setup and manage DailyStory. We've built it to be simple.
 
-However, there are a few things you need to do to get the most out of DailyStory.
+> See the [Technical Setup Guide](/install/setup) for advanced setup options such as setting up a custom subdomain or custom email address.
 
-### Setting up the DailyStory tracking tag
-The DailyStory tracking tag connects DailyStory and your website. It's required to use many of the features of DailyStory.
+But before you get started you will need to add the DailyStory tracking tag to your website. The tracking tag connects DailyStory and your website and is required to use many of the features of DailyStory.
 
 <ol class="step"><li value="1">Install the Tracking Tag</li></ol>
 The tracking tag is a small piece of JavaScript that needs to be added to the <code>&lt;head&gt;</code> of all your pages.
@@ -22,20 +20,7 @@ Follow these instructions to [install the DailyStory tracking tag](/install).
 
 We have instructions for [installing the tracking tag manually](/install/manual) as well as using our [WordPress plugin](/install/wordpress).
 
-[Tracking Tag Frequently Asked Questions](/install#Frequently-Asked-Questions)
-
-### Optionally configure Email and a Domain
-You can start using DailyStory without setting up email or a custom domain. Email will be sent on your behalf through DailyStory's email system and your pages and content will be hosted on DailyStory's domain.
-
-People that receive your email will see the message as coming from:
-	
-`Anna Jones <anna@example.com> on behlaf of DailyStory`
-
-Landing pages or other content hosted on DailyStory will look like:
-	
-`https://dlystr.io/Sample-landing-page?_UID=4933ca402181fcf4a5c94713daaa9921`
-
-To configure your own email account and subdomain, please [follow the steps in our technical setup guide](/install/setup)
+* [Tracking Tag Frequently Asked Questions](/install#Frequently-Asked-Questions)
 
 <ol class="step"><li value="2">Create a Campaign</li></ol>
 Once you have the tracking tag setup, you'll want to [create some campaigns](/campaigns/#creating-a-campaign).
