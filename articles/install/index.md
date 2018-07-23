@@ -31,6 +31,7 @@ Place the tracking tag in the <code>&lt;head&gt;</code> section of all pages in 
 
 ### How does the tracking tag work?
 The tracking tag serves several purposes:
+	
 * Identifies and captures visits to build customer journey data
 * Loads the DailyStory JavaScript API
 * Enables integration with your website's forms
@@ -41,3 +42,6 @@ No, the tracking tag does not require any other JavaScript libraries.
 
 ### Does the tracking tag slow down my web page?
 No, the trackkng tag will not slow down your web page or interfere with loading pages in your website. The tracking tag is designed to load after your web page loads.
+
+### Can I install the tag with Google Tag Manager?
+No, Google Tag Manager does not currently support DailyStory's tag because we have not submitted it yet.

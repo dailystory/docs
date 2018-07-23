@@ -16,7 +16,7 @@ The tracking tag is a small piece of JavaScript that needs to be added to the <c
 
 Follow these instructions to [install the DailyStory tracking tag](/install). 
 
-> The DailyStory tracking tag is similar to other tags, such as Google Analytics.
+> The DailyStory tracking tag is similar to other tags, such as Google Analytics, that you are already using.
 
 We have instructions for [installing the tracking tag manually](/install/manual) as well as using our [WordPress plugin](/install/wordpress).
 
