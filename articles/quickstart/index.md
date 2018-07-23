@@ -1,15 +1,13 @@
 {
-	title: 'DailyStory Quick Start: Your Guide to Getting Started with DailyStory',
+	title: 'DailyStory Quick Start',
 	description: 'The DailyStory quickstart is a guide designed for new customers to help them get started.'
 }
-# DailyStory Quick Start: Getting Started with DailyStory
+# DailyStory Quick Start
 Welcome to DailyStory! We put this guide together to help you get started using DailyStory.
-
-The good news is you don't need a degree in computer science to start using DailyStory. And, you won't need a team to setup and manage DailyStory. We've built it to be simple.
 
 > See the [Technical Setup Guide](/install/setup) for advanced setup options such as setting up a custom subdomain or custom email address.
 
-But before you get started you will need to add the DailyStory tracking tag to your website. The tracking tag connects DailyStory and your website and is required to use many of the features of DailyStory.
+First, you need to add the DailyStory tracking tag to your website. The tracking tag connects DailyStory and your website and is required to use many of the features of DailyStory.
 
 <ol class="step"><li value="1">Install the Tracking Tag</li></ol>
 The tracking tag is a small piece of JavaScript that needs to be added to the <code>&lt;head&gt;</code> of all your pages.

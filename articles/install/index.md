@@ -1,6 +1,6 @@
 {
-	title: 'DailyStory QuickStart: Your Guide to Getting Started with DailyStory',
-	description: 'The DailyStory quickstart is a guide designed for new customers or users to help them get started.'
+	title: 'Tracking Tag',
+	description: 'The DailyStory tracking tag, also called a tracking code, is a small piece of JavaScript that needs to be added to all your web pages.'
 }
 # Installing the DailyStory Tracking Tag
 The DailyStory tracking tag, also called a tracking code, is a small piece of JavaScript that needs to be added to the <code>&lt;head&gt;</code> of all your web pages.

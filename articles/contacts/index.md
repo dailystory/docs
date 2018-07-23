@@ -75,6 +75,37 @@ This opens the Manage Contact Profile Fields which enables you to add an unlimit
 
 Simply add the name of the field you want to add, select the type (Text, Number, Date/Time, Yes or No, True or False) and then add your field.
 
+<table class="table">
+<thead>
+<tr>
+<td><strong>Field Type</strong></td>
+<td><strong>Used For</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Text</code></td>
+<td>Used any text value or values that are not used in ranged searches. For example, a member id should be marked as `Text`, but number of purchases should be `Number`.</td>
+</tr>
+<tr>
+<td><code>Number</code></td>
+<td>Used for values that can be used in ranged searches. For example, number of purchases.</td>
+</tr>
+<tr>
+<td><code>Date/Time</code></td>
+<td>Date values, such as eligibility date.</td>
+</tr>
+<tr>
+<td><code>Yes or No</code></td>
+<td>Value must either by: `Yes` or `No`.</td>
+</tr>
+<tr>
+<td><code>True or False</code></td>
+<td>Value must either by: `True` or `False`.</td>
+</tr>
+</tbody>
+</table>
+
 ![User Defined Fields](/articles/contacts/contacts-15.png "User Defined Fields")
 
 Your user defined field is now available as a mapping option when importing contacts, as a mapped field in Web Forms and Magic Forms, and as an editable field when editing a contact.
