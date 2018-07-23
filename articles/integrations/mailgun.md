@@ -3,11 +3,11 @@
 	description: 'Integration for DailyStory and Mailgun'
 }
 # DailyStory + Mailgun
-The DailyStory + Mailgun integration enables you to use the power of DailyStory's marketing and automation tools with a powerful transaction email platform: [Mailgun](https://www.mailgun.com/).
+The DailyStory + Mailgun integration enables you to use the power of DailyStory's marketing and automation tools with a powerful transactional email platform: [Mailgun](https://www.mailgun.com/).
 
-DailyStory can automatically send email for you, but with our integration you can further control how email is sent, ensure that it is authorized to your domain - all to help deliver your email to your customers.
+DailyStory sends email for you, but with Mailgun integration you can further control how email is sent and ensure that it is authorized to your domain - all to help deliver your email to your customers.
 	
-DailyStory takes care of communicating with Mailgun to track delivery and bounces.
+> DailyStory takes care of communicating with Mailgun to track delivery and bounces. Open and click tracking is managed by DailyStory.
 
 ## Configuring Mailgun Integration
 There are several steps required to configure DailyStory and Mailgun integration. These steps are detailed below.
@@ -28,18 +28,27 @@ Login to Mailgun and visit your Account > Security page. Copy your Private API K
 
 ![DailyStory + Mailgun API Keys](/articles/integrations/mailgun-01.png "DailyStory + Mailgun API Keys")
 
-Next, we need to configure DailyStory to use the API keys to talk to your Mailgun account.
+Next, configure DailyStory to use the API keys for your Mailgun account.
 
 <ol class="step"><li value="3">Configure DailyStory</li></ol>
 Log into your DailyStory account and navigate to Admin > Integrations and select the Mailgun integration:
 
 ![DailyStory + Mailgun](/articles/integrations/mailgun-02.png "DailyStory + Mailgun")
 
-Enter the domain you configured as part of your Mailgun setup. Commonly this is similar to <code>mg.example.com</code>.
+Enter the domain you configured as part of your Mailgun setup, such as <code>mg.example.com</code>.
 
 Next, enter the API Key and click Save.
 
-DailyStory will then attempt to send a test email to the account you use to login to DailyStory.
+DailyStory will attempt to send a test email to [the email address you configured for DailyStory](/account/personal-settings) to verify the integration is properly setup.
+
+## Frequently Asked Questions
+Below are some frequently asked questions.
+
+### Do I have to setup Mailgun integration to send email?
+No, you can send email without configuring Mailgun. However, emails will be send on your behalf and may get flagged as SPAM.
+
+### Do you support SendGrid, Mandrill or other transactional email platforms?
+No, currently we only support Mailgun. We plan to offer support for SendGrid in the future.
 
 ## Troubleshooting
 If you received an error when saving your Mailgun credentials it means that something is misconfigured with Mailgun, your domain or API Key, or there is a problem with your email address.

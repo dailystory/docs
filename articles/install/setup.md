@@ -10,18 +10,18 @@ Setting up a subdomain enables content hosted by DailyStory, such as your landin
 
 * [Instructions for configuring a custom subdomain](/install/subdomain)
 
-### Optionally configure Email and a Domain
-You can start using DailyStory without setting up email or a custom domain. Email will be sent on your behalf through DailyStory's email system and your pages and content will be hosted on DailyStory's domain.
+## Send from your email address
+Unless configured, email sent on your behalf by DailyStory will use one of DailyStory's email domains. 
 
-People that receive your email will see the message as coming from:
+This means that people that receive your email will see the message as coming from:
 	
-`Anna Jones <anna@example.com> on behlaf of DailyStory`
+`Anna Jones <anna@example.com> on behalf of DailyStory`
 
-Landing pages or other content hosted on DailyStory will look like:
-	
-`https://dlystr.io/Sample-landing-page?_UID=4933ca402181fcf4a5c94713daaa9921`
+But more importantly, the SPF and DKIM records that verify that the sender is allowed to send on behalf the domain will fail. This can have a significant impact on the deliverbility of your email as some email server will reject or flag your message as SPAM.
 
-To configure your own email account and subdomain, please [follow the steps in our technical setup guide](/install/setup)
+We recommend setting up integration with Mailgun.
+
+* [Instructions for setting up Mailgun integration](/integrations/mailgun)
 
 ## Frequently Asked Questions
 Below are some frequently asked questions.
