@@ -78,7 +78,7 @@ Simply add the name of the field you want to add, select the type (Text, Number,
 <table class="table">
 <thead>
 <tr>
-<td><strong>Field Type</strong></td>
+<td style="width:25%"><strong>Field Type</strong></td>
 <td><strong>Used For</strong></td>
 </tr>
 </thead>
