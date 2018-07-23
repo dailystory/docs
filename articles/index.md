@@ -5,9 +5,11 @@
 # What is DailyStory?
 DailyStory is a Marketing Automation Platform that makes it easy for businesses to track, convert, and manage visitors through the process of becoming a customer.
 
+Watch our 60-second overview video to quickly see what DailyStory does.
+
 <iframe width="640" height="360" src="https://player.vimeo.com/video/281157722" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
 
-<a href="https://www.dailystory.com">To learn more about DailyStory features, please visit the www.dailystory.com website.</a>
+<a href="https://www.dailystory.com">To learn more about DailyStory features, benefits, and pricing please visit the www.dailystory.com website.</a>
 
 ## What can you do with DailyStory?
 **Run marketing campaigns** DailyStory is used to run email marketing campaigns, Text Messaging campaigns, Social Media campaigns and much more. This includes: sending newsletters, running email sequences, automated sending thank you emails, sending reminder text messages and sharing content on social media.
@@ -20,8 +22,5 @@ DailyStory is a Marketing Automation Platform that makes it easy for businesses 
 
 And that is just a preview of the capabilities! 
 
-## New To DailyStory
-If you are new to DailyStory we recommend [starting here](/quickstart).
-
-## Product Documentation
-This website contains all of the documentation and training videos for DailyStory. It is updated often, but if you find an error or wish to contribute please <a target="_blank" href="https://github.com/dailystory/docs">see our documentation project on GitHub</a>.
+## Getting Started with DailyStory?
+If you are new to DailyStory we recommend [starting with the quickstart](/quickstart).

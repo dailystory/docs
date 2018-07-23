@@ -3,6 +3,17 @@
 	description: 'Product Updates for July 2018'
 }
 # DailyStory Product Updates for July 2018
+## July 18, 2018
+* Refactor: added some css to enable wide view in admin
+* Enhancement: search selectors
+* Refactor: continue updates for domain based white labeling
+* Bug: segments weren't properly wired up in search
+* Bug: enforce gender type through API
+* Bug: update Lead.IsDuplicate to return first in list
+* Bug: update licese check to use system table
+* Testing: add unit tests and exception handling to search filters
+* 
+
 ## July 16, 2018
 * Refactor: process link tracking queues
 * Enhancement: support for Google GeoCoding APIs
@@ -13,7 +24,6 @@
 * Refactor: add in support to search selectors for contact search
 * Bug: gallery emails had a bad link
 * Refactor: add close option to test popup
-
 
 ## July 15, 2018
 * Bug: WordPress forms can cause a DSId not to get written.
