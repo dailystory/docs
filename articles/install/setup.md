@@ -36,10 +36,10 @@ Open a console window in your browser and type:
 
 You should see a unique identifier as the output.
 
-![DailyStory Tenant Id](/articles/setup/setup-01.png "DailyStory Tenant Id")
+![DailyStory Tenant Id](/articles/install/setup-01.png "DailyStory Tenant Id")
 
 #### From your Tenant
 When logged into your tenant, go to `/admin/about`. This will show your instance id, data center id, and unique tenant id.
 
-![DailyStory Tenant Id](/articles/setup/setup-02.png "DailyStory Tenant Id")
+![DailyStory Tenant Id](/articles/install/setup-02.png "DailyStory Tenant Id")
 
