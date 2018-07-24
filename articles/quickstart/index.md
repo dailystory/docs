@@ -29,11 +29,9 @@ Once you have the tracking tag setup, you'll want to [create some campaigns](/ca
 
 Everything in DailyStory is associated with a campaign. For example, if you have a set of customers that you want to enroll in a drip campaign, send emails for a new trial, or track signups on a form, you'll first need a campaign.
 
-And creating a campaign is easy.
-
-We recommend you create campaigns for any marketing activity you want to track or measure. Such as a newsletter campaign, contact us campaign, or adwords campaign.
-
 > When you create any new assets, such as an [Email](/emails/), [Tracking Link](/link-tracking/), or [Landing Page](/pages/) you'll be prompted to either select a campaign or quickly create a new one.
+
+[Instructions and recommendations for creating campaigns](/campaigns/#creating-a-campaign)
 
 <ol class="step"><li value="3">Create a Lead in your Campaign</li></ol>
 
