@@ -245,7 +245,7 @@ To specify additional data, such as custom fields, use `extendedProperties`. For
 }
 </pre>
 
-Custom data added to `extendedProperties` is part of the Contact and can be used for segmentation and for enterprise customers, search.
+Custom data added to `extendedProperties` is part of the Contact and can be used for segmentation and search for enterprise customers. All customers can use custom data for personalization.
 
 ## Sample response body
 Returns `200 OK` when created. The body of the response includes a JSON object with additional data with the `Id` of the Lead.
