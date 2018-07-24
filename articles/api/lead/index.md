@@ -166,12 +166,6 @@ When creating a lead the following fields can also be specified.
 	<td>No</td>
 	</tr>
 	<tr>
-	<td>numberOfEmployees</td>
-	<td>The number of employees or people in the organization</td>
-	<td>number</td>
-	<td>No</td>
-	</tr>
-	<tr>
 	<td>industry</td>
 	<td>The <a target="_new" href="https://www.naics.com/search/">Standard Industrial Classification number</a> for the organization</td>
 	<td>number</td>
@@ -253,7 +247,7 @@ When creating a lead the following fields can also be specified.
 	<tr>
 	<td>gender</td>
 	<td>Person's gender</td>
-	<td>number</td>
+	<td>string</td>
 	<td>No</td>
 	</tr>
 	<tr>
