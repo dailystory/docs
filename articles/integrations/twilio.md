@@ -6,6 +6,7 @@
 The DailyStory + Twilio integration enables you to use the power of DailyStory's marketing and automation tools with a powerful cloud communications platform: [Twilio](https://www.twilio.com/).
 
 When enabled, Twilio allows you to: 
+
 * Send SMS messages to your Contact's mobile phone number.
 * Send Push notifications to iOS and Android apps registered to your Contacts.
 	
