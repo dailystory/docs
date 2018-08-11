@@ -23,7 +23,7 @@ Visit [Twilio](https://www.twilio.com) and create an account. You can create a f
 <ol class="step"><li value="2">Twilio API Credentials</li></ol>
 After creating your account and setting everything up, you are ready to connect Twilio to DailyStory.
 
-Login to Twilio and click *Show API Credentials* in the top right. Copy your *Account SID* and *Auth Token*
+Login to Twilio and click **Show API Credentials** in the top right. Copy your **Account SID** and **Auth Token**
 
 ![DailyStory + Twilio API Credentials](/articles/integrations/twilio-01.png "DailyStory + Twilio API Keys")
 
@@ -54,7 +54,7 @@ Log into your DailyStory account and navigate to Admin > Integrations and select
 
 ![DailyStory + Twilio](/articles/integrations/twilio-04.png "DailyStory + Twilio")
 
-Enter the *Account SID*, *Auth Token*, *Phone Number*, *Service Id*.
+Enter the **Account SID**, **Auth Token**, **Phone Number**, **Service Id**.
 
 > The Service Id is optional, but the all other fields are required.
 
