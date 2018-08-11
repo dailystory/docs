@@ -269,7 +269,7 @@ The `/API/Contact/RegisterDevice` API is used to register multiple devices (iOS 
 
 <ol class="api"><li value="POST">/API/Contact/RegisterDevice</li></ol>
 
-The `POST` method of `/API/Contact/RegisterDevice` is used to register either an Apple or Android device with a Contact.
+The `POST` method of `/API/Contact/RegisterDevice` is used to register either an Apple or Android device with a Contact. If multiple devices are registered to the same user, simply call this API with each of the unique device ids.
 
 ### Sample request body
 The body of the POST must include a JSON object that identifies the `device_type`, `device_id`, and the Contact's `DSID`:

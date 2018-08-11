@@ -1,4 +1,4 @@
-﻿# Overview
+# Overview
 ## [What is DailyStory?](/)
 ## [New? Start Here](/quickstart)
 
@@ -31,6 +31,7 @@
 ## [Mailgun](/integrations/mailgun)
 ## [reCAPTCHA](/integrations/recaptcha)
 ## [Salesforce](/integrations/salesforce)
+## [Twilio](/integrations/twilio)
 ## [WordPress](/integrations/wordpress)
 ## [Zapier](/integrations/zapier/)
 
