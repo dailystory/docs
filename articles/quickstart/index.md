@@ -39,7 +39,7 @@ Leads are created in your campaigns in several ways:
 	
 * **Manually** using the + Add Lead button and completing the Create Lead form.
 * **Contact Import** [bulk importing new contacts](/contacts/import) and assigning the imported contacts to a campaign.
-* **Forms** when visitors complete either a [Web From](/acquisition/web-forms/) or [Magic Form](/acquisition/magic-forms/).
+* **Forms** when visitors complete either a [Web Form](/acquisition/web-forms/) or [Magic Form](/acquisition/magic-forms/).
 * **Popups** when visitors share their email address in a [popup](/acquisition/popups/).
 * **API** when the API is used to create a new lead, such as through [Zapier integration](/integrations/zapier/).
 

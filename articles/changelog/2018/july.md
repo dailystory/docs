@@ -3,6 +3,38 @@
 	description: 'Product Updates for July 2018'
 }
 # DailyStory Product Updates for July 2018
+## July 31, 2018
+* Bug: bug special case age if from not specified
+* Refactor: update popup report
+
+## July 30, 2018
+* Enhancement: enable content gallery for popups
+* Bug: Ds JavaScript library ignores test lead dsid
+* Refactor: enhancements to popup
+* Bug: don't show test popup button until an id is set.
+* Enhancement: trim in UX
+* Enhancement: updates to page templates
+* Bug: test popup had hard coded id
+* Enhancement: increase upload size
+* Refactor: update lead stats to handle larger volume
+* Refactor: better exxception handling for poison messages in queue
+* Refactor: Save contact for bulk import prevent overcalling search
+* Enhancement: add support for popups to gallery
+* Enhancement: contact queue item -  bulk import improvements
+
+## July 24, 2018
+* Enhancement: update contact import api
+* Enhancement: updates to social media
+* Enhancement: improvements for Selenium tests
+* Enhancement: whitelabeling
+* Enhancement: move lead automation logic into core
+* Bug: handle null account ids from sfdc
+* Bug: twitter api look up missing parent id
+* Bug: handle condition in contact when country is null
+* Bug: contact in stage lead nuturing should get email
+* Enhancement: error management in Paged objects
+* Enhancement: add campaign selector for copy contact
+
 ## July 18, 2018
 * Refactor: added some css to enable wide view in admin
 * Enhancement: search selectors
@@ -12,7 +44,6 @@
 * Bug: update Lead.IsDuplicate to return first in list
 * Bug: update licese check to use system table
 * Testing: add unit tests and exception handling to search filters
-* 
 
 ## July 16, 2018
 * Refactor: process link tracking queues
