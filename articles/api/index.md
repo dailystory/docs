@@ -61,6 +61,11 @@ All of DailyStory's platform is accessible through a REST API and WebHooks for r
 <td>Get, create, or delete a contact.</td>
 </tr>
 <tr>
+<td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/contact/#api-contact-registerdevice">/api/contact/registerdevice</a></code></td>
+<td>POST</td>
+<td>Register a device for a contact for push notifications.</td>
+</tr>
+<tr>
 <td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/contact/#api-contact-import">/api/contact/import</a></code></td>
 <td>POST</td>
 <td>Used for high volume contact import.</td>
