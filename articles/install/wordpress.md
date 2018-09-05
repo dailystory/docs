@@ -1,4 +1,4 @@
-﻿{
+{
 	title: 'WordPress Installation Guide',
 	description: 'Installing the DailyStory tracking code in WordPress.'
 }
@@ -49,6 +49,6 @@ Copy the code shown in the Site ID text box. We'll use this to enable the plugin
 
 Once you have a DailyStory Site ID you can activate the plugin.
 
-Go back to WordPress > Plugins, active the plugin and then click 'Settings' to configure the DailyStory plugin settings. Finally, enter the DailyStory Site ID and click 'Save Settings':
+Go back to WordPress > Plugins, activate the plugin and then click 'Settings' to configure the DailyStory plugin settings. Finally, enter the DailyStory Site ID and click 'Save Settings':
 
 ![Activate Plugin](/articles/install/wordpress-04.png "Activate Plugin")
