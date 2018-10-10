@@ -3,6 +3,23 @@
 	description: 'Product Updates for September 2018'
 }
 # DailyStory Product Updates for September 2018
+## September 29, 2018
+* Refactor: Add Get Set to safely modify ExtendedProperties
+
+## September 28, 2018
+* Bug: change how api base set claim
+* Bug: pageindex is zero the HasMoreResults always returns true
+
+## September 27, 2018
+* Add Azure functions to source control
+* Remove: CleanUp job; replaced with functions
+* Refactor: enable tenant look ups without cache
+* Bug: add user to tenant (sub account) was broken due to cache bug
+* Refactor: Consolidate system email into system database
+* Bug: 500 error when updating contact profile graph
+* Bug: Magic Forms should only work on pages running DS
+* Refactor: graph field to save with tenant
+
 ## September 26, 2018
 * Feature: Implement ContactCanManage and ContactCanView role checks in controllers and APIs
 * Feature: Implement ContactCanManage and ContactCanView role checks in controllers and APIs
