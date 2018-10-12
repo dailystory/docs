@@ -21,7 +21,8 @@
 ## [Web Forms](/acquisition/web-forms/)
 
 # Account
-## [Manage Users](/account/manage-users)
+## [Users](/account/users)
+## [Users](/account/roles)
 ## [Personal Settings](/account/personal-settings)
 ## [Settings](/account/settings)
 ## [Tracking Code](/install)

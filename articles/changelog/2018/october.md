@@ -3,6 +3,9 @@
 	description: 'Product Updates for October 2018'
 }
 # DailyStory Product Updates for October 2018
+## October 11, 2018
+* Bug: handle exceptions in SF lead creation edge case
+
 ## October 10, 2018
 * Refactor: Add auto-save to emails
 * Bug: MindBody handle addresses and PostalCode
