@@ -3,7 +3,7 @@ title: 'Roles',
 description: 'Roles control what users can do in DailyStory'
 }
 # Roles in DailyStory
-A role is used to identify a group of users that share a common set of permissions within DailyStory.
+A role is used to identify a group of [Users](/account/users) that share a common set of permissions within a DailyStory account.
 
 > If roles are not used, all users are considered Administrators and have full access to all features of DailyStory.
 
@@ -42,11 +42,11 @@ To remove a user from a role, click the Remove button next to the user to remove
 ### Grant Permissions in the Role
 The main purpose of roles is to grant groups of users permissions to features within DailyStory. Roles can also be used to restrict features from users.
 
-For more information about permissions, please see (/account/understanding-permissions)[Understanding Permissions] in DailyStory.
+For more information about permissions, please see [Understanding Permissions](/account/understanding-permissions) in DailyStory.
 
 To grant permissions, check the permission you want users in this role to have. To restrict permissions, uncheck the permissions the user should not have.
 
-For example, to grant users of a role the permission to create and edit Campaigns, grant the `CampaignCanManage` permission. 
+For example, to grant users of a role the permission to create and edit [Campaigns](/campaigns), grant the `CampaignCanManage` permission. 
 
 Conversely, if you don't want certain users to have the ability to edit Campaigns add them to the role, but do not check `CampaignCanManage`.
 

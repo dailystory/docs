@@ -22,7 +22,7 @@
 
 # Account
 ## [Users](/account/users)
-## [Users](/account/roles)
+## [Roles](/account/roles)
 ## [Personal Settings](/account/personal-settings)
 ## [Settings](/account/settings)
 ## [Tracking Code](/install)
