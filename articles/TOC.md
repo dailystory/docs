@@ -30,6 +30,7 @@
 # Integrations
 ## [MailChimp](/integrations/mailchimp)
 ## [Mailgun](/integrations/mailgun)
+## [MINDBODY](/integrations/mindbody)
 ## [reCAPTCHA](/integrations/recaptcha)
 ## [Salesforce](/integrations/salesforce)
 ## [Twilio](/integrations/twilio)
