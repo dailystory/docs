@@ -2,7 +2,7 @@
 title: 'Roles',
 description: 'Roles control what users can do in DailyStory'
 }
-# Roles in DailyStory
+# DailyStory Roles
 A role is used to identify a group of [Users](/account/users) that share a common set of permissions within a DailyStory account.
 
 > If roles are not used, all users are considered Administrators and have full access to all features of DailyStory.
