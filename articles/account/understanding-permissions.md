@@ -3,27 +3,29 @@ title: 'Permissions',
 description: 'Understanding Role Permissions in DailyStory'
 }
 # Understanding Role Permissions in DailyStory
-DailyStory supports a robust permissions model used to control what [users](/account/users) can do. Users are assigned to [Roles](/account/roles) and Permissions are granted to users in those roles.
+DailyStory supports a robust permissions model used to control what [Users](/account/users) can do. Users are assigned to [Roles](/account/roles) and Permissions are granted to users in those roles.
 
 ## Default Permissions
-If no Roles are enabled, DailyStory defaults to all users being granted Administrative permissions. For many customers, this is the recommended configuration. This ensures that all users have the ability to manage their DailyStory settings and configuration.
+If no Roles are enabled, DailyStory defaults to all users granted Administrative permissions. 
+
+For many customers, this is the recommended configuration. This ensures that all users have the ability to manage their DailyStory settings and configuration.
 
 > The statement "Roles are enabled" means that a role has been created. If no roles exist, then roles are considered disabled.
 
 If Roles are enabled, the DailyStory uses permissions to control access.
 
 ## Permission-based Access
-DailyStory's permission system is a grant-based permission model. This means that when roles are enabled users must be granted permissions to perform actions.
+DailyStory's permission system is a grant-based permission model. This means that when roles are enabled users must be granted, or given, permissions to perform actions.
 
 ### Site Owner Permission
 There is a single "Super User" account known as the Site Owner. The Site Owner is configured in [Account Settings](/account/settings). The Site Owner is always granted Administrator-level permissions and cannot be deleted from the list of [users](/account/users) for the application.
 
 > The Site Owner is a fail-safe account to ensure you cannot be locked out of your DailyStory account.
 
-The Site Owner permission is set by selecting a user in [Account Settings](/account/settings).
+The Site Owner permission is set by selecting a user in [Account Settings](/account/settings). Any user with the Administrator permission can set the Site Owner.
 
 ### Administrator Permission
-While the Site Owner is always granted Administrator-level permission, a Role can also be granted Administrator permission thereby giving users in the role Administrator permissions.
+While the Site Owner is always granted the Administrator permission, a Role can also be granted the Administrator permission. This allows you to grant multiple users the Administrator permission.
 
 To create an Administrator role, create a new [Role](/account/roles), and check `Administrator`:
 
@@ -72,6 +74,9 @@ DailyStory is designed to grant the highest level of permission given by the rol
 
 ### Does the name of the role matter for permissions?
 No, but we recommend using names such as "Administrator" or "Content Editors" to help indicate what the role is used for.
+
+### Are roles available for API calls?
+No, all [API](/api) calls have full permission to perform all actions in DailyStory available through the API.
 
 ### Can I have two roles with the same name?
 No, you are not allowed to have two roles with the same name.

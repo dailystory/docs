@@ -37,7 +37,7 @@ After saving your Site Id DailyStory will display a pop-up with a MINDBODY URL a
 
 Copy either the URL or the Activation Code and use it within MINDBODY to activate API access for "DailyStory". 
 
-Please see [this article on MINDBODY's website for more details on the required steps](https://support.mindbodyonline.com/s/article/Setting-up-an-API-integration?language=en_US).
+Please see [this article on MINDBODY's website for more details on the steps](https://support.mindbodyonline.com/s/article/Setting-up-an-API-integration?language=en_US) required to active API access.
 
 ## Fields DailyStory Syncs with MINDBODY
 DailyStory will sync the following fields from MINDBODY:
@@ -46,7 +46,10 @@ DailyStory will sync the following fields from MINDBODY:
 * Last Name
 * Date of Birth
 * Address
-* City, State/Region, Country, and Zip/Postal code
+* City
+* State/Region
+* Country
+* Zip/Postal code
 * Gender
 * Home Phone
 * Mobile Phone
@@ -57,13 +60,15 @@ DailyStory will sync the following fields from MINDBODY:
 * Member Id
 * First seen date
 
+The fields: Client Status, Client Membership and First seen date are automatically available as indexe profile fields that can be used to build segments.
+
 ## Frequently Asked Questions
-Below are some frequently asked questions.
+Below are some frequently asked questions about DailyStory's MINDBODY integration.
 
 ### Why is MINDBODY integration only available with certain DailyStory licenses?
-MINDBODY requires partners to pay to access their APIs for each MINDBODY Site Id. Because this is an expense for DailyStory we only offer this integration for some licenses. However, please [contact us](https://www.dailystory.com/contact-us/) as we can make exceptions.
+MINDBODY requires partners to pay to access the APIs for each MINDBODY Site Id. Because this is an expense for DailyStory, we only offer this integration for some licenses. However, please [contact us](https://www.dailystory.com/contact-us/) as we can make exceptions.
 
-### Does DailyStory update MINDBODY?
+### Does DailyStory update my MINDBODY contacts?
 Currently, no. DailyStory only receives updates from MINDBODY. We may consider adding two-way sync in the future.
 
 ### How often does DailyStory sync data with MINDBODY?

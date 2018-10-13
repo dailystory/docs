@@ -5,7 +5,7 @@ description: 'Users are individuals that can login to DailyStory'
 # DailyStory Users
 A user is anyone who can login to your DailyStory account. This is different than a [Contact](/contacts/).
 
-A user account is created either you first setup a new account with DailyStory or your user account was added by another user. Users are managed in the Manage Users screen in the administration section of your account.
+A user account is created either when you first setup a new account with DailyStory or your user account is added by another user. Users are managed in the Manage Users screen in the administration section of your account.
 
 ![Manage Users](/articles/account/users-01.png "Manage Users")
 

@@ -10,6 +10,7 @@
 ## [Emails](/emails/)
 ## [Leads](/leads/)
 ## [Reports](/reports/)
+## [Segments](/segments/)
 
 # Features
 ## [Magic Forms](/acquisition/magic-forms/)
@@ -21,11 +22,11 @@
 ## [Web Forms](/acquisition/web-forms/)
 
 # Account
-## [Users](/account/users)
-## [Roles](/account/roles)
 ## [Personal Settings](/account/personal-settings)
+## [Roles](/account/roles)
 ## [Settings](/account/settings)
 ## [Tracking Code](/install)
+## [Users](/account/users)
 
 # Integrations
 ## [MailChimp](/integrations/mailchimp)
