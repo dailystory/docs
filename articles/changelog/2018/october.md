@@ -3,6 +3,90 @@
 	description: 'Product Updates for October 2018'
 }
 # DailyStory Product Updates for October 2018
+## October 31, 2018
+* Feature: change password
+* Refactor: updates for unit tests
+
+## October 27, 2018
+* Refactor: better logging during bulk import
+* Refactor: unit test updates
+
+## October 25, 2018
+* Refactor: typos and other misc
+* Refactor: update titles
+
+## October 23, 2018
+* Bug: whitelabel error handling messages
+* Bug: get any campaign
+* Bug: White label some admin screens
+
+## October 22, 2018
+* Bug: email missing from add to segment queue
+* Feature: tasks add segment to campaign and all all contacts
+* Refactor: API ContactList > Segment and use tasks for background processing
+* Bug: select all in leads not working
+
+## October 21, 2018
+* Bug: phone number could throw exceptions
+* Refactor: add dictionary parsers for filters
+* Feature: inline css in emails
+* Refactor: check if campaign exists by name; used in clone
+* Refactor: better filtering for segments
+* Bug: secondary button style bug
+* Bug: ApiName not persisted
+
+## October 18, 2018
+* Remove: returning contacts report is redundant
+* Refactor: DailyDigest to use search
+* Refactor: Segments controller returns Any
+
+## October 17, 2018
+* Refactor: fix build warnings
+* Refactor: improve exception handling for tenant not found
+* Bug: schedule to send text shown when nothing scheduled
+* Bug: update segment date_last_modified to occur in the past to allow for update
+* Bug: btn-secondary doesn't render correctly
+* Refactor: refactor dynamic segment refresh
+* Refactor: handle errors in search for dynamic segments
+* Feature: initial check-in of deep clone campaign
+
+## October 16, 2018
+* Feature: added ProcessTaskQueue
+* Bug: LastVisitDate can sometimes be null for Telligent integration
+* Refactor: better api counting for mindbody
+* Feature: Azure function to add task for rebuilding dynamic segment
+* Bug: handle DateLastSeen min/max values for SQL
+* Bug: handle empty title in content pages and properly set status
+* Refactor: ContactList to Segment methods
+* Feature: Tasks
+* Feature: add support for trigger web job for task queue
+* Refactor: support N days back for search queries
+* Bug: contacts in dynamic segment cannot be removed
+
+## October 15, 2018
+* Refactor: set date last seen in contact save
+* Refactor: update telligent installer
+* Refactor: better error message for Salesforce sync
+* Bug: MindBody activation url needed to urlencode activation code
+* Bug: MindBody modal referenced bad image path
+* Refactor: consistent page titles
+* Refactor: removed updated column from contacts tables
+* Refactor: handle view cases for home page
+* Refactor: Improvements to contact header
+
+## October 14, 2018
+* Feature: auto-install contact field properties for integrations
+* Refactor: Graph Field
+* Bug: optin mindbody on PromotionalEmailOptin
+* Refactor: update contacts to support array of user defined array
+* Refactor: split populate contact document function
+* Refactor: add auto install option for MindBody and Telligent
+* Refactor: update contact detail to support array of udf strings
+
+## October 13, 2018
+* Refactor: scheduled message and add send method
+* Refactor: roles update and enable in side bar
+
 ## October 11, 2018
 * Bug: handle exceptions in SF lead creation edge case
 

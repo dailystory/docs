@@ -38,12 +38,15 @@ Once you have created a phone number in Twilio, you can find it in your Twilio c
 ![Twilio Phone Number](/articles/integrations/twilio-02.png "Twilio Phone Number")
 
 <ol class="step"><li value="4">Twilio Notify (optional)</li></ol>
+To send [Push Notifications](/push-notifications) you need to enable the [Twilio Notify Service](https://www.twilio.com/notify) and provide a Service Id to DailyStory.
 
-To enable DailyStory to send push notifications to your app running on your customers' iOS and Android devices, you need to create a service in Twilio Notify.
+> Push Notifications will only be sent to Contacts that opted in to receive Push Notifications on their iOS or Android device and the App [registers the device id](/api/contact/#api-contact-registerdevice) with DailyStory.
 
-> Note, there are additional steps required to configure Twilio for Apple Push Notification and Android Notifications.
+Once added to your account, click the red plus and add a new Notify Service.
 
-Once you have created a Notify Service, copy the Service Id (SID).
+> Note, there are additional steps required to configure Twilio for Apple Push Notification and Android Notifications. Please see Twilio's documentation for further configuration steps.
+
+Once you have created a Notify Service, add the Service Id (SID) to the Twilio integration in DailyStory.
 
 ![Twilio Service Id](/articles/integrations/twilio-03.png "Twilio Service Id")
 

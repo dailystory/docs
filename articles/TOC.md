@@ -9,6 +9,7 @@
 ## [Dashboard](/dashboard/)
 ## [Emails](/emails/)
 ## [Leads](/leads/)
+## [Push Notifications](/push-notifications/)
 ## [Reports](/reports/)
 ## [Segments](/segments/)
 
