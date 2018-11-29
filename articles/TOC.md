@@ -3,14 +3,12 @@
 ## [New? Start Here](/quickstart)
 
 # Core Concepts
-## [Accounts](/accounts/)
 ## [Campaigns](/campaigns/)
 ## [Contacts](/contacts/)
 ## [Dashboard](/dashboard/)
 ## [Emails](/emails/)
 ## [Leads](/leads/)
 ## [Push Notifications](/push-notifications/)
-## [Reports](/reports/)
 ## [Segments](/segments/)
 
 # Features
