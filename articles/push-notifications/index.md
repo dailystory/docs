@@ -24,3 +24,5 @@ Next, set the title and message content.
 DailyStory includes several tools for testing Push Notifcations. If you have access to the Administration section, navigate to /tools and find the Push Notifications section:
 
 ![Push Notification Tools](/articles/push-notifications/push-02.png "Push Notification Tools")
+
+Using these advanced tools you can verify if a Contact has a registered Device Binding, manually register a Device Binding for a Contact, or Send a Push notification to a specific Contact. 
