@@ -3,6 +3,17 @@
 	description: 'Product Updates for November 2018'
 }
 # DailyStory Product Updates for November 2018
+## November 30, 2018
+* Refactor: move css styles to file
+* Bug: last segment or campaign in a contact should remove the card
+* Bug: cache wasn't consistently cleared for add/remove segments
+* Add: Contact Preferences to better manage how contacts optin and optout
+* Refactor: make table cell clickable for leads, contacts and campaigns
+* Refactor: one click edit from contact list
+* Refactor: merged in screen-edits branch for UX updates
+* Bug: body merge tags handled incorrectly in notifications
+* Refactor: check for do not contact when sending text msg
+
 ## November 29, 2018
 * Refactor: updates for new optin and do not contact options
 * Merge: merged in new optin management preferences and screen
