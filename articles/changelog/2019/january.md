@@ -20,6 +20,8 @@
 * Bug: designer title is hardcoded
 * Bug: plaintext editor not defined
 * Bug: title updates
+* Bug: conflicts with #footer
+* Bug: old email create links
 
 ## January 2, 2019
 * Bug: campaigns of type active should include paused
