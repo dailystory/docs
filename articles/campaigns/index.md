@@ -13,7 +13,7 @@ All reporting and account activity is associated with a campaign.
 
 ![Campaigns](/articles/campaigns/campaigns-01.png "Campaigns")
 
-DailyStory supports an unlimited number of campaigns and there is no restriction for how you model you business (e.g. you could create a single campaign or quarterly campaigns). However, the number of campaigns you can have is governed by your license.
+DailyStory supports an unlimited number of campaigns and there is no restriction for how you model you business (e.g. you could create a single campaign or quarterly campaigns). However, the number of campaigns is governed by your license.
 
 > A best practice is to create a campaign for specific activities such as *Black Friday Sales* or *Free Trial*.
 
@@ -29,62 +29,67 @@ Your website gets both organic traffic and traffic from a Google Ads campaign "S
 
 Now let's add DailyStory.
 	
-Create a [Magic Form](/acquisition/magic-forms/) in the General Campaign to connect your Contact Us form to DailyStory. Organic visitors that complete the Contact Us form will be added to the General Campaign.
+First, create a [Magic Form](/acquisition/magic-forms/) in the General Campaign to connect your Contact Us form to DailyStory. Organic visitors that complete the Contact Us form are added to the General Campaign.
 
 Next, create a "Summer Sales" campaign with [Tracking Links](/link-tracking/) and use those tracking links in your Google Ads.
 
 People that come in through your "Summer Sales" tracking link and complete the Contact Us form will be automatically routed into the "Summer Sales" campaign.
 
-### Email or SMS marketing campaign example
-Unlike a lead acquisition campaign where leads are added from forms on your website or through integration with the DailyStory API, an email or SMS marketing campaign doesn't require a catch-all "General Campaign".
+### Marketing to existing contacts
+Unlike a lead acquisition campaign, where leads are added through forms on your website or integration with the DailyStory API, marketing to existing contacts is accomplished by creating a campaign and adding contacts or segments.
 
-Instead you add existing contacts to the campaign, configure the workflow to send the nuturing emails or text messages, and all interactions are related back to that campaign.
+[Contacts](/contacts/) are added individually, by selecting multiple contacts from a search result, or by adding segments to the campaign.
 
 ## Creating a Campaign
-To create a new campaign click the '+ New Campaign' button from the 'All Campaigns' menu option in the navigation. This brings up the Create a New Campaign form:
+To create a new campaign click the '+ Create' link in the sidebar. 
+
+![Create a Campaign](/articles/campaigns/campaigns-05.png "Create a Campaign")
+
+This brings up the Create a Campaign form:
 
 ![Create a Campaign](/articles/campaigns/campaigns-02.png "Create a Campaign")
 
-All that is required to create a campaign is a name.
+Only the name is required to create the campaign. Use the description to provide helpful information about your campaign.
 
-### Advanced options
-You can optionally configure advanced options.
+### Add Segments to a Campaign
+When assets, such as [emails](/emails/), are created for your campaign you can use the scheduler to control which segments the email (or other asset) will be sent to and when:
+	
+![Scheduler](/articles/campaigns/campaigns-06.png "Scheduler")
 
-![Advanced options](/articles/campaigns/campaigns-03.png "Advanced options")
+By default the scheduler will send to "Everyone in this campaign". If one of more segments are part of the campaign, you can select to send to those segments as well.	
 
-* **Assign new leads to** - the account that new leads in this campaign should be assigned to.
-* **Workflow behavior** - the default is that any new lead starts at the beginning of the workflow for this campaign. However, this can also be configured so that new leads only receive new workflows. The latter option is useful for newsletter campaigns.
-* **Auto-qualify** - leads added to this campaign are automatically marked as qualified.
-* **budget** - enables you to configure a cost associated with the campaign.
+To add one or more segments to a campaign:
 
-![Campaign budget](/articles/campaigns/campaigns-04.png "Campaign budget")
+1. Edit the campaign
+2. Select one or more segments
+3. Save the campaign
 
-> While not enabled in reporting yet, in the future budgeting will allow you to see a cost-per-account or cost-per-lead in reports.
+For example, the segments "Customer List" and "Digital Agencies":
+	
+![Add Segments](/articles/campaigns/campaigns-07.png "Add Segments")
+
+> Note, DailyStory takes care of removing duplicates. If a contact is in multiple segments, they will only be added to your campaign once. And, if a segment is removed from a campaign, the contact will remain in the campaign if they are part of another segment.
+
+### Additional Options
+* **Assign new leads to** - Lead assignment enables you to assign leads to a member of your team.
+* **Auto-qualify** - Leads added to this campaign are automatically marked as qualified.
 
 ### Editing a Campaign
-Campaigns can be edited at anytime. If the campaign is disabled or deleted, the campaign will not run any workflows.
+Campaigns can be edited at any time to change name, description or other details. Segments may also be added or removed. 
 
-### Deleting a Campaign
-To delete a campaign, simply click the Delete button. 
-
-This will immediately disable the campaign. However, the campaign will not be permanently deleted from DailyStory for 10 days.
-
-## Managing a Campaign
-Once a campaign is created, or when you view a campaign, you will see different information based on how they campaign is being used.
-
-
+Note: deleting or pausing a campaign will prevent workflow, scheduled activites, rules and automations and other campaign activites from processing. 
 
 ## Frequently Asked Questions
-Below are some frequently asked questions.
+
+### What happens when I delete a campaign?
+When a campaign is deleted it is moved to the Trash and the campaign is disabled. However, the campaign will not be permanently deleted and can be recovered from the Trash. Once the campaign is deleted all assets associated with the campaign will be tagged as "Unassigned" and when edited may be assigned to another campaign.
+
+### What is an "Unassigned" campaign?
+In your use of DailyStory you may see an email or other campaign asset associated with the campaign "Unassigned". The "Unassigned" campaign is a special type of campaign used when an asset is no longer associated with a campaign. An "Unassigned" asset can be associated with a campaign by editing it. When opened a popup will appear asking which campaign the asset should be part of. 
 
 ### How do I archive a campaign?
-To archive a campaign and retain the campaign activity simply mark the campaign as disabled.
+To archive a campaign and retain the campaign activity mark the campaign as disabled. While archived campaigns are not active, archiving a campaign retains all the data and assets for reporting purposes.
 
-
-
-
-A contact can be added to an existing campaign. For example, if you are running a drip campaign to communicate with a new customer, just add the contact to the campaign. 
-
-Each lead is progressed through the campaigns workflow individually. In DailyStory a single contact can be part of multiple campaigns.
-
-> It's important to note that if a campaign had 10 workflow steps it is possible for the campaign's leads to each be at different steps in the campaign's workflow.
+### What happens when a contact is added to a campaign?
+When a contact is added to a campaign either directly or as part of a segment, a new ["Lead"](/leads/) is created for that contact in the campaign. Next, if the campaign has an associated workflow, the lead is run through the workflow. The lead is also eligible to receive any assets scheduled for the campaign (emails, text messages, push notifications, etc.). And, if the campaign has automations or scoring rules in place, those will also be run on the lead.
+ 
