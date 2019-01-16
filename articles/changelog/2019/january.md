@@ -3,6 +3,34 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for January 2019
+## January 15, 2019
+* Refactor: finalize task branch for merge
+* Bug: setting fullname in contact save
+* Refactor: bulk edit updates for assigned task
+* Bug: handle associated with id and delete
+* Bug: missing closing bracket
+
+## January 13, 2019
+* Bug: check for associated with nulls
+* Refactor: add support for associated with selector
+* Refactor: update status ux in tasks
+* Refactor: tasks updates for trash, archive, etc.
+* Refactor: return current user from users API
+* Bug: magic forms edge case bug; added status of form submit wireup
+* Refactor: add exception handling to send test sms
+* Bug: test lead needed to have IsSmsEnabled to true
+* Updates: Assigned tasks
+* Refactor: return fullname on contact object
+* Bug: text message bad number exception needs to return number
+* Refactor: updates to magicforms to handle anchor submits
+* Bug: campaign group by caused bad sums
+* Bug: fixed message if magic form found
+
+## January 12, 2019
+* Add: search api for contacts
+* Branch Tasks feature
+* Bug: ux layout issues
+
 ## January 11, 2019
 * Bug: with how relative links, e.g. example.com/#contact are handled
 

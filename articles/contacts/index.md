@@ -43,7 +43,7 @@ After completing the form and clicking search, the URL of the browser contains t
 
 Contacts can have user defined attributes. Enterprise customers of DailyStory can configure those properties for search. When the user defined attribute is searchable it is available in advanced search.
 
-For example, if your contact data is augmented with elibibility date and income data, and those fields are available to search, you will find the fields in advanced search.
+For example, if your contact data is augmented with eligibility date and income data, and those fields are available to search, you will find the fields in advanced search.
 
 ![User Defined Search](/articles/contacts/contacts-13.png "User Defined Search")
 
