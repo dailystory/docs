@@ -1,6 +1,7 @@
 # Overview
 ## [What is DailyStory?](/)
 ## [New? Start Here](/quickstart)
+## [FAQs](/faq)
 
 # Core Concepts
 ## [Campaigns](/campaigns/)
@@ -10,13 +11,15 @@
 ## [Leads](/leads/)
 ## [Push Notifications](/push-notifications/)
 ## [Segments](/segments/)
+## [Text Messages](/text-messages/)
+## [Tasks](/tasks/)
 
 # Features
 ## [Magic Forms](/acquisition/magic-forms/)
-## [Paid Search](/acquisition/paid-search/)
 ## [Pages](/pages/)
 ## [Popups](/acquisition/popups/)
 ## [Tracking Links](/link-tracking/)
+## [Tracking Ad Clicks](/link-tracking/#tracking-ad-clicks)
 ## [Triggers](/acquisition/triggers/)
 ## [Web Forms](/acquisition/web-forms/)
 
