@@ -1,7 +1,6 @@
 # Overview
 ## [What is DailyStory?](/)
 ## [New? Start Here](/quickstart)
-## [FAQs](/faq)
 
 # Core Concepts
 ## [Campaigns](/campaigns/)
