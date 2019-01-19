@@ -19,7 +19,7 @@
 ## [Popups](/acquisition/popups/)
 ## [Tracking Links](/link-tracking/)
 ## [Tracking Ad Clicks](/link-tracking/#tracking-ad-clicks)
-## [Triggers](/acquisition/triggers/)
+## [Visit Alerts](/acquisition/triggers/)
 ## [Web Forms](/acquisition/web-forms/)
 
 # Account
