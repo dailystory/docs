@@ -24,7 +24,7 @@ This guide provides a list of resources to help you get started with Push Notifi
 
 * [Create a Push Notification](#create-a-push-notification)
 * [Edit a Push Notification](#edit-a-push-notification)
-* [Send a Test Push Notification]()
+* [Send a Test Push Notification](#test-a-push-notification)
 
 **Frequently Asked Questions**
 
@@ -49,13 +49,14 @@ Next, select a title and content for the Push Notification. As you type your tit
 
 Finally, Save the Push Notification. 
 
-Once the Push Notification is saved you can also [schedule when](#send-a-push-notification) and to whom the Push Notification will be sent to. The Push Notification will also be available to add to a campaign's workflow.
+Once the Push Notification is saved you can also [schedule when](#send-a-push-notification) and to whom the Push Notification is sent to. The Push Notification is also now available to add to a campaign's workflow.
 
 ## Edit a Push Notification
 To edit a Push Notification navigate to Content > Push Notifications and click the Push Notification you want to edit.
 
 ![All Push Notifications](/articles/push-notifications/push-04.png "All Push Notifications")
 
+This will open the Edit Push Notification screen. This screen is nearly identical to the Create Push Notification screen.
 
 > If you edit the content of a scheduled Push Notification, the scheduled Push Notification will use your new content.
 
@@ -83,9 +84,26 @@ Using these advanced tools you can verify if a Contact has a registered Device B
 ## Send a Push Notification
 Similar to other features such as [Email](/emails) and [Text Messages](/text-messages), Push Notifications are sent through [Campaign Workflows](/campaigns/workflows) and [Campaign Schedules](/campaigns/schedules).
 
+### Send using Scheduler
+To send a Push Notification using a Campaign's Schedule edit the Push Notification and scroll down and set the segments to send to and the date and time to send.
 
-To create a new Push Notification, navigate to a Campaign's Workflow and add a "Push Navigation":
+For example, to send to customers in the 'Upcoming appointments' segment at 10am.
+
+> Send dates and times are based on the [Timezone](/account/settings) configured for your account.
+
+### Send using Workflow
+To send a Push Notification using a Campaign's Workflow. Add a Push Notification Workflow Step and select the Push Notification to send.
 
 ![Push Notification](/articles/push-notifications/push-01.png "Push Notification")
 
-Next, set the title and message content.
+## Frequently Asked Questions
+Below are frequently asked questions about Push Notifications:
+
+### Is everyone sent the same Push Notification?
+### Can I personalize the content in the Push Notification?
+### Why didn't my contact receive a Push Notification?
+### Can one contact have multiple devices?
+### How do I enable DailyStory to send Push Notification to my App?
+### Why do I see Preview Unavailable?
+### Why can't I see delivery information?
+### What is a Device Binding?
