@@ -15,7 +15,7 @@ Once you've setup DailyStory Magic Forms for your existing HTML form, DailyStory
 
 DailyStory does all this without requiring any changes to your existing forms or the addition of any custom code.
 
-## Creating and Editing a Magic Form
+## Create and Edit a Magic Form
 
 To creae a new Magic Form go to Acquisition > Magic Forms. There you will find a list of all the existing Magic Forms. You can edit a Magic Form by clicking on it and you can create a new Magic Form by clicking the + New Magic Form button: 
 
