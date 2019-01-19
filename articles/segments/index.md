@@ -11,18 +11,15 @@ This guide provides a list of resources to help you get started with Segments.
 
 * [Create a Segment](#create-a-segment)
 * [Edit a Segment](#edit-a-segment)
+* [Create a Dynamic Segment](#create-a-dynamic-segment)
+* [Types of Segments](#types-of-segments)
+* [Create a dynamic segment from search](#create-a-dynamic-segment-from-search)
 
-**Manage Segment Contacts**
+**Segment Management**
 
+* [View Contacts in a Segment](#viewing-the-contacts-in-a-segment)
 * [Add Contacts to a Segment](#add-contacts-to-a-segment)
-
-**Working with Dynamic Segments**
-
-* [Create a new dynamic segment from search](#create-a-new-dynamic-segment-from-search)
-
-**Access Control**
-
-* [Restricting Access to Segment Management](#restricting-access-through-permissions)
+* [Restrict access through permissions](#restricting-access-through-permissions)
 
 **Frequently Asked Questions**
 
@@ -39,7 +36,7 @@ To create a segment, either:
 
 * Navigate to Contacts > New Segment. 
 * Navigate to Contacts > All Segments and click `+ Create` in the Segment menu.
-* Use the [Create Segment button](#create-a-new-dynamic-segment-from-search)from a list of search results
+* Use the [Create Segment button](#create-a-dynamic-segment-from-search) from a list of search results
 * [Import a list of Contacts](/contacts/import)
 
 With the exception of creating a segment from import, all other options will open the Create Segment Editor.
@@ -114,18 +111,21 @@ As an example, using DailyStory's [MINDBODY integration](/integrations/mindbody)
 
 > Indexed User Defined Contact fields, which enables those fields to be used in search, are only available to DailyStory Professional and Enterprise customers.
 	
-## Creating Dynamic Segments
-To create a dynamic segment, click the Advanced Options link in the Segment editor to access advanced options:
-	
-![Dynamic Segment](/articles/segments/segments-02.png "Dynamic Segment")
+## Create a Dynamic Segment
+To create a dynamic segment, create a new segment. Next, scroll down to `Configure the type of segment` and select Dynamic Segment.
 
-> By default, a new segment is static. You can optionally change your segment to dynamic and add the search criteria used to build the segment.
+![Dynamic Segment](/articles/segments/segments-02.gif "Dynamic Segment")
+
+> By default, new segments are static and Dynamic Segments are only available to DailyStory Professional and Enterprise customers.
 
 By selecting the option to make the segment dynamic, you will also need to provide search criteria used to identify contacts.
 
-> Dynamic segments are only available to DailyStory Professional and Enterprise customers.
+Search criteria for a Dynamic Segment starts with `s=`. For example, to find everyone with the domain `example.com` the search criteria is: `s=example.com`.
 
-Next, open a new tab in your browser and navigate to All Contacts. Use [Search](/search) to filter down a list of contacts that meet your specific criteria.
+The Dynamic Search criteria follows the same format as Contact search. But typing this in is tedious. It's much, much easier to create a Dynamic Segment from search.
+
+### Create a Dynamic Segment from Search
+The easiest was to create a Dynamic Segment is to start in Contact search. Simply search using either basic or advanced search to find a list of contacts.
 
 > With dynamic segments it is possible to build dynamic segments that use other segments. For example, all contacts in segment A but not in segment B.
 
@@ -133,9 +133,9 @@ Once you have filtered down your search results, your URL may look similar to:
 	
 `https://us-1.dailystory.com/Contact?s=apple.com%20campaign:832`
 
-This search looks for all contacts that include the text "apple.com" and are in campaign 832.
+This search looks for all contacts that include the text "apple.com" and are in campaign 832. 
 
-Scroll to the bottom of the page and you'll find a `Create Segment` button. 
+Scroll to the bottom of the Contact search page and you'll find the `Create Segment` button. 
 
 ![Create Segment Button](/articles/segments/segments-09.png "Create Segment Button")	
 
