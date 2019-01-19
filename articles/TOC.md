@@ -1,6 +1,7 @@
 # Overview
 ## [What is DailyStory?](/)
 ## [New? Start Here](/quickstart)
+## [FAQ](/faq)
 
 # Core Concepts
 ## [Campaigns](/campaigns/)
@@ -23,9 +24,9 @@
 ## [Web Forms](/acquisition/web-forms/)
 
 # Account
+## [Account Settings](/account/settings)
 ## [Personal Settings](/account/personal-settings)
 ## [Roles](/account/roles)
-## [Settings](/account/settings)
 ## [Tracking Code](/install)
 ## [Users](/account/users)
 
