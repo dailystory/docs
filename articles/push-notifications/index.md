@@ -3,7 +3,7 @@ title: 'Push Notifications',
 description: 'DailyStory Push Notifications'
 }
 # Push Notifications
-DailyStory Push Notifications enable you to create personalized and targeted messages sent to DailyStory [Contacts](/contacts) as part of a [Campaign](/campaigns).
+Use DailyStory Push Notifications to send personalized and targeted messages to your [Contact's](/contacts) mobile App.
 
 Push Notifications are a powerful tool. Use them to send personalized communication to people using your App. This can include:
 
@@ -12,11 +12,11 @@ Push Notifications are a powerful tool. Use them to send personalized communicat
 * Imporant notices
 * Offers and discounts
 
-DailyStory's Push Notifications also support personalization and are sent individually to each contact. This is different from other broadcast Push Notification services which send the same message to all recipients.
+DailyStory's Push Notifications support personalization and are sent individually to each contact. This is different from other broadcast Push Notification services which send the same message to all recipients.
 
-> Push Notifications will only be sent to Contacts that opted in to receive Push Notifications on their iOS or Android device. Push Notification messages are only available to iOS and Android App(s). And, your iOS or Android App must also [register the device id](/api/contact/#api-contact-registerdevice) with DailyStory.
+> Push Notifications are sent to Contacts that opted in to receive Push Notifications on their iOS or Android device. Push Notification messages are only available to iOS and Android App(s). And, your iOS or Android App must also [register the device id](/api/contact/#api-contact-registerdevice) with DailyStory.
 
-DailyStory Push Notifications are sent using [Twilio](/integrations/twilio). [Twilio Notify Service integration](/integrations/twilio) must be configured. DailyStory can manage and configure this service for you, or you can do it yourself.
+DailyStory Push Notifications require [Twilio](/integrations/twilio) integration. [Twilio Notify Service integration](/integrations/twilio) must be configured. DailyStory can manage and configure this service for you, or you can do it yourself.
 
 This guide provides a list of resources to help you get started with Push Notifications.
 
@@ -24,7 +24,7 @@ This guide provides a list of resources to help you get started with Push Notifi
 
 * [Create a Push Notification](#create-a-push-notification)
 * [Edit a Push Notification](#edit-a-push-notification)
-* [Send a Test Push Notification](#test-a-push-notification)
+* [Send a test Push Notification](#test-a-push-notification)
 
 **Frequently Asked Questions**
 
@@ -37,7 +37,7 @@ This guide provides a list of resources to help you get started with Push Notifi
 * [What is a Device Binding?](#what-is-a-device-binding)
 
 ## Create a Push Notification
-To create a new Push Notification, navigate to Content > Push Notifications. Next, in the main Push Navigation menu click `+ Create`. This will open the Push Notification editor.
+To create a Push Notification, navigate to Content > Push Notifications. Next, in the main Push Navigation menu click `+ Create`. This will open the Push Notification editor.
 
 When the editor opens select the campaign this Push Notification is used within or create a new campaign.
 
@@ -52,7 +52,7 @@ Finally, Save the Push Notification.
 Once the Push Notification is saved you can also [schedule when](#send-a-push-notification) and to whom the Push Notification is sent to. The Push Notification is also now available to add to a campaign's workflow.
 
 ## Edit a Push Notification
-To edit a Push Notification navigate to Content > Push Notifications and click the Push Notification you want to edit.
+To edit a Push Notification navigate to Content > Push Notifications and select the Push Notification to edit.
 
 ![All Push Notifications](/articles/push-notifications/push-04.png "All Push Notifications")
 

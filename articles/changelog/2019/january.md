@@ -3,6 +3,9 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for January 2019
+## January 21, 2019
+* Bug: setused in campaign
+
 ## January 19, 2019
 * Bug: visit alerts should use email name not subject
 * Bug: race condition with workflow last contacted
