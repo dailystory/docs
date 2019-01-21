@@ -27,14 +27,17 @@ This guide provides a list of resources to help you get started with Text Messag
 * [Create a Text Message](#create-a-text-message)
 * [Edit a Text Message](#edit-a-text-message)
 * [Send a test Text Message](#test-a-text-message)
-
-* Understanding Text Messaging costs](#understanding-text-messaging-costs)
+* [Understanding Text Messaging costs](#understanding-text-messaging-costs)
 
 **Frequently Asked Questions**
 
-How do I use emoticons?
-
-
+* [Is everyone sent the same Text Message?](#is-everyone-sent-the-same-text-message)
+* [Can I personalize the content in the Text Message?](#can-i-personalize-the-content-in-the-text-message)
+* [Why didn't my contact receive a Text Message?](#why-didnt-my-contact-receive-a-text-message)
+* [How do I enable DailyStory to send Text Messages?](#how-do-i-enable-dailystory-to-send-text-messages)
+* [Can I use emojis in my Text Messages?](#can-i-use-emojis-in-my-text-messages)
+* [What happens if someone replies STOP?](#what-happens-if-someone-replies-stop)
+* [Can I choose the number Text Messages originate from?](#can-i-choose-the-number-text-messages-originate-from)
 
 ## Create a Text Message
 To create a Text Message, navigate to Content > Text Messages. Next, in the main Text Messages menu click `+ Create`. This will open the Text Message editor.
