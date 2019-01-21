@@ -16,6 +16,10 @@ h3 {
     font-family: 'Fira Sans Condensed', sans-serif;
 }
 
+.navbar-nav {
+    font-size: 14px;
+}
+
 ol.api li {
     position: relative;
     display: block;
