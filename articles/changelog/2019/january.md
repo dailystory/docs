@@ -3,6 +3,26 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for January 2019
+## January 19, 2019
+* Bug: visit alerts should use email name not subject
+* Bug: race condition with workflow last contacted
+* Refactor: update visit alerts
+* Refactor: set campaign name through js
+
+## January 16, 2019
+* Refactor: add image upload to task
+* Bug: workflow should use name instead of subject for emails
+* Refactor: associated with selector should use with_id
+* Bug: don't show time if time is midnight
+* Refactor: format for overdue dates as red
+* Refactor: handle midnight as Today, Tomorrow, Yesterday
+* Refactor: send notification on assigned task
+* Refactor: handle overdue; utc formatting; send notification
+* Refactor: update UX for visit alerts
+* Refactor: update enum descriptions for visit alerts
+* Refactor: add static send for emails
+* Refactor: move webstats job logic into core
+
 ## January 15, 2019
 * Refactor: finalize task branch for merge
 * Bug: setting fullname in contact save
