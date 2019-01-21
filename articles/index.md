@@ -22,5 +22,5 @@ Watch our 60-second overview video to quickly see what DailyStory does.
 
 And that is just a preview of the capabilities! 
 
-## Getting Started with DailyStory?
-If you are new to DailyStory we recommend [starting with the quickstart](/quickstart).
+## Getting Started with DailyStory
+If you are new to DailyStory we recommend [starting with the quickstart](/quickstart) and visiting our website [www.dailystory.com](https://www.dailystory.com).

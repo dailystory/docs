@@ -12,6 +12,9 @@
 	}, {
 		"text": "Updates",
 		"url": "/changelog/",
+	}, {
+		"text": "Table of Contents",
+		"url": "/toc",
 	}],
 	"backButton": {
 		"text": "Back to DailyStory.com",

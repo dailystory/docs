@@ -7,6 +7,20 @@ The DailyStory tracking tag, also called a tracking code, is a small piece of Ja
 
 > The DailyStory tracking tag is similar to other tags, such as Google Analytics.
 
+**Setting up the Tracking Tag**
+
+* [Get the Tracking Tag](#get-the-tracking-tag)
+* [Installation Guides](#installation-guides)
+* [Manual Install](/install/manual)
+
+**Frequently Asked Questions**
+
+* [Where should I place the tag?](#where-should-i-place-the-tag)
+* [How does the tracking tag work?](#how-does-the-tracking-tag-work)
+* [Is there anything else to install?](#is-there-anything-else-to-instal)
+* [Does the tracking tag slow down my web page?](#does-the-tracking-tag-slow-down-my-web-page)
+
+## Get the Tracking Tag
 You can find the DailyStory tracking tag on the user drop down when you are signed in to DailyStory:
 ![Tracking Tag](/articles/install/install-01.png "Tracking Tag")
 
@@ -37,7 +51,7 @@ The tracking tag serves several purposes:
 * Enables integration with your website's forms
 * Tracks incoming links to your website
 
-### Does the tracking tag require JQuery?
+### Is there anything else to install?
 No, the tracking tag does not require any other JavaScript libraries.
 
 ### Does the tracking tag slow down my web page?

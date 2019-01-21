@@ -5,9 +5,31 @@ description: 'Configure your Personal Settings in DailyStory'
 # Personal Settings
 Personal Settings enable you to configure options related to your login account for DailyStory. This includes setting such as email address, timezone, notifications and more.
 
+This guide provides a list of resources to help you get started with Personal Settings.
+
+**Personal Settings**
+
+* [Set name and contact details](#contact-details)
+* [Set your timezone](#timezone)
+* [Configure date, time and money formats](#display-options)
+* [Configure notification preferences](#notification-preferences)
+* [Set your primary account](#sign-in-account)
+
+**Frequently Asked Questions**
+
+* [How do I change or reset my password?](#how-do-i-change-my-password)
+* [What happens if I forgot my password?](#what-happens-if-i-forgot-my-password)
+* [How do I disable notifications for someone on my team?](#how-do-i-disable-notifications-for-someone-on-my-team)
+* [Can I opt in to lead notifications for specific campaigns?](#can-i-opt-in-to-lead-notifications-for-specific-campaigns)
+* [What happens if someone resets my password for me?](#how-do-i-change-a-password-for-someone-on-my-team)
+* [Why are the dates and times shown different than my local date and time?](#what-happens-if-someone-resets-my-password-for-me)
+* [How do I change the format used for dates and times?](#why-are-the-dates-and-times-shown-different-than-my-local-date-a)
+
+To access your personal settings, navigate to Account Settings > Personal Settings
+
 ![Personal Settings](/articles/account/personal-settings-01.png "Personal Settings")
 
-## Contact
+## Contact Details
 The contact section of your Personal Settings are used by DailyStory to configure where emails and text messages may be sent to. If services such as Text Message are enabled for your account, the mobile number you specify is used to send confirmation text messages and is the default for any test Text Messages you wish to send to yourself.
 
 > Important - Email is required to create a user in your account.
@@ -22,7 +44,7 @@ Use Display Options to configure how DailyStory will display values such as mone
 
 > Important - DailyStory does not manage currency conversions.
 
-## Notifications
+## Notification Preferences
 There are many types of notifications that DailyStory sends. Two of these notifications are New Lead Notifications and Daily Summaries. 
 
 The New Lead Notification is sent whenever a new inbound lead is created in any campaign. For example, if a [Magic Form](/acquisition/magic-forms/) is configured for a contact form on your website, whenver someone completes the form and DailyStory receives the lead you will be sent a New Lead Notification. By default, new users in DailyStory are subscribed to New Lead Notifications.
@@ -38,8 +60,14 @@ If you manage multiple accounts within DailyStory you can identify which account
 
 ## Frequently Asked Questions
 
+### How do I change my password?
+If you are already signed in to DailyStory, you can change your password by navigating to Account Settings > [Change Password](/account/change-password). If you are not signed in, or forgot your password, you can use the Forgot Password page to send yourself a [reset password link](https://app.dailystory.com/forgotpassword).
+
+### What happens if I forgot my password?
+If you forgot your password and cannot sign in to your DailyStory account, please use the [reset password link](https://app.dailystory.com/forgotpassword). This will send an email to the email configured for your account. Clicking on this link will open a page where you can configure a new password. You will then be automatically signed in to your account.
+
 ### How do I disable notifications for someone on my team?
-Not everyone on your team may want or need notifications when new leads are created. To disable notifications these users can log in to DailyStory and [disable their Notifications](/account/personal-settings#notifications). If you are a site owner you can also disable notifications for them. In Account Settings navigate to Users. Click on the user whose settings you wish to modify. Change their notification preferences and click Save.
+Not everyone on your team may want or need notifications when new leads are created. To disable notifications these users can log in to DailyStory and [disable their Notifications](/#notifications). If you are a site owner you can also disable notifications for them. In Account Settings navigate to Users. Click on the user whose settings you wish to modify. Change their notification preferences and click Save.
 
 ### Can I opt in to lead notifications for specific campaigns?
 Unfortunately not at this time. We are considering this as a future option.
@@ -51,7 +79,7 @@ You cannot change the password for someone on your team. However, you can send t
 If someone, other than yourself, attempts to reset your password you will receive a Reset Password Notification to the email configured with your user account in DailyStory. However, until your password is changed, your existing password will continue to work. If you receive unwanted or unexpected emails to reset your password, someone may be attempting to gain access to your account. If this happens, [please let us know](https://www.dailystory.com/contact-us/).
 
 ### Why are the dates and times shown different than my local date and time?
-If the dates and times shown next to any record in DailyStory does not appear to be correct, this may be because either your account timezone or your personal timezone have not been set correctly. All dates and times in DailyStory are stored in UTC, they are converted to your local date and time (timezone) by settings first in your [Account Settings](/account/settings) and then in your [Personal Settings](/account/personal-settings#timezone).
+If the dates and times shown next to any record in DailyStory does not appear to be correct, this may be because either your account timezone or your personal timezone have not been set correctly. All dates and times in DailyStory are stored in UTC, they are converted to your local date and time (timezone) by settings first in your [Account Settings](/account/settings) and then in your [Personal Settings](#timezone).
 
 ### How do I change the format used for dates and times?
-To change the format used for dates and times, simple choose from the list in the Display Options of your [Personal Settings](/account/personal-settings#display-options).
+To change the format used for dates and times, simple choose from the list in the Display Options of your [Personal Settings](#display-options).

@@ -54,3 +54,7 @@ ol.api li:before {
     padding: 0 15px;
     text-shadow: 0 0 2px rgba(33,26,145,.35);
 }
+
+#bodyContent img {
+    border: solid 1px #ddd;
+}
