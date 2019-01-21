@@ -5,6 +5,12 @@
 # DailyStory Product Updates for January 2019
 ## January 21, 2019
 * Bug: setused in campaign
+* Bug: status not captured
+* Add: images for Google play and iOS
+* Refactor: drag-and-drop app store icons
+* Refactor: svg for app store icons
+* Refactor: style updates
+* Refactor: tasks updates for bulk edit; date times
 
 ## January 19, 2019
 * Bug: visit alerts should use email name not subject

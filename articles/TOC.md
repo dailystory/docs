@@ -18,6 +18,7 @@
 ## [Magic Forms](/acquisition/magic-forms/)
 ## [Pages](/pages/)
 ## [Popups](/acquisition/popups/)
+## [Tasks](/tasks/)
 ## [Tracking Links](/link-tracking/)
 ## [Tracking Ad Clicks](/link-tracking/#tracking-ad-clicks)
 ## [Visit Alerts](/acquisition/triggers/)
