@@ -14,7 +14,7 @@ Push Notifications are a powerful tool. Use them to send personalized communicat
 
 DailyStory's Push Notifications also support personalization and are sent individually to each contact. This is different from other broadcast Push Notification services which send the same message to all recipients.
 
-> Push Notifications will only be sent to Contacts that opted in to receive Push Notifications on their iOS or Android device. Push Notification messages are only available to iOS and Android App(s). And, your iOS or Android App must also [registers the device id](/api/contact/#api-contact-registerdevice) with DailyStory.
+> Push Notifications will only be sent to Contacts that opted in to receive Push Notifications on their iOS or Android device. Push Notification messages are only available to iOS and Android App(s). And, your iOS or Android App must also [register the device id](/api/contact/#api-contact-registerdevice) with DailyStory.
 
 DailyStory Push Notifications are sent using [Twilio](/integrations/twilio). [Twilio Notify Service integration](/integrations/twilio) must be configured. DailyStory can manage and configure this service for you, or you can do it yourself.
 
@@ -28,13 +28,13 @@ This guide provides a list of resources to help you get started with Push Notifi
 
 **Frequently Asked Questions**
 
-* [Is everyone sent the same Push Notification?]
-* [Can I personalize the content in the Push Notification?]
-* [Why didn't my contact receive a Push Notification?]
-* [Can one contact have multiple devices?]
-* [How do I enable DailyStory to send Push Notification to my App?]
-* [Why do I see Preview Unavailable?]
-* [Why can't I see delivery information?]
+* [Is everyone sent the same Push Notification?](#is-everyone-sent-the-same-push-notification)
+* [Can I personalize the content in the Push Notification?](#can-i-personalize-the-content-in-the-push-notification)
+* [Why didn't my contact receive a Push Notification?](#why-didnt-my-contact-receive-a-push-notification)
+* [Can one contact have multiple devices?](#can-one-contact-have-multiple-devices)
+* [How do I enable DailyStory to send Push Notification to my App?](#how-do-i-enable-dailystory-to-send-push-notification-to-my-app)
+* [Why can't I see delivery information?](#why-cant-i-see-delivery-information)
+* [What is a Device Binding?](#what-is-a-device-binding)
 
 ## Create a Push Notification
 To create a new Push Notification, navigate to Content > Push Notifications. Next, in the main Push Navigation menu click `+ Create`. This will open the Push Notification editor.
@@ -100,10 +100,22 @@ To send a Push Notification using a Campaign's Workflow. Add a Push Notification
 Below are frequently asked questions about Push Notifications:
 
 ### Is everyone sent the same Push Notification?
+No. Each Push Notification sent by DailyStory is send indivudally to each recipient. This is done so each message can be personalized to each recipient.
+
 ### Can I personalize the content in the Push Notification?
+Yes! Using DailyStory's Personalization tags you can add personalized content to your Push Notifications.
+
 ### Why didn't my contact receive a Push Notification?
+Unlike email and text messages, Push Notifications do not provided delivery information. There are several reasons why a recipient did not receive your Push Notification: the recipient may not have been included in the segment the Push Notification was sent to; the recipient may not have opted-in to receive Push Notifications; the recipient may have disabled Push Notifications; the App isn't properly [registering the device id](/api/contact/#api-contact-registerdevice) with DailyStory; or [Twilio Notify Service integration](/integrations/twilio) is not properly configured.
+
 ### Can one contact have multiple devices?
+Yes! If your App is installed on multiple devices, such as an iPhone and and iPad, each of the device ids are registered with DailyStory. When a Push Message is sent, the message is sent to all the devices registered for the Contact.
+
 ### How do I enable DailyStory to send Push Notification to my App?
-### Why do I see Preview Unavailable?
+Enabling DailyStory to send Push Notifications to your App requires [registering the device id](/api/contact/#api-contact-registerdevice). This provides DailyStory with a unique identifier (the device id) that identifies the App and the individual. Secondly, Push Notifications are sent by DailyStory using [Twilio](/integrations/twilio). [Twilio Notify Service integration](/integrations/twilio) must be configured. DailyStory can manage and configure this service for you, or you can do it yourself.
+
 ### Why can't I see delivery information?
+Push Notification messages do not provide delivery information. Unlike email and text messages, if you want to know if your recipient receives your Push Notification additional updates to your App are required to tell DailyStory when a message is received.
+
 ### What is a Device Binding?
+A device binding is a unique identifier that uniquely identifies your app and the devices the app is installed on. When an App is installed on the device and the end user agrees to receive notifications, a device binding is created. This device binding, or device id, is then sent to DailyStory. When DailyStory sends a Push Notification the device id is used to identify the recipient.
