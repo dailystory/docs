@@ -5,7 +5,7 @@ description: 'DailyStory Text Messages'
 # Text Messages
 Use DailyStory Text Messages to send personalized and targeted messages to your [Contact's](/contacts) mobile device.
 
-<iframe width="640" height="360" src="https://player.vimeo.com/312828887" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/312828887" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Text Messages are a powerful tool. Use them to send personalized communication to your customers mobile devices. This can include:
 
@@ -40,6 +40,9 @@ This guide provides a list of resources to help you get started with Text Messag
 * [Can I use emojis in my Text Messages?](#can-i-use-emojis-in-my-text-messages)
 * [What happens if someone replies STOP?](#what-happens-if-someone-replies-stop)
 * [Can I choose the number Text Messages originate from?](#can-i-choose-the-number-text-messages-originate-from)
+
+**Related Articles**
+* [Tips for SMS / Text Message marketing](https://www.dailystory.com/blog/sms-marketing-text-message-marketing/)
 
 ## Create a Text Message
 To create a Text Message, navigate to Content > Text Messages. Next, in the main Text Messages menu click `+ Create`. This will open the Text Message editor.
