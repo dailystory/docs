@@ -42,6 +42,7 @@ This guide provides a list of resources to help you get started with Text Messag
 * [Can I choose the number Text Messages originate from?](#can-i-choose-the-number-text-messages-originate-from)
 
 **Related Articles**
+
 * [Tips for SMS / Text Message marketing](https://www.dailystory.com/blog/sms-marketing-text-message-marketing/)
 
 ## Create a Text Message
