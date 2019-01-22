@@ -11,6 +11,16 @@
 * Refactor: svg for app store icons
 * Refactor: style updates
 * Refactor: tasks updates for bulk edit; date times
+* Bug: new tasks should have due and start date today
+* Refactor: add link properties to Tenant settings
+* Refactor: trigger queue job
+* Refactor: create link from not found menu
+* Refactor: pass model to activity for contact detail
+* Refactor: split out retargeting pixels
+* Refactor: move popup field selection inline
+* Refactor: test button and display options
+* Refactor: update button text
+* Bug: fix footer layout
 
 ## January 19, 2019
 * Bug: visit alerts should use email name not subject

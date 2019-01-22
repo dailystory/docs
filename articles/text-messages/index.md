@@ -5,6 +5,8 @@ description: 'DailyStory Text Messages'
 # Text Messages
 Use DailyStory Text Messages to send personalized and targeted messages to your [Contact's](/contacts) mobile device.
 
+<iframe width="640" height="360" src="https://player.vimeo.com/312828887" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+
 Text Messages are a powerful tool. Use them to send personalized communication to your customers mobile devices. This can include:
 
 * Thank you messages
