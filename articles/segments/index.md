@@ -106,6 +106,8 @@ The easiest way to think about a dynamic segment is as a search result that is s
 
 Dynamic segment are especially usedful when coupled with [Campaigns](/campaigns) and [User Defined Fields](/contacts/#user-defined-fields). 
 
+<iframe src="https://player.vimeo.com/video/313256117" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ### Dynamic Segment Example
 As an example, using DailyStory's [MINDBODY integration](/integrations/mindbody) a dynamic segment could be created for Clients that have not visited in the past 30 days. This dynamic segment is then used in a campaign that emails those Clients a series of offers to entice them to return.
 

@@ -3,6 +3,36 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for January 2019
+## January 24, 2019
+* Refactor: add permission checks
+
+## January 23, 2019
+* Refactor: email templates and email; remove old files
+* Refactor: css generator required for email designer
+* Refactor: remove notification for email/template save
+* Refactor: consistent titles for editors
+* Refactor: fix ux padding/layout/headers for designer
+* Refactor: set styles for responsive
+* Bug: Not found errors could log user out
+* Refactor: clone email templates
+* Refactor: add urls to graph
+* Refactor: email templates support status filtering
+* Bug: time picker button in scheduler not working
+* Bug: don't post empty notes
+* Refactor: css beautify
+
+## January 22, 2019
+* Refactor: add support to generate css for emails and templates
+* Refactor: add description and css support to emails and templates
+* Refactor: update _datatable to support template gallery section
+* Refactor: rearrange content menu nav
+* Bug: fix path issues in email template
+* Bug: cmd-s broken; add support for cssbeautify
+* Refactor: add inline css support for email designer
+* Refactor: add description and css to email 
+* Refactor: allow for empty is valid for url validation
+* Refactor: support account urls
+
 ## January 21, 2019
 * Bug: setused in campaign
 * Bug: status not captured
