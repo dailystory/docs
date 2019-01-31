@@ -7,6 +7,8 @@ Tracking Links are part of DailyStory's Link Management tools. These tools enabl
 
 The service is similar to other link management platforms such as [https://bit.ly](https://bit.ly). However, unlike stand alone link management tools, DailyStory's Tracking Links are integrated into the overall marketing and sales funnel. 
 
+<iframe src="https://player.vimeo.com/video/314488961" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 > You do not need to create tracking links for email, text messages, social media, push notifications and any other content DailyStory sends to your contacts. This is done automatically through DailyStory's Link Management tools.
 
 This guide provides a list of resources to help you get started with Tracking Links.
