@@ -3,8 +3,65 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for January 2019
+## January 30, 2019
+* Refactor: support for check if has child folders and parent
+* Refactor: css updates
+* Refacctor: folder creation and selection
+* Bug: remove campaign youtube 
+* Refactor: load file from common ux
+
+## January 29, 2019
+* Bug: assigned to user not set correctly
+* Refactor: add support for task edited by
+* Refactor: handle change detection in tasks for notifications
+* Bug: task create edit needs to use non-enum dropdowns
+* Refactor: add task status changed notification
+* Refactor: detect status changes in tasks
+* Refactor: assigned tasks unit test validation
+* Refactor: initial integration class for d37
+* Refactor: open on click
+* Refactor: fade out completed tasks
+* Refactor: add support for navigating folders
+* Refactor: add notification for task deleted
+* Bug: handle nulls in task comparisons
+
+## January 28	, 2019
+* Refactor: better responsive support for tasks
+* Refactor: support create folder on upload option
+* Refactor: add breadcrumbs for file manager
+* Refactor: add select all/none support
+* Refactor: style file manager
+* Refactor: api to format file counts
+* Bug: if member is inactive set memberships to empty
+* Refactor: file asset icons
+* Bug: handle checkbox click event late binding
+* Refactor: add integration for degree37
+* Refactor: change asset icon dimensions
+* Refactor: GenerateFilenameHash
+* Refactor: add file types
+* Refactor: work on folder picker
+
+## January 26, 2019
+* Refactor: file manager initial check in
+* Refactor: add folder support
+* Bug: tasks didn't include pager
+* Refactor: tasks to use file manager for file storage
+
+## January 25, 2019
+* Refactor: UX move email templates into email menu
+* Bug: include push asset in campaign list
+* Refactor: create template from email
+* Refactor: pass tenant in for sub-account creation
+* Bug: page controller didn't follow standard save
+* Bug: check and set already received messages
+* Bug: validate text fields on admin settings should allow blank
+* Bug: hide some admin features for white label clients
+
 ## January 24, 2019
 * Refactor: add permission checks
+* Bug: segments click on row wrong id
+* Bug: visit alerts error mentioned magic forms
+* Bug: css for beautify cannot be null
 
 ## January 23, 2019
 * Refactor: email templates and email; remove old files
