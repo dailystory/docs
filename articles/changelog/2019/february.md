@@ -3,7 +3,15 @@
 	description: 'Product Updates for February 2019'
 }
 # DailyStory Product Updates for January 2019
-# February 4, 2019
+## February 5, 2019
+* Refactor: add link for create when there are no results
+* Bug: fix background color of default popup
+* Refactor: add online help links to sms
+* Refactor: job manager insert and null checks
+* Refactor: update search to not use date_last_indexed
+* Refactor: move get contacts to update to contact document
+
+## February 4, 2019
 * Refactor: pick image dimensions and description
 * Refactor: add upload support to file picker
 * Bug: modal button styles to footer only
@@ -11,7 +19,7 @@
 * Refactor: add file name to breadcrumbs and reset title
 * Refactor: more gracefully handle errors in debug mode for integrations
 
-# February 3, 2019
+## February 3, 2019
 * Refator: change user agent header for opengraph requests
 * Refactor: add clear already received
 * Refactor: delete events if they object was deleted
@@ -20,12 +28,12 @@
 * Bug: preview url could double entry
 * Refactor: close modal and updated preview url
 
-# February 2, 2019
+## February 2, 2019
 * Feature: file manager picker initial check-in
 * Refactor: pick and list files for file picker
 * Refactor: add dimensions and image preview
 
-# February 1, 2019
+## February 1, 2019
 * Bug: select all in contacts not calculating correctly
 * Bug: remove prevent default
 * Bug: test segment button added extra s=

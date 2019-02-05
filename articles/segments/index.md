@@ -155,6 +155,10 @@ After 5 days any Segments in the Trash are automatically deleted.
 ## Restricting access through permissions
 To configure permissions for who can make changes to segments, please see [Understanding Role Permissions](/account/understanding-permissions).
 
+## Related articles
+
+* [Use Audience Segmentation To Generate Leads](https://www.dailystory.com/blog/audience-segmentation-to-generate-leads/)
+
 ## Frequently Asked Questions
 Below are some frequently asked questions about Segments.
 
