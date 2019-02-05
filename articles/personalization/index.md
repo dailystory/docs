@@ -164,10 +164,10 @@ Your membership is in good standing.
 In the examples referenced above, all of the conditions are if/else. This limits your personalization because it requires to you match a condition. But what about when you can match for muliple conditions? While slightly more complex, the `{{#switch}}` statement supports multiple matching options:
 
 <code>
-{{#switch user.country}}
-{{#case 'Canada'}}Hello Canada!{{/case}}
-{{#case 'United States'}}Hello United States!{{/case}}
-{{/switch}}";
+<p>{{#switch user.country}}</p>
+<p>{{#case 'Canada'}}Hello Canada!{{/case}}</p>
+<p>{{#case 'United States'}}Hello United States!{{/case}}</p>
+<p>{{/switch}}";</p>
 </code>
 
 > The `{{#switch}}` personaliation condition is currently only available for string evaluations.
