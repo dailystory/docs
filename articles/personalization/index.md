@@ -112,32 +112,32 @@ Or, using the `{{else}}` statement, show an alternative if the field was empty:
 ### If equals / else
 The basic if / else condition checks if a value is empty. The if equals check evaluates whether the token matches a specific value. For example, checking if a contact's country is 'Canada':
 
-<code>
+<pre class="brush: html">
 {{#ifEqual profile.country 'Canada'}}
 Hey there Canada!
 {{/ifEqual}}
-</code>
+</pre>
 
 > String evaluations are not case sensitive. In the above example, 'canada', 'Canada' or 'CANADA' would all evaluate as equal.
 
 An else condition is also supported for `{{#ifEqual}}`:
 
-<code>
+<pre class="brush: html">
 {{#ifEqual profile.country 'Canada'}}
 Hey there Canada!
 {{else}}
 You aren't Candadian!
 {{/ifEqual}}
-</code>
+</pre>
 
 ### If condition / else
 The basic if / else condition checks if a value is empty. While useful, sometimes you need more complex evaluations. For example, checking if a contact's membership is about to expire:
 
-<code>
+<pre class="brush: html">
 {{#ifCond profile.membership_expiration_date '>' '2019-06-01'}}
 Your membership has expired.
 {{/ifCond}}
-</code>
+</pre>
 
 The `{{#ifCond}}` evaluates a personalization token against a value using:
 
