@@ -153,24 +153,22 @@ The `{{#ifCond}}` evaluates a personalization token against a value using:
 An else condition is also supported for `{{#ifCond}}`:
 
 <pre class="brush: html">
-{
 {{#ifCond profile.membership_expiration_date '>' '2019-06-01'}}
 Your membership has expired.
 {{else}}
 Your membership is in good standing.
 {{/ifCond}}
-}
+</pre>
 
 ### Multiple conditions
 In the examples referenced above, all of the conditions are if/else. This limits your personalization because it requires to you match a condition. But what about when you can match for muliple conditions? While slightly more complex, the `{{#switch}}` statement supports multiple matching options:
 
 <pre class="brush: html">
-{
 {{#switch user.country}}
 {{#case 'Canada'}}Hello Canada!{{/case}}
 {{#case 'United States'}}Hello United States!{{/case}}
 {{/switch}}
-}
+</pre>
 
 > The `{{#switch}}` personaliation condition is currently only available for string evaluations.
 
