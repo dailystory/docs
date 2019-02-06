@@ -17,6 +17,7 @@
 # Features
 ## [Magic Forms](/acquisition/magic-forms/)
 ## [Pages](/pages/)
+## [Personalization](/personalization/)
 ## [Popups](/acquisition/popups/)
 ## [Tasks](/tasks/)
 ## [Tracking Links](/link-tracking/)

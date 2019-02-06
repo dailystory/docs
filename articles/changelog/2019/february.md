@@ -3,6 +3,16 @@
 	description: 'Product Updates for February 2019'
 }
 # DailyStory Product Updates for January 2019
+## February 6, 2019
+* Bug: magic form please wait not turning off on create
+* Refactor: mindbody license check update
+* Refactor: add browser check on home
+* Refactor: update media calendar
+* Bug: move browser checks to separate js file due to IE issues
+* Refactor: MINDBODY better api management and capture last visit date
+* Refactor: update webforms for new ux
+* Refactor: change webforms get to be more consistent
+
 ## February 5, 2019
 * Refactor: add link for create when there are no results
 * Bug: fix background color of default popup
@@ -10,6 +20,10 @@
 * Refactor: job manager insert and null checks
 * Refactor: update search to not use date_last_indexed
 * Refactor: move get contacts to update to contact document
+* Refactor: check if date is in the future
+* Refactor: add DateTime comparison to ifEqual
+* Bug: handle enumeration collision in set extended properties
+* Bug: handle invalid phone number
 
 ## February 4, 2019
 * Refactor: pick image dimensions and description
