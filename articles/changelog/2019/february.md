@@ -12,6 +12,7 @@
 * Refactor: MINDBODY better api management and capture last visit date
 * Refactor: update webforms for new ux
 * Refactor: change webforms get to be more consistent
+* Refactor: pick list custom fields
 
 ## February 5, 2019
 * Refactor: add link for create when there are no results

@@ -58,6 +58,8 @@ Next, select a name and message for the Text Message. As you type your content y
 
 As you type your message, you will also see helpful information under your message update with the number of characters and segments your message uses.
 
+Within the message of your Text Message you can also use [Personalization](/Personalization/) tokens and conditions to target the content to each recipient.
+
 Finally, Save the Text Message. 
 
 Once the Text Message is saved you can also [schedule when](#send-a-text-message) and to whom the Text Message is sent to. The Text Message is also now available to add to a campaign's workflow.
@@ -134,7 +136,7 @@ If a recipient replies to a Text Message with "STOP", they are opted out of futu
 Below are frequently asked questions about Text Messages:
 
 ### Is everyone sent the same Text Message?
-No. Each Text Message sent by DailyStory is send indivudally to each recipient. This is done so each message can be personalized to each recipient.
+No. Each Text Message sent by DailyStory is send indivudally to each recipient. This is done so each message can be [personalized to each recipient](/personalization/).
 
 ### Can I personalize the content in the Text Message?
 Yes! Using DailyStory's Personalization tags you can add personalized content to your Text Messages.

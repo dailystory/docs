@@ -47,6 +47,8 @@ Next, select a title and content for the Push Notification. As you type your tit
 
 > Recommended title and message length vary between devices. However, in general, a Push Notification should be as short as possible.
 
+Within the title and message of your Push Notification you can also use [Personalization](/Personalization/) tokens and conditions to target the content to each recipient.
+
 Finally, Save the Push Notification. 
 
 Once the Push Notification is saved you can also [schedule when](#send-a-push-notification) and to whom the Push Notification is sent to. The Push Notification is also now available to add to a campaign's workflow.
@@ -103,7 +105,7 @@ Below are frequently asked questions about Push Notifications:
 No. Each Push Notification sent by DailyStory is send indivudally to each recipient. This is done so each message can be personalized to each recipient.
 
 ### Can I personalize the content in the Push Notification?
-Yes! Using DailyStory's Personalization tags you can add personalized content to your Push Notifications.
+Yes! Using DailyStory's [Personalization](/personalization/) tokens and conditions you can add personalized content to your Push Notifications.
 
 ### Why didn't my contact receive a Push Notification?
 Unlike email and text messages, Push Notifications do not provided delivery information. There are several reasons why a recipient did not receive your Push Notification: the recipient may not have been included in the segment the Push Notification was sent to; the recipient may not have opted-in to receive Push Notifications; the recipient may have disabled Push Notifications; the App isn't properly [registering the device id](/api/contact/#api-contact-registerdevice) with DailyStory; or [Twilio Notify Service integration](/integrations/twilio) is not properly configured.
