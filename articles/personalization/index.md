@@ -36,12 +36,8 @@ The following personalization tokens are unique to each individual contact.
 * `{{user.age}}` - number; age of the contact.
 * `{{user.lastModified}}` - date; when the contact was last modified.
 * `{{user.lastContacted}}` - date; when the contact was last contacted.
-
-### Organization field tokens
-The following personalization tokens are related to the organization the contact belongs to.
-
-* `{{organization.name}}` - string; name of the company or organization the contact is part of.
-* `{{organization.industry}}` - number; industry code number the contact is part of.
+* `{{user.company}}` - string; name of the company or organization the contact is part of.
+* `{{user.industry}}` - number; industry code number the contact is part of.
 
 ### Account field tokens
 The following personalization tokens are global to your account within DailyStory.

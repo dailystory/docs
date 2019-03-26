@@ -4,6 +4,9 @@ description: 'How to Videos'
 }
 # How to Videos
 
+## Emails
+* [How to: send an email to an individual](/how-to/quick-send-email)
+
 ## Segments
 * [How to create dynamic segments that update automatically](/how-to/dynamic-segments)
 

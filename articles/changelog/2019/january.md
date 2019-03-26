@@ -1,6 +1,6 @@
 {
 	title: 'January 2019 Product Update',
-	description: 'Product Updates for December 2019'
+	description: 'Product Updates for January 2019'
 }
 # DailyStory Product Updates for January 2019
 ## January 30, 2019

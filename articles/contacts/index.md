@@ -64,16 +64,30 @@ To add a single contact, click the + Add Contact button. This opens the Create a
 ###Bulk Contact Import
 To bulk import contacts use the [bulk contact import](import) tool.
 
-##User Defined Fields
-To add user defined fields for your contacts go to Contacts > All Contacts. Next, click the down arrow to the right of the + Add Contact button and select Contact Fields.
+## Custom Contact Fields
+Custom Contact Fields enable you to add custom fields to your contact.
 
-![User Defined Fields](/articles/contacts/contacts-14.png "User Defined Fields")
+### Add Custom Fields
+To add custom fields for your contacts: 
 
-This opens the Manage Contact Profile Fields which enables you to add an unlimited number of custom fields for your contacts. These fields are available through the DailyStory API and are available for use in personalization.
+1. Go to Contacts > All Contacts. 
+2. Click the down arrow to the right of the + Add Contact button.
+3. Select Custom Fields.
 
-> DailyStory Enterprise customers can additionally enable search indexing of these user defined contact fields.
+![Custom Fields](/articles/contacts/contacts-14.png "Custom Fields")
 
-Simply add the name of the field you want to add, select the type (Text, Number, Date/Time, Yes or No, True or False) and then add your field.
+This opens the Manage Custom Fields screen. This screen enables you to add an unlimited number of custom fields for your contacts. 
+
+These fields are available through the DailyStory API and are available for use in [personalization](/personalization). To use a custom field in a personalization script prefix the API with <code>Profile</code>. For example, to access a custom field such as Date Eligible: {{profile.date_eligible}}.
+
+> DailyStory Professional and Enterprise customers can enable indexing of these custom fields for use in [segmentation](/segments).
+
+4. Next, click the "Add" button. This opens a popup where you add the name of the field, select the type (Text, Number, Date/Time, Yes or No, True or False).
+
+![Custom Fields](/articles/contacts/contacts-17.png "Custom Fields")
+
+### Available Custom Field types
+The table below lists the available custom field data types.
 
 <table class="table">
 <thead>
@@ -106,8 +120,14 @@ Simply add the name of the field you want to add, select the type (Text, Number,
 </tbody>
 </table>
 
-![User Defined Fields](/articles/contacts/contacts-15.png "User Defined Fields")
+Once added, your custom field is shown in the list of custom fields:
 
-Your user defined field is now available as a mapping option when importing contacts, as a mapped field in Web Forms and Magic Forms, and as an editable field when editing a contact.
+![Custom Fields](/articles/contacts/contacts-15.png "Custom Fields")
+
+The custom field is now available: 
+
+* As a mapping option when importing contacts; 
+* As a mapped field in Web Forms and Magic Forms; 
+* And as an editable field when editing a contact.
 
 ![User Defined Fields](/articles/contacts/contacts-16.png "User Defined Fields")
