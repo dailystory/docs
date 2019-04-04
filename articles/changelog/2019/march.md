@@ -3,6 +3,37 @@
 	description: 'Product Updates for March 2019'
 }
 # DailyStory Product Updates for March 2019
+## March 29, 2019
+* Bug: handle exceptions gracefully
+
+## March 28, 2019
+* Bug: clean up segment references before rebuilding
+* Refactor: cache mobile number lookups
+* Refactor: move export stream logic to contact
+* Refactor: handle queue lookups; rename file
+* Refactor: move export stream logic to lead
+* Refactor: add logging to export task
+* Refactor: add logging; role check
+* Bug: generate css for new email id of 0
+* Refactor: don't log global exceptions in debug
+* Add: text message settings initial check in
+* Refactor: move logic out of reports controller
+* Refactor: update to use new export leads
+* Refactor: Twilio web hook logic out of controller
+* Bug: force search update after processing contact queue
+
+## March 26, 2019
+* Refactor: better exception and event logs
+* Add: WebHooks API endpoint
+* Bug: sort filtering
+* Refactor: add methods to support webhooks in twilio
+* Refactor: add lookup by mobile number
+* Refactor: log exceptions in tasks
+* Refactor: handle optout / optin for webhook
+* Refactor: activity status
+* Bug: test links checked for 0 for a leadid
+* Refactor: add support for text message received
+
 ## March 25, 2019
 * Bug: calling web job in contact save causes asynchronous operation exception
 * Bug: new ip addresses to filter
