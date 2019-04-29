@@ -3,7 +3,7 @@ title: 'Search',
 description: 'Using DailyStory Search'
 }
 # Search
-DailyStory includes powerful search tools. These search tools enable you to quickly and efficiently search through thousands of [Contact's](/contacts)and save the results as [Dynamic Segments](/segments/).
+DailyStory includes powerful search tools. These search tools enable you to quickly and efficiently search through thousands of [Contact's](/contacts) and save the results as [Dynamic Segments](/segments/).
 
 In addition to searching standard fields, such as first and last name, DailyStory Search is capable of searching custom fields added to your contacts. This capability enables you to add, through import or sync, any number of custom fields specific to your business. These fields include: strings, lists, numbers and dates.
 
