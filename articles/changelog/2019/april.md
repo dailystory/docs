@@ -5,6 +5,9 @@
 # DailyStory Product Updates for April 2019
 ## April 29, 2019
 * Bug: allow mailto links to pass through for email url rewrite
+* Refactor: add support for telligent groups and achievements
+* Refactor: more unit tests for Mindbody sync
+* Refactor: more unit tests and coverage for Telligent sync
 
 ## April 25, 2019
 * Refactor: add license check for redirects; add policy headers
@@ -154,7 +157,6 @@
 ## April 2, 2019
 * Refactor: updates to text messages for notification subscribers
 * Refactor: email reports controller for testability
-* Refactor: update datatable javascript to handle custom info
 * Refactor: update datatable javascript to handle custom info
 * Refactor: convert to use start/end for date filtering
 * Refactor: datatable report support breadcrumbs
