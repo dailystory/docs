@@ -94,4 +94,23 @@ All of DailyStory's platform is accessible through a REST API and WebHooks for r
 </tbody>
 </table>
 
-## WebHooks
+### Push Notifications
+<table class="table">
+<tbody>
+<tr>
+<td><strong>Path</strong></td>
+<td><strong>Verb</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/push/">/api/push/list</a></code></td>
+<td>GET</td>
+<td>Get Push Notifications.</td>
+</tr>
+<tr>
+<td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/push/#SendSingle">/api/push/SendSingle</a></code></td>
+<td>POST</td>
+<td>Send a single push notification to a specified contact.</td>
+</tr>
+</tbody>
+</table>
