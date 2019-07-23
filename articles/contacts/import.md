@@ -2,7 +2,7 @@
 	title: 'Import Contacts',
 	description: 'Import contacts into DailyStory'
 }
-#Import Contacts
+# Import Contacts
 Contacts can easily be bulk imported into DailyStory using DailyStory's Bulk Import tool. The only required field to import a contact is an email address.
 
 > *Important* the email address must be the first column in your CSV file. 
@@ -25,7 +25,7 @@ This will open the Bulk Import tool:
 	
 ![Bulk Import Tool](/articles/contacts/contacts-04.png "Bulk Import Tool")
 
-##Load from text
+## Load from text
 To load new contacts from a text file simply copy/paste the contact information you wish to import.
 
 Each contact should start on a new line and contacts that contain spaces or commas should be enclosed with double-quotes. 
@@ -38,10 +38,10 @@ After entering the contacts to import click next. On the next screen you can map
 
 **important:** do not put spaces after comma separated values. Use quotes if content contains a comma.
 
-##Load from CSV
+## Load from CSV
 To load new contacts from a CSV (Comma Separated Value) file just click "Select a CSV file to upload". After selecting a file you can map contacts to fields on the next screen.
 
-###How to create a CSV file from Excel
+### How to create a CSV file from Excel
 Create a new Excel file or <a href="/articles/contacts/contacts.csv">use our sample CSV file</a>.
 
 > Column headers are optional, but recommeded
@@ -54,7 +54,7 @@ Next, save the file locally as a CSV file:
 	
 ![Excel](/articles/contacts/excel-02.png "Excel")
 
-##Map Contact Fields
+## Map Contact Fields
 After selecting the data you are taken to the final screen where you tell DailyStory how to import the contacts:
 	
 ![Map Fields](/articles/contacts/contacts-05.png "Map Fields")
@@ -76,7 +76,7 @@ After the contacts are imported we'll see:
 	
 ![Imported](/articles/contacts/contacts-07.png "Imported")
 
-##Important Details to Know About Contact Import
+## Important Details to Know About Contact Import
 Some important information about contact import:
 	
 * You can reimport the same contact multiple times. If new information is found, the existing contact will be updated as long as the email addresses are the same.

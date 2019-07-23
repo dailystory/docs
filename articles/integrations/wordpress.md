@@ -1,11 +1,11 @@
 {
-	title: 'DailyStory + WordPress',
+	title: 'DailyStory WordPress',
 	description: 'Integration for DailyStory and WordPress'
 }
-# DailyStory + WordPress
-The DailyStory + WordPress integration is simple to setup and easy to use. The integration makes use of a [DailyStory plugin for WordPress](/install/wordpress). Just install the plugin and you'll be ready to use the integration.
+# DailyStory WordPress Integration
+The DailyStory WordPress integration is simple to setup and easy to use. The integration makes use of a [DailyStory plugin for WordPress](/install/wordpress). Just install the plugin and you'll be ready to use the integration.
 
-> The DailyStory WordPress plugin adds DailyStory visitor tracking to your WordPress website and also enables the DailyStory WordPress shortcodes.
+> The DailyStory WordPress plugin adds DailyStory visitor tracking to your WordPress website and enables the DailyStory WordPress shortcodes.
 
 ## Shortcode Quick Reference
 <table class="table">
@@ -16,14 +16,14 @@ The DailyStory + WordPress integration is simple to setup and easy to use. The i
 </tr>
 <tr>
 <td width="25%" nowrap><code>[ds-webform id="#"]</code></td>
-<td>The webform shortcode is built to enable you to use DailyStory Web Forms in your WordPress pages and posts. Using this shortcode you can quickly build landing pages in WordPress and easily get that data back into DailyStory. This shortcode requires the [id of the DailyStory form](/acquisition/web-forms/#unique-id) you wish to display.</td>
+<td>The webform shortcode enables you to use DailyStory Web Forms in your WordPress pages and posts. Using this shortcode you can quickly build landing pages in WordPress and easily get that data back into DailyStory. This shortcode requires the [id of the DailyStory form](/acquisition/web-forms/#unique-id) you wish to display.</td>
 </tr>
 </tbody>
 </table>
 ## Web Form Shortcode
 The webform shortcode, <code>[ds-webform id="#"]</code>, enables you to use [DailyStory Web Forms](/acquisition/web-forms/) in your WordPress pages and posts.
 
-> Important - this presumes you have the [WordPress plugin for DailyStory](/install/wordpress) already installed.
+> Important - use of this shortcode requires the [WordPress plugin for DailyStory](/install/wordpress).
 
 Let's look at an example for how the <code>[ds-webform id="#"]</code> shortcode is used.
 
@@ -47,4 +47,3 @@ When your request completes you won't see <code>[ds-webform id="a2vmy"]</code> (
 Submissions to that form are POSTed to DailyStory and new content is accessible in your lead queue associated with the campaign for that Web Form.
 
 ![WordPress Form](/articles/integrations/wordpress-01.png "WordPress Form")
-

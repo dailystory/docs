@@ -1,24 +1,53 @@
 {
-title: 'Emails',
-description: 'DailyStory Email'
+title: 'Email Marketing',
+description: 'DailyStory email marketing'
 }
-# Emails
-DailyStory Emails enable you to create personalized and targeted emails that can be sent to DailyStory [Contacts](/contacts) as part of a [Campaign's Workflow](/campaigns).
+# DailyStory Email Marketing
+Email Marketing is used to send personalized email to your [Segments](/segments) and [Contacts](/contacts) as part of a [Campaign](/campaigns). Emails are either sent based on a [Schedule](/campaigns/schedules) or a [Workflow](/campaigns/workflows).
 
-By using DailyStory's email marketing feature, DailyStory can track and attribute delivery, bounces, opens, and clicks to your DailyStory campaign.
+DailyStory tracks and attributes delivery, bounces, opens, clicks, and optouts automatically.
 
-DailyStory emails can be sent through the @dailystory.net mail server or you can add integration with a transactional email platform such as [Mailgun](/integrations/mailgun), SendGrid or PostMark.
+Emails are sent through the @dailystory.net mail server. However, we strongly recommend configuring a custom domain to allow DailyStory to send email securely on your behalf or leverage DailyStory's [Mailgun](/integrations/mailgun), SendGrid or PostMark integrations.
 
 > The benefit of using an integrated transactional email platform to send your email is you can configure your own sending email domain. If not, your email send address will appear as `sales@example.com on behalf of @dailystory.net`
 
-## Creating and Editing Emails
-Creating and editing emails within the DailyStory email editor is simple and intuitive.
+This guide provides a list of resources to help you get started with Tracking Links.
 
-On the top menu select Content > Emails:
+**Create and Edit an Email**
+
+* [Create a Tracking Link](#create-a-tracking-link)
+* [Test a Tracking Link](#test-a-tracking-link)
+* [Edit a Tracking Link](#edit-a-tracking-link)
+
+**Advanced Tracking Link Options**
+
+* [Tracking Ad Clicks](#tracking-ad-clicks)
+* [Integrate with Google Analytics](#integrate-with-google-analytics)
+* [Advanced Options](#advanced-options)
+
+**Reporting and Metrics**
+
+* [Conversion Tracking](#conversion-tracking)
+* [Click Tracking](#click-tracking)
+
+**Frequently Asked Questions**
+
+
+FAQ
+What happens if an email bounces
+What is a soft bounce?
+Will DailyStory try and resend soft bounces?
+
+## Create an Email
+To create an email, first navigate to Content > Emails. This will display All Emails. From here you can select an existing email to edit or click the menu button ![Menu Button](/articles/emails/emails-01.png "Menu Button") and click `+ Create Email`.
 
 ![Emails Menu](/articles/emails/emails-01.png "Email Menu")
 
-This will open up a page listing All Emails. From here you can select an existing email to edit or click the + New Email button to create a new email.
+Next, 
+
+## Edit an Email
+
+
 
 Clicking on any of the numbers for Delivered, Opened, Clicked and Bounced will [open reports](#email-reporting) for the email.
 
