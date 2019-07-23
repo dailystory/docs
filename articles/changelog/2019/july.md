@@ -3,6 +3,11 @@
 	description: 'Product Updates for June 2019'
 }
 # DailyStory Product Updates for July 2019
+## July 23, 2019
+* Bug: update contact status prior to sending
+* Feature: brach for Brandfolder integration
+* Feature: add Push Notification API for customer
+
 ## July 20, 2019
 * Refactor: remove conversion from campaign and grammar updates
 * Refactor: remove text message notifications in campaign and move to texts
