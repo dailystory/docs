@@ -3,6 +3,42 @@
 	description: 'Product Updates for June 2019'
 }
 # DailyStory Product Updates for July 2019
+## July 29, 2019
+* Refactor: package updates
+* Refactor: capture additional log details
+* Refactor: lead lookup that not cached
+* Refactor: email send queue
+* Refactor: email edit uses file manager
+* Refactor: log full url with query
+* Bug: return new HttpStatusCodeResult(HttpStatusCode.NoContent);
+* Bug: inactive segments should not refresh
+
+## July 26, 2019
+* Bug: log full query string on bad url redirects
+* Bug: dynamic segment rebuild over 5K optimization
+* Feature: add support for autologin
+* Refactor: add support for autologin in web app
+* Bug: user lookup for autologin with activation code may not find right segment
+* Refactor: update log sent logic
+
+## July 25, 2019
+* Bug: search lookups did not use tenant's google api key
+* Refactor: handle null tenant in geo lookup
+* Revert: email file manager integration from staging
+* Revert: file manager from staging to dev
+* Feature: integration for Google API geo coding key
+* Refactor: better error when missing Google Geocoding key
+* Refactor: Google API key icons and integration UX
+* Bug: api key in integrations should be a password when saved
+* Bug; cannot copy a page
+
+## July 24, 2019
+* Bug: show an error message if wrong component is dragged
+* Refactor: utility to split large lists into batches
+* Refactor: better performance for queueing batches of emails
+* Refactor: better batch contacted for performance
+* Refactor: update Twilio sync to be parallel for performance
+
 ## July 23, 2019
 * Bug: update contact status prior to sending
 * Feature: brach for Brandfolder integration

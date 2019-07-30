@@ -3,6 +3,7 @@
 	description: 'DailyStory Product Updates'
 }
 # Product Updates for 2019
+* [July 2019](2019/july)
 * [June 2019](2019/june)
 * [May 2019](2019/may)
 * [April 2019](2019/april)
