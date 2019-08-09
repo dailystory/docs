@@ -3,6 +3,22 @@
 	description: 'Product Updates for June 2019'
 }
 # DailyStory Product Updates for July 2019
+## July 31, 2019
+* Bug: create queues if don't exist for mailgun
+* Bug: connection provider should be case insensitive to data centername
+* Bug: no need to trigger mailgun
+* Bug: case where integration azure table did not exist
+* Refactor: resolve reply to warning on base
+* Refactor: fix build warnings in core
+
+## July 30, 2019
+* Refactor: remove redundant logging in emails
+* Refactor: add dev environment
+* Refactor: performance arch improvements to email send scale
+* Refactor: batch contacted removed and moved to email
+* Refactor: use new queuesendasync for scheduled messages
+* Bug: case insensitive check for data center
+
 ## July 29, 2019
 * Refactor: package updates
 * Refactor: capture additional log details
