@@ -33,12 +33,12 @@
 ## [Users](/account/users)
 
 # Integrations
-## [MailChimp](/integrations/mailchimp)
 ## [Mailgun](/integrations/mailgun)
 ## [MINDBODY](/integrations/mindbody)
 ## [reCAPTCHA](/integrations/recaptcha)
 ## [Salesforce](/integrations/salesforce)
 ## [Twilio](/integrations/twilio)
+## [Verint Community](/integrations/verint-community)
 ## [WordPress](/integrations/wordpress)
 ## [Zapier](/integrations/zapier/)
 

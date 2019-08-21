@@ -3,6 +3,58 @@
 	description: 'Product Updates for August 2019'
 }
 # DailyStory Product Updates for August 2019
+## August 20, 2019
+* Bug: [Mindbody] update GetClientService to include CrossRegionalLookup
+* Refactor: [D37] individual donor lookup
+* Refactor: [D37] GetDonorInfoAsync to GetDonorsAsync
+* Refactor: Professional default selected license
+* Bug: javascript referring to same variable
+* Bug: [MindBody] force sync wasn't implemented
+* Refactor: [Mindbody] handle cross-regional users
+
+## August 19, 2019
+* Refactor: [Tracking Links] add license checks to handle limits
+* Bug: handle test dsids in email click open queue and dsid validation
+
+## August 16, 2019
+* Refactor: [Cms] don't allow auto-redirects on expired or trials
+
+## August 15, 2019
+* Bug: [Lead] missing javascript and removed back button
+* Bug: [TextMessage] remove delay
+* Refactor: clean up copy and remove old references
+
+## August 13, 2019 
+* Refactor: [Store] purchase single item invoice and text message credits
+* Refactor: [Text Message] move update credits into this class
+* Refactor: [Store controller] initial check in
+* Refactor: Update usage report to include purchase text message credits
+* Refactor: [Text Messages] finalize support for purchase credit
+* Bug: [TextMessage] PurchasedTextMessages can't be interal
+* Refactor: [Login] redirect urls to switch to a tenant
+* Refactor: [Notifications] use new lead tenant links
+* Bug: [License] check for text messages was done incorrectly
+* Bug: [Mindbody] don't display auth key if license prevents usage
+
+## August 12, 2019
+* Bug: [TextMessage] invalid argument check
+* Refactor: [PushNotification] handle unsent a reorg code
+
+## August 11, 2019
+* Refactor: credit clarification for text messages
+* Refactor: [Text Messages] add support for text message credits and checks
+
+## August 9, 2019
+* Bug: push disabled by default; enabled when a device id is registered
+* Refactor: update D37 build package
+* Bug: internal set prevents serialization; force license checks for free, trial, etc.
+* Bug: [Popup] Report shows no popups when should say no leads
+* Bug: [Search] ranged search, such as dateTo and dateFrom should not be case sensitive
+* Feature: [Email Report] add email id to email summary report output
+* Bug: [Mindbody] Require commercial license to add MBO integration
+* Refactor: single method for checking if restricted class of service
+* Refactor: text updates in admin
+
 ## August 8, 2019
 * Refactor: add hasown license for email and sms
 * Bug: avatars for users that don't start with a letter breaks
