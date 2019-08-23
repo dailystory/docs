@@ -3,6 +3,22 @@
 	description: 'Product Updates for August 2019'
 }
 # DailyStory Product Updates for August 2019
+## August 23, 2019
+* Refactor: show username and last login in preferences
+* Bug: [link tracking] copy link broken
+* Bug: [Popup] save covers save button
+* Bug: [Popup] popup should use CDN for images
+* Refactor: [File Manager] simplify CDN path logic
+* Refactor: change breadcrumb nav to go to campaign vs. filtered search
+* Bug: [Content Page] asks for leave site when no changes have been made
+
+## August 22, 2019
+* Bug: [MindBody] remove services if no longer valid
+* Refactor: [Popup] allow forcing a popup to be shown via js api
+* Bug: first item in segment could get removed if not added first
+* Bug: Css missing for enabling edit of head section
+* Bug: head changes not saved
+
 ## August 20, 2019
 * Bug: [Mindbody] update GetClientService to include CrossRegionalLookup
 * Refactor: [D37] individual donor lookup
