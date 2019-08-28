@@ -3,6 +3,21 @@
 	description: 'Product Updates for August 2019'
 }
 # DailyStory Product Updates for August 2019
+## August 27, 2019
+* Refactor: [Bug] better handle hide RTE in grapes
+* Refactor: [Email designer] updates and changes
+* Refactor: add undo redo and preview
+* Refactor: [page designer] change how rte is handled to allow inline edit
+
+## August 26, 2019
+* Refactor: add support for push notification reports
+* Bug: [Popup] no copy option
+* Bug: [Popup] url should change on save
+* Bug: status message remove instead of hide
+* Refactor: remove old files add image for designer
+* Refactor: better UX for item cannot be added and track state
+* Remove: campaign reports - move to new repor
+
 ## August 23, 2019
 * Refactor: show username and last login in preferences
 * Bug: [link tracking] copy link broken
