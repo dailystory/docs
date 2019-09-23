@@ -3,6 +3,39 @@
 	description: 'Product Updates for August 2019'
 }
 # DailyStory Product Updates for August 2019
+## August 30, 2019
+* Bug: content gallery not bringing over email css
+* Bug: remove empty MBO services
+* Bug: check max length on city field
+* Bug: include css in email preview in gallery
+* Refactor: add layout container for email designer
+* Refactor: add support for videos component
+
+## August 29, 2019
+* Refactor: [Email] add preview and post for designer
+* Refactor: [Email] designer updates to default editable components
+* Refactor: [Email] add preview option
+* Refactor: [Gallery] updates to email preview
+* Refactor: [Email designer] updates to better handle css, preview and design changes
+* Refactor: add year to templating engine
+* Bug: handle nulls in templating for @ entries
+* Refactor: add push sent report
+* Refactor: mbo only available for commercial editions
+* Refactor: [Push] add filter for sent only
+* Refactor: log bad dsids
+* Refactor: handle css that is inline in the email
+* Bug: handle links in designer html body
+
+## August 28, 2019
+* Refactor: reorganize email designer components; inline styles
+* Refactor: move load into script for email designer
+* Bug: reset tabs for page designer
+* Bug: show no preview when not active for landing pages
+* Refactor: email designer updates
+* Bug: images could get overridden with no image
+* Refactor: add support for app icons in designer
+* Bug: divider is a Layout not content section
+
 ## August 27, 2019
 * Refactor: [Bug] better handle hide RTE in grapes
 * Refactor: [Email designer] updates and changes
