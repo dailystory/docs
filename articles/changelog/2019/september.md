@@ -5,6 +5,7 @@
 # DailyStory Product Updates for September 2019
 ## September 22, 2019
 * Refactor: extract attribute value from css style
+* Refactor: handle large images in email designer
 
 ## September 21, 2019
 * Refactor: remove unused libs
