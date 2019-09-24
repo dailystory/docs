@@ -3,6 +3,9 @@
 	description: 'Product Updates for September 2019'
 }
 # DailyStory Product Updates for September 2019
+## September 24, 2019
+* Refactor: lazy load templates
+
 ## September 22, 2019
 * Refactor: extract attribute value from css style
 * Refactor: handle large images in email designer
