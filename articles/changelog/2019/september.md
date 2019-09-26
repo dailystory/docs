@@ -10,8 +10,16 @@
 * Refactor: handle default padding
 * Refactor: add check to validate html from designer edit html
 
+## September 25, 2019
+* Refactor: remove periods
+
 ## September 24, 2019
 * Refactor: lazy load templates
+* Refactor: redesign email buttons
+* Refactor: redesign how email designer emits html
+* Refactor: update page designer
+* Refactor: designer updates
+* Bug: handle handlebars compilation error in emails
 
 ## September 22, 2019
 * Refactor: extract attribute value from css style
