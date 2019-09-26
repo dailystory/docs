@@ -3,6 +3,13 @@
 	description: 'Product Updates for September 2019'
 }
 # DailyStory Product Updates for September 2019
+## September 26, 2019
+* Refactor: bugs in p rendering
+* Refactor: better html editing in designer
+* Refactor: set style for edit html
+* Refactor: handle default padding
+* Refactor: add check to validate html from designer edit html
+
 ## September 24, 2019
 * Refactor: lazy load templates
 
