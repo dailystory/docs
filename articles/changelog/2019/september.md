@@ -9,6 +9,7 @@
 * Refactor: set style for edit html
 * Refactor: handle default padding
 * Refactor: add check to validate html from designer edit html
+* Refactor: separate video into separate component
 
 ## September 25, 2019
 * Refactor: remove periods
