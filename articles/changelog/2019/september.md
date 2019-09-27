@@ -9,6 +9,8 @@
 * Refactor: set style for edit html
 * Refactor: handle default padding
 * Refactor: add check to validate html from designer edit html
+* Bug: handle image resizing issue in pages
+* Bug: paste as text for pages
 
 ## September 25, 2019
 * Refactor: remove periods
