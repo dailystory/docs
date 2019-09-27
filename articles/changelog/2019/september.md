@@ -11,6 +11,7 @@
 * Refactor: add check to validate html from designer edit html
 * Bug: handle image resizing issue in pages
 * Bug: paste as text for pages
+* Bug: bug fixes for link tracking url encoding
 
 ## September 25, 2019
 * Refactor: remove periods
