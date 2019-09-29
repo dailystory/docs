@@ -3,6 +3,11 @@
 	description: 'Product Updates for September 2019'
 }
 # DailyStory Product Updates for September 2019
+## September 29, 2019
+* Bug: fix clear logic
+* Refactor: set gjs rules for social icons
+* Bug: walk tag stack to find empty tags
+
 ## September 26, 2019
 * Refactor: bugs in p rendering
 * Refactor: better html editing in designer
