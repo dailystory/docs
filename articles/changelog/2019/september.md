@@ -3,6 +3,19 @@
 	description: 'Product Updates for September 2019'
 }
 # DailyStory Product Updates for September 2019
+## September 27, 2019
+* Refactor: css bug to show url preview at 100%
+* Refactor: support lazy loading for email templates
+* Bug: PreMailer can emit invalid title tag
+* Refactor: separate email image components
+* Refactor: move button out of components
+* Refactor: add support for short urls from youtube
+* Bug: escape video urls
+* Bug: handle class selectors
+* Bug: detect image types in page designer
+* Bug: css loading order in pages
+* Bug: hide traits in designer
+
 ## September 26, 2019
 * Refactor: bugs in p rendering
 * Refactor: better html editing in designer
