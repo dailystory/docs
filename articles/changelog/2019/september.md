@@ -3,6 +3,15 @@
 	description: 'Product Updates for September 2019'
 }
 # DailyStory Product Updates for September 2019
+## September 30, 2019
+* Refactor: future active dates for services
+
+## September 29, 2019
+* Bug: fix clear logic
+* Refactor: set gjs rules for social icons
+* Bug: walk tag stack to find empty tags
+* Refactor: clone email components
+
 ## September 27, 2019
 * Refactor: css bug to show url preview at 100%
 * Refactor: support lazy loading for email templates
