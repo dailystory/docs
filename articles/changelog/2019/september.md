@@ -7,6 +7,7 @@
 * Bug: fix clear logic
 * Refactor: set gjs rules for social icons
 * Bug: walk tag stack to find empty tags
+* Refactor: clone email components
 
 ## September 26, 2019
 * Refactor: bugs in p rendering
