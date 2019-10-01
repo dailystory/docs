@@ -5,6 +5,8 @@
 # DailyStory Product Updates for September 2019
 ## September 30, 2019
 * Refactor: future active dates for services
+* Bug: set title and alt for images
+* Refactor: add helpers for command line designer updates
 
 ## September 29, 2019
 * Bug: fix clear logic
