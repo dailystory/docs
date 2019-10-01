@@ -74,11 +74,13 @@ Clicking the more options dots to the right of the **From** address will open a 
 
 ![Set from address](https://docs.dailystory.com/articles/emails/emails-15.gif "Set from address")
 
-Use **Preview** to optionally write content shown when the email is previewed in your recipients inbox. This enables you to control exactly what is seen when someone is previewing your email in their inbox. The preview may contain emojis and personalization tags or script.
+> You can also type or paste in the email address too.
 
-Once the required fields (Name, Subject and From) are completed, click the "Create Email" button and the new email is created.
+Use **Preview** to optionally write content shown when the email is previewed in your recipient's inbox. This enables you to control exactly what is seen when someone is previewing your email in their inbox. The preview may contain emojis and personalization tags or script.
 
-Next, you can either edit the HTML of the email or use the Email Designer to build a new email.
+Once the required fields (Name, Subject and From) are complete, click the "Create Email" to create the new email.
+
+Next, you can either <a href="#edit-html">edit the HTML</a> of the email or use the <a href="#email-designer">Email Designer</a> to build a new email.
 
 ## Edit an Email's Settings<a name="edit-an-email"></a>
 When an email is selected from the All Emails list, the default action is to navigate to the Email Designer. 
@@ -91,7 +93,8 @@ To edit settings, such as the From address and Subject of the email click on the
 Clicking on an email from the All Emails list or clicking the Design Email button from the Email Settings will open the Email Designer.
 
 > While it is possible to edit the HTML of the email, we recommend only editing the HTML when creating a new email template. 
-> 
+
+![Email Designer](https://docs.dailystory.com/articles/emails/emails-17.png "Email Designer")
 
 ### Email Merge Tags
 In both the subject and body of your email you can include Merge Tags:
