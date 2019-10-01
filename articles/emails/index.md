@@ -1,23 +1,24 @@
+
 {
 title: 'Email Marketing',
 description: 'DailyStory email marketing'
 }
 # DailyStory Email Marketing
-Email Marketing is used to send personalized email to your [Segments](/segments) and [Contacts](/contacts) as part of a [Campaign](/campaigns). Emails are either sent based on a [Schedule](/campaigns/schedules) or a [Workflow](/campaigns/workflows).
+Email Marketing sends targeted and personalized email to your [Segments](/segments) and [Contacts](/contacts) in a [Campaign](/campaigns). Emails are either sent based on a [Schedule](/campaigns/schedules) or a [Workflow](/campaigns/workflows).
 
 DailyStory tracks and attributes delivery, bounces, opens, clicks, and optouts automatically.
 
-Emails are sent through the @dailystory.net mail server. However, we strongly recommend configuring a custom domain to allow DailyStory to send email securely on your behalf or leverage DailyStory's [Mailgun](/integrations/mailgun), SendGrid or PostMark integrations.
+Unless otherwise specified, email is sent by DailyStory from an @dailystory.net email address. However, it is strongly recommend that you configure a custom domain to allow DailyStory to send email securely on your behalf or leverage DailyStory's [Mailgun](/integrations/mailgun), SendGrid or PostMark integrations.
 
-> The benefit of using an integrated transactional email platform to send your email is you can configure your own sending email domain. If not, your email send address will appear as `sales@example.com on behalf of @dailystory.net`
+> Enabling DailyStory to send email from your domain name increases the likelihood that your email is successfully delivered. Otherwise, your email send address will appear as `sales@[your domain].com on behalf of @dailystory.net`
 
-This guide provides a list of resources to help you get started with Tracking Links.
+This guide provides a list of resources to help you get started with DailyStory email.
 
 **Create and Edit an Email**
 
-* [Create a Tracking Link](#create-a-tracking-link)
-* [Test a Tracking Link](#test-a-tracking-link)
-* [Edit a Tracking Link](#edit-a-tracking-link)
+* [Create an Email](#create-an-email)
+* [Edit an Email's Settings](#edit-an-email)
+* [Email Designer](#email-designer)
 
 **Advanced Tracking Link Options**
 
@@ -38,64 +39,59 @@ What happens if an email bounces
 What is a soft bounce?
 Will DailyStory try and resend soft bounces?
 
-## Create an Email
-To create an email, first navigate to Content > Emails. This will display All Emails. From here you can select an existing email to edit or click the menu button ![Menu Button](/articles/emails/emails-01.png "Menu Button") and click `+ Create Email`.
+## Create an Email <a name="create-an-email"></a>
+To create an email, first navigate to Content > Emails. This will display All Emails. From here you can create a new blank email or a new email from a template: ![Menu Button](https://docs.dailystory.com/articles/emails/emails-01.png "All Email") 
 
-![Emails Menu](/articles/emails/emails-01.png "Email Menu")
+You can all also click the menu in the top left and click "+ Create" to create a new blank email:
 
-Next, 
+![Emails Menu](https://docs.dailystory.com/articles/emails/emails-14.gif "Email Menu")
 
-## Edit an Email
+Next, you will be taken to the Email Settings screen. When the page opens you will first need to select the [campaign](/campaigns) the email will be associated with.
 
+> Later, if you want to use this email in another campaign, click 'Create a Copy'. 
 
+After selecting a campaign, you are presented with the Create Email screen:
 
-Clicking on any of the numbers for Delivered, Opened, Clicked and Bounced will [open reports](#email-reporting) for the email.
+![Create Email](https://docs.dailystory.com/articles/emails/emails-03.png "Create Email")
 
-![All Emails](/articles/emails/emails-02.png "All Emails")
+On the Create Email screen there are a number of fields:
 
-Clicking + New Email will open up the New Email editor. When the page opens you will first need to select the [campaign](/campaigns) the email will be associated with.
+ - **Name** - The name of your email within DailyStory.
+ - **Description** - The description of your email within DailyStory.
+ - **Subject** - The subject of your email.
+ - **From** - The from address of your email.
+ - **Preview** - The preview text of your email.
 
-> If you create an email in one campaign and want to use it in another campaign, just edit the email and click 'Create a Copy'
+The **Subject** of your email is a descriptive introduction to the body of your email message. The subject may contain emojis and personalization tags or script.
 
-After selecting a campaign, you will be presented with the DailyStory email editor:
-
-![New Email](/articles/emails/emails-03.png "All Email")
-
-The email editor has 3 tabs and you can use any of them for authoring your email.
-
-* **Live Edit** - provides a view similar to what your final email will look like.
-* **Rich Edit** - provides a rich, WYSIWYG editor with helpful toolbars for common formatting options.
-* **HTML (Advanced)** - edit the raw HTML used in your email.
-
-> For sending HTML emails, be sure and include the  `<!DOCTYPE html>` and `<html> <head> <body>` tags.
-
-On the right you will find a list of [merge tags](/reference#merge-tag) that you can use within your email. 
-
-DailyStory makes extensive use of merge tags throughout the product and whenever possible we provide a list of the merge tags available.  
-
-Finally, you can also select an [email template](/features/email-templates). An email template enables you to create a re-usable layout. If you select an email template, you only need to provide the content in the email body.
-
-### Required Email Fields
-DailyStory Emails require you provide a from address, a subject and a body. The To is automatically set for you.
-
-#### To
-The To: address will be set automatically when the email is used within a workflow or sent via the API. 
-
-If a contact only has an email address, only the email address will be used. If the contact has a first or last name the email will be formatted as `First Last <email@example.com>`.
-#### From
-The From address must be a valid email address. For example:
+The **From** address must be a valid email address. Examples:
 
 * <code>Renew your membership &lt;sales@somecorp.com&gt;</code>
-* <code>Rob Howard &lt;rob@dailystory.com&gt;</code>
+* <code>"Rob Howard" &lt;rob@dailystory.com&gt;</code>
 * <code>hello@dailystory.com</code>
 
-> A good best practice is to use a descriptive name in the from if the email isn't coming from a person.
-#### Subject
-The Subject should be a descriptive introduction to the body of your email message. The subject may contain merge tags.
-#### Body
-The Body of your email contains the message you want to send. The body may contain merge tags.
+Clicking the more options dots to the right of the **From** address will open a popup. From this popup edit the friendly name, email and where replies should be sent to:
 
-> While it is possible to edit the HTML of the email and use style sheets, be aware that it is best to use inline styles as most email clients do not recognize style sheets.
+![Set from address](https://docs.dailystory.com/articles/emails/emails-15.gif "Set from address")
+
+Use **Preview** to optionally write content shown when the email is previewed in your recipients inbox. This enables you to control exactly what is seen when someone is previewing your email in their inbox. The preview may contain emojis and personalization tags or script.
+
+Once the required fields (Name, Subject and From) are completed, click the "Create Email" button and the new email is created.
+
+Next, you can either edit the HTML of the email or use the Email Designer to build a new email.
+
+## Edit an Email's Settings<a name="edit-an-email"></a>
+When an email is selected from the All Emails list, the default action is to navigate to the Email Designer. 
+
+To edit settings, such as the From address and Subject of the email click on the more options button to the right of an email. This will open a list of actions available for this email.
+
+![Edit email settings](https://docs.dailystory.com/articles/emails/emails-16.gif "Edit email settings")
+
+## Email Designer<a name="email-designer"></a>
+Clicking on an email from the All Emails list or clicking the Design Email button from the Email Settings will open the Email Designer.
+
+> While it is possible to edit the HTML of the email, we recommend only editing the HTML when creating a new email template. 
+> 
 
 ### Email Merge Tags
 In both the subject and body of your email you can include Merge Tags:
@@ -169,7 +165,7 @@ Personalization templates use a separate format. For example, to insert the user
 DailyStory includes advanced options for emails such as setting an email preheader and including a web view of the email.
 
 ### Setting an Email Preheader
-The majority of email clients provide a snippet of text to preview the contents of an email in your inbox. This enables you to quickly scan your inbox and decide if you want read, save, or archive the email.
+The majority of email clients provide a snippet of text to preview the contents of an email in your inbox. This enables you to quickly scan your inbox and decide if you want read, save, or archive the email.
 
 This inbox preview text can be set using an [email preheader](https://www.dailystory.com/blog/email-preheader-improve-open-rates/).
 
