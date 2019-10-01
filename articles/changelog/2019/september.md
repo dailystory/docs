@@ -5,6 +5,11 @@
 # DailyStory Product Updates for September 2019
 ## September 30, 2019
 * Refactor: future active dates for services
+* Refactor: support exporting popups
+* Refactor: import export support for popups
+* Refactor: enable HTML tab for popups
+* Refactor: dark theme for edting html
+* Refactor: change default text for unassigned campaign
 
 ## September 29, 2019
 * Bug: fix clear logic
