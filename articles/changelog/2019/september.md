@@ -7,6 +7,12 @@
 * Refactor: future active dates for services
 * Bug: set title and alt for images
 * Refactor: add helpers for command line designer updates
+* Refactor: support exporting popups
+* Refactor: import export support for popups
+* Refactor: enable HTML tab for popups
+* Refactor: dark theme for edting html
+* Refactor: change default text for unassigned campaign
+* Refactor: constant for unused campaign
 
 ## September 29, 2019
 * Bug: fix clear logic
