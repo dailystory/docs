@@ -10,7 +10,7 @@ The Email Designer is a drag-and-drop design canvas used to more easily build an
 * [Overview](#overview)
 * [Design Canvas](#design-canvas)
 * [Widget Menu](#widgets)
-
+* [Styling Widgets](#style-widgets)
 
 **Frequently Asked Quesions**
 
@@ -90,11 +90,19 @@ When a widget is dragged on to the design canvas the parent widget where the wid
 ### Widgets Menu <a name="widgets"></a>
 The Widgets Menu displays design widgets that can be added to the Design Canvas by clicking, dragging and dropping to place them.
 
-#### Content Widgets
+The Widget Menu display area changes when a widget is selected in the Design Canvas and has additional options.
 
 **Text Section**
+<table>
+<tr>
+<td style="width:120px">![Text Section widget](https://docs.dailystory.com/articles/emails/widget-text-section.png "Text Section widget")</td>
+<td><b>Text Section</b></td>
+<td>
+The Text Section widget is used for adding any text content to an email.
+</td>
+</tr>
+</table>
 
-![Text Section widget](https://docs.dailystory.com/articles/emails/widget-text-section.png "Text Section widget")
 
 The Text Section widget is used for adding any text content to an email.
 
@@ -106,8 +114,9 @@ Content is written or copy/pasted into the rich editor.
 
 > Content that is copy/pasted is stripped of any special information, such as bolding or links.
 
-
+### Styling Widgets <a name="style-widgets"></a>
 
 ## Frequently Asked Questions <a name="faq"></a>
+Below are some frequently asked questions about the Email Designer.
 
 ### Why can't I select some widgets?<a name="faq-cant-select"></a>

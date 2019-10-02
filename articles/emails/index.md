@@ -329,8 +329,8 @@ The web view of the email is unique to each recipient. If personalization or mer
 ## Frequently Asked Questions<a name="faq"></a>
 Below are some frequently asked questions about Emails.
 
-## Why emails look different across<a name="email-clients"></a>
-
+## Why do emails look different across email clients?<a name="email-clients"></a>
+The majority of modern email clients use a web browser as the rendering engine, i.e. to parse and interpret the HTML in the email. Unfortunately Microsoft Outlook uses Microsoft Word as the rendering engine. Microsoft Word's support for HTML is limited and some email elements may look slightly different in Outlook vs. Gmail. For example, buttons lose shading and some rounded styling aspects in Outlook.
 
 ## What email addresses are ignored?<a name="ignored-email-addresses"></a>
 For testing and demonstration purposes you can use recipient addresses ending in <code>@test.com</code> and <code>@example.com</code>. These email addresses do not count towards your license limits and these emails will never be sent.
