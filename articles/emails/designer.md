@@ -113,7 +113,49 @@ The Image widget is used for adding images to an email.
 <td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-video.png"></td>
 <td style="padding-left:10px">
 <b>Video</b><br>
-The Video widget is used for adding videos to an email.
+The Video widget is used for adding videos to an email. Videos from Youtube and Vimeo are supported.
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-button.png"></td>
+<td style="padding-left:10px">
+<b>Button</b><br>
+The Button widget is used for adding buttons to an email. Buttons are special HTML links with styline to display correctly in all email clients.
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-content-container.png"></td>
+<td style="padding-left:10px">
+<b>Content Container</b><br>
+The Content Container widget is used for hold other widgets or for setting background colors for sections of the email.
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-divider.png"></td>
+<td style="padding-left:10px">
+<b>Divider</b><br>
+The Divider widget is used to easily add spacing between widgets, such as two sections of text.
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-email-container.png"></td>
+<td style="padding-left:10px">
+<b>Email Container</b><br>
+The Email Container widget is a special widget used to create a 640px area where email content is added. When starting a new email in the designer, start with the Email Container.
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-2-column-right.png"></td>
+<td style="padding-left:10px">
+<b>2 Column Text Right</b><br>
+The 2 Column Text Right widget is a special widget that divides the email into 2 sections. When dispalyed on a mobile device the content on the right displays under the content on the left.
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-2-column-left.png"></td>
+<td style="padding-left:10px">
+<b>2 Column Text Left</b><br>
+The 2 Column Text Left widget is a special widget that divides the email into 2 sections. When dispalyed on a mobile device the content on the left displays under the content on the right.
 </td>
 </tr>
 </table>
