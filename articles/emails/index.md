@@ -39,13 +39,14 @@ This guide provides a list of resources to help you get started with DailyStory 
 [**Reporting and Metrics**](https://docs.dailystory.com/emails/reports)
 
 [**Frequently Asked Questions**](#faq)
+
 * [Why do emails look different across email clients?](#email-clients)
 * [What email addresses are ignored?](#ignored-email-addresses)
 * [What is an email preheader?](#faq-preheader)
-* Does DailyStory support Merge Tags?
-* What happens if an email bounces?
-* What is a soft bounce?
-* Will DailyStory try and resend soft bounces?
+* [Does DailyStory support Merge Tags?](#faq-merge-tags)
+* [What happens if an email bounces?](#faq-bounce)
+* [What is a soft bounce?](#faq-soft-bounce)
+* [Will DailyStory try and resend soft bounces?](#faq-resend)
 
 ## Create an Email <a name="create-an-email"></a>
 To create an email, first navigate to Content > Emails. This will display All Emails. From here you can create a new blank email or a new email from a template: 
@@ -123,11 +124,11 @@ While DailyStory's Email Designer enables you to quickly build robust emails, mo
 
 As an example, if you have an existing email design you wish to use in DailyStory the best way to start is to copy-and-paste the HTML of that email as HTML and CSS.
 
-![Email HTML Editor](emails-19.png "Email HTML Editor")
+![Email HTML Editor](https://docs.dailystory.com/articles/emails/emails-19.png "Email HTML Editor")
 
 Editing the HTML of an email is an advanced option. And, emails built with the Email Designer will initially prevent you from editing the email:
 
-![Email HTML Locked](emails-20.png "Email HTML Locked")
+![Email HTML Locked](https://docs.dailystory.com/articles/emails/emails-20.png "Email HTML Locked")
 
 However, you can always click "Unlock HTML Editor" to edit the HTML.
 
@@ -151,7 +152,7 @@ To learn more about using plain text in your email, see our article:
 ## Email Options Menu<a name="options"></a>
 In both the Email Designer and HTML Editor, there is an options button in the top right:
 
-![Options menu](emails-21.gif "Options menu")
+![Options menu](https://docs.dailystory.com/articles/emails/emails-21.gif "Options menu")
 
 Opening the options menu provides some additional features: [Preview](#preview), [Send Test](#test), [Schedule an Email](#schedule), quick navigation to the Email Designer or HTML Editor, Email Settings, and [Export](#export).
 
@@ -166,7 +167,7 @@ Use Preview to test your links, buttons, images and optionally view how the emai
 
 **Important** Any [Personalization](https://docs.dailystory.com/personalization) or [Merge Tages](#merge-tags) will use DailyStory's [test user data](https://docs.dailystory.com/reference#test-lead).
 
-![Preview DailyStory email](emails-22.png "Preview DailyStory email")
+![Preview DailyStory email](https://docs.dailystory.com/articles/emails/emails-22.png "Preview DailyStory email")
 
 ## Send Test Email<a name="test"></a>
 Prior to [sending an email](#send) we recommend [previewing](#preview) and testing your email.
@@ -177,7 +178,7 @@ To send a test email, click the [options menu](#options) and click the Send Test
 
 The email is delivered to your inbox shortly thereafter.
 
-![Send test](emails-23.png "Send test email")
+![Send test](https://docs.dailystory.com/articles/emails/emails-23.png "Send test email")
 
 Emails sent to your recipients [may look slightly different between email clients](#email-clients).
 
@@ -195,7 +196,7 @@ There are 3 ways you can send emails to your contacts:
 ### Schedule an Email<a name="schedule"></a>
 Scheduling an email is the easiest way to send an email to your contacts. From either the [Email Designer's](#email-designer) options or the [Email Settings](#edit-an-email) click Schedule to open the message scheduler:
 
-![Schedule an email](emails-24.png "Schedule an email")
+![Schedule an email](https://docs.dailystory.com/articles/emails/emails-24.png "Schedule an email")
 
 The message scheduler is the same for sending emails, text messages, push notificatons, social media posts and more. [Read more about using the scheduler](/campaigns/schedules).
 
@@ -204,7 +205,7 @@ To send a single email to a contact without scheduling the email and to bypass [
 
 Click on the options menu of the email to send and select Send Email.
 
-![Send single email](emails-25.png "Send single email")
+![Send single email](https://docs.dailystory.com/articles/emails/emails-25.png "Send single email")
 
 This will open a popup. Select the contact to send the email to and click send.
 
@@ -313,7 +314,7 @@ A web view of your email enables people to click a link in your email and view t
 
 To enable a web view of your email first enable the web view by clicked the toggle button on the Advanced Options tab:
 	
-![Enable Web View](/articles/emails/emails-13.png "Enable Web View")
+![Enable Web View](https://docs.dailystory.com/articles/emails/emails-13.png "Enable Web View")
 
 Next, use the <code>\*|WEBVIEW|\*</code> merge tag to include a link in your email.
 
@@ -339,10 +340,6 @@ The majority of email clients provide a snippet of text to preview the contents 
 
 This inbox preview text can be set using an [email preheader](https://www.dailystory.com/blog/email-preheader-improve-open-rates/).
 
-To set an email preheader click the Advanced Options tab. There you'll find an option to set the preheader.
-
-![PreHeader Text](/articles/emails/emails-12.png "PreHeader Text")
-
 This will include a hidden HTML div in the body of your email:
 	
 <pre class="brush: html">
@@ -355,3 +352,15 @@ display:none !important;"&gt;
 The contents of your preheader text
 &lt;/div&gt;
 </pre>
+
+### Does DailyStory support Merge Tags?<a name="faq-merge-tags"></a>
+Yes. See [Email Merge Tags](#merge-tags) for more details. However, [personalization tags and scripts](https://docs.dailystory.com/personalization) is the recommeneded way to personalize email content.
+
+### What happens if an email bounces?<a name="faq-bounce"></a>
+Emails can [soft bounce](#faq-soft-bounce) or hard bounce. Hard bounces fail permanently and the [Contact's](/contacts) status is changed to Bounced.
+
+### What is a soft bounce?<a name="faq-soft-bounce"></a>
+A soft bounce occurs when the recipients email server temporarily is unable to receive the email. Such as when the mailbox is full.
+
+### Will DailyStory try and resend soft bounces?<a name="faq-resend"></a>
+Yes.  DailyStory will retry to send a soft bounced email up to 5 times over the next 24 hours. Afterwards, if the email is still undeliverable the [Contact's](/contacts) status is set to Bounced.
