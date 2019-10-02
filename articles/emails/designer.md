@@ -158,6 +158,34 @@ The 2 Column Text Right widget is a special widget that divides the email into 2
 The 2 Column Text Left widget is a special widget that divides the email into 2 sections. When dispalyed on a mobile device the content on the left displays under the content on the right.
 </td>
 </tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-app-store.png"></td>
+<td style="padding-left:10px">
+<b>App Store</b><br>
+The App Store widget is a special widget that displays the iOS and Android App Store buttons using the URLs set in [Account Settings](/account/settings).
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-social.png"></td>
+<td style="padding-left:10px">
+<b>Social Icons</b><br>
+The Social Icons widget is a special widget that displays a list of social icons with URLs set in [Account Settings](/account/settings).
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-footer.png"></td>
+<td style="padding-left:10px">
+<b>Footer</b><br>
+The Footer widget is a special widget that displays footer content, such as address, unsubscribe, etc. set in [Account Settings](/account/settings).
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-comment.png"></td>
+<td style="padding-left:10px">
+<b>Comment</b><br>
+The Comment widget is a special widget that enables you to safely add comments in emails - comments are automatically removed when the email is sent.
+</td>
+</tr>
 </table>
 
 When selected, some widgets will replace the Widget Menu with options specific to that widget.
@@ -168,7 +196,7 @@ When selected on the Design Canvas, the Text Section widget opens a rich text ed
 
 ![Text Section](https://docs.dailystory.com/articles/emails/designer-6.png "Text Section")
 
-Content is written or copy/pasted into the rich editor.
+Content is written or copy/pasted into the rich editor and is updated in the Design Canvas.
 
 > Content that is copy/pasted is stripped of any special information, such as bolding or links.
 
@@ -178,10 +206,15 @@ When selected on the Design Canvas, the Image widget opens a set of image specif
 
 ![Image widget options](https://docs.dailystory.com/articles/emails/widget-image-options.png "Image widget options")
 
+Optionally specify if an image should be clickable. The Open File Manager button opens the DailyStory [File Manager](/file-manager) where files can be picked or uploaded.
+
+To set the dimensions of the image, click the style tab.
 
 ### Styling Widgets <a name="style-widgets"></a>
 
 ## Frequently Asked Questions <a name="faq"></a>
 Below are some frequently asked questions about the Email Designer.
+
+### How do I center an image, text or video in my email?
 
 ### Why can't I select some widgets?<a name="faq-cant-select"></a>
