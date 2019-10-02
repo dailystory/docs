@@ -1,43 +1,113 @@
 {
-title: 'DailyStory Email Marketing Reports',
-description: 'DailyStory email marketing reports'
+title: 'DailyStory Email Designer',
+description: 'DailyStory email designer'
 }
-# Email Reporting
-Emails sent through DailyStory include detailed delivery reporting. You can review a summary of your email delivery by clicking on the Delivered number from the All Emails page. This will open the Email Delivery Report:
+# Using the Email Designer
+The Email Designer is a drag-and-drop design canvas used to more easily build and design beautiful [emails](/emails). We put together this guide to help you understand how to use the Email Designer when building your emails.
 
-![Email Delivery Report](/articles/emails/emails-06.png "Email Delivery Report")
+**Getting Started**
 
-> You can also click on Opened, Clicked, and Bounced for each email in the All Emails page to view who opened the email, clicked on a link in the email or bounced. These reports are also accessible as links in the Email Delivery Report.
+* [Overview](#overview)
+* [Design Canvas](#design-canvas)
+* [Widget Menu](#widgets)
 
-The report provides several graphs to help you visualize your email delivery performance. 
 
-The first graph, shown in the image above, details sent/deliver/bounced along with % delivered for the selected date range.
+**Frequently Asked Quesions**
 
-Next, you will find a graph detailing delivered/opened emails. You can also click on the link in the graph to see who opened the email.
+* [Why can't I select some widgets?](#faq-cant-select)
 
-![Email Delivery Report Opens](/articles/emails/emails-08.png "Email Delivery Report Opens")
 
-After the delivered/opened graph you will find the opened/clicked report. You can also click on the link in the graph to see who clicked the email.
+## Overview <a name="overview"></a>
+The Email Designer has 4 main sections:
 
-![Email Delivery Report Clicks](/articles/emails/emails-09.png "Email Delivery Report Clicks")
+![Email Designer](https://docs.dailystory.com/articles/emails/designer-1.png "Email Designer")
 
-### Bounced Email Report
-The Bounced Email Report provides a list of contacts that whose email address bounced for the sent email. The report can be filtered by time ranges and exported to a file that can be opened in Excel.
+1. Top menu bar - includes the name of the email, buttons and more options
+2. [Design Canvas](#design-canvas) - the area where design widgets are placed
+3. [Widget Menu](#widgets) - widgets that are drag-and-dropped onto the Design Canvas
+4. Save buttons - buttons for saving, copying and more
 
-![Email Bounce Report](/articles/emails/emails-10.png "Email Bounce Report")
+### Top menu bar
+The top menu bar displays the name of the email you are edting and also show contextual buttons. 
 
-> Export files are scoped to the date range your select when viewing your report.
+The contextual buttons shown in the top menu bar will change when widgets on the design canvas are selected.
 
-### Opened Email Report
-The Opened Email Report provides a list of which contacts opened the email. The report can be filtered by time ranges and exported to a file that can be opened in Excel.
+![Email Designer](https://docs.dailystory.com/articles/emails/designer-3.png "Email Designer")
 
-![Email Opened Report](/articles/emails/emails-07.png "Email Opened Report")
+**Select None**
+When a widget is selected on the design canvas clicking Select None will unselect the widget.
 
-> Export files are scoped to the date range your select when viewing your report.
+**Clear**
+When a widget is selected on the design canvas clicking Clear will remove the widget from the canvas.
 
-### Clicked Email Report
-The Clicked Email Report provides a list of which contacts clicked a link in the email. The report can be filtered by time ranges and exported to a file that can be opened in Excel.
+> Important - a selected widget may also be removed by clicking the trash can or pressing the delete button.
 
-![Email Clicked Report](/articles/emails/emails-11.png "Email Clicked Report")
+**Edit HTML**
+When a widget is selected on the design canvas clicking Edit HTML opens a popup window with the HTML for that widget.
 
-> Export files are scoped to the date range your select when viewing your report.
+> Important - editing the HTML of a widget is not recommended.
+
+**Undo**
+Undo a previous action, e.g. undo removing a widget from the canvas.
+
+**Redo**
+Redo a previous action, e.g. remove a widget from the canvas. 
+
+On the far right of the menu bar you can also find the [more options button](/emails/#options).
+
+### Design Canvas <a name="design-canvas"></a>
+The Design canvas is where widgets are placed or selected.
+
+**Selecting a widget**
+
+When moving the mouse over the canvas a blue box will highlight widgets. To select the highlighted widget click on the widget. When the widget is selected it is outlined and a contextual toolbar is shown on the widget:
+
+![Email Designer](https://docs.dailystory.com/articles/emails/designer-2.png "Email Designer")
+
+Widget toolbar 
+
+* Up arrow - select the parent of this widget
+* Cross arrows - click and drag the widget to move it
+* Copy - click to create a copy of this widget
+* Trash - remove the widget
+
+**Removing a widget**
+
+A selected item is removed from the canvas by clicking the trash icon or pressing the delete button.
+
+> **Important** some widgets [cannot be selected](#faq-cant-select) or removed.
+
+**Add a widget**
+
+To add a widget drag-and-drop it from the Widgets menu on the right. 
+
+> if the widgets menu is not available, click "Select None".
+
+When a widget is dragged on to the design canvas the parent widget where the widget is placed is highlighted in yellow and a green bar indicates where the widget will be placed.
+
+![Email Designer drag-and-drop](https://docs.dailystory.com/articles/emails/emails-18.gif "Email Designer drag-and-drop")
+
+### Widgets Menu <a name="widgets"></a>
+The Widgets Menu displays design widgets that can be added to the Design Canvas by clicking, dragging and dropping to place them.
+
+#### Content Widgets
+
+**Text Section**
+
+![Text Section widget](https://docs.dailystory.com/articles/emails/widget-text-section.png "Text Section widget")
+
+The Text Section widget is used for adding any text content to an email.
+
+When selected on the Design Canvas, the Text Section widget opens a rich text editor in place of the Widget Menu:
+
+![Text Section](https://docs.dailystory.com/articles/emails/designer-6.png "Text Section")
+
+Content is written or copy/pasted into the rich editor.
+
+> Content that is copy/pasted is stripped of any special information, such as bolding or links.
+
+
+
+## Frequently Asked Questions <a name="faq"></a>
+
+### Why can't I select some widgets?<a name="faq-cant-select"></a>

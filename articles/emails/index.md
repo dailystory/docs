@@ -119,6 +119,8 @@ When the widget is added to the designer you can move, delete or edit the widget
 
 The email designer generate HTML friendly emails optimized for common email clients such as Outlook, GMail and more. Furthermore, emails built within the designer are also optimized for mobile devices.
 
+[Read more about the Email Designer in our Using the Email Designer guide](/emails/designer)
+
 ## HTML and CSS Editor<a name="edit-html"></a>
 While DailyStory's Email Designer enables you to quickly build robust emails, more complicated email designs typically start from an HTML base.
 
