@@ -92,13 +92,28 @@ The Widgets Menu displays design widgets that can be added to the Design Canvas 
 
 The Widget Menu display area changes when a widget is selected in the Design Canvas and has additional options.
 
-**Text Section**
+Below is list of the widgets along with a brief description:
+
 <table>
 <tr>
 <td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-text-section.png"></td>
-<td><b>Text Section</b></td>
-<td>
+<td style="padding-left:10px">
+<b>Text Section</b><br>
 The Text Section widget is used for adding any text content to an email.
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-image.png"></td>
+<td style="padding-left:10px">
+<b>Image</b><br>
+The Image widget is used for adding images to an email.
+</td>
+</tr>
+<tr>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-video.png"></td>
+<td style="padding-left:10px">
+<b>Video</b><br>
+The Video widget is used for adding videos to an email.
 </td>
 </tr>
 </table>
