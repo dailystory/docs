@@ -95,7 +95,7 @@ The Widget Menu display area changes when a widget is selected in the Design Can
 **Text Section**
 <table>
 <tr>
-<td style="width:120px">![Text Section widget](https://docs.dailystory.com/articles/emails/widget-text-section.png "Text Section widget")</td>
+<td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-text-section.png"></td>
 <td><b>Text Section</b></td>
 <td>
 The Text Section widget is used for adding any text content to an email.
