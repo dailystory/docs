@@ -1,16 +1,15 @@
-
 {
-title: 'Email Marketing',
+title: 'DailyStory Email Marketing',
 description: 'DailyStory email marketing'
 }
 # DailyStory Email Marketing
-Email Marketing sends targeted and personalized email to your [Segments](/segments) and [Contacts](/contacts) in a [Campaign](/campaigns). Emails are either sent based on a [Schedule](/campaigns/schedules) or a [Workflow](/campaigns/workflows).
+Email Marketing sends targeted and personalized email to your [Segments](/segments) and [Contacts](/contacts) in a [Campaign](/campaigns). Emails are sent based on a [Schedule](/campaigns/schedules) or a [Workflow](/campaigns/workflows). You can also send individual emails.
 
 DailyStory tracks and attributes delivery, bounces, opens, clicks, and optouts automatically.
 
-Unless otherwise specified, email is sent by DailyStory from an @dailystory.net email address. However, it is strongly recommend that you configure a custom domain to allow DailyStory to send email securely on your behalf or leverage DailyStory's [Mailgun](/integrations/mailgun), SendGrid or PostMark integrations.
+Unless otherwise configured, email is sent by DailyStory from an @dailystory.net email address. However, it is strongly recommend that you configure a custom domain to allow DailyStory to send email securely on your behalf or leverage DailyStory's [Mailgun](/integrations/mailgun), SendGrid or PostMark integrations.
 
-> Enabling DailyStory to send email from your domain name increases the likelihood that your email is successfully delivered. Otherwise, your email send address will appear as `sales@[your domain].com on behalf of @dailystory.net`
+> Enabling DailyStory to send email securely from your domain increases the likelihood that your email is successfully delivered. Otherwise, your sending email address will appear as `[your name]@[your domain].com on behalf of @dailystory.net`
 
 This guide provides a list of resources to help you get started with DailyStory email.
 
@@ -19,28 +18,39 @@ This guide provides a list of resources to help you get started with DailyStory 
 * [Create an Email](#create-an-email)
 * [Edit an Email's Settings](#edit-an-email)
 * [Email Designer](#email-designer)
+* [HTML Editor](#edit-html)
+* [Preview Email](#preview)
+* [Send Test](#test)
 
-**Advanced Tracking Link Options**
+[**Sending an Email**](#send)
 
-* [Tracking Ad Clicks](#tracking-ad-clicks)
-* [Integrate with Google Analytics](#integrate-with-google-analytics)
-* [Advanced Options](#advanced-options)
+* [Schedule Email to Send](#schedule)
+* [Send a Single Email](#single)
+* [Sending Rules and Guardrails](#send-rules)
+* [Personalization](https://docs.dailystory.com/personalization)
+* [Merge Tags](#merge-tags)
 
-**Reporting and Metrics**
+**Advanced Email Options**
 
-* [Conversion Tracking](#conversion-tracking)
-* [Click Tracking](#click-tracking)
+* [Edit CSS](#edit-css)
+* [Edit Plain Text](#edit-plaintext)
+* [Import or Export an Email](#export)
 
-**Frequently Asked Questions**
+[**Reporting and Metrics**](https://docs.dailystory.com/emails/reports)
 
-
-FAQ
-What happens if an email bounces
-What is a soft bounce?
-Will DailyStory try and resend soft bounces?
+[**Frequently Asked Questions**](#faq)
+* [Why do emails look different across email clients?](#email-clients)
+* [What email addresses are ignored?](#ignored-email-addresses)
+* [What is an email preheader?](#faq-preheader)
+* Does DailyStory support Merge Tags?
+* What happens if an email bounces?
+* What is a soft bounce?
+* Will DailyStory try and resend soft bounces?
 
 ## Create an Email <a name="create-an-email"></a>
-To create an email, first navigate to Content > Emails. This will display All Emails. From here you can create a new blank email or a new email from a template: ![Menu Button](https://docs.dailystory.com/articles/emails/emails-01.png "All Email") 
+To create an email, first navigate to Content > Emails. This will display All Emails. From here you can create a new blank email or a new email from a template: 
+
+![Menu Button](https://docs.dailystory.com/articles/emails/emails-01.png "All Email") 
 
 You can all also click the menu in the top left and click "+ Create" to create a new blank email:
 
@@ -62,7 +72,7 @@ On the Create Email screen there are a number of fields:
  - **From** - The from address of your email.
  - **Preview** - The preview text of your email.
 
-The **Subject** of your email is a descriptive introduction to the body of your email message. The subject may contain emojis and personalization tags or script.
+The **Subject** of your email is a descriptive introduction to the body of your email message. The subject may contain emojis and [personalization tags and scripts](https://docs.dailystory.com/personalization).
 
 The **From** address must be a valid email address. Examples:
 
@@ -70,15 +80,17 @@ The **From** address must be a valid email address. Examples:
 * <code>"Rob Howard" &lt;rob@dailystory.com&gt;</code>
 * <code>hello@dailystory.com</code>
 
-Clicking the more options dots to the right of the **From** address will open a popup. From this popup edit the friendly name, email and where replies should be sent to:
+Clicking the more options dots to the right of the **From** address will open a popup. From this popup edit the friendly name, email address and where replies should be sent to:
+
+> Set a "Send replies to" email address if you want replies to be sent to someone other than who the email came from.
 
 ![Set from address](https://docs.dailystory.com/articles/emails/emails-15.gif "Set from address")
 
-> You can also type or paste in the email address too.
+> You can also type or copy/paste in the email **From** address too.
 
-Use **Preview** to optionally write content shown when the email is previewed in your recipient's inbox. This enables you to control exactly what is seen when someone is previewing your email in their inbox. The preview may contain emojis and personalization tags or script.
+Use **Preview** to optionally write content shown when the email is previewed in your recipient's inbox. This enables you to control exactly what is seen when someone is previewing your email in their inbox. The preview may contain emojis and [personalization tags and scripts](https://docs.dailystory.com/personalization).
 
-Once the required fields (Name, Subject and From) are complete, click the "Create Email" to create the new email.
+Once the required fields (Name, Subject and From) are complete, click the "Create Email" button to save the new email.
 
 Next, you can either <a href="#edit-html">edit the HTML</a> of the email or use the <a href="#email-designer">Email Designer</a> to build a new email.
 
@@ -90,14 +102,153 @@ To edit settings, such as the From address and Subject of the email click on the
 ![Edit email settings](https://docs.dailystory.com/articles/emails/emails-16.gif "Edit email settings")
 
 ## Email Designer<a name="email-designer"></a>
-Clicking on an email from the All Emails list or clicking the Design Email button from the Email Settings will open the Email Designer.
+Clicking on an email from the All Emails list or clicking the Design Email button from Email Settings will open the Email Designer.
 
 > While it is possible to edit the HTML of the email, we recommend only editing the HTML when creating a new email template. 
 
 ![Email Designer](https://docs.dailystory.com/articles/emails/emails-17.png "Email Designer")
 
-### Email Merge Tags
-In both the subject and body of your email you can include Merge Tags:
+The Email Designer is a drag-and-drop design canvas. To add an item to the designer canvas select a widget, such as a Text Section, by clicking and holding the mouse down and drag-and-drop it onto the design surface.
+
+You will see a green bar that indicates where the designer will place your widget.
+
+![Email Designer drag-and-drop](https://docs.dailystory.com/articles/emails/emails-18.gif "Email Designer drag-and-drop")
+
+When the widget is added to the designer you can move, delete or edit the widget. Some of the design widgets have special options which will show up in place of the widgets.
+
+The email designer generate HTML friendly emails optimized for common email clients such as Outlook, GMail and more. Furthermore, emails built within the designer are also optimized for mobile devices.
+
+## HTML and CSS Editor<a name="edit-html"></a>
+While DailyStory's Email Designer enables you to quickly build robust emails, more complicated email designs typically start from an HTML base.
+
+As an example, if you have an existing email design you wish to use in DailyStory the best way to start is to copy-and-paste the HTML of that email as HTML and CSS.
+
+![Email HTML Editor](emails-19.png "Email HTML Editor")
+
+Editing the HTML of an email is an advanced option. And, emails built with the Email Designer will initially prevent you from editing the email:
+
+![Email HTML Locked](emails-20.png "Email HTML Locked")
+
+However, you can always click "Unlock HTML Editor" to edit the HTML.
+
+> Editing the HTML of an email built with the designer may cause the designer to no longer recognize widgets added with the designer.
+
+### Editing CSS<a name="edit-css"></a>
+While editing the HTML of an email built with the designer is not recommended, the CSS of an email may be editing with no impact to the designer.
+
+Simply click the CSS tab and edit/modify CSS rules for your email.
+
+**Important** when DailyStory sends your email it merges all the CSS and HTML together. The full CSS is always included in a &lt;style&gt; tag of the HTML body of your email, but DailyStory will also attempt to inline the CSS rules as well. You can preview and email and view the source to see what the fully merged HTML of the email will look like.
+
+### Editing the Plain Text<a name="edit-plaintext"></a>
+Emails sent by DailyStory always include both an HTML version and a Plain Text version.
+
+The plain text of the email is edited from the HTML Editor's "Edit Plain Text" tab. If not provided, DailyStory will attempt to automatically generate a plain text version of your content when the email is sent.
+
+To learn more about using plain text in your email, see our article:
+[Plain text or HTML email – which to use in your next campaign](https://www.dailystory.com/blog/plain-text-email/)
+
+## Email Options Menu<a name="options"></a>
+In both the Email Designer and HTML Editor, there is an options button in the top right:
+
+![Options menu](emails-21.gif "Options menu")
+
+Opening the options menu provides some additional features: [Preview](#preview), [Send Test](#test), [Schedule an Email](#schedule), quick navigation to the Email Designer or HTML Editor, Email Settings, and [Export](#export).
+
+## Preview an Email<a name="preview"></a>
+Prior to [sending an email](#send) we recommend previewing and [testing your email](#test).
+
+To Preview an email, click the [options menu](#options) and click the Preview option. This will open a new tab and display a preivew of your email.
+
+> Due to HTML inconsistencies sometimes the Preview will look slightly different than how the email appears in the Designer. The Preview is a more accurate view of how the final email will appear. You may need to make adjustments in the designer.
+
+Use Preview to test your links, buttons, images and optionally view how the email will appear on mobile devices.
+
+**Important** Any [Personalization](https://docs.dailystory.com/personalization) or [Merge Tages](#merge-tags) will use DailyStory's [test user data](https://docs.dailystory.com/reference#test-lead).
+
+![Preview DailyStory email](emails-22.png "Preview DailyStory email")
+
+## Send Test Email<a name="test"></a>
+Prior to [sending an email](#send) we recommend [previewing](#preview) and testing your email.
+
+To send a test email, click the [options menu](#options) and click the Send Test option. This will open a popup window pre-populated with your email.
+
+**Important** Any [Personalization](https://docs.dailystory.com/personalization) or [Merge Tages](#merge-tags) will use DailyStory's [test user data](https://docs.dailystory.com/reference#test-lead).
+
+The email is delivered to your inbox shortly thereafter.
+
+![Send test](emails-23.png "Send test email")
+
+Emails sent to your recipients [may look slightly different between email clients](#email-clients).
+
+If you need to send an email to a contact, not for the purpose of testing the email. You can [send a single email](#single)
+
+## Sending an Email<a name="send"></a>
+After [previewing](#preview) and [testing](#test) your email, you are ready to schedule an email to send.
+
+There are 3 ways you can send emails to your contacts:
+
+* [Schedule an email](#schedule)
+* [Send a single email](#single)
+* [Send as part of a workflow](#workflow)
+
+### Schedule an Email<a name="schedule"></a>
+Scheduling an email is the easiest way to send an email to your contacts. From either the [Email Designer's](#email-designer) options or the [Email Settings](#edit-an-email) click Schedule to open the message scheduler:
+
+![Schedule an email](emails-24.png "Schedule an email")
+
+The message scheduler is the same for sending emails, text messages, push notificatons, social media posts and more. [Read more about using the scheduler](/campaigns/schedules).
+
+### Send a Single Email<a name="single"></a>
+To send a single email to a contact without scheduling the email and to bypass [sending rules](#send-rules) navigate to All Emails to browse the list of all published emails.
+
+Click on the options menu of the email to send and select Send Email.
+
+![Send single email](emails-25.png "Send single email")
+
+This will open a popup. Select the contact to send the email to and click send.
+
+## Email Sending Rules and Guardrails<a name="send-rules"></a>
+DailyStory enforces rules when sending emails. These rules are in place to help you effectively communicate and ensure simple mistakes are avoided.
+
+### A recipient is only sent an email once
+When sending emails through automation or through the scheduler, DailyStory will ensure that a recipient will only receive your email once.
+
+What this means is that an email can be scheduled repeatedly or sent again through a workflow without any concern of over-sending the same email. If the recipient was previously sent the email, they will not be sent the email again.
+
+If a recipient asks to be resent the email, [send a single email](#single).
+
+### Contact status must be Active
+[Contacts](https://docs.dailystory.com/contacts/) whose status is not Active will not be sent emails.
+
+### Lead status must be Active or Nurturing 
+[Leads](https://docs.dailystory.com/leads/), Contacts within a campaign, whose status is not Active or Nurturing will not be sent emails.
+
+### Contact must be Opted In
+[Contacts](https://docs.dailystory.com/contacts/) who are marked as do not contact or have opted out of emails will not be sent emails.
+
+## Import/Export an Email<a name="export"></a>
+Emails created in DailyStory may be exported and imported. This enables customers to easily share emails between tenants in a secure manner.
+
+> Exported emails are encrypted files.
+
+### Export an Email
+To export an email select Export from the [Options menu](#options). This will export an encrypted file [Name of the Email].elmz.
+
+### Import an Email
+To import an email, navigate to Content > Emails. Using the side menu, select Import:
+
+![Emails Menu](https://docs.dailystory.com/articles/emails/emails-14.gif "Email Menu")
+
+This open a popup. Select a DailyStory exported email (file ends with .elmz). The email is imported and the Email Setting screen is shown.
+
+## Email Merge Tags<a name="merge-tags"></a>
+Content created for DailyStory emails including Title, Subject and Body of your messages support [personalization tags and scripts](https://docs.dailystory.com/personalization). Personalization is the recommeneded way to personalize email content.
+
+However, DailyStory also supports Merge Tags, a simpler form of personalization supported in other email platforms. Merge Tags may be used in the subject and body of your email.
+
+The table below lists the Merge Tags supported by DailyStory:
+
 <table class="table">
 <tbody>
 <tr>
@@ -147,27 +298,43 @@ In both the subject and body of your email you can include Merge Tags:
 </tbody>
 </table>
 
-> Important, if an <code>\*|UNSUBSCRIBE|\*</code> merge tag is not found an unsubscribe link will automatically be included in the email. An unsubscribe header with this link is also sent as part of the email - these are best practices to ensure the email is not flagged as SPAM.
+> Important, if an <code>\*|UNSUBSCRIBE|\*</code> merge tag is not found an unsubscribe link is automatically inserted at the end of the email. An unsubscribe header with this link is also included in the email - these are best practices to ensure the email is not flagged as SPAM.
 
-Any merge tags used in the email that doesn't exist for the contact you are sending to is automatically removed.
+Any merge tags used in the email that do not have a value are automatically removed.
 
 For example if the <code>\*|FNAME|\*</code> merge tag was used, but the contact does not have a Firstname field this:	 <code>Hi \*|FNAME|\*</code> Becomes: <code>Hi</code>
 
 Merge tags provide a simple way to personalize your email, but do have limitations. For more robust personalization of your [email use personalization templates](https://www.dailystory.com/features/personalized-email-marketing/#templating-in-your-personalized-email-marketing).
 
-### Email Personalization Templates
-Personalization templates provide all the same functionality as merge tags for personalization. 
+### Enabling Email Web View
+A web view of your email enables people to click a link in your email and view the email in a web browser.
 
-> Personalization Templates don't exist for merge tags such as <code>\*|BODY|\*</code>, <code>\*|WEBVIEW|\*</code>, <code>\*|UNSUBSCRIBE|\*</code>.
+> By default web view is disabled and no web view is available for your email.
 
-Personalization templates use a separate format. For example, to insert the user's first name use <code>{{user.firstname}}</code>
+To enable a web view of your email first enable the web view by clicked the toggle button on the Advanced Options tab:
+	
+![Enable Web View](/articles/emails/emails-13.png "Enable Web View")
 
-[UNDONE]
+Next, use the <code>\*|WEBVIEW|\*</code> merge tag to include a link in your email.
 
-## Advanced Options
-DailyStory includes advanced options for emails such as setting an email preheader and including a web view of the email.
+> Note, the <code>\*|WEBVIEW|\*</code> merge tag only inserts the URL.
 
-### Setting an Email Preheader
+Optionally use the preview link next to the web view toggle button to preview what the web view of your email looks like. It will be personalized using the [Test Contact](/reference#test-lead).
+
+The web view of the email is unique to each recipient. If personalization or merge tags are used in the email people who view the link will see the personalized view.
+
+## Frequently Asked Questions<a name="faq"></a>
+Below are some frequently asked questions about Emails.
+
+## Why emails look different across<a name="email-clients"></a>
+
+
+## What email addresses are ignored?<a name="ignored-email-addresses"></a>
+For testing and demonstration purposes you can use recipient addresses ending in <code>@test.com</code> and <code>@example.com</code>. These email addresses do not count towards your license limits and these emails will never be sent.
+
+If you want to test sending emails, such as running a test lead through a workflow, we recommend using a disposable email address such as <a href="http://www.fakemailgenerator.com/" rel="noopener noreferrer">Fake Mail Generator</a>.
+
+### What is an email preheader?<a name="faq-preheader"></a>
 The majority of email clients provide a snippet of text to preview the contents of an email in your inbox. This enables you to quickly scan your inbox and decide if you want read, save, or archive the email.
 
 This inbox preview text can be set using an [email preheader](https://www.dailystory.com/blog/email-preheader-improve-open-rates/).
@@ -188,81 +355,3 @@ display:none !important;"&gt;
 The contents of your preheader text
 &lt;/div&gt;
 </pre>
-
-### Enabling Email Web View
-A web view of your email enables people to click a link in your email and view the email in a web browser.
-
-> By default web view is disabled and no web view is available for your email.
-
-To enable a web view of your email first enable the web view by clicked the toggle button on the Advanced Options tab:
-	
-![Enable Web View](/articles/emails/emails-13.png "Enable Web View")
-
-Next, use the <code>\*|WEBVIEW|\*</code> merge tag to include a link in your email.
-
-> Note, the <code>\*|WEBVIEW|\*</code> merge tag only inserts the URL.
-
-Optionally use the preview link next to the web view toggle button to preview what the web view of your email looks like. It will be personalized using the [Test Contact](/reference#test-lead).
-
-The web view of the email is unique to each recipient. If personalization or merge tags are used in the email people who view the link will see the personalized view.
-
-## Testing your Email
-There are several options for testing emails. You can create a test campaign, add your email as a workflow and then add leads to the campaign. However, to test only the email, just use the Send a test email button in the email editor.
-
-### Send a test email
-Use the Sent a test email button to send yourself (or someone else) a test email.
-
-> Important, you must save your email prior to sending a test email. Test emails count towards your monthly send limits.
-
-![Send test email](/articles/emails/emails-04.png "Send test email")
-
-Clicking Send a test email will open up a window. Enter a valid email address to send your test email to.
-
-![Test email recipient](/articles/emails/emails-05.png "Test email recipient")
-
-The test email will use the [Test Contact](/reference#test-lead) for any merge fields found in the email.
-
-### Email Addresses DailyStory Ignores
-For testing and demonstration purposes you can use recipient addresses ending in <code>@test.com</code> and <code>@example.com</code>. These email addresses do not count towards your license limits and these emails will never be sent.
-
-If you want to test sending emails, such as running a test lead through a workflow, we recommend using a disposable email address such as <a href="http://www.fakemailgenerator.com/" rel="noopener noreferrer">Fake Mail Generator</a>.
-
-## Email Reporting
-Emails sent through DailyStory include detailed delivery reporting. You can review a summary of your email delivery by clicking on the Delivered number from the All Emails page. This will open the Email Delivery Report:
-
-![Email Delivery Report](/articles/emails/emails-06.png "Email Delivery Report")
-
-> You can also click on Opened, Clicked, and Bounced for each email in the All Emails page to view who opened the email, clicked on a link in the email or bounced. These reports are also accessible as links in the Email Delivery Report.
-
-The report provides several graphs to help you visualize your email delivery performance. 
-
-The first graph, shown in the image above, details sent/deliver/bounced along with % delivered for the selected date range.
-
-Next, you will find a graph detailing delivered/opened emails. You can also click on the link in the graph to see who opened the email.
-
-![Email Delivery Report Opens](/articles/emails/emails-08.png "Email Delivery Report Opens")
-
-After the delivered/opened graph you will find the opened/clicked report. You can also click on the link in the graph to see who clicked the email.
-
-![Email Delivery Report Clicks](/articles/emails/emails-09.png "Email Delivery Report Clicks")
-
-### Bounced Email Report
-The Bounced Email Report provides a list of contacts that whose email address bounced for the sent email. The report can be filtered by time ranges and exported to a file that can be opened in Excel.
-
-![Email Bounce Report](/articles/emails/emails-10.png "Email Bounce Report")
-
-> Export files are scoped to the date range your select when viewing your report.
-
-### Opened Email Report
-The Opened Email Report provides a list of which contacts opened the email. The report can be filtered by time ranges and exported to a file that can be opened in Excel.
-
-![Email Opened Report](/articles/emails/emails-07.png "Email Opened Report")
-
-> Export files are scoped to the date range your select when viewing your report.
-
-### Clicked Email Report
-The Clicked Email Report provides a list of which contacts clicked a link in the email. The report can be filtered by time ranges and exported to a file that can be opened in Excel.
-
-![Email Clicked Report](/articles/emails/emails-11.png "Email Clicked Report")
-
-> Export files are scoped to the date range your select when viewing your report.
