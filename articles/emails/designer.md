@@ -118,8 +118,9 @@ The Video widget is used for adding videos to an email.
 </tr>
 </table>
 
+When selected, some widgets will replace the Widget Menu with options specific to that widget.
 
-The Text Section widget is used for adding any text content to an email.
+#### Text Section widget
 
 When selected on the Design Canvas, the Text Section widget opens a rich text editor in place of the Widget Menu:
 
@@ -128,6 +129,13 @@ When selected on the Design Canvas, the Text Section widget opens a rich text ed
 Content is written or copy/pasted into the rich editor.
 
 > Content that is copy/pasted is stripped of any special information, such as bolding or links.
+
+#### Image widget
+
+When selected on the Design Canvas, the Image widget opens a set of image specific options in place of the Widget Menu:
+
+![Image widget options](https://docs.dailystory.com/articles/emails/widget-image-options.png "Image widget options")
+
 
 ### Styling Widgets <a name="style-widgets"></a>
 
