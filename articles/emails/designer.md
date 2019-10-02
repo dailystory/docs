@@ -99,7 +99,7 @@ Below is list of the widgets along with a brief description:
 <td style="width:120px"><img src="https://docs.dailystory.com/articles/emails/widget-text-section.png"></td>
 <td style="padding-left:10px">
 <b>Text Section</b><br>
-The Text Section widget is used for adding any text content to an email.
+The Text Section widget is used for adding text content to an email.
 </td>
 </tr>
 <tr>

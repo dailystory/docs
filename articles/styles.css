@@ -62,3 +62,17 @@ ol.api li:before {
 #bodyContent img {
     border: solid 1px #ddd;
 }
+
+table img {
+    border: none;
+}
+
+table {
+    width: 100%;
+    background-color: #efefef;
+}
+
+td {
+    padding: 0 15px;
+    border: 1px solid #ccc;
+}
