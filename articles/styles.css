@@ -61,6 +61,7 @@ ol.api li:before {
 
 #bodyContent img {
     border: solid 1px #ddd;
+    padding: 15px 5px 20px;
 }
 
 table img {
