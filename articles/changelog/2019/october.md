@@ -12,6 +12,7 @@
 * Refactor: default style for para widget
 * Refactor: re-org page blocks in designer
 * Bug: don't remove parent if is column
+* Refactor: add a message not found exception type
 
 ## October 2, 2019
 * Bug: convert segment builder to use chunking
