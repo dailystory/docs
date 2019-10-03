@@ -289,6 +289,13 @@ First, ensure that for any fixed width tables, there is a CSS media query for yo
 
 Second, follow [image best practices](#image-best-practices) and use images that scale. This will allow the image to resize itself automatically on smaller screens.
 
+### Adding whitespace between widgets in your email<a name="add-whitespace"></a>
+Whitespace is important to use in any design, but especially emails where you want to use whitespace to increase readability.
+
+For example, if you have a set of buttons that are stacked, you had change the top and bottom padding of those buttons to create whitespace:
+
+![Use whitespace](https://docs.dailystory.com/articles/emails/designer-8.png "Use whitespace")
+
 ## Frequently Asked Questions <a name="faq"></a>
 Below are some frequently asked questions about the Email Designer.
 
