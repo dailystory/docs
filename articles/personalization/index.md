@@ -9,6 +9,8 @@ Personalization is as simple as displaying a person's firstname, `{{user.firstna
 
 `{{#if user.firstname}}Hi {{user.firstname}},{{else}}Hi,{{/if}}`
 
+> The above could also be written as `{{@ user.firstname default="friend"}}` - this uses "friend" when the personalized value is missing.
+
 Personalization is available for both built-in properties, such as firstname, as well as any custom property you add.
 
 > DailyStory's Personalization Engine uses opening and closing braces `{{` and `}}` to signify markup the Personalization Engine needs to process.
@@ -65,7 +67,7 @@ Custom profile tokens correspond to [custom fields you can add to your contact](
 
 When you add a custom profile field you will see a corresponding API Name:
 
-![User Defined Fields](/articles/contacts/contacts-15.png "User Defined Fields")
+![User Defined Fields](https://docs.dailystory.com/articles/contacts/contacts-15.png "User Defined Fields")
 
 > To use a custom profile token in DailyStory's Personalization Engine prefix the API name with `profile`.
 
@@ -91,6 +93,8 @@ Instead, this should be replaced with a conditional statement: if the contact ha
 Now, when the first name is blank, this is what the Personalization Engine outputs:
 
 `Hi,`
+
+> The above could also be written as `{{@ user.firstname default="friend"}}` - this uses "friend" when the personalized value is missing.
 
 ### If / else
 The most basic conditional statement is `{{#if}}`. This simply checks if a profile field exists.
@@ -177,7 +181,7 @@ The use of Personalization within [email](/emails) is available in:
 * Subject
 * Preview Text 
 * Body
-* Plain text Body
+* Plain Text Body
 
 ### Text Messages
 The use of Personalization within [text messages](/text-messages) is available in:
@@ -189,6 +193,12 @@ The use of Personalization within [push notifications](/push-notifications) is a
 
 * Title
 * Message body
+
+## Frequently Asked Questions <a name="faq"></a>
+Below are some frequently asked questions.
+
+### Can I use personalization in the subject of my email?
+Yes. The Subject, Preview Text, Body and Plain Text body of the email can all use personalization. For example, to greet someone by first name in the subject: `An update just for you {{@ user.firstname default="friend"}}
 
 ## Related articles
 
