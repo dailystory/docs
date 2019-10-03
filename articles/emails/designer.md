@@ -215,7 +215,7 @@ To set the dimensions of the image, click the style tab and set the width and he
 
 When selected the Video widget opens a set of video specific options in place of the Widget Menu:
 
-![Video widget options](https://docs.dailystory.com/articles/emails/widget-image-options.png "Video widget options")
+![Video widget options](https://docs.dailystory.com/articles/emails/widget-video-options.png "Video widget options")
 
 * **Video URL** URL to the video. When set, DailyStory will replace the default Video widget in the Design Canvas with a preview of your image.
 
@@ -225,9 +225,11 @@ When selected the Video widget opens a set of video specific options in place of
 * Vimeo
 
 ## Styling Widgets <a name="style-widgets"></a>
-When a widget is selected the Widgets menu Style tab is used to set style details about the selected widget.
+When a widget is selected the Widgets menu the Style tab is used to set style details about the selected widget.
 
-> The options shown in the Style menu change based on they type of widget.
+![Widget style](https://docs.dailystory.com/articles/emails/widget-style.png "Widget style")
+
+> The options shown in the Style menu change based on the widget selected.
 
 * **Font family** the font used for text, e.g. Helvetica
 * **Font size** the size of the font, e.g. 20px
@@ -248,9 +250,44 @@ When a widget is selected the Widgets menu Style tab is used to set style detail
 
 **Recommendation** when possible, use percentages to express image dimensions. This enables the [email to scale based on the size of the client](#responsive-email), such as mobile devices.
 
+## Creating a new email using the Designer
+The Email Designer is built to support working with pre-made email templates or building new emails 100% in the designer.
+
+> If you are working with an agency and have a pre-existing HTML template for your emails. This email should be created as a new Email Template. Furthermore, HTML elements within the template can use special mark up to identify which HTML sections are editable and which are not.
+
+Below is a step-by-step guide for creating a new email using only the Email Designer.
+
+### Start with an Email Container
+The Email Container widget is a widget that creates an HTML layout with a 640px center area of content optimized for mobile and desktop email clients.
+
+An email should use multiple Email Containers to logically separate parts of the email:
+
+* **Header** title and logo
+* **Body** main content of the email
+* **Footer** footer content, such as unsubscribe links
+
+![Email sections](https://docs.dailystory.com/articles/emails/designer-7.png "Email sections")
+
+This enables you to design an email with a colorful header area that spans the width of the email and a body and footer area that shows a white content area with a grey outter area.
+
 ## Advanced Designer Topics<a name="advanced"></a>
+Below are some advanced topics related to the Email Designer.
+
+### Image best practices<a name="image-best-practices"></a>
+It's important to use images in your email, but too many images can flag your email as potential spam. And, images should be resized for optimal display in the email.
+
+The best-practice dimension of an email is 640 px wide. If your image is wider than 640 px it means the image will have to be resized to fit in the email and the image file size is likely bigger (and will take longer to download).
+
+* Try to strike a balance between images and text
+* Resize images to 640 px width using an image editing tool
+* Use percentage to specify the width of an image - this will enable the image to scale on smaller devices.
 
 ### Building mobile friendly (responsive) emails<a name="responsive-email"></a>
+The majority of your email will be read on mobile devices. And, it is important to optimize the email for mobile devices.
+
+First, ensure that for any fixed width tables, there is a CSS media query for your email so that the tables can be set to 100% width. While this won't help for Microsoft Outlook clients, your iOS and Android mobile users will be appreciative.
+
+Second, follow [image best practices](#image-best-practices) and use images that scale. This will allow the image to resize itself automatically on smaller screens.
 
 ## Frequently Asked Questions <a name="faq"></a>
 Below are some frequently asked questions about the Email Designer.
