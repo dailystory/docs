@@ -3,6 +3,15 @@
 	description: 'Product Updates for October 2019'
 }
 # DailyStory Product Updates for October 2019
+## October 4, 2019
+* Refactor: add video and buttons for pages
+* Refactor: updates to html editors
+* Refactor: enable full page splash screens
+* Refactor: clean-up components lib for pages
+* Bug: empty html for video player
+* Refactor: support update from content pages css only
+* Bug: handle unwinding exceptions when no message status
+
 ## October 3, 2019
 * Refactor: return details about video
 * Refactor: clean up image type

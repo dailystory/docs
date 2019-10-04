@@ -3,7 +3,7 @@ title: 'DailyStory Email Marketing',
 description: 'DailyStory email marketing'
 }
 # DailyStory Email Marketing
-Email Marketing sends targeted and personalized email to your [Segments](/segments) and [Contacts](/contacts) in a [Campaign](/campaigns). Emails are sent based on a [Schedule](/campaigns/schedules) or a [Workflow](/campaigns/workflows). You can also send individual emails.
+DailyStory/s Email Marketing engine sends targeted and personalized email to your [Segments](/segments) and [Contacts](/contacts) in a [Campaign](/campaigns). Emails are sent based on a [Schedule](/campaigns/schedules) or a [Workflow](/campaigns/workflows). You can also send individual emails.
 
 DailyStory tracks and attributes delivery, bounces, opens, clicks, and optouts automatically.
 
@@ -117,7 +117,7 @@ You will see a green bar that indicates where the designer will place your widge
 
 When the widget is added to the designer you can move, delete or edit the widget. Some of the design widgets have special options which will show up in place of the widgets.
 
-The email designer generate HTML friendly emails optimized for common email clients such as Outlook, GMail and more. Furthermore, emails built within the designer are also optimized for mobile devices.
+The Email Designer generates HTML friendly emails optimized for common email clients such as Outlook, GMail and more. Furthermore, emails built within the designer are also optimized for mobile devices.
 
 [Read more about the Email Designer in our Using the Email Designer guide](/emails/designer)
 
@@ -325,6 +325,45 @@ Next, use the <code>\*|WEBVIEW|\*</code> merge tag to include a link in your ema
 Optionally use the preview link next to the web view toggle button to preview what the web view of your email looks like. It will be personalized using the [Test Contact](/reference#test-lead).
 
 The web view of the email is unique to each recipient. If personalization or merge tags are used in the email people who view the link will see the personalized view.
+
+## Technical Details
+Below is some technical information about the email format and content that DailyStory adds to your email.
+
+**Doc Type**
+
+DailyStory will automatically set the DOCTYPE to instruct HTML parsers that the content in the email is XHTML 1.0 Transitional:
+
+`<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">`
+
+**Meta Tags**
+
+DailyStory will set the viewport meta tag:
+
+`<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport"&gt>`
+
+DailyStory will set the Apple's message reformatting meta tag:
+
+`<meta name="x-apple-disable-message-reformatting">`
+
+DailyStory will set the Microsoft's IE Edge meta tag:
+
+`<meta http-equiv="X-UA-Compatible" content="IE=edge">`
+
+DailyStory will set the meta tag to disable address recognition:
+
+`<meta content="address=no" name="format-detection">`
+
+DailyStory will set the meta tag to disable date recognition:
+
+`<meta content="date=no" name="format-detection">`
+
+DailyStory will set the meta tag to disable telephone recognition:
+
+`<meta content="telephone=no" name="format-detection">`
+
+DailyStory will set the meta tag to identify the content at HTML:
+
+`<meta http-equiv="Content-Type" content="text/html; charset=utf-8">`
 
 ## Frequently Asked Questions<a name="faq"></a>
 Below are some frequently asked questions about Emails.

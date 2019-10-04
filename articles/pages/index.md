@@ -2,47 +2,92 @@
 title: 'DailyStory Pages',
 description: 'Create web pages managed by DailyStory'
 }
-#DailyStory Pages
-DailyStory Pages enable you to create stand alone micro-sites and web pages hosted on DailyStory. This is perfect for quickly building squeeze pages, landing pages, thank you pages or any other type of web page.
-
-Unless you configure a [custom subdomain](https://docs.dailystory.com/install/subdomain) all content hosted by DailyStory is hosted on the shared domain pages.dailystory.net. Pages hosted on this domain will require a <code>_UID</code> query string parameter. Pages hosted on your own subdomain do not require the <code>_UID</code> query string parameter.
+# DailyStory Pages
+DailyStory Pages are used to create stand alone micro-sites and web pages hosted by DailyStory. Perfect for quickly building squeeze pages, landing pages, thank you pages or any other type of web page.
 
 > We recommend configuring your own dedicated sub-domain, e.g. pages.example.com for hosting your content.
 
-## Creating your first page
-Creating a page in DailyStory is very simple. Just follow the steps below after navigating to Content > Pages.
+This guide provides a list of resources to help you get started with DailyStory pages.
 
-<ol class="step"><li value="1">Create a page</li></ol>
-After navigating to Content > Pages, click the + New Page button:
+**Create and Edit a Page**
 
-![New Page](/articles/pages/pages-01.png "Create a page")
+* [Create a Page](#create-a-page)
+* [Edit a Page's Settings](#edit-a-page)
+* [Page Designer](#page-designer)
+* [HTML Editor](#edit-html)
+* [Preview Page](#preview)
 
-This will open the page editor. 
+## Create a Page<a name="create-a-page"></a>
+To create an page, first navigate to Content > Pages. This will display All Pages. From here you can create a new blank page or a new page from a template: 
 
-<ol class="step"><li value="2">Select a campaign</li></ol>
+![All Pages](https://docs.dailystory.com/articles/pages/pages-01.png "All pages")
 
-You will be required to either select the [campaign](https://docs.dailystory.com/campaigns/) this page belongs to or create a new campaign.
+click the menu in the top left and click "+ Create" to create a new blank email:
 
-![Select campaign](/articles/pages/pages-02.png "Select campaign")
+![Pages Menu](https://docs.dailystory.com/articles/pages/pages-01.gif "Pages Menu")
 
-Selecting a campaign tells DailyStory to attribute visitors to this page towards the statistics of the campaign. DailyStory uses this to calculcate conversion rates for the campaign.
+Next, you will be taken to the Pages Settings screen. When the page opens you will first need to select the [campaign](/campaigns) the page will be associated with. 
 
-<ol class="step"><li value="3">Title and page slug</li></ol>
-Once the page editor is loaded, set a title for your page.
+> Later, if you want to use this page in another campaign, click 'Create a Copy'. 
 
-![Set the title and slug](/articles/pages/pages-03.png "Set the title and slug")
+After selecting a campaign, you are presented with the Create Page screen:
 
-If this is a new page the slug for the URL is dynamially updated as you type. And if you have configured a [custom subdomain](https://docs.dailystory.com/install/subdomain) you will see it as part of the URL. Otherwise you will see a DailyStory provided subdomain.
+![Create page](https://docs.dailystory.com/articles/pages/pages-02.png "Create page")
 
-> After editing the title the URL for the page is dynamically built. If the slug for the page already exists you will receive an error message and will be prevented from saving the page until a unique slug is used.
+Next, set a **Name** for your page and click the "Create Page" button to save the new page.
 
-![Existing page slug](/articles/pages/pages-04.png "Existing page slug")
+> DailyStory will automatically create a random URL for your page. You can customize the URL later.
 
-After editing the title, you can write content in the content editor.
+You can now either <a href="#edit-html">edit the HTML</a> of the page or use the <a href="#page-designer">Page Designer</a> to build a new page.
 
-<ol class="step"><li value="4">Page content</li></ol>
+## Edit a Page's Settings<a name="c"></a>
+When an page is selected from the All Pages list, the default action is to navigate to the Page Designer. 
 
-The content editor is a WYSIWYG editor. Simply write content and use menu options from the toolbar, or keyboard shortcuts, to set headers, insert images, add links, set colors, and more.
+To edit settings, such as the Name, URL or published status of the page click on the more options button to the right of a page. This will open a list of actions available for this page.
+
+![Edit page settings](https://docs.dailystory.com/articles/pages/pages-02.gif "Edit page settings")
+
+## Page Designer<a name="page-designer"></a>
+Clicking on a page from the All Pages list or clicking the Design Page button from Page Settings will open the Page Designer.
+
+> While it is possible to edit the HTML of the page, we recommend only editing the HTML when creating a new page template. 
+
+![Page Designer](https://docs.dailystory.com/articles/pages/pages-03.png "Page Designer")
+
+The Page Designer is a drag-and-drop design canvas. To add an item to the designer canvas select a widget, such as a Text Section, by clicking and holding the mouse down and drag-and-drop it onto the design surface.
+
+You will see a green bar that indicates where the designer will place your widget.
+
+![Email Designer drag-and-drop](https://docs.dailystory.com/articles/emails/emails-18.gif "Email Designer drag-and-drop")
+
+When the widget is added to the designer you can move, delete or edit the widget. Some of the design widgets have special options which will show up in place of the widgets.
+
+The Page Designer generates HTML friendly emails based on the Bootstrap templates - these are optimized all major browsers and are mobile (responsive/adaptive) friendly.
+
+Read more about the Page Designer in our Using the Page Designer guide (coming soon!)
+
+## HTML and CSS Editor<a name="edit-html"></a>
+While DailyStory's Pages Designer enables you to quickly build robust page, more complicated page designs typically start from an HTML base.
+
+As an example, if you have an existing landing page design you wish to use in DailyStory the best way to start is to copy-and-paste the HTML and CSS of that landing page into a new DailyStory page's HTML and CSS. 
+
+![Pages HTML Editor](https://docs.dailystory.com/articles/pages/pages-04.png "Pages HTML Editor")
+
+Editing the HTML of an email is an advanced option. And, emails built with the Email Designer will initially prevent you from editing the email:
+
+![Email HTML Locked](https://docs.dailystory.com/articles/emails/emails-20.png "Email HTML Locked")
+
+However, you can always click "Unlock HTML Editor" to edit the HTML.
+
+> Editing the HTML of an email built with the designer may cause the designer to no longer recognize widgets added with the designer.
+
+### Editing CSS<a name="edit-css"></a>
+While editing the HTML of an email built with the designer is not recommended, the CSS of an email may be editing with no impact to the designer.
+
+Simply click the CSS tab and edit/modify CSS rules for your email.
+
+**Important** when DailyStory sends your email it merges all the CSS and HTML together. The full CSS is always included in a &lt;style&gt; tag of the HTML body of your email, but DailyStory will also attempt to inline the CSS rules as well. You can preview and email and view the source to see what the fully merged HTML of the email will look like.
+
 
 ![Content editor](/articles/pages/pages-05.png "Content editor")
 
@@ -157,3 +202,5 @@ A page slug is the unique name of the page following the host name.
 For example the page slug for <code>https://pages.example.com/hello-world</code> is <code>hello-world</code>. 
 
 The slug for each page must be unique. You will receive an error if the slug is not unique and will be prevented from saving the page until it is changed.
+
+Unless you configure a [custom subdomain](https://docs.dailystory.com/install/subdomain) all content hosted by DailyStory is hosted on the shared domain pages.dailystory.net. Pages hosted on this domain will require a <code>_UID</code> query string parameter. Pages hosted on your own subdomain do not require the <code>_UID</code> query string parameter.
