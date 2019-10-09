@@ -18,6 +18,15 @@
 * Refactor: update ds client script version
 * Bug: email template needs to be set as template
 * Refactor: heatmaps are automatic for landing pages
+* Refactor: pages always returns active only
+* Refactor: heatmap
+* Add: index and create for heatmaps
+* Bug: calculate offsets
+* Bug: log as mouse click
+* Bug: tracking link error message had text msg
+* Refactor: link tracking model creation
+* Refactor: edit heatmaps
+* Refactor: heatmap index
 
 ## October 7, 2019
 * Refactor: add ability to disable tracking on open tags
