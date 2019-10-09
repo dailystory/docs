@@ -3,6 +3,31 @@
 	description: 'Product Updates for October 2019'
 }
 # DailyStory Product Updates for October 2019
+## October 8, 2019
+* Refactor: initial check-in of page heat maps
+* Remove: mouse position
+* Refactor: handle heatmap image links
+* Bug: position of images in links for heatmaps
+* Refactor: initial check in for heatmap controller
+* Refactor: heatmaps only capture clicks
+* Refactor: disable debug; change debug on screen highlight
+* Refactor: initial check in of heat map report
+* Refactor: initial check of heatmap
+* Refactor: minimize heatmap point class size
+* Refactor: update json wrapper for heatmaps
+* Refactor: update ds client script version
+* Bug: email template needs to be set as template
+* Refactor: heatmaps are automatic for landing pages
+
+## October 7, 2019
+* Refactor: add ability to disable tracking on open tags
+* Refactor: add description place holder for content pages
+* Refactor: add email export template
+* Refactor: add support for heatmaps in emails
+* Refactor: clean up grammar and other nits
+* Refactor: remove content templates from header
+* Refactor: updates for content page templates
+
 ## October 4, 2019
 * Refactor: add video and buttons for pages
 * Refactor: updates to html editors
