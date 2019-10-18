@@ -3,6 +3,56 @@
 	description: 'Product Updates for October 2019'
 }
 # DailyStory Product Updates for October 2019
+## October 18, 2019
+* Refactor: update additional mailgun jobs
+* Refactor: run mailgun spool on schedule
+* Refactor: update jquery references
+* Bug: floor not set on xy calcs
+
+## October 16, 2019
+* Bug: URL look up for Heatmap
+
+## October 15, 2019
+* Refactor: text message reply notifications can be replied to
+* Refactor: add heatmap image urls
+* Refactor: better handling of mobile clients for heatmaps
+* Refactor: remove warning
+* Refactor: add copy paste to email designer
+* Refactor: load heatmap after delay
+* Refactor: add Web2Img integration
+* Refactor: bug in how sliding expirations handled
+* Refactor: modify services to look at Expiration Date (MINDBODY)
+* Bug: calculate offset from center on right side of screen
+
+## October 14, 2019
+* Bug: handle case where message didn't exist
+* Refactor: support for same site and secure in cookies
+* Refactor: more work on heatmaps
+
+## October 10, 2019
+* Bug: math floor on points for heatmaps
+* Refactor: move page heatmap files
+* Bug: linktracking create
+* Refactor: scripts for create edit heatmaps
+* Refactor: Heatmap supports ICampaignAsset
+* Refactor: HeatmapDevice enum
+* Refactor: HeatmapPoint returns device type
+* Refactor: handle device type for web tracking callback
+* Refactor: image store for heatmaps
+* Refactor: ds heatmap library to bound lookups
+
+## October 9, 2019
+* Refactor: ds.heatmap to differentiate between clicks and movement
+* Refactor: heatmap class
+* Refactor: set opacity on background for email heatmaps
+* Refactor: add test page for heatmaps
+* Bug: grammar
+* Bug: check if url is undefined
+* Bug: no events
+* Refactor: heatmap create edit
+* Refactor: normalize link count to 100 max
+* Refactor: handle screen size
+
 ## October 8, 2019
 * Refactor: initial check-in of page heat maps
 * Remove: mouse position
