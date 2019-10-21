@@ -23,3 +23,6 @@ description: 'Frequently Asked Questions'
 * [How does the Tracking Tag work?](/install/#how-does-the-tracking-tag-work)
 * [Is there anything else to install?](/install/#is-there-anything-else-to-install)
 * [Does the tracking tag slow down my web page?](/install/#does-the-tracking-tag-slow-down-my-web-page)
+
+## Problem Solving
+* [What happens when I delete a campaign?](/campaigns/#what-happens-when-i-delete-a-campaign)
