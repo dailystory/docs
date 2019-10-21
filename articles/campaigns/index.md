@@ -84,6 +84,9 @@ Note: deleting or pausing a campaign will prevent workflow, scheduled activites,
 ### What happens when I delete a campaign?
 When a campaign is deleted it is moved to the Trash and the campaign is disabled. However, the campaign will not be permanently deleted and can be recovered from the Trash. Once the campaign is deleted all assets associated with the campaign will be tagged as "Unassigned" and when edited may be assigned to another campaign.
 
+### Why don't I see my campaign when trying to assign it to an asset?
+In order for a campaign to be avaiable to assign assets, it must first be enabled.  Double check that you have enabled the campaign in the campaign settings.
+
 ### What is an "Unassigned" campaign?
 In your use of DailyStory you may see an email or other campaign asset associated with the campaign "Unassigned". The "Unassigned" campaign is a special type of campaign used when an asset is no longer associated with a campaign. An "Unassigned" asset can be associated with a campaign by editing it. When opened a popup will appear asking which campaign the asset should be part of. 
 
