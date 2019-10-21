@@ -371,6 +371,9 @@ Below are some frequently asked questions about Emails.
 ## Why do emails look different across email clients?<a name="email-clients"></a>
 The majority of modern email clients use a web browser as the rendering engine, i.e. to parse and interpret the HTML in the email. Unfortunately Microsoft Outlook uses Microsoft Word as the rendering engine. Microsoft Word's support for HTML is limited and some email elements may look slightly different in Outlook vs. Gmail. For example, buttons lose shading and some rounded styling aspects in Outlook.
 
+## Why can't I find the segment I'm looking for when scheduling my email to be sent?
+Double check that you have assigned the segment to the associated campaign. Only the segments assigned in a Campaign's properties will be available to select when scheduling an asset in that campaign. 
+
 ## What email addresses are ignored?<a name="ignored-email-addresses"></a>
 For testing and demonstration purposes you can use recipient addresses ending in <code>@test.com</code> and <code>@example.com</code>. These email addresses do not count towards your license limits and these emails will never be sent.
 
