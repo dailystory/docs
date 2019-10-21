@@ -20,20 +20,7 @@ We have instructions for [installing the tracking tag manually](/install/manual)
 
 * [Tracking Tag Frequently Asked Questions](/install#Frequently-Asked-Questions)
 
-<ol class="step"><li value="2">Create a Campaign</li></ol>
-Once you have the tracking tag setup, you'll want to [create some campaigns](/campaigns/#creating-a-campaign).
-
-![Sample Campaigns](/articles/quickstart/quickstart-01.png "Sample Campaigns")
-
-> Note, the number of campaigns is limited by your license
-
-Everything in DailyStory is associated with a campaign. For example, if you have a set of customers that you want to enroll in a drip campaign, send emails for a new trial, or track signups on a form, you'll first need a campaign.
-
-> When you create any new assets, such as an [Email](/emails/), [Tracking Link](/link-tracking/), or [Landing Page](/pages/) you'll be prompted to either select a campaign or quickly create a new one.
-
-[Instructions and recommendations for creating campaigns](/campaigns/#creating-a-campaign)
-
-<ol class="step"><li value="3">Create a Lead in your Campaign</li></ol>
+<ol class="step"><li value="2">Create a Lead in your Campaign</li></ol>
 
 Leads are created in your campaigns in several ways:
 	
@@ -48,4 +35,17 @@ Leads are created in your campaigns in several ways:
 For example, if you have a Newsletter Signups campaign and Elon Musk signs up for your newsletter you will see a new lead in your Newsletter Signups campaign.
 
 ![Sample Lead](/articles/quickstart/quickstart-02.png "Sample Lead")
+
+<ol class="step"><li value="3">Create a Campaign</li></ol>
+Once you have the tracking tag setup, you'll want to [create some campaigns](/campaigns/#creating-a-campaign).
+
+![Sample Campaigns](/articles/quickstart/quickstart-01.png "Sample Campaigns")
+
+> Note, the number of campaigns is limited by your license
+
+Everything in DailyStory is associated with a campaign. For example, if you have a set of customers that you want to enroll in a drip campaign, send emails for a new trial, or track signups on a form, you'll first need a campaign.
+
+> When you create any new assets, such as an [Email](/emails/), [Tracking Link](/link-tracking/), or [Landing Page](/pages/) you'll be prompted to either select a campaign or quickly create a new one.
+
+[Instructions and recommendations for creating campaigns](/campaigns/#creating-a-campaign)
 
