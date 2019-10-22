@@ -3,21 +3,21 @@ title: 'Dashboard',
 description: 'The Dashboard is the start page for DailyStory'
 }
 #Dashboard
-When you first sign in to DailyStory you will be presented with a dashboard. The dashboard provides an at-a-glance overview of important KPIs and graphs to help you quickly understand how you are performing.
+When you first sign in to DailyStory you will be presented with a dashboard. The dashboard provides an at-a-glance overview of account information, menu shortcuts, and new leads to help you quickly understand how you are performing.
 
-![Dashboard](/articles/dashboard/dashboard-01.png "DailyStory Dashboard")
+![Dashboard](/articles/dashboard/dashboard-02.png "DailyStory Dashboard")
 
-## Conversion KPIs
-The top of the dashboard provides a list of conversion KPIs:
+## Visitor Information
+The top of the dashboard provides a quick view list of traffic and lead performance related metrics:
 
-* Lead Forecast - leads or customers that are forecasted to be created for the current month.
-* MCL Conversion Rate - the rate at which you are converting visitors into identified contacts.
-* MQL Conversion Rate - the rate at which you are converting visitors into identified customers or opportunities.
-* Total Suspects - the number of unique visitors in your funnel. This is the demoninator for calculating conversion rates.
-* Total MCLs - the total number of contacted leads. This is the numerator for MCL conversion rate.
-* Total MQLs - the total number of qualified opportunities or customers. This is the numerator for the MQL conversion rate.
+* Landing Page Visitors - visitors to your landing pages for the past 30 days.
+* Clicks - number of clicks from your email links for the past 30 days.
+* Messages Sent - number of emails sent over the past 30 days.
+* New Leads - the number of unique leads created across all campaigns for in the past 30 days.
 
-Next, you are presented with 3 graphs.
+Next, you are presented with 8 short cut menu buttons for easy access to your DailyStory feature areas.
+
+Finally, you are presented with a graph representation of your New Leads and a list organized by the most recent.  In this list you will be able to quickly scan the asset that created the lead, campaign it's associated with, any automated scoring assigned, the date created and the last date seen.
 
 ## Leads
 The Leads graph provides a visual view of the number of visitors you have converted into identified accounts over the past 60 days.
