@@ -10,16 +10,15 @@ When you first sign in to DailyStory you will be presented with a dashboard. The
 ## Visitor Information
 The top of the dashboard provides a quick view list of traffic and lead performance related metrics:
 
-* Landing Page Visitors - visitors to your landing pages for the past 30 days.
-* Clicks - number of clicks from your email links for the past 30 days.
-* Messages Sent - number of emails sent over the past 30 days.
-* New Leads - the number of unique leads created across all campaigns for in the past 30 days.
+* Landing Page Visitors - visitors to your landing pages for the past 7 days.
+* Clicks - number of clicks within your emails for the past 60 days.
+* Messages Sent - number of emails sent over a rolling 90 days.
+* New Leads - the number of unique visitors you have converted into identified accounts over a rolling 60 days.
 
+## Shortcut Menu
 Next, you are presented with 8 short cut menu buttons for easy access to your DailyStory feature areas.
 
-Finally, you are presented with a graph representation of your New Leads and a list organized by the most recent.  In this list you will be able to quickly scan the asset that created the lead, campaign it's associated with, any automated scoring assigned, the date created and the last date seen.
+## New Leads
+Finally, you are presented with a visual view and list view of the number of visitors you have converted into identified accounts over the past 60 days as well as an interative list.  In addition to providing a visual overview, you can click on a point in the graph to drill down into that particular day to get more detail. This will open the [Conversion Rate Funnel report](/articles/reports/conversion-rate-funnel).
 
-## Leads
-The Leads graph provides a visual view of the number of visitors you have converted into identified accounts over the past 60 days.
-
-In addition to providing a visual overview, you can click on a point in the graph to drill down into that particular day to get more detail. This will open the [Conversion Rate Funnel report](/articles/reports/conversion-rate-funnel).
+In the list view you can quickly see the campaign associated with creating your new lead, the lead's company affiliation, any automated scoring assigned, the date your lead was originally created, and the date your lead was last seen. You can access the contact information and campaign information by clicking on the item.
