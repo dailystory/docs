@@ -52,11 +52,11 @@ This brings up the Create a Campaign form:
 Only the name is required to create the campaign. Use the description to provide helpful information about your campaign.
 
 ### Add Segments to a Campaign
-When assets, such as [emails](/emails/), are created for your campaign you can use the scheduler to control which segments the email (or other asset) will be sent to and when:
+When assets, such as [emails](/emails/), are created for your campaign, the available contacts to send the asset to are determined by the segments that are part of the campaign.  Once segments are assigned to the campaign, you can use the scheduler to control which segments the email (or other asset) will be sent to and when:
 	
 ![Scheduler](/articles/campaigns/campaigns-06.png "Scheduler")
 
-By default the scheduler will send to "Everyone in this campaign". If one of more segments are part of the campaign, you can select to send to those segments as well.	
+By default the scheduler will send to "Everyone in this campaign". If one or more segments are part of the campaign, you can select to send to those segments as well.	
 
 To add one or more segments to a campaign:
 
