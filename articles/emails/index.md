@@ -57,7 +57,7 @@ You can all also click the menu in the top left and click "+ Create" to create a
 
 ![Emails Menu](https://docs.dailystory.com/articles/emails/emails-14.gif "Email Menu")
 
-Next, you will be taken to the Email Settings screen. When the page opens you will first need to select the [campaign](/campaigns) the email will be associated with.
+Next, you will be taken to the Email Settings screen. When the page opens you will first need to select the existing [campaign](/campaigns) the email will be associated with or assign it to a new campaign.
 
 > Later, if you want to use this email in another campaign, click 'Create a Copy'. 
 
@@ -67,11 +67,11 @@ After selecting a campaign, you are presented with the Create Email screen:
 
 On the Create Email screen there are a number of fields:
 
- - **Name** - The name of your email within DailyStory.
- - **Description** - The description of your email within DailyStory.
- - **Subject** - The subject of your email.
- - **From** - The from address of your email.
- - **Preview** - The preview text of your email.
+ - **Name** - The name of your email within DailyStory (recipients will not see this).
+ - **Description** - The description of your email within DailyStory (recipients will not see this).
+ - **Subject** - The subject of your email your recipients will see.
+ - **From** - The from address of your email your recipients will see.
+ - **Preview** - The preview text of your email the recipients will see.
 
 The **Subject** of your email is a descriptive introduction to the body of your email message. The subject may contain emojis and [personalization tags and scripts](https://docs.dailystory.com/personalization).
 
@@ -89,7 +89,7 @@ Clicking the more options dots to the right of the **From** address will open a 
 
 > You can also type or copy/paste in the email **From** address too.
 
-Use **Preview** to optionally write content shown when the email is previewed in your recipient's inbox. This enables you to control exactly what is seen when someone is previewing your email in their inbox. The preview may contain emojis and [personalization tags and scripts](https://docs.dailystory.com/personalization).
+Use **Preview** to optionally write content shown when the email is previewed in your recipient's inbox. This enables you to control exactly what is seen when someone is previewing your email in their inbox. The preview may contain emojis and [personalization tags and scripts](https://docs.dailystory.com/personalization). This field is optional, but we strongly reccommend always utilizing the preview text feature to override the mail client deferring to the first few lines of your email.
 
 Once the required fields (Name, Subject and From) are complete, click the "Create Email" button to save the new email.
 
