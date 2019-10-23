@@ -37,7 +37,9 @@ Using the options in Advanced Search you can narrow your list of contacts to onl
 
 ![Advanced Search](/articles/contacts/contacts-12.png "Advanced Search")
 
-After completing the form and clicking search, the URL of the browser contains the search parameters. This is useful because you can save the URL, share the URL, and more advanced users modify the URL directly.
+After completing the form and clicking search, you can easily create a new segment froom your search results where the search parameters are automatically added to your segment to create a Dynamic Segment that will automatically be udpated for you.  
+
+Advnaced users can also use the search paramters contained in the URL of the browser after their search to save, share or modify the URL directly.
 
 `https://us-1.dailystory.com/Contact/?s=&gender=Male&location_q=Seattle,%20WA&distance=15&ageTo=25`
 
