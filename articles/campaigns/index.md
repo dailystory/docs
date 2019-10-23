@@ -68,6 +68,8 @@ For example, the segments "Customer List" and "Digital Agencies":
 	
 ![Add Segments](/articles/campaigns/campaigns-07.png "Add Segments")
 
+You may also choose to exclude certain segments as well.  This option will always allow you to choose ANY segment that has been created, not just those assigned to the campaign.
+
 > Note, DailyStory takes care of removing duplicates. If a contact is in multiple segments, they will only be added to your campaign once. And, if a segment is removed from a campaign, the contact will remain in the campaign if they are part of another segment.
 
 ### Additional Options
