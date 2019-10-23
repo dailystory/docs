@@ -13,7 +13,7 @@ All reporting and account activity is associated with a campaign.
 
 ![Campaigns](/articles/campaigns/campaigns-01.png "Campaigns")
 
-DailyStory supports an unlimited number of campaigns and there is no restriction for how you model you business (e.g. you could create a single campaign or quarterly campaigns). However, the number of campaigns is governed by your license.
+DailyStory supports an unlimited number of campaigns and there is no restriction for how you model your business (e.g. you could create a single campaign or quarterly campaigns). However, the number of campaigns is governed by your license.
 
 > A best practice is to create a campaign for specific activities such as *Black Friday Sales* or *Free Trial*.
 
