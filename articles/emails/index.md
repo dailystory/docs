@@ -3,11 +3,11 @@ title: 'DailyStory Email Marketing',
 description: 'DailyStory email marketing'
 }
 # DailyStory Email Marketing
-DailyStory/s Email Marketing engine sends targeted and personalized email to your [Segments](/segments) and [Contacts](/contacts) in a [Campaign](/campaigns). Emails are sent based on a [Schedule](/campaigns/schedules) or a [Workflow](/campaigns/workflows). You can also send individual emails.
+DailyStory's Email Marketing engine sends targeted and personalized emails to your [Segments](/segments) and [Contacts](/contacts) in a [Campaign](/campaigns). Emails are sent based on a [Schedule](/campaigns/schedules) or a [Workflow](/campaigns/workflows). You can also send individual emails.
 
-DailyStory tracks and attributes delivery, bounces, opens, clicks, and optouts automatically.
+DailyStory tracks and attributes delivery, bounces, opens, clicks, and opt-outs automatically.
 
-Unless otherwise configured, email is sent by DailyStory from an @dailystory.net email address. However, it is strongly recommend that you configure a custom domain to allow DailyStory to send email securely on your behalf or leverage DailyStory's [Mailgun](/integrations/mailgun), SendGrid or PostMark integrations.
+Unless otherwise configured, email is sent by DailyStory from an @dailystory.net email address. However, it is strongly recommend that you configure a custom domain to allow DailyStory to send emails securely on your behalf or leverage DailyStory's [Mailgun](/integrations/mailgun), SendGrid or PostMark integrations.
 
 > Enabling DailyStory to send email securely from your domain increases the likelihood that your email is successfully delivered. Otherwise, your sending email address will appear as `[your name]@[your domain].com on behalf of @dailystory.net`
 
@@ -49,7 +49,7 @@ This guide provides a list of resources to help you get started with DailyStory 
 * [Will DailyStory try and resend soft bounces?](#faq-resend)
 
 ## Create an Email <a name="create-an-email"></a>
-To create an email, first navigate to Content > Emails. This will display All Emails. From here you can create a new blank email or a new email from a template: 
+To create an email, first navigate to Content > Emails or click on the "Emails" button from your DailyStory Dashboard. This will display All Emails. From here you can create a new blank email or a new email from a template: 
 
 ![Menu Button](https://docs.dailystory.com/articles/emails/emails-01.png "All Email") 
 
