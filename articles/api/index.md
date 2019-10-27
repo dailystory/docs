@@ -26,6 +26,8 @@ All of DailyStory's platform is accessible through a REST API and WebHooks for r
 
 > Important, our API documentation is not complete. If you are looking for an API or WebHook that isn't in the documentation, please [contact us](https://dailystory/contact-us) and we'll add it.
 
+* [About](/api/about)
+
 ### Campaign
 <table class="table">
 <tbody>
