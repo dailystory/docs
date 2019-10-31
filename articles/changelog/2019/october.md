@@ -3,6 +3,80 @@
 	description: 'Product Updates for October 2019'
 }
 # DailyStory Product Updates for October 2019
+## October 31, 2019
+* Refactor: update achievements
+* Refactor: graph field
+* Refactor: email send stats
+
+## October 30, 2019
+* Refactor: clean up web.config
+* Refactor: web form api routes
+* Refactor: push api routes
+* Refactor: web hook api routes
+* Refactor: update namespaces
+* Refactor: better error messages
+* Refactor: rename to segmentType from listType; add paged segment
+* Refactor: add paged segment stub
+* Refactor: role api routes
+* Refactor: achievement api controller
+* Refactor: js clean up on graph
+* Refactor: updates to contact ux
+
+## October 29, 2019
+* Refactor: account api
+* Bug: account delete api shouldn't return the id
+* Refactor: ampaign achievements and api
+* Bug: user invite conflicted with user api route
+* Refactor: User apis
+* Refactor: routes for campaigns api
+* Bug: grammar and check for account id of 0
+* Bug: validation should be in utc
+* Refactor: functions for lead status
+* Bug: remove svg fa and use fonts
+* Bug: segment route
+* Refactor: list type to segment type
+
+## October 28, 2019
+* Refactor: remove finger print js
+* Refactor: force secure cookie always
+* Refactor: about api controller to use route attributes
+* Refactor: user api controller to use route attributes
+* Refactor: task api controller to use route attributes
+* Refactor: home controller to use route attributes
+* Refactor: update js libs for new api routes
+* Refactor: back out please wait for login
+* Refactor: update welcome view
+* Refactor: remove routes from global
+* Refactor: update font awesome to svg
+* Refactor: bug in svg spacing for font awesome
+* Refactor: update routes to attributes
+* Refactor: remove unused files
+* Refactor: update controller for unit testing
+
+## October 25, 2019
+* Refactor: add please wait to login
+* Refactor: system email templates into notifications class
+* Refactor: standard notification function names
+* Refactor: notifications
+* Refactor: add format email to common
+* Bug: remove bell font
+* Bug: trailing >
+* Refactor: convert to email formatter
+* Refactor: format email address function
+
+## October 24, 2019
+* Refactor: refactor login and standarize CSS
+* Refactor: conslidate login scripts
+* Refactor: update login css
+* Refactor: update login and home views
+* Refactor: remove Fira
+* Refactor: standardize error messages
+
+## October 23, 2019
+* Refactor: change to datedonotcontactuntil
+* Refactor: allow from cache in white label
+* Refactor: update functions and spit out sprocs
+
 ## October 18, 2019
 * Refactor: update additional mailgun jobs
 * Refactor: run mailgun spool on schedule
