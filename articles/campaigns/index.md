@@ -98,3 +98,10 @@ To archive a campaign and retain the campaign activity mark the campaign as disa
 ### What happens when a contact is added to a campaign?
 When a contact is added to a campaign either directly or as part of a segment, a new ["Lead"](/leads/) is created for that contact in the campaign. Next, if the campaign has an associated workflow, the lead is run through the workflow. The lead is also eligible to receive any assets scheduled for the campaign (emails, text messages, push notifications, etc.). And, if the campaign has automations or scoring rules in place, those will also be run on the lead.
  
+## Warning messages
+
+### No one to send to - add contacts or segments to your campaign<a name="warning-scheduler-1"></a>
+This warning message indicates that no segments or contacts are used in the [campaign](https://docs.dailystory.com/campaigns/). The message may still be scheduled and segments/contacts can be added later. To resolve, either:
+
+* Edit the campaign and add segments
+* Select individual contacts to add to the campaign
