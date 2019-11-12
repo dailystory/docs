@@ -19,6 +19,7 @@
 * Refactor: more updates to email instrumentation
 * Refactor: use utc for moment.js
 * Refactor: json dates handling for reports
+* Bug: timezones in email instrumentation
 
 ## November 10, 2019
 * Refactor: updates to instrumentation
