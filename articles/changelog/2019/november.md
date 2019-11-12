@@ -3,6 +3,18 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 12, 2019
+* Refactor: MINDBODY online icon
+* Bug: send emails needed negative minutes back
+* Refactor: heatmaps on separate bullet in reports
+* Refactor: support recently sent emails
+* Refactor: adjust back button font in login.css
+* Refactor: set default calendar view to week
+* Refactor: main event calendar filtered to today
+* Refactor: color highlight calendar
+* Bug: fix issues to support mce 5
+* Refactor: switch mindbody icon
+
 ## November 11, 2019
 * Bug: slug could get set to empty string
 * Bug: LeadQueue must specify data center
