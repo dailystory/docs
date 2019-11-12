@@ -18,6 +18,7 @@
 * Refactor: side bar menu as partial
 * Refactor: more updates to email instrumentation
 * Refactor: use utc for moment.js
+* Refactor: json dates handling for reports
 
 ## November 10, 2019
 * Refactor: updates to instrumentation
