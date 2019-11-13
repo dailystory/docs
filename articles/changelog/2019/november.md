@@ -14,6 +14,10 @@
 * Refactor: color highlight calendar
 * Bug: fix issues to support mce 5
 * Refactor: switch mindbody icon
+* Refactor: about api
+* Refactor: task css
+* Refactor: remove tasks archive
+* Refactor: tasks menus and selections
 
 ## November 11, 2019
 * Bug: slug could get set to empty string
