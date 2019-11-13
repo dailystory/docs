@@ -3,6 +3,15 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 13, 2019
+* Refactor: clean up tasks js files
+* Refactor: allow from cache flag for tasks
+* Refactor: d37 sync regardless of last sync time
+* Refactor: campaign apis
+* Refactor: address compiler warnings for campaigns
+* Refactor: update description
+* Refactor: campaigns for active and paused views
+
 ## November 12, 2019
 * Refactor: MINDBODY online icon
 * Bug: send emails needed negative minutes back
