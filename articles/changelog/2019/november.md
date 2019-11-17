@@ -3,6 +3,21 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 17, 2019
+* Refactor: campaign; build errors add support for start end
+* Refactor: fix build messages
+* Refactor: remove contactlistmember
+* Refactor: fix build message and modernize
+* Refactor: update stripe
+* Refactor: update segments
+* Refactor: bug in whitelabel image width
+* Refactor: add support for start end date in campaigns
+* Refactor: remove contact list members in segment partial
+* Refactor: update for campaign api routes
+* Refactor: add support for campaign start/end ux
+* Bug: set start end when cloning campaign
+* Refactor: update search packages
+
 ## November 13, 2019
 * Refactor: clean up tasks js files
 * Refactor: allow from cache flag for tasks
