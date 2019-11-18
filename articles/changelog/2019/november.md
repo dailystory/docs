@@ -3,6 +3,12 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## Nobember 18, 2019
+* Bug: clone name should be public
+* Bug: update stripe versions to get around immutables error
+* Refactor: update to new Stripe
+* Refactor: add support for start end automation
+
 ## November 17, 2019
 * Refactor: campaign; build errors add support for start end
 * Refactor: fix build messages
