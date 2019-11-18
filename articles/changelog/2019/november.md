@@ -26,6 +26,7 @@
 * Refactor: address compiler warnings for campaigns
 * Refactor: update description
 * Refactor: campaigns for active and paused views
+* Refactor: filter status on campaigns
 
 ## November 12, 2019
 * Refactor: MINDBODY online icon
