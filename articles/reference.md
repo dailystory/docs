@@ -10,7 +10,7 @@ A merge tag, such as <code>\*|FNAME|\*</code> is used to personalize content. Fo
 ## Site Owner
 The (/account/users)[user] who is identified as the owner of the Account within DailyStory. The Site Owner is always an (/account/roles)[Administrator] regardless if roles are used.
 
-## Test Lead
+## Test Lead <a name="#test-lead"></a>
 DailyStory includes test data for previewing features. The test lead includes the following properties:
 
 <table class="table">
