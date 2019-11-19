@@ -3,6 +3,13 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 19, 2019
+* Refactor: tracking type for webform
+* Refactor: formatting
+* Refactor: email address exception handling to change contact status
+* Refactor: add EmailAddressException
+* Refactor: highlight message for test message user
+
 ## Nobember 18, 2019
 * Bug: clone name should be public
 * Bug: update stripe versions to get around immutables error

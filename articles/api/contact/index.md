@@ -10,9 +10,13 @@ The Contact API is used to create or update a single contact `POST`, retrieve a 
 
 > If a contact already exists, the contact is updated with any new values.
 
-<ol class="api"><li value="GET">/API/Contact/[DSID]</li></ol>
+<ol class="api"><li value="GET">/api/v1/contact/[DSID]</li></ol>
 
-Sending a `GET` request with the DSID of the Contact you wish to retrieve. To see this in action, [login to DailyStory](https://app.dailystory.com/login) and navigate to an existing contact. For example, `/Contact/Detail/1359c31a651f4684a04c6e9d12ec154d`. Then change the URL to `API/Contact/1359c31a651f4684a04c6e9d12ec154d` to see the JSON representation.
+The `GET` API also accepts an email address:
+
+`api/v1/contact/?email=[email address]`
+
+To see this in action, [login to DailyStory](https://app.dailystory.com/login) and navigate to an existing contact. For example, `/Contact/Detail/1359c31a651f4684a04c6e9d12ec154d`. Then change the URL to `api/v1/contact/1359c31a651f4684a04c6e9d12ec154d` to see the JSON representation.
 
 ### Sample response body
 Returns `200 OK` when created. The body of the response includes a JSON object with additional data with the `DSID` of the Contact.
@@ -69,11 +73,11 @@ Returns `200 OK` when created. The body of the response includes a JSON object w
 }
 </pre>
 
-<ol class="api"><li value="POST">/API/Contact</li></ol>
+<ol class="api"><li value="POST">/api/v1/contact</li></ol>
 
-The `POST` method of `/API/Contact` is used to create or update a Contact.
+The `POST` method of `/api/v1/contact` is used to create or update a Contact.
 
-> If you intend to update multiple records, use `/API/Contact/Import` (see below)
+> If you intend to update multiple records, use `/api/v1/contact/import` (see below)
 
 ### Sample request body
 The body of the POST must include a JSON representation of the Contact. The only field that is required is an email address:
@@ -256,14 +260,14 @@ To specify additional data, such as custom fields, use `extendedProperties`. For
 
 Custom data added to `extendedProperties` is part of the Contact and can be used for segmentation and search for enterprise customers. All customers can use custom data for personalization.
 
-<ol class="api"><li value="DELETE">/API/Contact/[DSID]</li></ol>
+<ol class="api"><li value="DELETE">/api/v1/contact/[DSID]</li></ol>
 
 Sending a `DELETE` request with the DSID of the Contact you wish to delete. Once a Contact is deleted it is ineligible for any DailyStory workflows or camapigns.
 
 > Contacts are deleted, but are not removed from DailyStory immediately.
 
 ## API Contact RegisterDevice
-The `/API/Contact/RegisterDevice` API is used to register multiple devices (iOS or Android) for Contacts to receive push notifications. Push notifications are configured as part of a Campaign's Workflow.
+The `/api/v1/contact/registerdevice` API is used to register multiple devices (iOS or Android) for Contacts to receive push notifications. Push notifications are configured as part of a Campaign's Workflow.
 
 > *Important* before using the RegisterDevice API you must have configured a [Twilio Notify Service](/integrations/twilio).
 
@@ -327,11 +331,11 @@ Returns `200 OK` when created.
 </pre>
 
 ## API Contact Import
-The Contact Import API is designed for bulk importing/updating of contacts. A `POST` to the API is identical to `/API/Contact`. However, the Import API does not return the `DSID` of newly created Contacts as there are created in bulk.
+The Contact Import API is designed for bulk importing/updating of contacts. A `POST` to the API is identical to `/api/v1/contact`. However, the Import API does not return the `DSID` of newly created Contacts as there are created in bulk.
 
 > If a contact already exists, the contact is updated with any new values.
 
-<ol class="api"><li value="POST">/API/Contact/Import</li></ol>
+<ol class="api"><li value="POST">/api/v1/contact/import</li></ol>
 
 ### Sample request body
 The body of the POST must include a JSON representation of the Contact. The only field that is required is an email address:
@@ -342,10 +346,10 @@ The body of the POST must include a JSON representation of the Contact. The only
 }
 </pre>
 
-See the `/API/Contact` for additional request body fields.
+See the `/api/v1/contact` for additional request body fields.
 
 ### Sample response body
-Returns `200 OK` when created. Unlike the `POST:API/Contact`, the bulk import does not return the `DSID` of the contacts created.
+Returns `200 OK` when created. Unlike the `POST:api/v1/contact`, the bulk import does not return the `DSID` of the contacts created.
 
 <pre class="brush: javascript">
 {

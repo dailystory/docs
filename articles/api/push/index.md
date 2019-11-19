@@ -8,7 +8,7 @@ Use the Push REST API to list, send and manage Push Notifications.
 ## List
 The List API to list all of the Push Notifications available within a campaign.
 
-<ol class="api"><li value="GET">/API/Push/List/[Campaign Id]</li></ol>
+<ol class="api"><li value="GET">/api/v1/pushs/[Campaign Id]</li></ol>
 
 Send a `GET` request with the id of the Campaign whose Push Notifications messages to retrieve.
 
@@ -37,10 +37,10 @@ Returns `200 OK` when created. The body of the response includes a JSON object w
 }
 </pre>
 
-## SendSingle
+## SendSingle <a name="#sendsingle"></a>
 The SendSingle API is used to send a single Push Notification message to a Contact.
 
-<ol class="api"><li value="POST">/API/Push/SendSingle</li></ol>
+<ol class="api"><li value="POST">/api/v1/push/sendsingle/[DSID]</li></ol>
 
 ### POST parameters
 
@@ -54,13 +54,6 @@ The SendSingle API is used to send a single Push Notification message to a Conta
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>dsid</td>
-<td>The unique DailyStory id of the contact</td>
-<td>string</td>
-<td>Yes</td>
-</tr>
-<tr>
 <td>title</td>
 <td>The title of the Push Notification message</td>
 <td>string</td>
