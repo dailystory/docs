@@ -70,6 +70,14 @@ The SendSingle API is used to send a single Push Notification message to a Conta
 
 If you do not have a DailyStory id (DSID), use the [Contact API](/api/contact) to look up the DSID.
 
+### Sample request body
+<pre class="brush: javascript">
+{
+    "title": "test push title",
+    "body": "test push body",
+}
+</pre>
+
 ### Sample response body
 Returns `200 OK` when sent.
 
@@ -81,3 +89,5 @@ Returns `200 OK` when sent.
 "Response": {}
 }
 </pre>
+
+> A 200 OK response from the API only means that the Push request was succesfully accepted and queued for delivery.
