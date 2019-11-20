@@ -3,12 +3,26 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 20, 2019
+* Refactor: set lead source in submitted forms
+* Refactor: add route maps
+* Refactor: convert to use lead queue
+* Refactor: SetLeadSource id
+* Refactor: undo origin for web form
+* Bug: search birthdate returned wrong format
+* Refactor: add support for source to contact document
+* Refactor: set source in lead for popup
+
 ## November 19, 2019
 * Refactor: tracking type for webform
 * Refactor: formatting
 * Refactor: email address exception handling to change contact status
 * Refactor: add EmailAddressException
 * Refactor: highlight message for test message user
+* Bug: email activity item can be null
+* Refactor: change how mailspools handle exceptions
+* Refactor: api contact controller
+* Bug: push controller needs to support json body
 
 ## Nobember 18, 2019
 * Bug: clone name should be public
