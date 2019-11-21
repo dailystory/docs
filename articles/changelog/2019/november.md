@@ -6,6 +6,10 @@
 ## November 21, 2019
 * Bug: tenantuid not set properly
 * Bug: support old api route
+* Refactor: remote only errors
+* Refactor: popups disabled when _dsTrack only is true
+* Bug: minify caused evaluation of null object in magic form scripts
+* Refactor: convert Telligent plug-in to use versioned api
 
 ## November 20, 2019
 * Refactor: set lead source in submitted forms
