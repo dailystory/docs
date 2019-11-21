@@ -5,6 +5,7 @@
 # DailyStory Product Updates for November 2019
 ## November 21, 2019
 * Bug: tenantuid not set properly
+* Bug: support old api route
 
 ## November 20, 2019
 * Refactor: set lead source in submitted forms
