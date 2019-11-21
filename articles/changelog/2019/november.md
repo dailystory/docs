@@ -10,6 +10,7 @@
 * Refactor: popups disabled when _dsTrack only is true
 * Bug: minify caused evaluation of null object in magic form scripts
 * Refactor: convert Telligent plug-in to use versioned api
+* Bug: long title could force buttons to wrap in designer
 
 ## November 20, 2019
 * Refactor: set lead source in submitted forms
