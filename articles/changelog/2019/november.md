@@ -3,6 +3,10 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 22, 2019
+* Refactor: popup clone logic
+* Refactor: handle delete through api
+
 ## November 21, 2019
 * Bug: tenantuid not set properly
 * Bug: support old api route
