@@ -3,9 +3,28 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 24, 2019
+* Refactor: segments api
+* Refactor: add SkipList
+* Refactor: remove paged api for segments
+* Refactor: ajax datatable for segments
+* Refactor: api for skip and take segments
+
+## November 23, 2019
+* Refactor: updates to campaign
+* Bug: owneruid on campaign null check
+* Refactor: code cleanup
+* Refactor: create task if campaign has owneruid
+* Bug: campaign menu was off
+* Bug: remove search on dashboard
+* Refactor: web form index menu
+* Refactor: updates to webforms
+* Refactor: add support for segments converted
+
 ## November 22, 2019
 * Refactor: popup clone logic
 * Refactor: handle delete through api
+* Refactor: campaign ux
 
 ## November 21, 2019
 * Bug: tenantuid not set properly
