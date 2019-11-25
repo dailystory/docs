@@ -9,6 +9,7 @@
 * Refactor: remove paged api for segments
 * Refactor: ajax datatable for segments
 * Refactor: api for skip and take segments
+* Refactor: update segments ux
 
 ## November 23, 2019
 * Refactor: updates to campaign
