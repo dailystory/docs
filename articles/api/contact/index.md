@@ -5,7 +5,7 @@
 # Contact REST API
 Use the Contact REST API to create, update or delete Contacts.
 
-## API Contact
+## Contact
 The Contact API is used to create or update a single contact `POST`, retrieve a contact `GET`, or delete a contact `DELETE`.
 
 > If a contact already exists, the contact is updated with any new values.
@@ -266,7 +266,7 @@ Sending a `DELETE` request with the DSID of the Contact you wish to delete. Once
 
 > Contacts are deleted, but are not removed from DailyStory immediately.
 
-## API Contact RegisterDevice
+## Register Device
 The `/api/v1/contact/registerdevice` API is used to register multiple devices (iOS or Android) for Contacts to receive push notifications. Push notifications are configured as part of a Campaign's Workflow.
 
 > *Important* before using the RegisterDevice API you must have configured a [Twilio Notify Service](/integrations/twilio).
@@ -330,7 +330,7 @@ Returns `200 OK` when created.
 }
 </pre>
 
-## API Contact Import
+## Import
 The Contact Import API is designed for bulk importing/updating of contacts. A `POST` to the API is identical to `/api/v1/contact`. However, the Import API does not return the `DSID` of newly created Contacts as there are created in bulk.
 
 > If a contact already exists, the contact is updated with any new values.

@@ -26,6 +26,9 @@
 * Refactor: popup clone logic
 * Refactor: handle delete through api
 * Refactor: campaign ux
+* Refactor: popup clone logic
+* Refactor: handle delete through api
+* Refactor: add change status for campaign
 
 ## November 21, 2019
 * Bug: tenantuid not set properly
