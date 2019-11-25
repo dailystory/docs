@@ -3,6 +3,15 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 25, 2019
+* Refactor: normalize file manager create and add folder
+* Refactor: contacts to support ajax loading
+* Refactor: add server-side sorting for segments
+* Refactor: process task queue
+* Refactor: force utc date check
+* Refactor: perf improvements and bugs with segment rebuilding
+* Refactor: smaller parallel task queue
+
 ## November 24, 2019
 * Refactor: segments api
 * Refactor: add SkipList
