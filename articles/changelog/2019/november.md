@@ -3,6 +3,14 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 26, 2019
+* Refactor: update error messages
+* Bug: format total members and remove model
+* Bug: segment name as link
+* Refactor: use view for segment stats
+* Refactor: scheduled messages by utc date
+* Refactor: segments updated to use views
+
 ## November 25, 2019
 * Refactor: normalize file manager create and add folder
 * Refactor: contacts to support ajax loading
