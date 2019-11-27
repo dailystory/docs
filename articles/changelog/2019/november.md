@@ -3,6 +3,21 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 27, 2019
+* Refactor: remove old get emails
+* Refactor: get assets return active or paused
+* Refactor: argument check for isstatus
+* Refactor: filter status
+* Bug: schedule view should return campaign of any status
+* Bug: popup name in list should be link
+* Refactor: better UX for campaign state
+* Refactor: campaigns in archive
+* Refactor: Link Tracking status
+* Refactor: tracking links menu with reports
+* Refactor: display link tracking paused
+* Refactor: popup status ux
+* Refactor: popup menus
+
 ## November 26, 2019
 * Refactor: update error messages
 * Bug: format total members and remove model
