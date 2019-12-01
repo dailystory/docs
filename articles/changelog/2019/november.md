@@ -3,6 +3,23 @@
 	description: 'Product Updates for November 2019'
 }
 # DailyStory Product Updates for November 2019
+## November 30, 2019
+* Refactor: add geocode lookup for Telligent sync
+* Bug: title width could force buttons off screen
+* Refactor: add route for open rate stats
+* Refactor: add email data science
+* Refactor: update email reports and add delivered
+
+## November 28, 2019
+* Refactor: magic form status ux
+* Refactor: Task status ux
+* Refactor: Seggment status logic
+* Refactor: standard delete
+* Bug: catch exceptions when trying to load remote pages for preview
+* Bug: update and fix issues with visit alerts ux
+* Refactor: pause and reactivate visit alerts
+* Refactor: code clean up Page View Triggers
+
 ## November 27, 2019
 * Refactor: remove old get emails
 * Refactor: get assets return active or paused
@@ -17,6 +34,7 @@
 * Refactor: display link tracking paused
 * Refactor: popup status ux
 * Refactor: popup menus
+* Refactor: segment status ux
 
 ## November 26, 2019
 * Refactor: update error messages
