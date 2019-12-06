@@ -3,6 +3,13 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 6, 2019
+* Bug: dates need to offset for sql query utc
+* Bug: ready to send offset error
+* Refactor: update scheduler to support editing
+* Refactor: schedul api 
+* Bug: push api included id
+
 ## December 5, 2019
 * Refactor: updates to content page for build warnings
 * Refactor: delete queue item before processing to guarantee not delivered more than once
