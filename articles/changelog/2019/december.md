@@ -3,6 +3,27 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 5, 2019
+* Refactor: updates to content page for build warnings
+* Refactor: delete queue item before processing to guarantee not delivered more than once
+* Refactor: remove drop down style on tasks
+
+## December 4, 2019
+* Refactor: asset preferences
+* Refactor: audience dashboard
+* Refactor: scheduled messages compiler warnings
+* Refactor: audience report
+* Refactor: notifications
+* Bug: dequeue to 20 minutes
+* Refactor: add asset preferences
+* Refactor: exception handling for notifications
+* Bug: updated async method for preferences
+* Refactor: email designer support asset preferences
+* Bug: Stretched image in messages for whitelabel
+* Bug: remove float style option from email button
+* Bug: set text color from asset preferences
+* Refactor: copy asset preferences for sub accounts
+
 ## December 3, 2019
 * Refactor: White label no reply
 * Refactor: normalize notifications
