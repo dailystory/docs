@@ -3,6 +3,15 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 8, 2019
+* Refactor: include segment name in export email notification
+* Bug: handle text message credit based on number of segments
+* Bug: set body margin to 0 on email preview html page
+* Refactor: update email designer components for styles
+* Refactor: log text message replies
+* Bug: alignment and padding
+* Bug: email designer bugs and layout
+
 ## December 6, 2019
 * Bug: dates need to offset for sql query utc
 * Bug: ready to send offset error
