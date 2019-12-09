@@ -3,6 +3,10 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 9, 2019
+* Bug: add Remove stop word to text message opt out
+* Bug: use dateoffset for reports
+
 ## December 8, 2019
 * Refactor: include segment name in export email notification
 * Bug: handle text message credit based on number of segments
