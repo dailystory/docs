@@ -3,9 +3,26 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 10, 2019
+* Bug: text color cannot be set by grapesjs trait
+* Refactor: set grapejs color palette
+* Refactor: remove link color from asset preferences
+* Bug: link tracking bad javascript null check
+* Refactor: copy url for content pages
+* Bug: set settings to false for link tracking
+* Bug: Push reports had bad links
+* Refactor: text message replies
+* Refactor: updates for text message reply view
+* Refactor: add support for sms menus
+
 ## December 9, 2019
 * Bug: add Remove stop word to text message opt out
 * Bug: use dateoffset for reports
+* Refactor: better handling of stop words and phrases
+* Bug: if vs while for reading from database
+* Refactor: add support for textmessagereply
+* Refactor: formatting updates for email spools
+* Refactor: text message reply model
 
 ## December 8, 2019
 * Refactor: include segment name in export email notification
