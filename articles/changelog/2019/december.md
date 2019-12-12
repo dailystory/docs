@@ -3,6 +3,21 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 12, 2019
+* Refactor: add issubaccount
+* Refactor: clean up users warnings
+* Refactor: start updates for admin panels
+* Refactor: warnings for twilio not enabled
+* Bug: email templates component can be null
+* Refactor: use history cookie for better in-app nav
+* Refactor: add support to clean templating strings
+
+## December 11, 2019
+* Refactor: update to scheduler ux to handle overflow
+* Refactor: updates for unsaved changes
+* Refactor: rename ProcessRequest to ProcessReply
+* Bug: fix user sort order
+
 ## December 10, 2019
 * Bug: text color cannot be set by grapesjs trait
 * Refactor: set grapejs color palette
