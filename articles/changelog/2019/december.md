@@ -3,6 +3,11 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 13, 2019
+* Bug: cookie secure interfering with path
+* Bug: missed clone check
+* Bug: don't load stats for invalid campaign id
+
 ## December 12, 2019
 * Refactor: add issubaccount
 * Refactor: clean up users warnings
@@ -11,6 +16,8 @@
 * Bug: email templates component can be null
 * Refactor: use history cookie for better in-app nav
 * Refactor: add support to clean templating strings
+* Bug: tasks api call typo
+* Refactor: add support for task type lead
 
 ## December 11, 2019
 * Refactor: update to scheduler ux to handle overflow
