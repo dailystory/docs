@@ -3,10 +3,24 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 16, 2019
+* Refactor: updates for filtered leads count
+* Bug: convert contact change status to api
+* Refactor: api for campaign recipient count
+* Refactor: return stats for include exclude lists
+* Refactor: convert to serialized dictionary
+* Refactor: update scheduler to show approximate counts
+* Bug: reference to save contact
+* Refactor: change how timezone displayed in scheduler
+* Refactor: schedule shows approximate recipients
+* Refactor: add caching for Get Leads Stats
+
 ## December 13, 2019
 * Bug: cookie secure interfering with path
 * Bug: missed clone check
 * Bug: don't load stats for invalid campaign id
+* Refactor: lookup geocode for ip address
+* Refactor: use token for ipinfo
 
 ## December 12, 2019
 * Refactor: add issubaccount
