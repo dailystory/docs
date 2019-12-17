@@ -3,6 +3,13 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 17, 2019
+* Bug: When everyone is selected in scheduler remove other segments
+* Bug: ensure everyone is set if no segments selected
+* Refactor: Add header to top of test emails that identify it as a test email
+* Bug: limit max number of segments for message to 5
+* Refactor: tune up campaign detail
+
 ## December 16, 2019
 * Refactor: updates for filtered leads count
 * Bug: convert contact change status to api
