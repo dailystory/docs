@@ -3,9 +3,18 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 20, 2019
+* Refactor: add asset preferences for email
+* Bug: querystring collection key can be null
+* Refactor: start search page
+* Refactor: add support for email data science
+* Refactor: update search to support email metrics
+* Refactor: update search to support email metrics
+
 ## December 19, 2019
 * Refactor: move search code from job into searchutil
 * Bug: Segment pulling back results because field is null
+* Bug: Milennial spelling
 
 ## December 18, 2019
 * Refactor: update contact ux
@@ -15,7 +24,6 @@
 * Revert: only pull in Active accounts for segments
 * Refactor: add skeleton ux and convert segments
 * Bug: hide skeleton
-
 ## December 17, 2019
 * Bug: When everyone is selected in scheduler remove other segments
 * Bug: ensure everyone is set if no segments selected
