@@ -3,6 +3,9 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 20, 2019
+* Bug: hide skeleton
+
 ## December 17, 2019
 * Bug: When everyone is selected in scheduler remove other segments
 * Bug: ensure everyone is set if no segments selected
