@@ -14,6 +14,7 @@
 * Refactor: contacts to move to api
 * Revert: only pull in Active accounts for segments
 * Refactor: add skeleton ux and convert segments
+* Bug: hide skeleton
 
 ## December 17, 2019
 * Bug: When everyone is selected in scheduler remove other segments
