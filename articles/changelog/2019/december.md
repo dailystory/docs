@@ -3,7 +3,13 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
-## December 20, 2019
+## December 18, 2019
+* Refactor: update contact ux
+* Refactor: ux and grammar updates
+* Refactor: remove campaigns partial
+* Refactor: contacts to move to api
+* Revert: only pull in Active accounts for segments
+* Refactor: add skeleton ux and convert segments
 * Bug: hide skeleton
 
 ## December 17, 2019

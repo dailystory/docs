@@ -22,7 +22,7 @@ Clicking either will open the popup editor:
 
 ![Popup Editor](https://www.dailystory.com/files/imgs/welcome-exit-offers-create.jpg "Popup Editor")
 
-The popup editor provides a live preview of your popup. You can enter a title, body, call to action button text, call to action url, close/cancel button text and select a background image. All of these settings will be immediately refelected in the live preview window.
+The popup editor provides a live preview of your popup. You can enter a title, body, call to action button text, call to action url, close/cancel button text and select a background image. All of these settings will be immediately reflected in the live preview window.
 
 Some fields have additional options that can be configured. You can also add form fields for name and email address. This is useful if you provide an offer such as a newsletter signup or download.
 
