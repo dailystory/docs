@@ -3,6 +3,10 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 19, 2019
+* Refactor: move search code from job into searchutil
+* Bug: Segment pulling back results because field is null
+
 ## December 18, 2019
 * Refactor: update contact ux
 * Refactor: ux and grammar updates
