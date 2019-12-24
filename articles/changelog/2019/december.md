@@ -3,12 +3,26 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 24, 2019
+* Bug: incorrectly check for null dsid
+* Refactor: add support for skip take in contact document
+* Refactor: mege ui into contact bundle
+* Branch: initial change to support datatable in contacts ux
+
+## December 23, 2019
+* Refactor: move search into apis
+* Refactor: update contact document for new fields
+* Refactor: add email dashboard
+* Refactor: update references for sources
+* Bug: trim items before inserting into index
+* Refactor: create segment buttons on email clicks and opens
+* Refactor: optimize for search ux
+
 ## December 20, 2019
 * Refactor: add asset preferences for email
 * Bug: querystring collection key can be null
 * Refactor: start search page
 * Refactor: add support for email data science
-* Refactor: update search to support email metrics
 * Refactor: update search to support email metrics
 
 ## December 19, 2019
