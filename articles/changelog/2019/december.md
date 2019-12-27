@@ -10,6 +10,7 @@
 * Refactor: update email dashboard reports
 * Bug: calculate per day and per email
 * Refactor: add ctor to report
+* Refactor: add support for date do not contact until
 
 ## December 26, 2019
 * Refactor: renable web link in emails
