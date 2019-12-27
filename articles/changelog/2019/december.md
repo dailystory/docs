@@ -3,11 +3,29 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 27, 2019
+* Bug: disable open click segments for now
+* Refactor: update logging to use tenant's timezone for dates
+* Bug: update for timezones
+* Refactor: update email dashboard reports
+* Bug: calculate per day and per email
+* Refactor: add ctor to report
+
+## December 26, 2019
+* Refactor: renable web link in emails
+* Refactor: clean up email web view
+* Bug: webview should support lead id
+* Refactor: update content page nav with new ux
+* Refactor: initial component for NPS
+* Refactor: clean up some responsive design
+* Refactor: remove unused property
+
 ## December 24, 2019
 * Bug: incorrectly check for null dsid
 * Refactor: add support for skip take in contact document
 * Refactor: mege ui into contact bundle
 * Branch: initial change to support datatable in contacts ux
+* Refactor: updates for contact search
 
 ## December 23, 2019
 * Refactor: move search into apis
