@@ -6,6 +6,9 @@
 ## December 29, 2019
 * Refactor: support date_donotcontact in bulk upsert
 * Refactor: add set current data center for connection provider
+* Refactor: updates for connection provider environment caching
+* Bug: update sales sync to go further back in time
+* Refactor: updates for to  not contact ux
 
 ## December 28, 2019
 * Refactor: add methods to common for null friendly dates and obscure phone
@@ -23,6 +26,9 @@
 * Bug: calculate per day and per email
 * Refactor: add ctor to report
 * Refactor: add support for date do not contact until
+* Refactor: convert web report to use materialized view
+* Refactor: add support for do not contact until
+* Refactor: updates to sync
 
 ## December 26, 2019
 * Refactor: renable web link in emails
