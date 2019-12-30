@@ -3,6 +3,18 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 29, 2019
+* Refactor: support date_donotcontact in bulk upsert
+* Refactor: add set current data center for connection provider
+
+## December 28, 2019
+* Refactor: add methods to common for null friendly dates and obscure phone
+* Refactor: add maxcontactfrequency
+* Refactor: add optout slider button
+* Refactor: move optout logic to separate controller in api
+* Refactor: update preferences to support frequency and do not contact until
+* Refactor: contact detail with better ux for optout status and contact until
+
 ## December 27, 2019
 * Bug: disable open click segments for now
 * Refactor: update logging to use tenant's timezone for dates
