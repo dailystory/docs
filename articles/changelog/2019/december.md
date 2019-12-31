@@ -3,6 +3,10 @@
 	description: 'Product Updates for December 2019'
 }
 # DailyStory Product Updates for December 2019
+## December 30, 2019
+* Bug: only process lead queue items twice
+* Bug: handle null checks for strings in ip lookup
+
 ## December 29, 2019
 * Refactor: support date_donotcontact in bulk upsert
 * Refactor: add set current data center for connection provider
