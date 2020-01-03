@@ -15,7 +15,7 @@ This guide provides a list of resources to help you get started with Campaigns.
 * [Edit a Campaign](#edit-campaign)
 * [Pause a Campaign](#pause-campaign)
 * [Delete a Campaign](#delete-campaign)
-* Add Segments
+* [Add Contacts](#add-contacts)
 
 **Other Topics**
 
@@ -104,9 +104,15 @@ When a campaign is deleted the campaign is disabled, but is not permanently dele
 
 To undelete a campaign, navigate to the Deleted Campaigns view and click the "Activate Campaign" button.
 
-<iframe src="https://player.vimeo.com/video/382682922" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/382682922" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-## Add Segments to a Campaign
+## Add Contacts to a Campaign<a name="add-contacts"></a>
+There are 3 ways contacts are added to campaigns:
+
+1. **Segments** - Contacts are added by adding segments to the campaign in the campaign's edit screen.
+2. **Acquisition** - Contacts are added when converting on web forms, popups or other lead acquisition tools associated with the campaign.
+3. **Manually** - Contacts are added manually to the campaign.
+
 When assets, such as [emails](/emails/), are used in your campaign, only those contacts are able to receive messaging from that campaign.
 
 Contacts are added either through lead acquisition or by assigning existing Contacts to the campaign.
