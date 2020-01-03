@@ -21,7 +21,7 @@ This guide provides a list of resources to help you get started with Campaigns.
 
 * Structuring campaigns
 
-## Create a Campaign <a name="create-campaign></a>
+## Create a Campaign <a name="create-campaign"></a>
 To create a campaign, either click the Create Campaign link in the top menu bar or navigate to Campaigns > Campaigns and select + Create from the Campaign's sidebar menu.
 
 <iframe src="https://player.vimeo.com/video/382676215" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -89,7 +89,7 @@ New campaigns are set to "Do not set duration".
 
 New campaigns are set to not auto qualify leads and are enabled.
 
-## Edit a Campaign<a name="edit-campaign></a>
+## Edit a Campaign<a name="edit-campaign"></a>
 To edit a campaign either click on the sidebar menu when viewing a campaign or the more options button to the right of a campaign when viewing a list of campaigns:
 
 <iframe src="https://player.vimeo.com/video/382679147" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
