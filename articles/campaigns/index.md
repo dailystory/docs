@@ -11,8 +11,8 @@ This guide provides a list of resources to help you get started with Campaigns.
 
 **Create and Edit a Campaign**
 
-* Create a Campaign
-* Edit a Campaign
+* [Create a Campaign](#create-campaign)
+* [Edit a Campaign](#edit-campaign)
 * Add Segments
 
 **Other Topics**
@@ -21,31 +21,28 @@ This guide provides a list of resources to help you get started with Campaigns.
 
 * Structuring campaigns
 
-## Create a Campaign
+## Create a Campaign <a name="create-campaign></a>
 To create a campaign, either click the Create Campaign link in the top menu bar or navigate to Campaigns > Campaigns and select + Create from the Campaign's sidebar menu.
 
-![Create a Campaign](/articles/campaigns/campaigns-08.png "Create a Campaign")
-
-The sidebar menu from within Campaigns is also used to create a new campaign: 
-
-![Create a Campaign](/articles/campaigns/campaigns-05.png "Create a Campaign")
+<iframe src="https://player.vimeo.com/video/382676215" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Either option opens the Create a Campaign form:
 
 ![Create a Campaign](/articles/campaigns/campaigns-02.png "Create a Campaign")
 
-DailyStory supports an unlimited number of campaigns and there is no restriction for how you model your business (e.g. you could create a single campaign or quarterly campaigns). However, the number of campaigns is governed by your license.
+DailyStory supports an unlimited number of campaigns. However, the number of campaigns is governed by your license.
 
-<iframe src="https://player.vimeo.com/video/382676215" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-> A best practice is to create a campaign for specific activities such as *Black Friday Sales* or *Free Trial*.
+> A best practice is to create a campaign for specific activities such as *Black Friday Sale* or *Free Trial*.
 
 On the Create a Campaign screen, there are a number of fields:
 
-* **Name** (required) - The name of the campaign
-* **Description** - The description of your campaign within DailyStory.
+**Name** (required) 
 
-Other campaign settings:
+The name of the campaign
+
+**Description**
+
+The description of your campaign within DailyStory.
 
 **Segments**
 
@@ -92,14 +89,10 @@ New campaigns are set to "Do not set duration".
 
 New campaigns are set to not auto qualify leads and are enabled.
 
-## Edit a Campaign
+## Edit a Campaign<a name="edit-campaign></a>
 To edit a campaign either click on the sidebar menu when viewing a campaign or the more options button to the right of a campaign when viewing a list of campaigns:
 
-![Edit a campaign](/articles/campaigns/campaigns-13.gif "Edit a campaign")
-
-The more options button from the campaign list will also allow editing of a campaign: 
-
-![Edit a campaign](/articles/campaigns/campaigns-14.gif "Edit a campaign")
+<iframe src="https://player.vimeo.com/video/382679147" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Add Segments to a Campaign
 When assets, such as [emails](/emails/), are used in your campaign, only those contacts are able to receive messaging from that campaign.
