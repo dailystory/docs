@@ -13,6 +13,8 @@ This guide provides a list of resources to help you get started with Campaigns.
 
 * [Create a Campaign](#create-campaign)
 * [Edit a Campaign](#edit-campaign)
+* [Pause a Campaign](#pause-campaign)
+* [Delete a Campaign](#delete-campaign)
 * Add Segments
 
 **Other Topics**
@@ -87,6 +89,13 @@ New campaigns are set to not auto qualify leads and are enabled.
 To edit a campaign either click on the sidebar menu when viewing a campaign or the more options button to the right of a campaign when viewing a list of campaigns:
 
 <iframe src="https://player.vimeo.com/video/382679147" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+## Pause a Campaign<a name="pause-campaign"></a>
+When a campaign is paused the campaign's workflow is disabled, new leads aren't added to the campaign and campaign assets - such as emails - cannot be schedule.
+
+To paused a campaign, edit a campaign and toggle the paused button. To unpause a campaign, navigate to the Paused Campaigns view and click the "Activate Campaign" button.
+
+<iframe src="https://player.vimeo.com/video/382681057" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Add Segments to a Campaign
 When assets, such as [emails](/emails/), are used in your campaign, only those contacts are able to receive messaging from that campaign.
