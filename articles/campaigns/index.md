@@ -97,6 +97,15 @@ To paused a campaign, edit a campaign and toggle the paused button. To unpause a
 
 <iframe src="https://player.vimeo.com/video/382681057" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+> When you Pause a campaign all the campaign's assets are marked as paused as well.
+
+## Delete a Campaign<a name="delete-campaign"></a>
+When a campaign is deleted the campaign is disabled, but is not permanently deleted immediately. But, after 7-10 days the campaign and all its assets are permanently deleted.
+
+To undelete a campaign, navigate to the Deleted Campaigns view and click the "Activate Campaign" button.
+
+<iframe src="https://player.vimeo.com/video/382682922" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 ## Add Segments to a Campaign
 When assets, such as [emails](/emails/), are used in your campaign, only those contacts are able to receive messaging from that campaign.
 
