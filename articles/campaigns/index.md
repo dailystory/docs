@@ -3,24 +3,128 @@
 	description: 'Campaigns organize related activites and assets'
 }
 # DailyStory Campaigns
-Campaigns are a cornerstone feature of DailyStory. Campaigns organize related activites and assets. 
+Campaigns organize and manage contacts and assets around activites. Activites include visits to pages, schedule emails, drip marketing, push notifications and more. 
 
 <iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FVxbtl_DHzbA%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVxbtl_DHzbA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FVxbtl_DHzbA%2Fhqdefault.jpg&key=internal&type=text%2Fhtml&schema=youtube" width="500" height="281" scrolling="no" frameborder="0" allowfullscreen></iframe>
 
-> [Contacts](/contacts) are assigned to campaigns. When a contact is in a campaign it is called a [lead](/leads). A contact can be in multiple campaigns simultaneously.
+> A [contact](/contacts) in a campaign is called a [lead](/leads). A contact may be in multiple campaigns simultaneously.
 
-All reporting and account activity is associated with a campaign.
+This guide provides a list of resources to help you get started with Campaigns.
 
-![Campaigns](/articles/campaigns/campaigns-01.png "Campaigns")
+**Create and Edit a Campaign**
+
+* Create a Campaign
+* Edit a Campaign
+* Add Segments
+
+**Other Topics**
+
+[**Frequently Asked Questions**](#faq)
+* Structuring campaigns
+
+## Create a Campaign
+To create a campaign, either click the Create Campaign link in the top menu bar or navigate to Campaigns > Campaigns and select + Create from the Campaign's sidebar menu:
+
+![Create a Campaign](/articles/campaigns/campaigns-08.png "Create a Campaign")
+
+The sidebar menu from within Campaigns is also used to create a new campaign: 
+
+![Create a Campaign](/articles/campaigns/campaigns-05.png "Create a Campaign")
+
+Either option opens the Create a Campaign form:
+
+![Create a Campaign](/articles/campaigns/campaigns-02.png "Create a Campaign")
 
 DailyStory supports an unlimited number of campaigns and there is no restriction for how you model your business (e.g. you could create a single campaign or quarterly campaigns). However, the number of campaigns is governed by your license.
 
 > A best practice is to create a campaign for specific activities such as *Black Friday Sales* or *Free Trial*.
 
-## Campaign structure best practices
-For lead acquisition campaigns, we recommend creating a campaign called "General Campaign" and then creating specific campaigns for activities you want to track. 
+On the Create a Campaign screen, there are a number of fields:
 
-DailyStory will handle assigning leads to the appropriate campaign based on their origination.
+* **Name** (required) - The name of the campaign
+* **Description** - The description of your campaign within DailyStory.
+
+Other campaign settings:
+
+**Segments**
+
+Add one or more segments used to populate the campaign with existing contacts.
+
+![Segments](/articles/campaigns/campaigns-15.png "Segments")
+
+**Task Assignment**
+
+Assign a follow-up task to a user when a new lead is created in the campaign. Especially useful when running lead collection campaigns, such as from a Popup.
+
+![Task Assignment](/articles/campaigns/campaigns-09.png "Task Assignment")
+
+> Tasks are assigned for leads added through acquisition features such as web forms, popups and the API.
+
+New campaigns are set to "Do no assign a follow-up task".
+
+**Notifications**
+
+Send a notification email to one or more users when a new lead is created.
+
+![New Lead Notifications](/articles/campaigns/campaigns-10.png "New Lead Notifications")
+
+> Notifications are only sent for leads added through acquisition features such as web forms, popups and the API.
+
+New campaigns are set to "Do not send notifications". Unlike Task Assignment, Notifications may be set to send to all users or specific users.
+
+**Duration** 
+
+Set a start/end date for the campaign. Campaigns that are paused will activiate on the start date and campaigns that are active will pause on the end date. 
+
+![Duration](/articles/campaigns/campaigns-11.png "Duration")
+
+> Important - workflows within campaigns will only run during the start/end dates.
+
+New campaigns are set to "Do not set duration".
+
+**Additional Options**
+
+* **Auto qualify leads** - An advanced option used when integrating with a sales CRM, such as Salesforce. New leads are automatically converted to a status of Qualified.
+* **Campaign enabled** - Toggle to pause an active campaign. 
+
+![Additional options](/articles/campaigns/campaigns-12.png "Additional options")
+
+New campaigns are set to not auto qualify leads and are enabled.
+
+## Edit a Campaign
+To edit a campaign either click on the sidebar menu when viewing a campaign or the more options button to the right of a campaign when viewing a list of campaigns:
+
+![Edit a campaign](/articles/campaigns/campaigns-13.gif "Edit a campaign")
+
+The more options button from the campaign list will also allow editing of a campaign: 
+
+![Edit a campaign](/articles/campaigns/campaigns-14.gif "Edit a campaign")
+
+## Add Segments to a Campaign
+When assets, such as [emails](/emails/), are used in your campaign, only those contacts are able to receive messaging from that campaign.
+
+Contacts are added either through lead acquisition or by assigning existing Contacts to the campaign.
+
+While Contacts can be assigned individually to a campaign, assigning segments is the easiest way to add large numbers of contacts efficiently.
+
+And, once segments are assigned to the campaign, you can use the scheduler to control which segments the email (or other asset) will be sent to and when:
+	
+![Scheduler](/articles/campaigns/campaigns-06.png "Scheduler")
+
+By default the scheduler will send to "Everyone in this campaign". If one or more segments are part of the campaign, you can select to send to those segments as well.	
+
+To add one or more segments to a campaign:
+
+1. Edit the campaign
+2. Select one or more segments
+3. Save the campaign
+
+For example, the segments "Customer List" and "Digital Agencies":
+	
+![Add Segments](/articles/campaigns/campaigns-07.png "Add Segments")
+
+> DailyStory takes care of removing duplicate contacts. If a contact is in multiple segments, they are only added to the campaign once. And, if a segment is removed from a campaign, the contact will remain in the campaign if they are part of another segment.
+
 
 ### Lead acquisition campaign example
 Let's look at a simple example:
@@ -40,60 +144,32 @@ Unlike a lead acquisition campaign, where leads are added through forms on your 
 
 [Contacts](/contacts/) are added individually, by selecting multiple contacts from a search result, or by adding segments to the campaign.
 
-## Creating a Campaign
-To create a new campaign click the '+ Create' link in the sidebar. 
 
-![Create a Campaign](/articles/campaigns/campaigns-05.png "Create a Campaign")
+## Frequently Asked Questions<a name="faq"></a>
+Below are some frequently asked questions about Campaigns.
 
-This brings up the Create a Campaign form:
+### What is the recommended campaign structure?
+For lead acquisition campaigns, we recommend creating a campaign called "General Campaign" and then creating specific campaigns for activities you want to track. 
 
-![Create a Campaign](/articles/campaigns/campaigns-02.png "Create a Campaign")
-
-Only the name is required to create the campaign. Use the description to provide helpful information about your campaign.
-
-### Add Segments to a Campaign
-When assets, such as [emails](/emails/), are created for your campaign, the available contacts to send the asset to are determined by the segments that are part of the campaign.  Once segments are assigned to the campaign, you can use the scheduler to control which segments the email (or other asset) will be sent to and when:
-	
-![Scheduler](/articles/campaigns/campaigns-06.png "Scheduler")
-
-By default the scheduler will send to "Everyone in this campaign". If one or more segments are part of the campaign, you can select to send to those segments as well.	
-
-To add one or more segments to a campaign:
-
-1. Edit the campaign
-2. Select one or more segments
-3. Save the campaign
-
-For example, the segments "Customer List" and "Digital Agencies":
-	
-![Add Segments](/articles/campaigns/campaigns-07.png "Add Segments")
-
-You may also choose to exclude certain segments as well.  This option will always allow you to choose ANY segment that has been created, not just those assigned to the campaign.
-
-> Note, DailyStory takes care of removing duplicates. If a contact is in multiple segments, they will only be added to your campaign once. And, if a segment is removed from a campaign, the contact will remain in the campaign if they are part of another segment.
-
-### Additional Options
-* **Assign new leads to** - Lead assignment enables you to assign leads to a member of your team.
-* **Auto-qualify** - Leads added to this campaign are automatically marked as qualified.
-
-### Editing a Campaign
-Campaigns can be edited at any time to change name, description or other details. Segments may also be added or removed. 
-
-Note: deleting or pausing a campaign will prevent workflow, scheduled activites, rules and automations and other campaign activites from processing. 
-
-## Frequently Asked Questions
+DailyStory will handle assigning leads to the appropriate campaign based on their origination.
 
 ### What happens when I delete a campaign?
-When a campaign is deleted it is moved to the Trash and the campaign is disabled. However, the campaign will not be permanently deleted and can be recovered from the Trash. Once the campaign is deleted all assets associated with the campaign will be tagged as "Unassigned" and when edited may be assigned to another campaign.
+When a campaign is deleted it is moved to the Trash and the campaign, assets and workflows are disabled. However, the campaign will not be permanently deleted and is recoverable from the Trash for up to 7 days. After 7 days the campaign is permanently deleted.
+
+Once the campaign is deleted all assets associated with the campaign will be tagged as "Unassigned".
 
 ### Why don't I see my campaign when trying to assign it to an asset?
-In order for a campaign to be avaiable to assign assets, it must first be enabled.  Double check that you have enabled the campaign in the campaign settings.
+In order for a campaign to be avaiable to assign assets, it must be Active. Double check that you have enabled the campaign in the campaign settings.
 
 ### What is an "Unassigned" campaign?
-In your use of DailyStory you may see an email or other campaign asset associated with the campaign "Unassigned". The "Unassigned" campaign is a special type of campaign used when an asset is no longer associated with a campaign. An "Unassigned" asset can be associated with a campaign by editing it. When opened a popup will appear asking which campaign the asset should be part of. 
+In your use of DailyStory you may see an email or other campaign asset associated with the campaign "Unassigned". 
+
+The "Unassigned" campaign is a special type of campaign used when an asset is no longer associated with a campaign. 
 
 ### How do I archive a campaign?
-To archive a campaign and retain the campaign activity mark the campaign as disabled. While archived campaigns are not active, archiving a campaign retains all the data and assets for reporting purposes.
+To archive a campaign and retain the campaign activity mark the campaign as disabled. Archiving a campaign retains all the data and assets for reporting purposes, but disables workflows and other campaign automations.
 
 ### What happens when a contact is added to a campaign?
-When a contact is added to a campaign either directly or as part of a segment, a new ["Lead"](/leads/) is created for that contact in the campaign. Next, if the campaign has an associated workflow, the lead is run through the workflow. The lead is also eligible to receive any assets scheduled for the campaign (emails, text messages, push notifications, etc.). And, if the campaign has automations or scoring rules in place, those will also be run on the lead.
+When a contact is added to a campaign either directly or as part of a segment, a new ["Lead"](/leads/) is created for that contact in the campaign. 
+
+Next, if the campaign has an associated workflow, the lead is run through the workflow. The lead is also eligible to receive any assets scheduled for the campaign (emails, text messages, push notifications, etc.). And, if the campaign has automations or scoring rules in place, those are run too.
