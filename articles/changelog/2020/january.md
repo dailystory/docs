@@ -7,3 +7,4 @@
 * Refactor: clean up workflow
 * Refactor: job logic into workflow
 * Bug: section was commented out
+* Bug: password check shouldn't show ux
