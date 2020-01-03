@@ -5,3 +5,5 @@
 # DailyStory Product Updates for January 2020
 ## January 3, 2020
 * Refactor: clean up workflow
+* Refactor: job logic into workflow
+* Bug: section was commented out
