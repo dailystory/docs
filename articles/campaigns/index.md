@@ -37,21 +37,17 @@ DailyStory supports an unlimited number of campaigns. However, the number of cam
 On the Create a Campaign screen, there are a number of fields:
 
 **Name** (required) 
-
 The name of the campaign
 
 **Description**
-
 The description of your campaign within DailyStory.
 
 **Segments**
-
 Add one or more segments used to populate the campaign with existing contacts.
 
 ![Segments](/articles/campaigns/campaigns-15.png "Segments")
 
 **Task Assignment**
-
 Assign a follow-up task to a user when a new lead is created in the campaign. Especially useful when running lead collection campaigns, such as from a Popup.
 
 ![Task Assignment](/articles/campaigns/campaigns-09.png "Task Assignment")
@@ -61,7 +57,6 @@ Assign a follow-up task to a user when a new lead is created in the campaign. Es
 New campaigns are set to "Do no assign a follow-up task".
 
 **Notifications**
-
 Send a notification email to one or more users when a new lead is created.
 
 ![New Lead Notifications](/articles/campaigns/campaigns-10.png "New Lead Notifications")
@@ -71,7 +66,6 @@ Send a notification email to one or more users when a new lead is created.
 New campaigns are set to "Do not send notifications". Unlike Task Assignment, Notifications may be set to send to all users or specific users.
 
 **Duration** 
-
 Set a start/end date for the campaign. Campaigns that are paused will activiate on the start date and campaigns that are active will pause on the end date. 
 
 ![Duration](/articles/campaigns/campaigns-11.png "Duration")
