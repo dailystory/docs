@@ -5,8 +5,6 @@
 # DailyStory Campaigns
 Campaigns organize and manage contacts and assets around activities. Activities include visits to pages, scheduled emails, drip marketing, push notifications and more. 
 
-<iframe src="https://player.vimeo.com/video/382676215" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
 > When a [contact](/contacts) is in a campaign it is called a [lead](/leads). A contact may be in multiple campaigns simultaneously.
 
 This guide provides a list of resources to help you get started with Campaigns.
@@ -24,7 +22,7 @@ This guide provides a list of resources to help you get started with Campaigns.
 * Structuring campaigns
 
 ## Create a Campaign
-To create a campaign, either click the Create Campaign link in the top menu bar or navigate to Campaigns > Campaigns and select + Create from the Campaign's sidebar menu:
+To create a campaign, either click the Create Campaign link in the top menu bar or navigate to Campaigns > Campaigns and select + Create from the Campaign's sidebar menu.
 
 ![Create a Campaign](/articles/campaigns/campaigns-08.png "Create a Campaign")
 
@@ -37,6 +35,8 @@ Either option opens the Create a Campaign form:
 ![Create a Campaign](/articles/campaigns/campaigns-02.png "Create a Campaign")
 
 DailyStory supports an unlimited number of campaigns and there is no restriction for how you model your business (e.g. you could create a single campaign or quarterly campaigns). However, the number of campaigns is governed by your license.
+
+<iframe src="https://player.vimeo.com/video/382676215" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 > A best practice is to create a campaign for specific activities such as *Black Friday Sales* or *Free Trial*.
 
