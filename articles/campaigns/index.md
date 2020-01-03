@@ -5,7 +5,7 @@
 # DailyStory Campaigns
 Campaigns organize and manage contacts and assets around activities. Activities include visits to pages, scheduled emails, drip marketing, push notifications and more. 
 
-<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FVxbtl_DHzbA%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVxbtl_DHzbA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FVxbtl_DHzbA%2Fhqdefault.jpg&key=internal&type=text%2Fhtml&schema=youtube" width="500" height="281" scrolling="no" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/382676215" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 > When a [contact](/contacts) is in a campaign it is called a [lead](/leads). A contact may be in multiple campaigns simultaneously.
 
@@ -20,6 +20,7 @@ This guide provides a list of resources to help you get started with Campaigns.
 **Other Topics**
 
 [**Frequently Asked Questions**](#faq)
+
 * Structuring campaigns
 
 ## Create a Campaign
