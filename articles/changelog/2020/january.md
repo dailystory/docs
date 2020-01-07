@@ -3,6 +3,10 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 7, 2020
+* Bug: included localhost in path
+* Refactor: restructure push notification api
+
 ## January 6, 2020
 * Refactor: order text messages in api by name
 * Refactor: only sent workflows when campaign is valid
