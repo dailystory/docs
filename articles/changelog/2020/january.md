@@ -6,6 +6,9 @@
 ## January 7, 2020
 * Bug: included localhost in path
 * Refactor: restructure push notification api
+* Refactor: sort push notifications alpha
+* Refactor: improve naming and logic for retrieving a workflow step
+* Refactor: workflow api
 
 ## January 6, 2020
 * Refactor: order text messages in api by name
