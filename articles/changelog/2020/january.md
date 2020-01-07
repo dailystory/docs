@@ -3,6 +3,15 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 6, 2020
+* Refactor: order text messages in api by name
+* Refactor: only sent workflows when campaign is valid
+* Refactor: validate emails sent through queue
+* Refactor: normalize apis
+* Refactor: remove mailchimp workflow
+* Refactor: add import to main nav
+* Refactor: order emails by name
+
 ## January 3, 2020
 * Refactor: clean up workflow
 * Refactor: job logic into workflow
