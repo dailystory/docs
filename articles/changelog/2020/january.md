@@ -3,6 +3,9 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 7, 2020
+* Bug: included localhost in path
+
 ## January 3, 2020
 * Refactor: clean up workflow
 * Refactor: job logic into workflow
