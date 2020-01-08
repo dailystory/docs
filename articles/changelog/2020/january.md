@@ -9,6 +9,7 @@
 * Refactor: sort push notifications alpha
 * Refactor: improve naming and logic for retrieving a workflow step
 * Refactor: workflow api
+* Refactor: clean up push api
 
 ## January 6, 2020
 * Refactor: order text messages in api by name
