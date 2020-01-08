@@ -76,43 +76,16 @@ All of DailyStory's platform is accessible through a REST API and WebHooks for r
 </table>
 
 ### Lead
-<table class="table">
-<tbody>
-<tr>
-<td><strong>Path</strong></td>
-<td><strong>Verb</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/lead/">/api/v1/lead</a></code></td>
-<td>GET, POST, DELETE</td>
-<td>Get, create, or delete a lead.</td>
-</tr>
-<tr>
-<td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/lead/#api-lead-list">/api/v1/lead/list</a></code></td>
-<td>GET</td>
-<td>Returns a paged list of all leads.</td>
-</tr>
-</tbody>
-</table>
+
+* [**GET /api/v1/lead**](/api/lead/) - get a lead by id
+* [**DELETE /api/v1/lead**](/api/lead/) - delete a lead by id
+* [**POST /api/v1/lead**](/api/lead/) - create or update a lead
+* [**GET /api/v1/leads**](/api/lead/) - returns a paged list of all leads
 
 ### Push Notifications
-<table class="table">
-<tbody>
-<tr>
-<td><strong>Path</strong></td>
-<td><strong>Verb</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/push/">/api/v1/pushs</a></code></td>
-<td>GET</td>
-<td>Get Push Notifications.</td>
-</tr>
-<tr>
-<td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/push/#SendSingle">/api/v1/push/SendSingle</a></code></td>
-<td>POST</td>
-<td>Send a single push notification to a specified contact.</td>
-</tr>
-</tbody>
-</table>
+
+* [**GET /api/v1/push**](/api/push/) - get a push notification by id
+* [**DELETE /api/v1/push**](/api/push/) - delete a push notification by id
+* [**POST /api/v1/push**](/api/push/) - create or update a push notification
+* [**GET /api/v1/pushnotifications**](/api/push/) - get all push notifications
+* [**POST /api/v1/pushnotification/sendsingle**](/api/push#sendsingle) - send a single push notification

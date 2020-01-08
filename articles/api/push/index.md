@@ -1,9 +1,9 @@
 {
-	title: 'DailyStory Push REST API',
-	description: 'Documentation for DailyStory\'s Push REST API'
+	title: 'DailyStory Push Notification REST API',
+	description: 'Documentation for DailyStory\'s Push Notification REST API'
 }
 # Push Notifications REST API
-Use the Push REST API to list, send and manage Push Notifications.
+Use the Push Notification REST API to list, send, and manage [Push Notifications](/push) in DailyStory.
 
 ## Push
 The `Push` API is used to create or update a Push Notification `POST`, retrieve a push notification `GET`, or delete a push notification `DELETE`.
@@ -52,9 +52,7 @@ The body of the `POST` must include a JSON representation of the Push Notificati
     "message": "Get 25% off with the coupon code: DailyStory Today",
     "previewUrl": "https://dsblobus.blob.core.windows.net/ghg0ctulvdx7bu10/assets/asset-PushNotification-1-rg27.png",
     "messageId": 1,
-    "campaignId": 69,
-    "status": "Active",
-    "isEnabled": true
+    "campaignId": 69
 }
 </pre>
 
@@ -92,13 +90,13 @@ The `POST` method returns a JSON object along with the id of the Push Notificati
 </pre>
 
 ## All Push Notifications
-Use the `/pushs/` API to list all of the Push Notifications available.
+Use the `/api/v1/pushnotifications/` API to list all of the Push Notifications available.
 
-<ol class="api"><li value="GET">/api/v1/pushs/</li></ol>
+<ol class="api"><li value="GET">/api/v1/pushnotifications/</li></ol>
 
 Optionally filter by a specific campaign:
 
-`/api/v1/pushs/?campaignId=[Campaign Id]`
+`/api/v1/pushnotifications/[Campaign Id]`
 
 ### Sample response body
 Returns `200 OK` when created. The body of the response includes a JSON object with additional data with an array of Push Notification messages.
@@ -109,26 +107,26 @@ Returns `200 OK` when created. The body of the response includes a JSON object w
     "Message":"",
     "Code":200,
     "Response":
-        {
-            "messages":[{
-                "title":"Anna we're running a special",
-                "message":"Get 25% off with the coupon code: DailyStory Today",
-                "previewUrl":"https://dsblobus.blob.core.windows.net/ghg0ctulvdx7bu10/assets/asset-PushNotification-1-rg27.png",
-                "messageId":1,
-                "tenantId":112,
-                "campaignId":69,
-                "total_sent":42,
-                "status":"Active",
-                "isEnabled":true
-            }]
-        }
+    {
+        "messages":[{
+            "title":"Anna we're running a special",
+            "message":"Get 25% off with the coupon code: DailyStory Today",
+            "previewUrl":"https://dsblobus.blob.core.windows.net/ghg0ctulvdx7bu10/assets/asset-PushNotification-1-rg27.png",
+            "messageId":1,
+            "tenantId":112,
+            "campaignId":69,
+            "total_sent":42,
+            "status":"Active",
+            "isEnabled":true
+        }]
+    }
 }
 </pre>
 
 ## Send Single <a name="#sendsingle"></a>
-The SendSingle API is used to send a single Push Notification message to a Contact.
+SendSingle is used to send a single Push Notification message to a Contact.
 
-<ol class="api"><li value="POST">/api/v1/push/sendsingle/[DSID]</li></ol>
+<ol class="api"><li value="POST">/api/v1/pushnotification/sendsingle/[DSID]</li></ol>
 
 ### POST parameters
 
