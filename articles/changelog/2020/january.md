@@ -10,6 +10,7 @@
 * Refactor: improve naming and logic for retrieving a workflow step
 * Refactor: workflow api
 * Refactor: clean up push api
+* Refactor: sms api send single
 
 ## January 6, 2020
 * Refactor: order text messages in api by name
