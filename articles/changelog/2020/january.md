@@ -5,6 +5,7 @@
 # DailyStory Product Updates for January 2020
 ## January 8, 2020
 * Refactor: push notification api name
+* Refactor: push notifications ux
 
 ## January 7, 2020
 * Bug: included localhost in path
