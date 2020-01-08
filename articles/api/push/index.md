@@ -5,14 +5,14 @@
 # Push Notifications REST API
 Use the Push Notification REST API to list, send, and manage [Push Notifications](/push) in DailyStory.
 
-## Push
 The `Push` API is used to create or update a Push Notification `POST`, retrieve a push notification `GET`, or delete a push notification `DELETE`.
 
-<ol class="api"><li value="GET">/api/v1/push/[ID]</li></ol>
+## Get a Push Notification
+The `GET` method of `/api/v1/pushnotification/[ID]` retrieves an existing Push Notification. The `[ID]` is the id of the Push Notification to retrieve.
 
-The `GET` method of `/api/v1/push/[ID]` is used to retrieve an existing Push Notification. The `[ID]` is the id of the Push Notification to retrieve.
+<ol class="api"><li value="GET">/api/v1/pushnotification/[ID]</li></ol>
 
-To see this in action, [login to DailyStory](https://app.dailystory.com/login) and navigate to an existing Push Notification. For example, `/Push/Edit/1`. Then change the URL to `api/v1/push/1` to see the JSON representation.
+To see this in action, [login to DailyStory](https://app.dailystory.com/login) and navigate to an existing Push Notification. For example, `/Push/Edit/1`. Then change the URL to `api/v1/pushnotification/1` to see the JSON representation.
 
 ### Sample response body
 Returns `200 OK` when created. The body of the response includes a JSON object with additional data with the `id` of the Push Notification.
@@ -21,7 +21,6 @@ Returns `200 OK` when created. The body of the response includes a JSON object w
 {
     "Status": true,
     "Message": "",
-    "Code": 200,
     "Response": {
         "message": {
             "title": "Anna we're running a special",
@@ -39,9 +38,10 @@ Returns `200 OK` when created. The body of the response includes a JSON object w
 }
 </pre>
 
-<ol class="api"><li value="POST">/api/v1/push</li></ol>
+## Create or Update a Push Notification
+The `POST` method of `/api/v1/pushnotification` is used to create or update a Push Notification.
 
-The `POST` method of `/api/v1/push` is used to create or update a Push Notification.
+<ol class="api"><li value="POST">/api/v1/pushnotification</li></ol>
 
 ### Sample request body
 The body of the `POST` must include a JSON representation of the Push Notification:
@@ -65,25 +65,27 @@ The `POST` method returns a JSON object along with the id of the Push Notificati
 {
     "Status": true,
     "Message": "",
-    "Code": 200,
     "Response": {
         "id": "1"
     }
 }
 </pre>
 
-The `DELETE` method of `/api/v1/push/[ID]` is used to delete a Push Notification. The `[ID]` is the id of the Push Notification to delete.
+## Delete a Push Notification
+
+The `DELETE` method of `/api/v1/pushnotification/[ID]` is used to delete a Push Notification. The `[ID]` is the id of the Push Notification to delete.
+
+<ol class="api"><li value="DELETE">/api/v1/pushnotification</li></ol>
 
 > Deleted Push Notifications are moved to the Trash.
 
 ### Sample response body
-The `POST` method returns a JSON object along with the id of the Push Notification that was either created or updated.
+The `DELETE` method returns a JSON object along with the id of the Push Notification that was either created or updated.
 
 <pre class="brush: javascript">
 {
     "Status": true,
     "Message": "",
-    "Code": 200,
     "Response": {
     }
 }
@@ -105,7 +107,6 @@ Returns `200 OK` when created. The body of the response includes a JSON object w
 {
     "Status":true,
     "Message":"",
-    "Code":200,
     "Response":
     {
         "messages":[{
@@ -171,7 +172,6 @@ Returns `200 OK` when sent.
 {
     "Status": true,
     "Message": "",
-    "Code": 200,
     "Response": {}
 }
 </pre>
