@@ -7,6 +7,9 @@
 * Refactor: push notification api name
 * Refactor: push notifications ux
 * Refactor: workflow interactions
+* Refactor: clean up workflow steps
+* Refactor: remove Code from ApiStatusResponse
+* Refactor: handle scheduled messages that cannot be sent
 
 ## January 7, 2020
 * Bug: included localhost in path
