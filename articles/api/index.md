@@ -84,8 +84,8 @@ All of DailyStory's platform is accessible through a REST API and WebHooks for r
 
 ### Push Notifications
 
-* [**GET /api/v1/push**](/api/push/) - get a push notification by id
-* [**DELETE /api/v1/push**](/api/push/) - delete a push notification by id
-* [**POST /api/v1/push**](/api/push/) - create or update a push notification
+* [**GET /api/v1/pushnotification**](/api/push/) - get a push notification by id
+* [**DELETE /api/v1/pushnotification**](/api/push/) - delete a push notification by id
+* [**POST /api/v1/pushnotification**](/api/push/) - create or update a push notification
 * [**GET /api/v1/pushnotifications**](/api/push/) - get all push notifications
 * [**POST /api/v1/pushnotification/sendsingle**](/api/push#sendsingle) - send a single push notification
