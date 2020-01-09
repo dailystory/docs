@@ -5,6 +5,7 @@
 # DailyStory Product Updates for January 2020
 ## January 9, 2020
 * Refactor: message validation for frequency and transactional messaging
+* Bug: handle workflow step case where segment no longer exists
 
 ## January 8, 2020
 * Refactor: push notification api name
