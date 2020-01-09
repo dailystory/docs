@@ -9,6 +9,7 @@
 * Refactor: add push audience dashboard
 * Refactor: update email dashboard with demographics
 * Refactor: convert file manager to use view
+* Refactor: updates to file manager
 
 ## January 8, 2020
 * Refactor: push notification api name
