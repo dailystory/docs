@@ -7,6 +7,7 @@
 * Refactor: message validation for frequency and transactional messaging
 * Bug: handle workflow step case where segment no longer exists
 * Refactor: add push audience dashboard
+* Refactor: update email dashboard with demographics
 
 ## January 8, 2020
 * Refactor: push notification api name
