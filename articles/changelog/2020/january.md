@@ -3,6 +3,9 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 9, 2020
+* Refactor: message validation for frequency and transactional messaging
+
 ## January 8, 2020
 * Refactor: push notification api name
 * Refactor: push notifications ux
@@ -10,6 +13,10 @@
 * Refactor: clean up workflow steps
 * Refactor: remove Code from ApiStatusResponse
 * Refactor: handle scheduled messages that cannot be sent
+* Refactor: utility method to help find greatest date
+* Refactor: api tokens larger
+* Refactor: move api token management into api
+* Refactor: remove picasa lookup for avatars
 
 ## January 7, 2020
 * Bug: included localhost in path
