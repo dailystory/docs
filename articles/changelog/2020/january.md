@@ -3,6 +3,9 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 10, 2020
+* Refactor: contacts api, permission and exports
+
 ## January 9, 2020
 * Refactor: message validation for frequency and transactional messaging
 * Bug: handle workflow step case where segment no longer exists
