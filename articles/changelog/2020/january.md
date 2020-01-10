@@ -8,6 +8,7 @@
 * Refactor: update maintenance job
 * Refactor: update maintenance job
 * Refactor: re-org code and add support for permanent delete
+* Refactor: mark expired tenants as deleted
 
 ## January 9, 2020
 * Refactor: message validation for frequency and transactional messaging
