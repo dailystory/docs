@@ -5,6 +5,9 @@
 # DailyStory Product Updates for January 2020
 ## January 10, 2020
 * Refactor: contacts api, permission and exports
+* Refactor: update maintenance job
+* Refactor: update maintenance job
+* Refactor: re-org code and add support for permanent delete
 
 ## January 9, 2020
 * Refactor: message validation for frequency and transactional messaging
