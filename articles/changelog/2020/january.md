@@ -8,6 +8,7 @@
 * Refactor: namespace update to .Automation
 * Refactor: clean up and refactor
 * Refactor: campaign rules and automations
+* Refactor: Change advanced search to more options
 
 ## January 10, 2020
 * Refactor: contacts api, permission and exports
