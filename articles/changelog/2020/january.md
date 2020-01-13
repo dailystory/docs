@@ -5,6 +5,9 @@
 # DailyStory Product Updates for January 2020
 ## January 13, 2020
 * Refactor: automations job
+* Refactor: namespace update to .Automation
+* Refactor: clean up and refactor
+* Refactor: campaign rules and automations
 
 ## January 10, 2020
 * Refactor: contacts api, permission and exports
