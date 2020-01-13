@@ -3,6 +3,9 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 13, 2020
+* Refactor: automations job
+
 ## January 10, 2020
 * Refactor: contacts api, permission and exports
 * Refactor: update maintenance job
