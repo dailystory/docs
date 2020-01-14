@@ -6,6 +6,10 @@
 ## January 14, 2020
 * Refactor: update rules javascript libs
 * Refactor: normalize automation and workflow actions
+* Refactor: add lookup for lead by dsid
+* Refactor: class rename for scoring and automation on leads
+* Bug: check duplicate id check on lead wasn't setting status
+* Refactor: throw exception if campaignid <= 0
 
 ## January 13, 2020
 * Refactor: automations job
