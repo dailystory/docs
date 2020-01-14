@@ -10,6 +10,9 @@
 * Refactor: class rename for scoring and automation on leads
 * Bug: check duplicate id check on lead wasn't setting status
 * Refactor: throw exception if campaignid <= 0
+* Refactor: campaign action selector for rules
+* Refactor: support rule actions with populated drop downs
+* Refactor: better handle open, clicks, views from rules engine
 
 ## January 13, 2020
 * Refactor: automations job
