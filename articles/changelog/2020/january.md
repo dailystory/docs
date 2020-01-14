@@ -5,6 +5,7 @@
 # DailyStory Product Updates for January 2020
 ## January 14, 2020
 * Refactor: update rules javascript libs
+* Refactor: normalize automation and workflow actions
 
 ## January 13, 2020
 * Refactor: automations job
