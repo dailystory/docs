@@ -13,6 +13,7 @@
 * Refactor: campaign action selector for rules
 * Refactor: support rule actions with populated drop downs
 * Refactor: better handle open, clicks, views from rules engine
+* Refactor: incremental updates to workflow designer
 
 ## January 13, 2020
 * Refactor: automations job
