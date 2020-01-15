@@ -12,6 +12,7 @@
 * Refactor: handled specified dates and ints; add tracking links rules check
 * Refactor: modify automation to use contact last modified
 * Refactor: add support for equal on dates and link clicked
+* Bug: cors not set for image proxy'
 
 ## January 14, 2020
 * Refactor: update rules javascript libs
