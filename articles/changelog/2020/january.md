@@ -3,6 +3,9 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 15, 2020
+* Refactor: updates to new workflow designer
+
 ## January 14, 2020
 * Refactor: update rules javascript libs
 * Refactor: normalize automation and workflow actions
