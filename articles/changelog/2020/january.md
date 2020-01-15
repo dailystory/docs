@@ -14,6 +14,7 @@
 * Refactor: add support for equal on dates and link clicked
 * Bug: cors not set for image proxy'
 * Refactor: more rules.js clean up
+* Refactor: start removing jquery dependency
 
 ## January 14, 2020
 * Refactor: update rules javascript libs
