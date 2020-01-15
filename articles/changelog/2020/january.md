@@ -5,6 +5,13 @@
 # DailyStory Product Updates for January 2020
 ## January 15, 2020
 * Refactor: updates to new workflow designer
+* Refactor: update clickopen queue job to run every 10 min
+* Refactor: move process queue for better unit testing
+* Refactor: tracking link api routes
+* Refactor: named links, status, etc. for rules enginea
+* Refactor: handled specified dates and ints; add tracking links rules check
+* Refactor: modify automation to use contact last modified
+* Refactor: add support for equal on dates and link clicked
 
 ## January 14, 2020
 * Refactor: update rules javascript libs
