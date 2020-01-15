@@ -15,6 +15,8 @@
 * Bug: cors not set for image proxy'
 * Refactor: more rules.js clean up
 * Refactor: start removing jquery dependency
+* Refactor: ensure email can get reset in MINDBODY
+* Refactor: degree37 do not contact until logic
 
 ## January 14, 2020
 * Refactor: update rules javascript libs
