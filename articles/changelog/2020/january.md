@@ -7,6 +7,7 @@
 * Refactor: mark as delivered by default
 * Bug: security operation issue with html2canvas on Safari
 * Refactor: click open queue to use bulk sql
+* Refactor: workflow redesign with multiple steps and workflows
 
 ## January 15, 2020
 * Refactor: updates to new workflow designer
