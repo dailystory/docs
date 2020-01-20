@@ -3,6 +3,11 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 20, 2020
+* Refactor: mark as delivered by default
+* Bug: security operation issue with html2canvas on Safari
+* Refactor: click open queue to use bulk sql
+
 ## January 15, 2020
 * Refactor: updates to new workflow designer
 * Refactor: update clickopen queue job to run every 10 min
