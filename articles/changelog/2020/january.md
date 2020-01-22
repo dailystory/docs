@@ -12,6 +12,7 @@
 * Refactor: add support for additional trigger types
 * Bug: catch runtime exception for bad personalization tags
 * Bug: Update email preview text following Facebook's example
+* Refactor: continued updates to workflow ux designer branch
 
 ## January 21, 2020
 * Refactor: continue to refactor workflow v2
