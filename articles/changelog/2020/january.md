@@ -7,6 +7,7 @@
 * Refactor: continue to refactor workflow v2
 * Refactor: update Rejected enum id for easier exclude
 * Refactor: remove old workflow controller
+* Refactor: rename classses and add support for Action in automation
 
 ## January 20, 2020
 * Refactor: mark as delivered by default
