@@ -3,6 +3,11 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 21, 2020
+* Refactor: continue to refactor workflow v2
+* Refactor: update Rejected enum id for easier exclude
+* Refactor: remove old workflow controller
+
 ## January 20, 2020
 * Refactor: mark as delivered by default
 * Bug: security operation issue with html2canvas on Safari
