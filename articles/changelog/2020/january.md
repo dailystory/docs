@@ -3,6 +3,12 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 22, 2020
+* Refactor: normalize naming convention for Workflow actions
+* Refactor: update page view trigger to include 1 day
+* Refactor: re-org and unit test all of workflow class
+* Refactor: simplify logic for base send date time condition
+
 ## January 21, 2020
 * Refactor: continue to refactor workflow v2
 * Refactor: update Rejected enum id for easier exclude
