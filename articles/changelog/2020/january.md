@@ -10,6 +10,8 @@
 * Refactor: simplify logic for base send date time condition
 * Refactor: set specific enum values
 * Refactor: add support for additional trigger types
+* Bug: catch runtime exception for bad personalization tags
+* Bug: Update email preview text following Facebook's example
 
 ## January 21, 2020
 * Refactor: continue to refactor workflow v2
