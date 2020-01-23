@@ -7,6 +7,7 @@
 * Refactor: enforce rules around child/parent relationships in workflox UX
 * Refactor: more updates to workfow vnext ux
 * Refactor: ux updates for workflow vnext designer
+* Refactor: split blocks into individual files; optimize loads
 
 ## January 22, 2020
 * Refactor: normalize naming convention for Workflow actions
