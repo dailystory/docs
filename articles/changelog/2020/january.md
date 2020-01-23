@@ -3,6 +3,9 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 23, 2020
+* Refactor: enforce rules around child/parent relationships in workflox UX
+
 ## January 22, 2020
 * Refactor: normalize naming convention for Workflow actions
 * Refactor: update page view trigger to include 1 day
