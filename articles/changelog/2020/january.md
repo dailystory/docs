@@ -5,6 +5,7 @@
 # DailyStory Product Updates for January 2020
 ## January 24, 2020
 * Refactor: update naming conventions for workflow blocks to match types
+* Refactor: another massive code refactor to workflow; UX v1 nearly complete
 
 ## January 23, 2020
 * Refactor: enforce rules around child/parent relationships in workflox UX
