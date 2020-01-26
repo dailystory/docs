@@ -3,6 +3,12 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 26, 2020
+* Refactor: match block type to AutomationStepType
+* Refactor: rename AutomationStepType to StepType
+* Refactor: clean up workflow vnext ux
+* Refactor: set step type and step id when exporting blocks
+
 ## January 24, 2020
 * Refactor: update naming conventions for workflow blocks to match types
 * Refactor: another massive code refactor to workflow; UX v1 nearly complete
