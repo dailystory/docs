@@ -21,6 +21,9 @@
 * Refactor: remove dead code
 * Refactor: add drag handle to blocks
 * Refactor: add delete steps method
+* Refactor: undo block drag updates
+* Refactor: only allow drag after selected
+* Refactor: pass step directly to action and let action determine values
 
 ## January 26, 2020
 * Refactor: match block type to AutomationStepType
