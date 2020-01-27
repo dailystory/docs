@@ -9,6 +9,18 @@
 * Refactor: use enum types for blocks in workflow
 * Refactor: updates for saving workflow
 * Refator: block base sets step action type from block name
+* Refactor: fold enum into single StepAction type
+* Refactor: don't bring back design for list of workflows
+* Refactor: workflow v2 api for get/post workflows
+* Refactor: return light model for javascript calback
+* Refactor: continue to align names with enums
+* Refactor: load/save workflows in designer
+* Refactor: bring in flowy source
+* Bug: set proper name for enum matching and handle arrays in props
+* Refactor: enum name matching
+* Refactor: remove dead code
+* Refactor: add drag handle to blocks
+* Refactor: add delete steps method
 
 ## January 26, 2020
 * Refactor: match block type to AutomationStepType
