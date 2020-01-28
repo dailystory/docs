@@ -7,6 +7,11 @@
 * Refactor: step should set next process date if waiting
 * Refactor: return status as part of lead in workflow
 * Refactor: handle ints on contact import
+* Refactor: parent not getting set
+* Refactor: date time should consolidate into waitdatetime
+* Refactor: lead track sequence not step id
+* Refactor: step is a merge table and doesn't require an id
+* Refactor: don't need to track start id because it will always be 0
 
 ## January 27, 2020
 * Refactor: wait block to use single date/time
