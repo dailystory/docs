@@ -28,6 +28,7 @@
 * Bug: handle when no waittime is set on opened email
 * Refactor: convert action to return step action
 * Refactor: handle reset ux
+* Refactor: stub on / off button for workflow
 
 ## January 26, 2020
 * Refactor: match block type to AutomationStepType
