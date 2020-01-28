@@ -5,6 +5,8 @@
 # DailyStory Product Updates for January 2020
 ## January 28, 2020
 * Refactor: step should set next process date if waiting
+* Refactor: return status as part of lead in workflow
+* Refactor: handle ints on contact import
 
 ## January 27, 2020
 * Refactor: wait block to use single date/time
