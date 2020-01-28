@@ -27,6 +27,7 @@
 * Refactor: return null instead of exception for not found step
 * Bug: handle when no waittime is set on opened email
 * Refactor: convert action to return step action
+* Refactor: handle reset ux
 
 ## January 26, 2020
 * Refactor: match block type to AutomationStepType
