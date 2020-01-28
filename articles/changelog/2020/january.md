@@ -3,6 +3,9 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 28, 2020
+* Refactor: step should set next process date if waiting
+
 ## January 27, 2020
 * Refactor: wait block to use single date/time
 * Refactor: re-organize workflow controller
