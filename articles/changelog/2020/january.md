@@ -14,6 +14,8 @@
 * Refactor: don't need to track start id because it will always be 0
 * Refactor: add trigger clicked email
 * Refactor: handle send time immediately
+* Refactor: switch icons for time and wait
+* Refactor: add support for tracking links
 
 ## January 27, 2020
 * Refactor: wait block to use single date/time
