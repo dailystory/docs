@@ -12,6 +12,8 @@
 * Refactor: lead track sequence not step id
 * Refactor: step is a merge table and doesn't require an id
 * Refactor: don't need to track start id because it will always be 0
+* Refactor: add trigger clicked email
+* Refactor: handle send time immediately
 
 ## January 27, 2020
 * Refactor: wait block to use single date/time
