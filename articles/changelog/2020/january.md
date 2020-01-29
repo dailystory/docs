@@ -10,6 +10,7 @@
 * Refactor: handle mismatched step action type in action
 * Refactor: more clean up with trigger/condition updates
 * Refactor: add support for visited page trigger
+* Refactor: update to use new web view trigger
 
 ## January 28, 2020
 * Refactor: step should set next process date if waiting
