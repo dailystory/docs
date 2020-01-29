@@ -12,6 +12,11 @@
 * Refactor: add support for visited page trigger
 * Refactor: update to use new web view trigger
 * Refactor: better time stamps for jobs
+* Refactor: add support for email notification action
+* Refactor: update web track queue to use new triggers
+* Refactor: add support for next process date
+* Refactor: process step handle case when step is already a succes
+* Refactor: add block for send email notification
 
 ## January 28, 2020
 * Refactor: step should set next process date if waiting
