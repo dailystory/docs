@@ -11,6 +11,7 @@
 * Refactor: more clean up with trigger/condition updates
 * Refactor: add support for visited page trigger
 * Refactor: update to use new web view trigger
+* Refactor: better time stamps for jobs
 
 ## January 28, 2020
 * Refactor: step should set next process date if waiting
