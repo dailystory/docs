@@ -3,6 +3,13 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 29, 2020
+* Refactor: match up naming conventions
+* Refactor: re-organize trigger and condition
+* Refactor: match enum types with automation behavior
+* Refactor: handle mismatched step action type in action
+* Refactor: more clean up with trigger/condition updates
+
 ## January 28, 2020
 * Refactor: step should set next process date if waiting
 * Refactor: return status as part of lead in workflow
