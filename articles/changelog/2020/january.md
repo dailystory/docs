@@ -6,6 +6,11 @@
 ## January 30, 2020
 * Refactor: add support for restart workflow
 * Refactor: convert wait until from hours to minutes
+* Remove: page view triggers features replaced with workflow vnext
+* Bug: removed reference to jquery ui in old workflow view
+* Refactor: enable set/update name and description of workflow
+* Bug: clean up old references to triggers
+* Refactor: add patch support to workflow api
 
 ## January 29, 2020
 * Refactor: match up naming conventions
