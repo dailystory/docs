@@ -17,6 +17,7 @@
 * Refactor: enable disable workflow with toggle
 * Refactor: return active or paused workflows
 * Refactor: support PATCH in api
+* Refactor: new workflows created as paused
 
 ## January 29, 2020
 * Refactor: match up naming conventions
