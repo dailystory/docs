@@ -3,6 +3,10 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 30, 2020
+* Refactor: add support for restart workflow
+* Refactor: convert wait until from hours to minutes
+
 ## January 29, 2020
 * Refactor: match up naming conventions
 * Refactor: re-organize trigger and condition
