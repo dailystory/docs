@@ -11,6 +11,9 @@
 * Refactor: enable set/update name and description of workflow
 * Bug: clean up old references to triggers
 * Refactor: add patch support to workflow api
+* Refactor: updates for notification action
+* Refactor: support delete workflow
+* Refactor: add ux for beta of workflow ux and add/remove
 
 ## January 29, 2020
 * Refactor: match up naming conventions
