@@ -15,6 +15,8 @@
 * Refactor: support delete workflow
 * Refactor: add ux for beta of workflow ux and add/remove
 * Refactor: enable disable workflow with toggle
+* Refactor: return active or paused workflows
+* Refactor: support PATCH in api
 
 ## January 29, 2020
 * Refactor: match up naming conventions
