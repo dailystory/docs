@@ -14,6 +14,7 @@
 * Refactor: updates for notification action
 * Refactor: support delete workflow
 * Refactor: add ux for beta of workflow ux and add/remove
+* Refactor: enable disable workflow with toggle
 
 ## January 29, 2020
 * Refactor: match up naming conventions
