@@ -18,6 +18,9 @@
 * Refactor: return active or paused workflows
 * Refactor: support PATCH in api
 * Refactor: new workflows created as paused
+* Refactor: calculate page visit using hash
+* Refactor: handle outside process setting success
+* Bug: attempting to parse uuid as int
 
 ## January 29, 2020
 * Refactor: match up naming conventions
