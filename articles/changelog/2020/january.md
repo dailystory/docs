@@ -11,6 +11,8 @@
 * Refactor: ensure step is only added to table once by key
 * Refactor: clean up bad sql in trigger logic
 * Refactor: support click/open triggers in clickopenqueue
+* Refactor: order workflow by name
+* Refactor: save should honor workflow status in ux
 
 ## January 30, 2020
 * Refactor: add support for restart workflow
