@@ -8,6 +8,9 @@
 * Refactor: email open/click trigger by lead id
 * Refactor: set workflow complete to 10
 * Refactor: trigger to only add to workflow when triggered
+* Refactor: ensure step is only added to table once by key
+* Refactor: clean up bad sql in trigger logic
+* Refactor: support click/open triggers in clickopenqueue
 
 ## January 30, 2020
 * Refactor: add support for restart workflow
