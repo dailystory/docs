@@ -19,6 +19,7 @@
 * Refactor: add text message notification, add/remove campaign to workflow
 * Refactor: add DoSendTextMessageNotificationAsync and personaliztion
 * Refactor: reconfigure how to track workflow is complete for a lead
+* Refactor: tune up workflow ux
 
 ## January 30, 2020
 * Refactor: add support for restart workflow
