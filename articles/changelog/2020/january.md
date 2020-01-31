@@ -3,6 +3,12 @@
 	description: 'Product Updates for January 2020'
 }
 # DailyStory Product Updates for January 2020
+## January 31, 2020
+* Refactor: moved leads in workflow logic to trigger lead added to campaign
+* Refactor: email open/click trigger by lead id
+* Refactor: set workflow complete to 10
+* Refactor: trigger to only add to workflow when triggered
+
 ## January 30, 2020
 * Refactor: add support for restart workflow
 * Refactor: convert wait until from hours to minutes
