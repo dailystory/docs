@@ -13,6 +13,7 @@
 * Refactor: support click/open triggers in clickopenqueue
 * Refactor: order workflow by name
 * Refactor: save should honor workflow status in ux
+* Refactor: add support for remove from segment workflow
 
 ## January 30, 2020
 * Refactor: add support for restart workflow
