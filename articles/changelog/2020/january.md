@@ -21,6 +21,7 @@
 * Refactor: calculate page visit using hash
 * Refactor: handle outside process setting success
 * Bug: attempting to parse uuid as int
+* Refactor: support block filtering
 
 ## January 29, 2020
 * Refactor: match up naming conventions
