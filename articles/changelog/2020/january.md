@@ -23,6 +23,7 @@
 * Bug: attempting to parse uuid as int
 * Refactor: support block filtering
 * Refactor: add when email is opened trigger
+* Refactor: add when email is clicked trigger
 
 ## January 29, 2020
 * Refactor: match up naming conventions
