@@ -39,6 +39,7 @@
 * Refactor: add support for next process date
 * Refactor: process step handle case when step is already a succes
 * Refactor: add block for send email notification
+* Refactor: stub support for custom rules
 
 ## January 28, 2020
 * Refactor: step should set next process date if waiting
