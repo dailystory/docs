@@ -14,6 +14,11 @@
 * Refactor: order workflow by name
 * Refactor: save should honor workflow status in ux
 * Refactor: add support for remove from segment workflow
+* Refactor: fix option bug and add change status workflow block
+* Refactor: add campaigns to workflow
+* Refactor: add text message notification, add/remove campaign to workflow
+* Refactor: add DoSendTextMessageNotificationAsync and personaliztion
+* Refactor: reconfigure how to track workflow is complete for a lead
 
 ## January 30, 2020
 * Refactor: add support for restart workflow
