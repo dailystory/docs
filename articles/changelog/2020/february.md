@@ -13,6 +13,7 @@
 * Refactor: add support for closest sub account by geo
 * Refactor: add support for lead routing
 * Refactor: handle scroll offset when block list div is scrolled
+* Refactor: do unsaved changes in workflow
 
 ## February 1, 20202
 * Refactor: fix offset position with workflow indicator
