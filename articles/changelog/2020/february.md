@@ -18,6 +18,11 @@
 * Refactor: add support for custom rules
 * Refactor: clean up how custom rules are supported
 * Refactor: load in custom rules
+* Refactor: undo rule selector changes to v1
+* Refactor: new RuleSet
+* Refactor: handle merge conflict in process rules
+* Refactor: add support for hascustomrule
+* Merge workflow vnext into staging
 
 ## February 1, 20202
 * Refactor: fix offset position with workflow indicator
