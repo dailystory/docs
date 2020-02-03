@@ -23,6 +23,8 @@
 * Refactor: handle merge conflict in process rules
 * Refactor: add support for hascustomrule
 * Merge workflow vnext into staging
+* Refactor: support campaign filtering
+* Refactor: add view for all workflows
 
 ## February 1, 20202
 * Refactor: fix offset position with workflow indicator
