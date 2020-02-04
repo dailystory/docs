@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 4, 2020
+* Refactor: handle case when no lead for dsid
+
 ## February 3, 2020
 * Refactor: mouse pointer interaction on block elem hover
 * Refactor: add when text message replied and has reply text
