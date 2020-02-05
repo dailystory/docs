@@ -6,6 +6,7 @@
 ## February 4, 2020
 * Refactor: handle case when no lead for dsid
 * Refactor: set ruleset on save
+* Refactor: change returned exception type when invalid
 
 ## February 3, 2020
 * Refactor: mouse pointer interaction on block elem hover
