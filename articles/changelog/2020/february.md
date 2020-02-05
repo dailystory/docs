@@ -12,6 +12,7 @@
 * Refactor: remove dead code from workflow updates
 * Refactor: clean up rules
 * Refactor: custom rule set any/all match type
+* Refactor: remove event listeners after use
 
 ## February 4, 2020
 * Refactor: handle case when no lead for dsid
