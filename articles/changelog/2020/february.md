@@ -11,6 +11,7 @@
 * Refactor: remove RunAutomations from project
 * Refactor: remove dead code from workflow updates
 * Refactor: clean up rules
+* Refactor: custom rule set any/all match type
 
 ## February 4, 2020
 * Refactor: handle case when no lead for dsid
