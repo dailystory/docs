@@ -8,6 +8,7 @@
 * Refactor: set ruleset on save
 * Refactor: change returned exception type when invalid
 * Refactor: add support for add/remove points action
+* Refactor: remove score and automation replace with new workflow
 
 ## February 3, 2020
 * Refactor: mouse pointer interaction on block elem hover
