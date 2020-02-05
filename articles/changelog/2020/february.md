@@ -8,6 +8,9 @@
 * Refactor: add support for assign points to workflow
 * Refactor: updates for assign points
 * Refactor: remove CampaignRule
+* Refactor: remove RunAutomations from project
+* Refactor: remove dead code from workflow updates
+* Refactor: clean up rules
 
 ## February 4, 2020
 * Refactor: handle case when no lead for dsid
