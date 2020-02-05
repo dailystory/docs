@@ -3,6 +3,10 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 5, 2020
+* Refactor: add support for friendly name to all blocks
+* Refactor: add support for assign points to workflow
+
 ## February 4, 2020
 * Refactor: handle case when no lead for dsid
 * Refactor: set ruleset on save
