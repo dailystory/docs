@@ -13,6 +13,9 @@
 * Refactor: clean up rules
 * Refactor: custom rule set any/all match type
 * Refactor: remove event listeners after use
+* Refactor: fix bug in max value for date; updates for geo
+* Refactor: add method to find campaign by name
+* Refactor: add routing to a workflow
 
 ## February 4, 2020
 * Refactor: handle case when no lead for dsid
