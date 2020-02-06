@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## Feburary 6, 2020
+* Refactor: warm up segments and campaigns for contact detail
+
 ## February 5, 2020
 * Refactor: add support for friendly name to all blocks
 * Refactor: add support for assign points to workflow
