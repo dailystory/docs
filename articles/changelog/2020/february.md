@@ -5,6 +5,10 @@
 # DailyStory Product Updates for January 2020
 ## February 7, 2020
 * Refactor: neverbounce had bad url path
+* Refactor: add in support for popup completed and popup api controller
+* Refactor: update url on save for new workflows
+* Refactor: clean up workflow
+* Refactor: bug in waittime key value
 
 ## Feburary 6, 2020
 * Refactor: warm up segments and campaigns for contact detail
