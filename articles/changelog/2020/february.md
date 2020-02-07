@@ -10,6 +10,12 @@
 * Refactor: clean up workflow
 * Refactor: bug in waittime key value
 * Refactor: scope popups to campaigns
+* Refactor: start work on skip/take for processing workflow
+* Bug: condition wasn't handled for yes/no
+* Refactor: return list instead of dictionary for workflow step lookup
+* Refactor: bug in how datetime was handled in sms replies view
+* Refactor: don't auto reply to sms if there is a rule
+* Refactor: missing condition for hastextmessagereply
 
 ## Feburary 6, 2020
 * Refactor: warm up segments and campaigns for contact detail
