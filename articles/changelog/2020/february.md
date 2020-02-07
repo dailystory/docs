@@ -9,6 +9,7 @@
 * Refactor: update url on save for new workflows
 * Refactor: clean up workflow
 * Refactor: bug in waittime key value
+* Refactor: scope popups to campaigns
 
 ## Feburary 6, 2020
 * Refactor: warm up segments and campaigns for contact detail
