@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 7, 2020
+* Refactor: neverbounce had bad url path
+
 ## Feburary 6, 2020
 * Refactor: warm up segments and campaigns for contact detail
 
