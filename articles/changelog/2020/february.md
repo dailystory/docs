@@ -38,6 +38,7 @@
 * Refactor: add routing to a workflow
 * Refactor: add when popup is completed
 * Refactor: add trigger to lead creation
+* Refactor: fix old bug in old workflow
 
 ## February 4, 2020
 * Refactor: handle case when no lead for dsid
