@@ -16,6 +16,9 @@
 * Refactor: bug in how datetime was handled in sms replies view
 * Refactor: don't auto reply to sms if there is a rule
 * Refactor: missing condition for hastextmessagereply
+* Refactor: trigger to look through list not dictionary
+* Refactor: add support for condition to evaluate text message reply
+* Refactor: fix various ux bugs with workflow
 
 ## Feburary 6, 2020
 * Refactor: warm up segments and campaigns for contact detail
