@@ -3,6 +3,10 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 8, 2020
+* Refactor: re-org as autopilot for workflow vnext
+* Refactor: time triggers not async
+
 ## February 7, 2020
 * Refactor: neverbounce had bad url path
 * Refactor: add in support for popup completed and popup api controller
