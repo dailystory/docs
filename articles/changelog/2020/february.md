@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 9, 2020
+* Refactor: reorg web project with autopilot reference
+
 ## February 8, 2020
 * Refactor: re-org as autopilot for workflow vnext
 * Refactor: time triggers not async
