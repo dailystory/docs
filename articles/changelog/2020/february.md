@@ -6,6 +6,7 @@
 ## February 9, 2020
 * Refactor: reorg web project with autopilot reference
 * Refactor: bug in delete workflow path; auto set name and description if not set
+* Refactor: some triggers cannot start automation
 
 ## February 8, 2020
 * Refactor: re-org as autopilot for workflow vnext
