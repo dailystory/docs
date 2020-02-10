@@ -3,6 +3,10 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 10, 2020
+* Refactor: adjustments to licensing to support onetool
+* Refactor: add support for onetool api
+
 ## February 9, 2020
 * Refactor: reorg web project with autopilot reference
 * Refactor: bug in delete workflow path; auto set name and description if not set
