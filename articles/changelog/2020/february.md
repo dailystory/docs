@@ -6,6 +6,9 @@
 ## February 10, 2020
 * Refactor: adjustments to licensing to support onetool
 * Refactor: add support for onetool api
+* Refactor: remove preview tag from autopilot
+* Refactor: add support for contact tags
+* Refactor: fix bugs in workflow to ensure emails are sent out and popups are triggered
 
 ## February 9, 2020
 * Refactor: reorg web project with autopilot reference
