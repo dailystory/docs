@@ -9,6 +9,7 @@
 * Refactor: remove preview tag from autopilot
 * Refactor: add support for contact tags
 * Refactor: fix bugs in workflow to ensure emails are sent out and popups are triggered
+* Add completed and waiting counts to automation list
 
 ## February 9, 2020
 * Refactor: reorg web project with autopilot reference
