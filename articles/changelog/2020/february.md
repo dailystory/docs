@@ -7,6 +7,13 @@
 * update wait until time passed workflow logic
 * bug in next process wait until logic
 * add support to set tag id on save
+* add support for retrieving leads in progress
+* clean up styling elements and normalize icon usage for search
+* updates to autopilot ux for progress and complete; added detail v next for contact
+* reset sequence id to -1 when restarting an automation
+* methods for handling leads in workflow
+* methos for outputing status for leads in workflow
+* updates for contact vnext
 
 ## February 10, 2020
 * Refactor: adjustments to licensing to support onetool
