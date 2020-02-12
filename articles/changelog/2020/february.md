@@ -5,6 +5,7 @@
 # DailyStory Product Updates for January 2020
 ## February 12, 2020
 * update wait until time passed workflow logic
+* bug in next process wait until logic
 
 ## February 10, 2020
 * Refactor: adjustments to licensing to support onetool
