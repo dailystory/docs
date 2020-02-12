@@ -6,6 +6,7 @@
 ## February 12, 2020
 * update wait until time passed workflow logic
 * bug in next process wait until logic
+* add support to set tag id on save
 
 ## February 10, 2020
 * Refactor: adjustments to licensing to support onetool
