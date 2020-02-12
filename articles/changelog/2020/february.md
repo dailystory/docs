@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 12, 2020
+* update wait until time passed workflow logic
+
 ## February 10, 2020
 * Refactor: adjustments to licensing to support onetool
 * Refactor: add support for onetool api
