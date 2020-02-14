@@ -7,6 +7,9 @@
 * set longer timeout for email queue
 * performance improvement to building filtered leads in segment
 * update to conditions in automation for unit tests
+* convert to table for tracking indexing of contacts
+* performance improvements to add segment to campaign
+* bug with popup lead detail check
 
 ## February 13, 2020
 * insert trigger ignore updates otherwise can get multiple triggers for same lead
