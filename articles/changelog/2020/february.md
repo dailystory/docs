@@ -10,6 +10,10 @@
 * convert to table for tracking indexing of contacts
 * performance improvements to add segment to campaign
 * bug with popup lead detail check
+* auto pause segment if query is bad
+* ignore activity for test dsid
+* fix issue where ip address lookup may not return postal code
+* handle primary key violations for contact save
 
 ## February 13, 2020
 * insert trigger ignore updates otherwise can get multiple triggers for same lead
