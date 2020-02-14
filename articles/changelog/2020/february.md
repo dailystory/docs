@@ -14,6 +14,7 @@
 * ignore activity for test dsid
 * fix issue where ip address lookup may not return postal code
 * handle primary key violations for contact save
+* Automation click on table cell is broken
 
 ## February 13, 2020
 * insert trigger ignore updates otherwise can get multiple triggers for same lead
