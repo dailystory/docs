@@ -15,6 +15,9 @@
 * fix issue where ip address lookup may not return postal code
 * handle primary key violations for contact save
 * Automation click on table cell is broken
+* reduce segment update size
+* set date last seen based on greater of visit or last modified
+* don't look up donor by donor id or person id - too expensive
 
 ## February 13, 2020
 * insert trigger ignore updates otherwise can get multiple triggers for same lead
