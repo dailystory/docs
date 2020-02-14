@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 13, 2020
+* insert trigger ignore updates otherwise can get multiple triggers for same lead
+
 ## February 12, 2020
 * update wait until time passed workflow logic
 * bug in next process wait until logic
