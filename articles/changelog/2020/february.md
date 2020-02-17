@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 17, 2020
+* fix performance issue with contact detail campaign lookup
+
 ## February 14, 2020
 * set longer timeout for email queue
 * performance improvement to building filtered leads in segment
