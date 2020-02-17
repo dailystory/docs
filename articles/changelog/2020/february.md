@@ -5,6 +5,7 @@
 # DailyStory Product Updates for January 2020
 ## February 17, 2020
 * fix performance issue with contact detail campaign lookup
+* bug with segment lookup when array is empty
 
 ## February 14, 2020
 * set longer timeout for email queue
