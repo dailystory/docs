@@ -7,6 +7,7 @@
 * fix performance issue with contact detail campaign lookup
 * bug with segment lookup when array is empty
 * clean up contact api controller
+* remove active / all designations
 
 ## February 14, 2020
 * set longer timeout for email queue
