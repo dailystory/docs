@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 18, 2020
+* improve bread crumbs
+
 ## February 17, 2020
 * fix performance issue with contact detail campaign lookup
 * bug with segment lookup when array is empty
