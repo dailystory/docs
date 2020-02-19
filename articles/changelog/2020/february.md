@@ -3,6 +3,13 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 19, 2020
+* refactor how email send queue pulls in leads to use batching
+* refactor search to only run when certain processes are not running, e.g. sending email
+* initial checkin of rss feed reader for email
+* add azure function to update unindexed contacts
+* refactor job manager to support key based paging for bbcs
+
 ## February 18, 2020
 * improve bread crumbs
 * better navigation within contacts
