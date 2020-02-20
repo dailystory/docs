@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 20, 2020
+* add resend email with different subject line
+
 ## February 19, 2020
 * refactor how email send queue pulls in leads to use batching
 * refactor search to only run when certain processes are not running, e.g. sending email
