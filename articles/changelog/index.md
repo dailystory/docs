@@ -3,6 +3,7 @@
 	description: 'DailyStory Product Updates'
 }
 # Product Updates for 2020
+* [February 2020](2020/february)
 * [January 2020](2020/january)
 
 # Product Updates for 2019
