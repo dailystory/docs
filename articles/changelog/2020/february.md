@@ -5,6 +5,9 @@
 # DailyStory Product Updates for January 2020
 ## February 20, 2020
 * add resend email with different subject line
+* add resend email workflow block
+* add do not contact until action
+* set source id for magic forms
 
 ## February 19, 2020
 * refactor how email send queue pulls in leads to use batching
