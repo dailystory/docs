@@ -15,6 +15,7 @@
 ## [Tasks](/tasks/)
 
 # Features
+## [Autopilot](/autopilot/)
 ## [Magic Forms](/acquisition/magic-forms/)
 ## [Pages](/pages/)
 ## [Personalization](/personalization/)
@@ -22,7 +23,6 @@
 ## [Tasks](/tasks/)
 ## [Tracking Links](/link-tracking/)
 ## [Tracking Ad Clicks](/link-tracking/#tracking-ad-clicks)
-## [Visit Alerts](/acquisition/triggers/)
 ## [Web Forms](/acquisition/web-forms/)
 
 # Account
