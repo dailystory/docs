@@ -5,6 +5,7 @@
 # DailyStory Product Updates for January 2020
 ## February 22, 2020
 * add support in workflow for web form trigger
+* add support for magic form submitted trigger
 
 ## February 20, 2020
 * add resend email with different subject line
