@@ -3,11 +3,15 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 22, 2020
+* add support in workflow for web form trigger
+
 ## February 20, 2020
 * add resend email with different subject line
 * add resend email workflow block
 * add do not contact until action
-* set source id for magic forms
+* update magic forms to set source id
+* handle source id for magic forms
 
 ## February 19, 2020
 * refactor how email send queue pulls in leads to use batching
