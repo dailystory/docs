@@ -8,6 +8,10 @@
 * add support for magic form submitted trigger
 * add webhook action
 
+## February 21, 2020
+* inject mso to not underline links in emails
+* adjustments to auto-injected unsubscribe
+
 ## February 20, 2020
 * add resend email with different subject line
 * add resend email workflow block
