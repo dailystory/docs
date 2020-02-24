@@ -5,6 +5,8 @@
 # DailyStory Product Updates for January 2020
 ## February 24, 2020
 * add workflow when date, e.g. birthday
+* consistent autopilot block names
+* complete support for contact date autopilot block
 
 ## February 22, 2020
 * add support in workflow for web form trigger
