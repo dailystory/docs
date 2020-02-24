@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 24, 2020
+* add workflow when date, e.g. birthday
+
 ## February 22, 2020
 * add support in workflow for web form trigger
 * add support for magic form submitted trigger
