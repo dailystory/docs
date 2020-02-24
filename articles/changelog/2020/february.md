@@ -7,6 +7,7 @@
 * add workflow when date, e.g. birthday
 * consistent autopilot block names
 * complete support for contact date autopilot block
+* tweaks to how leads added into workflow
 
 ## February 22, 2020
 * add support in workflow for web form trigger
