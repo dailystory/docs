@@ -8,6 +8,9 @@
 * consistent autopilot block names
 * complete support for contact date autopilot block
 * tweaks to how leads added into workflow
+* add next process date ticks to workflow hashcode
+* set status when adding leads to workflow through trigger
+* perform personalization on web hook lead
 
 ## February 22, 2020
 * add support in workflow for web form trigger
