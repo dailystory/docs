@@ -3,8 +3,27 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 24, 2020
+* add workflow when date, e.g. birthday
+* consistent autopilot block names
+* complete support for contact date autopilot block
+* tweaks to how leads added into workflow
+
+## February 22, 2020
+* add support in workflow for web form trigger
+* add support for magic form submitted trigger
+* add webhook action
+
+## February 21, 2020
+* inject mso to not underline links in emails
+* adjustments to auto-injected unsubscribe
+
 ## February 20, 2020
 * add resend email with different subject line
+* add resend email workflow block
+* add do not contact until action
+* update magic forms to set source id
+* handle source id for magic forms
 
 ## February 19, 2020
 * refactor how email send queue pulls in leads to use batching
