@@ -15,6 +15,7 @@ Autopilot is DailyStory’s friendly, drag-and-drop automation builder. Using Tr
 
 * **'When added to campaign' trigger doesn't add all my leads**
 * **'When page is visited' trigger isn't working**
+* **What timezone is used?**
 
 ## Triggers <a name="triggers"></a>
 Triggers are Autopilot blocks that start a workflow. For example, when a form is completed.
