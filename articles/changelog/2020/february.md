@@ -6,6 +6,7 @@
 ## February 25, 2020
 * meter rate at which trigger adds to leads table
 * updates to rss email utility
+* refactor add to workflow to account for date created vs date modified
 
 ## February 24, 2020
 * add workflow when date, e.g. birthday
