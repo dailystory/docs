@@ -5,9 +5,16 @@ description: 'Automate through Triggers, Actions and Conditions to build user jo
 #DailyStory Autopilot
 Autopilot is DailyStory’s friendly, drag-and-drop automation builder. Using Triggers, Actions and Conditions you can model out complex user journeys and experiences. We put together this guide to help you understand how to use Autopilot.
 
+**Autopilot drag-and-drop blocks**
+
 * **[Triggers](#triggers)**
 * **[Actions](#actions)**
 * **[Conditions](#conditions)**
+
+**[Frequently Asked Questions](#faq)**
+
+* **'When added to campaign' trigger doesn't add all my leads**
+* **'When page is visited' trigger isn't working**
 
 ## Triggers <a name="triggers"></a>
 Triggers are Autopilot blocks that start a workflow. For example, when a form is completed.
@@ -81,11 +88,17 @@ The *Remove from campaign* action removes the current lead from the campaign. Fo
 **Resend an email**
 The *Resend an email* action enables an email that was previously sent to a lead to be resent but with a different subject line. This action is unique because DailyStory does not ordinarily allow a recipient to receive the same email twice. When this action is used the email is able to be sent again to the same recipient. However, the subject line must be different. This ensures that the email does not appear to be a duplicate in the recipient's inbox. [Read more](https://www.dailystory.com/blog/resend-but-with-new-subject-line/)
 
+**Call a webhook**
+The *Call a webhook* action attempts to make an HTTP POST to a URL specified in the properties of the action. The body of the webhook should be a JSON representation and may use [personalization tags](/personalization/) for substitution. For example, to pass the lead's email use {{user.email}}.
+
 **Auto-route to subaccount**
 The *Auto-route to subaccount* action automatically routes a lead to the subaccount geographically closest to the lead's location. This action is used primarily with DailyStory customers that have various physical locations, such as a fitness franchise with multiple locations. When the lead is routed to the subaccount, DailyStory will create the lead in the subaccount in a campaign named identical to the parent's campaign. If none is found, a new campaign is automatically created and the lead is added.
 
 **Assign points**
 The *Assign points* action is used to add or remove points to a lead. For example, if your target market is English speaking countries you could add points for some countries and event remove points for other countries. Points are useful for scoring a lead. Once a lead accumulates a certain point threshold, the lead could become sales qualified, moved to another campaign, tagged or just about anything else you want to do.
+
+**Set next contact date**
+The *Set next contact date* action is used to set the date/time the contact can next receive any messaging from DailyStory. When set to a future date, DailyStory will prevent all messages from being sent to the contact. If you want to delay sending messages, such as in a drip campaign. Use the *When past date/time* or *When time has passed* [triggers](#triggers)
 
 **Restart workflow**
 The *Restart workflow* action resets a lead within the workflow so that the lead can be processed through the workflow again. For example, an automation that scores a lead for visiting a specific page in your website. The same lead can visit multiple times and this would enable the lead to accumulate additional points on each visit.
@@ -113,3 +126,15 @@ The *Evaluate custom rule* condition evaluates a series of conditions attempting
 
 **Evaluate text message reply**
 The *Evaluate text message reply* condition evaluates a reply to a text message. The evaluation is not case sensitive. For example, if the text message reply is "yes" the condition will succeed. If a Yes/No block is not specified, the condition will allow the workflow to continue only if the replied text matches.
+
+## Frequently Asked Questions <a name="faq"></a>
+
+### 'When added to campaign' trigger doesn't add all my leads   
+If you have an existing campaign and add an Autopilot automation using a *When added to a campaign* trigger only new leads are added to the workflow. This is done on purpose to ensure that existing leads in a campaign don't re-enter an automation designed for new leads.
+
+### 'When page is visited' trigger isn't working
+When using the 'When page is visited' trigger the URL must match exactly and the DailyStory tracking tag must be installed on the page.
+
+### What timezone is used?
+For Autopilot triggers, actions and conditions that use a date/time the lead's timezone is used. If no timezone setting exists for the lead, then the tenant's timezone is used. if no timezone setting exists for the tenant, then the timezone defaults to UTC.
+
