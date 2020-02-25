@@ -16,6 +16,8 @@
 * bug in how checks were done for magic forms/webform triggers
 * view for tags for summary
 * bug in whitelabel logout
+* add support for deleting a lead from the workflow
+* api for removing lead from workflow
 
 ## February 24, 2020
 * add workflow when date, e.g. birthday
