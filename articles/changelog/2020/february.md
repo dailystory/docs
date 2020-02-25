@@ -3,6 +3,10 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 25, 2020
+* meter rate at which trigger adds to leads table
+* updates to rss email utility
+
 ## February 24, 2020
 * add workflow when date, e.g. birthday
 * consistent autopilot block names
