@@ -18,6 +18,7 @@
 * bug in whitelabel logout
 * add support for deleting a lead from the workflow
 * api for removing lead from workflow
+* fix breadcrumbs for in progress and completed automations
 
 ## February 24, 2020
 * add workflow when date, e.g. birthday
