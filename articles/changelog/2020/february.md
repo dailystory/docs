@@ -10,6 +10,7 @@
 * bug in url rewriting tracking link after save
 * add help/docs to footer of workflow designer
 * clean up autopilot block descriptions
+* add azure function to for workflow maintenance
 
 ## February 24, 2020
 * add workflow when date, e.g. birthday
