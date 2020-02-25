@@ -15,6 +15,7 @@
 * remove empty glyph
 * bug in how checks were done for magic forms/webform triggers
 * view for tags for summary
+* bug in whitelabel logout
 
 ## February 24, 2020
 * add workflow when date, e.g. birthday
