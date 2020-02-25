@@ -7,6 +7,9 @@
 * meter rate at which trigger adds to leads table
 * updates to rss email utility
 * refactor add to workflow to account for date created vs date modified
+* bug in url rewriting tracking link after save
+* add help/docs to footer of workflow designer
+* clean up autopilot block descriptions
 
 ## February 24, 2020
 * add workflow when date, e.g. birthday
