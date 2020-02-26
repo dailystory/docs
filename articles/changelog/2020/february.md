@@ -9,6 +9,7 @@
 * update licensing remove remove page views
 * bug with new contacts not getting indexed immediately
 * add message start to autopilot
+* convert email list to client loaded table
 
 ## February 25, 2020
 * meter rate at which trigger adds to leads table
