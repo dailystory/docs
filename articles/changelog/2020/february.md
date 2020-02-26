@@ -3,6 +3,9 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 26, 2020
+* update license details; remove page view restriction
+
 ## February 25, 2020
 * meter rate at which trigger adds to leads table
 * updates to rss email utility
