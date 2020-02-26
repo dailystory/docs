@@ -11,6 +11,7 @@
 * add message start to autopilot
 * convert email list to client loaded table
 * clean up old models
+* add support for email skip/take method for ux
 
 ## February 25, 2020
 * meter rate at which trigger adds to leads table
