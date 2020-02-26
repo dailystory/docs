@@ -5,6 +5,8 @@
 # DailyStory Product Updates for January 2020
 ## February 26, 2020
 * update license details; remove page view restriction
+* bug in refactor of add workflow leads
+* update licensing remove remove page views
 
 ## February 25, 2020
 * meter rate at which trigger adds to leads table
