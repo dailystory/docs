@@ -8,6 +8,7 @@
 * bug in refactor of add workflow leads
 * update licensing remove remove page views
 * bug with new contacts not getting indexed immediately
+* add message start to autopilot
 
 ## February 25, 2020
 * meter rate at which trigger adds to leads table
