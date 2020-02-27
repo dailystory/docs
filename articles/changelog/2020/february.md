@@ -3,6 +3,16 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 27, 2020
+* campaigns in campaign selector should pull from json not from model 
+* remove dependency on link tracking model
+* reorg where autopilot design lives and support history cookie
+* autopilot needs to return campaign even if not active
+* set history cookie for proper asset navigation
+* add automation creation to main nav
+* lead table converted to regular anchor
+* improve cookie history
+
 ## February 26, 2020
 * update license details; remove page view restriction
 * bug in refactor of add workflow leads
