@@ -3,6 +3,10 @@
 	description: 'Product Updates for February 2020'
 }
 # DailyStory Product Updates for January 2020
+## February 28, 2020
+* link to push report from assets
+* updates to support contacts data table
+
 ## February 27, 2020
 * campaigns in campaign selector should pull from json not from model 
 * remove dependency on link tracking model
