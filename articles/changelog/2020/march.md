@@ -11,3 +11,4 @@
 * bug with Mc and Mac handling
 * add GetTotalRecords
 * set tenantid
+* bug handling automation delete redirect
