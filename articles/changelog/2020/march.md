@@ -15,3 +15,4 @@
 * clean up search and decode uri
 * fix links and button names to standard format
 * refactor how we deal with & in advanced search
+* revert email list goes to edit
