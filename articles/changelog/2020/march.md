@@ -12,3 +12,6 @@
 * add GetTotalRecords
 * set tenantid
 * bug handling automation delete redirect
+* clean up search and decode uri
+* fix links and button names to standard format
+* refactor how we deal with & in advanced search
