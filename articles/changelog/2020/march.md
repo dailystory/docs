@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for January 2020
+## March 3, 2020
+* bug in block builder
+
 ## March 2, 2020
 * return a data table model for contacts
 * custom pager
