@@ -5,6 +5,7 @@
 # DailyStory Product Updates for January 2020
 ## March 3, 2020
 * bug in block builder
+* more advanced search updates
 
 ## March 2, 2020
 * return a data table model for contacts
