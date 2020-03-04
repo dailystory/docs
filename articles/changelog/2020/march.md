@@ -7,6 +7,7 @@
 * issue with loading sequence when campaign not set
 * Lead names in campaigns not populating
 * reduce request size of member of for segments
+* api and end points for new shortened links
 
 ## March 3, 2020
 * bug in block builder
