@@ -3,6 +3,10 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for January 2020
+## March 4, 2020
+* issue with loading sequence when campaign not set
+* Lead names in campaigns not populating
+
 ## March 3, 2020
 * bug in block builder
 * more advanced search updates
