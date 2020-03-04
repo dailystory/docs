@@ -8,6 +8,8 @@
 * Lead names in campaigns not populating
 * reduce request size of member of for segments
 * api and end points for new shortened links
+* add license checks and updates for link shortner
+* move web page parser/preview to class
 
 ## March 3, 2020
 * bug in block builder
