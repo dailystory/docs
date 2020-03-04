@@ -10,6 +10,7 @@
 * api and end points for new shortened links
 * add license checks and updates for link shortner
 * move web page parser/preview to class
+* revert asset path changes
 
 ## March 3, 2020
 * bug in block builder
