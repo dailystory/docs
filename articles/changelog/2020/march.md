@@ -3,6 +3,13 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for January 2020
+## March 5, 2020
+* group buttons into div
+* refactor isavailable to isslugunique
+* page api and refactor how slugs are handled
+* clean up slgu api names
+* add update slug to content pages
+
 ## March 4, 2020
 * issue with loading sequence when campaign not set
 * Lead names in campaigns not populating
