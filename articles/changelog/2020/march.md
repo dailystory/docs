@@ -9,6 +9,7 @@
 * page api and refactor how slugs are handled
 * clean up slgu api names
 * add update slug to content pages
+* design buttons modeled after email design buttons for pages
 
 ## March 4, 2020
 * issue with loading sequence when campaign not set
