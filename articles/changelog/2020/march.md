@@ -13,6 +13,7 @@
 * remove claims check for getting segments
 * remove segment caching
 * published links can't change url slugs
+* enforce slug length and allowed characters
 
 ## March 4, 2020
 * issue with loading sequence when campaign not set
