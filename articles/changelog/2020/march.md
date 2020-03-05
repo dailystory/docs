@@ -11,6 +11,7 @@
 * add update slug to content pages
 * design buttons modeled after email design buttons for pages
 * remove claims check for getting segments
+* remove segment caching
 
 ## March 4, 2020
 * issue with loading sequence when campaign not set
