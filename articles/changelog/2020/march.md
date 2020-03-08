@@ -3,6 +3,10 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for January 2020
+## March 8, 2020
+* sms keyword support
+* check if dsid is in campaign
+
 ## March 5, 2020
 * group buttons into div
 * refactor isavailable to isslugunique
