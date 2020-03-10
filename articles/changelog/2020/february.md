@@ -2,7 +2,7 @@
 	title: 'February 2020 Product Update',
 	description: 'Product Updates for February 2020'
 }
-# DailyStory Product Updates for January 2020
+# DailyStory Product Updates for February 2020
 ## February 28, 2020
 * link to push report from assets
 * updates to support contacts data table
