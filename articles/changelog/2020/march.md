@@ -5,6 +5,7 @@
 # DailyStory Product Updates for March 2020
 ## March 10, 2020
 * save lead on keyword creation
+* add bbcs integration UX
 
 ## March 9, 2020
 * fix sort bug on conversions
