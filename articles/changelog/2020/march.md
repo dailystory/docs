@@ -7,6 +7,7 @@
 * save lead on keyword creation
 * add bbcs integration UX
 * installer for bbcs
+* add support for bbcs eligibility
 
 ## March 9, 2020
 * fix sort bug on conversions
