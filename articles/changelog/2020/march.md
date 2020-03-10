@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 10, 2020
+* save lead on keyword creation
+
 ## March 9, 2020
 * fix sort bug on conversions
 * show magic form conversions
