@@ -8,6 +8,9 @@
 * add bbcs integration UX
 * installer for bbcs
 * add support for bbcs eligibility
+* add istransactional email flag
+* set webform to 0 on clone
+* integration fields for bbcs
 
 ## March 9, 2020
 * fix sort bug on conversions
