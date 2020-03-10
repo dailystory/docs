@@ -2,7 +2,7 @@
 	title: 'March 2020 Product Update',
 	description: 'Product Updates for March 2020'
 }
-# DailyStory Product Updates for January 2020
+# DailyStory Product Updates for March 2020
 ## March 9, 2020
 * fix sort bug on conversions
 * show magic form conversions
