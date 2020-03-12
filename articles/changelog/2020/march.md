@@ -9,6 +9,7 @@
 * remove greatest deferred date
 * don't modify raw html if designer isn't used
 * add better support for transactional flagged emails
+* bug in url path
 
 ## March 10, 2020
 * save lead on keyword creation
