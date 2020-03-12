@@ -12,6 +12,7 @@
 * bug in url path
 * campaign selector should call callback when set campaign id via url
 * lead status action should allow 0
+* add ux for setting email as transactional
 
 ## March 10, 2020
 * save lead on keyword creation
