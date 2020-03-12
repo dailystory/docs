@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 12, 2020
+* handle tracking link license exception
+
 ## March 10, 2020
 * save lead on keyword creation
 * add bbcs integration UX
