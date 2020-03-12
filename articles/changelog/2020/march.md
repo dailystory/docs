@@ -15,6 +15,7 @@
 * add ux for setting email as transactional
 * set conditions when occurs vs waiting until process date
 * set condition for email open and click
+* set transactional status for email preview
 
 ## March 10, 2020
 * save lead on keyword creation
