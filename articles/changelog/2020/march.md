@@ -5,6 +5,10 @@
 # DailyStory Product Updates for March 2020
 ## March 12, 2020
 * handle tracking link license exception
+* convert to explicit send test method for emails
+* remove greatest deferred date
+* don't modify raw html if designer isn't used
+* add better support for transactional flagged emails
 
 ## March 10, 2020
 * save lead on keyword creation
