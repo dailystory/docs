@@ -10,6 +10,8 @@
 * set origin data on leads created through text message keywords
 * process keywords before start words
 * create lead should capture origin name, and lead source id
+* various bugs in tags
+* updates in UX for supporting contact tags
 
 ## March 12, 2020
 * handle tracking link license exception
