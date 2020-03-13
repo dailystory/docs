@@ -12,6 +12,7 @@
 * create lead should capture origin name, and lead source id
 * various bugs in tags
 * updates in UX for supporting contact tags
+* clear tag cache on update
 
 ## March 12, 2020
 * handle tracking link license exception
