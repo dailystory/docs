@@ -6,6 +6,10 @@
 ## March 13, 2020
 * add support for text message keywords
 * bug in save and close with screenshot logic
+* text message keyword activity ux
+* set origin data on leads created through text message keywords
+* process keywords before start words
+* create lead should capture origin name, and lead source id
 
 ## March 12, 2020
 * handle tracking link license exception
