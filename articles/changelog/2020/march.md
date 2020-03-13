@@ -3,6 +3,10 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 13, 2020
+* add support for text message keywords
+* bug in save and close with screenshot logic
+
 ## March 12, 2020
 * handle tracking link license exception
 * convert to explicit send test method for emails
