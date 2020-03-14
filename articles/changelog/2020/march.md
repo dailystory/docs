@@ -3,6 +3,11 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 14, 2020
+* use tag id when displaying tags in search
+* add tag to contact document
+* update last indexed when tag is added/removed from contact
+
 ## March 13, 2020
 * add support for text message keywords
 * bug in save and close with screenshot logic
