@@ -5,6 +5,7 @@
 # DailyStory Product Updates for March 2020
 ## March 15, 2020
 * add validations
+* check if text message keyword already exists
 
 ## March 14, 2020
 * use tag id when displaying tags in search
