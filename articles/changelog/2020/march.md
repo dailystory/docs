@@ -6,6 +6,7 @@
 ## March 15, 2020
 * add validations
 * check if text message keyword already exists
+* organize for unit tests
 
 ## March 14, 2020
 * use tag id when displaying tags in search
