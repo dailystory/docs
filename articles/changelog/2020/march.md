@@ -7,6 +7,8 @@
 * bug when export search s is not set in querystring default to all
 * more datatable updates
 * fix breadcrumb separator
+* add filter for segments
+* updates for search for improvements to contacts and segment search
 
 ## March 15, 2020
 * add validations
