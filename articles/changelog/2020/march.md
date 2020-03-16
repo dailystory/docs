@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 16, 2020
+* bug when export search s is not set in querystring default to all
+
 ## March 15, 2020
 * add validations
 * check if text message keyword already exists
