@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 17, 2020
+* status of automation to show is running or not
+
 ## March 16, 2020
 * bug when export search s is not set in querystring default to all
 * more datatable updates
