@@ -8,6 +8,7 @@
 * move url helper and other improvements
 * add support to storage for utmcampaign
 * refactor how emails build links for utm codes and tracking tags
+* set utm in campaign ux
 
 ## March 17, 2020
 * status of automation to show is running or not
