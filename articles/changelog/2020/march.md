@@ -3,6 +3,12 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 18, 2020
+* tracking links and users weren't getting properly set for class of service
+* move url helper and other improvements
+* add support to storage for utmcampaign
+* refactor how emails build links for utm codes and tracking tags
+
 ## March 17, 2020
 * status of automation to show is running or not
 * add url helper for working with utm codes
