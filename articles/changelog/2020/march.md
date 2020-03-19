@@ -3,6 +3,11 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 19, 2020
+* move social media sync logic into core
+* refactor social media ux and move to datatable
+* add ip address helper
+
 ## March 18, 2020
 * tracking links and users weren't getting properly set for class of service
 * move url helper and other improvements
