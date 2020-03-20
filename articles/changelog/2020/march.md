@@ -7,6 +7,8 @@
 * updates for salesforce integration sync
 * updates to ip address lookup
 * updates to social media publishing ux
+* refactor to clean up social media accounts
+* hardcode whitelable for itm
 
 ## March 19, 2020
 * move social media sync logic into core
