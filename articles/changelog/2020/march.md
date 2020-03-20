@@ -3,6 +3,11 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 20, 2020
+* updates for salesforce integration sync
+* updates to ip address lookup
+* updates to social media publishing ux
+
 ## March 19, 2020
 * move social media sync logic into core
 * refactor social media ux and move to datatable
