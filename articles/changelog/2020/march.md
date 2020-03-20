@@ -9,6 +9,7 @@
 * updates to social media publishing ux
 * refactor to clean up social media accounts
 * hardcode whitelable for itm
+* prevent over querying of open street maps
 
 ## March 19, 2020
 * move social media sync logic into core
