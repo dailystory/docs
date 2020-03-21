@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 21, 2020
+* optimize how geo location lookups are performed
+
 ## March 20, 2020
 * updates for salesforce integration sync
 * updates to ip address lookup
