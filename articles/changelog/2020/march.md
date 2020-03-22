@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 22, 2020
+* handle additional whitelabel domains
+
 ## March 21, 2020
 * optimize how geo location lookups are performed
 
