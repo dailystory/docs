@@ -5,6 +5,7 @@
 # DailyStory Product Updates for March 2020
 ## March 23, 2020
 * add support for appointment location
+* location sort and skip lists
 
 ## March 22, 2020
 * handle additional whitelabel domains
