@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 23, 2020
+* add support for appointment location
+
 ## March 22, 2020
 * handle additional whitelabel domains
 * initial checkin for appointments
