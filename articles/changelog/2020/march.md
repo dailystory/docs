@@ -10,6 +10,7 @@
 * support for custom object field lookups in SFDC
 * add support for add/remove tags in autopilot
 * refactor timeslots for locations
+* handle timeslots in ux
 
 ## March 23, 2020
 * add support for appointment location
