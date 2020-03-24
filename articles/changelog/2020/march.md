@@ -11,6 +11,7 @@
 * add support for add/remove tags in autopilot
 * refactor timeslots for locations
 * handle timeslots in ux
+* bug Import link on side bar menu of contacts does not work
 
 ## March 23, 2020
 * add support for appointment location
