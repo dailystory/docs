@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 24, 2020
+* handle exceptions in Twilio post instead of returning message
+
 ## March 23, 2020
 * add support for appointment location
 * location sort and skip lists
