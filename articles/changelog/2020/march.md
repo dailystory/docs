@@ -5,6 +5,9 @@
 # DailyStory Product Updates for March 2020
 ## March 24, 2020
 * handle exceptions in Twilio post instead of returning message
+* update time picker style
+* updates to locations
+* support for custom object field lookups in SFDC
 
 ## March 23, 2020
 * add support for appointment location
