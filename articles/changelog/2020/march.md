@@ -5,6 +5,8 @@
 # DailyStory Product Updates for March 2020
 ## March 25, 2020
 * Emails sent through workflow needs to honor email isTransactional state
+* update for returning all locations
+* delete a time slot
 
 ## March 24, 2020
 * handle exceptions in Twilio post instead of returning message
