@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 25, 2020
+* Emails sent through workflow needs to honor email isTransactional state
+
 ## March 24, 2020
 * handle exceptions in Twilio post instead of returning message
 * update time picker style
