@@ -7,6 +7,7 @@
 * Emails sent through workflow needs to honor email isTransactional state
 * update for returning all locations
 * delete a time slot
+* refactor web form ux
 
 ## March 24, 2020
 * handle exceptions in Twilio post instead of returning message
