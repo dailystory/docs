@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 26, 2020
+* fix link paths to delivered emails
+
 ## March 25, 2020
 * Emails sent through workflow needs to honor email isTransactional state
 * update for returning all locations
