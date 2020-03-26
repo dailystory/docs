@@ -6,6 +6,7 @@
 ## March 26, 2020
 * fix link paths to delivered emails
 * webform designer v2 updates
+* appointment time slots must support start and end dates
 
 ## March 25, 2020
 * Emails sent through workflow needs to honor email isTransactional state
