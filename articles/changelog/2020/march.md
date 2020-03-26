@@ -7,7 +7,9 @@
 * fix link paths to delivered emails
 * webform designer v2 updates
 * appointment time slots must support start and end dates
-
+* schedule an appointment
+* appointment exceptions
+* Location is open and get location timeslots
 ## March 25, 2020
 * Emails sent through workflow needs to honor email isTransactional state
 * update for returning all locations
