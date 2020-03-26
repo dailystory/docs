@@ -10,6 +10,8 @@
 * schedule an appointment
 * appointment exceptions
 * Location is open and get location timeslots
+* mindbody handle client services that get used up
+
 ## March 25, 2020
 * Emails sent through workflow needs to honor email isTransactional state
 * update for returning all locations
