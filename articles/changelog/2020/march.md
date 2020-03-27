@@ -11,6 +11,8 @@
 * standardize checks for @test and @example emails
 * set isemailenabled when updating a contact
 * set isemailenabled false when set to example
+* timeslot requrest start and end date
+* instrutions property on location
 
 ## March 26, 2020
 * fix link paths to delivered emails
