@@ -5,6 +5,7 @@
 # DailyStory Product Updates for March 2020
 ## March 27, 2020
 * handle deselecting when clicking outside of web form designer
+* updates to web form designer
 
 ## March 26, 2020
 * fix link paths to delivered emails
