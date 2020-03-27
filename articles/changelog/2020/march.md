@@ -13,6 +13,7 @@
 * set isemailenabled false when set to example
 * timeslot requrest start and end date
 * instrutions property on location
+* handle import from webforms v1
 
 ## March 26, 2020
 * fix link paths to delivered emails
