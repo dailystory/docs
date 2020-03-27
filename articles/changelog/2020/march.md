@@ -6,6 +6,8 @@
 ## March 27, 2020
 * handle deselecting when clicking outside of web form designer
 * updates to web form designer
+* webform designer components
+* create/update time slot on location modal
 
 ## March 26, 2020
 * fix link paths to delivered emails
