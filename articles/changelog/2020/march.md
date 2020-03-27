@@ -8,6 +8,9 @@
 * updates to web form designer
 * webform designer components
 * create/update time slot on location modal
+* standardize checks for @test and @example emails
+* set isemailenabled when updating a contact
+* set isemailenabled false when set to example
 
 ## March 26, 2020
 * fix link paths to delivered emails
