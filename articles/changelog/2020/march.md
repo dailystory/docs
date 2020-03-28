@@ -10,6 +10,7 @@
 * bug segment shouldn't exclude example.com emails for stats
 * handle additional Twilio codes
 * update selection and drag styles in web forms designer
+* make sure Campaign is set if utm campaign is set
 
 ## March 27, 2020
 * handle deselecting when clicking outside of web form designer
