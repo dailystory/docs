@@ -9,6 +9,7 @@
 * remove render v1 from label
 * bug segment shouldn't exclude example.com emails for stats
 * handle additional Twilio codes
+* update selection and drag styles in web forms designer
 
 ## March 27, 2020
 * handle deselecting when clicking outside of web form designer
