@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 28, 2020
+* bug when popup path included full url
+
 ## March 27, 2020
 * handle deselecting when clicking outside of web form designer
 * updates to web form designer
