@@ -5,6 +5,10 @@
 # DailyStory Product Updates for March 2020
 ## March 28, 2020
 * bug when popup path included full url
+* refactor how labels are handled in webform designer v2a
+* remove render v1 from label
+* bug segment shouldn't exclude example.com emails for stats
+* handle additional Twilio codes
 
 ## March 27, 2020
 * handle deselecting when clicking outside of web form designer
