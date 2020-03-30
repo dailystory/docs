@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 30, 2020
+* update not found message for dslnk.co
+
 ## March 29, 2020
 * support export method for graph fields
 * refactor timeslot modal
