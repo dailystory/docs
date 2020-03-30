@@ -5,6 +5,11 @@
 # DailyStory Product Updates for March 2020
 ## March 30, 2020
 * update not found message for dslnk.co
+* update sms designer ux to support url shortener
+* clean up formatting html for push designer
+* additional twilio enum types
+* add support for base 62 encoding with capitalization support
+* refactor text messaging to support redirect tracking links
 
 ## March 29, 2020
 * support export method for graph fields
