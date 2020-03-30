@@ -11,6 +11,7 @@
 * add support for base 62 encoding with capitalization support
 * refactor text messaging to support redirect tracking links
 * click tracking is on by default for new text messages
+* set help and handle label when populated in input box for webforms designer
 
 ## March 29, 2020
 * support export method for graph fields
