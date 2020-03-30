@@ -10,6 +10,7 @@
 * additional twilio enum types
 * add support for base 62 encoding with capitalization support
 * refactor text messaging to support redirect tracking links
+* click tracking is on by default for new text messages
 
 ## March 29, 2020
 * support export method for graph fields
