@@ -3,6 +3,11 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 29, 2020
+* support export method for graph fields
+* refactor timeslot modal
+* update to campaign and contact graphs for export
+
 ## March 28, 2020
 * bug when popup path included full url
 * refactor how labels are handled in webform designer v2a
