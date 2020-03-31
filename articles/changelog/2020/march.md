@@ -5,6 +5,10 @@
 # DailyStory Product Updates for March 2020
 ## March 31, 2020
 * initial support for rte in web form designer
+* conditions and triggers for text message clicks
+* refactor textmessagelink
+* update textmessage click queue item for automations
+* standardize automation item keys
 
 ## March 30, 2020
 * update not found message for dslnk.co
