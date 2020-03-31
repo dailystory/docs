@@ -3,6 +3,9 @@
 	description: 'Product Updates for March 2020'
 }
 # DailyStory Product Updates for March 2020
+## March 31, 2020
+* initial support for rte in web form designer
+
 ## March 30, 2020
 * update not found message for dslnk.co
 * update sms designer ux to support url shortener
