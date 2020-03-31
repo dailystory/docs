@@ -9,6 +9,7 @@
 * refactor textmessagelink
 * update textmessage click queue item for automations
 * standardize automation item keys
+* update text message valid send time to start at 500a
 
 ## March 30, 2020
 * update not found message for dslnk.co
