@@ -11,6 +11,10 @@
 * standardize automation item keys
 * update text message valid send time to start at 500a
 * updates to web form designer v2
+* rename time slot modal and upates
+* typo in select name
+* initialize the timeslot modal
+* API to update a timeslot
 
 ## March 30, 2020
 * update not found message for dslnk.co
