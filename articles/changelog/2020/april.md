@@ -4,3 +4,6 @@
 }
 # DailyStory Product Updates for April 2020
 ## April 1, 2020
+* Clean to trial creation process exception handling
+* Typos and updates to NeverBounce
+* bug in insert for timeslots
