@@ -11,3 +11,4 @@
 * iteration on web form designer v2
 * add recaptcha design element for web form designer
 * refactor how salesforce handles custom object lookups
+* updates salesforce to pull custom object by last updated in batch
