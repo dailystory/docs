@@ -370,7 +370,7 @@ The API accepts both a DsID or an email address.
 <ol class="api"><li value="POST">/api/v1/contact/optout/email</li></ol>
 
 ### Sample request body
-The body of the POST must include a JSON array containing objects with either an email or a DsID property:
+The body of the POST must include a JSON array containing multiple objects with either an email or a DsID property used to identify a contact:
 
 <pre class="brush: javascript">
 [{
@@ -379,6 +379,8 @@ The body of the POST must include a JSON array containing objects with either an
 	"dsid": "eb6a2fbb594143b7b89a2bfc0a8a20b5"
 }]
 </pre>
+
+The example request body above would attempt to mark 2 different contacts as opted out.
 
 ### Request body fields
 <table class="table">
@@ -391,12 +393,12 @@ The body of the POST must include a JSON array containing objects with either an
 </thead>
 <tbody>
 <tr>
-<td>email</td>
+<td>`email`</td>
 <td>The email address of the contact.</td>
 <td>string</td>
 </tr>
 <tr>
-<td>dsid</td>
+<td>`dsid`</td>
 <td>The unique DailyStory id (DsId) of the contact.</td>
 <td>string</td>
 </tr>
