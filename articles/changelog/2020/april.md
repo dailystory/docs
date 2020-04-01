@@ -8,3 +8,4 @@
 * Typos and updates to NeverBounce
 * bug in insert for timeslots
 * When creating a new autopilot automation the disabled state needs to be shown
+* iteration on web form designer v2
