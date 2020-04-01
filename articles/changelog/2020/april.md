@@ -7,3 +7,4 @@
 * Clean to trial creation process exception handling
 * Typos and updates to NeverBounce
 * bug in insert for timeslots
+* When creating a new autopilot automation the disabled state needs to be shown
