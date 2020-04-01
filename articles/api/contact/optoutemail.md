@@ -18,9 +18,9 @@ The body of the POST must include a JSON array containing objects with either an
 
 <pre class="brush: javascript">
 [{
-"email": "optmeout@example.com"
+	"email": "optmeout@example.com"
 },{
-"dsid": "eb6a2fbb594143b7b89a2bfc0a8a20b5"
+	"dsid": "eb6a2fbb594143b7b89a2bfc0a8a20b5"
 }]
 </pre>
 

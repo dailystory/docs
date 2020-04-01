@@ -68,7 +68,7 @@ All of DailyStory's platform is accessible through a REST API and WebHooks for r
 <td>Register a device for a contact for push notifications</td>
 </tr>
 <tr>
-<td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/contact/optoutemail.md">/api/v1/contact/optout/email</a></code></td>
+<td width="25%" nowrap><code><a href="https://docs.dailystory.com/api/contact/optoutemail">/api/v1/contact/optout/email</a></code></td>
 <td>POST</td>
 <td>Optout contacts from emails</td>
 </tr>
