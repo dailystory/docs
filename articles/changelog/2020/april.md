@@ -5,6 +5,7 @@
 # DailyStory Product Updates for April 2020
 ## April 2, 2020
 * support select name value pairs in web form designer v2
+* web form submit action option
 
 ## April 1, 2020
 * Clean to trial creation process exception handling
