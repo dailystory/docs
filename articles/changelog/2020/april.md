@@ -6,6 +6,10 @@
 ## April 2, 2020
 * support select name value pairs in web form designer v2
 * web form submit action option
+* change location controller to cancel vs delete
+* stub out appointment create/edit
+* updates to modal timeslot editor
+* fix bugs with how locations are retrieved
 
 ## April 1, 2020
 * Clean to trial creation process exception handling
