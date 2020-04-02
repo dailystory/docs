@@ -10,6 +10,8 @@
 * stub out appointment create/edit
 * updates to modal timeslot editor
 * fix bugs with how locations are retrieved
+* separate email url hash path
+* merge Base64 encode url email
 
 ## April 1, 2020
 * Clean to trial creation process exception handling
