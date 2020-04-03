@@ -11,6 +11,7 @@
 * bug generating internal lead id from base 64 encoded linkid
 * update to text message reports for delivered and clicks
 * bug when clicking on report for email in list
+* iteration on webforms designer v2
 
 ## April 2, 2020
 * support select name value pairs in web form designer v2
