@@ -8,6 +8,7 @@
 * redirect hash support for email tracking
 * bug with internal email check on trials
 * log sms clicks to sms click queue
+* bug generating internal lead id from base 64 encoded linkid
 
 ## April 2, 2020
 * support select name value pairs in web form designer v2
