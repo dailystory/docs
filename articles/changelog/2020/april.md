@@ -12,6 +12,7 @@
 * update to text message reports for delivered and clicks
 * bug when clicking on report for email in list
 * iteration on webforms designer v2
+* fix breadcrumb bug in push ux
 
 ## April 2, 2020
 * support select name value pairs in web form designer v2
