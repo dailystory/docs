@@ -3,6 +3,12 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 3, 2020
+* web form v2 designer updates
+* redirect hash support for email tracking
+* bug with internal email check on trials
+* log sms clicks to sms click queue
+
 ## April 2, 2020
 * support select name value pairs in web form designer v2
 * web form submit action option
