@@ -14,6 +14,8 @@
 * iteration on webforms designer v2
 * fix breadcrumb bug in push ux
 * add version to track version for web forms v2
+* set focus on advanced search
+* Add menu options for branch
 
 ## April 2, 2020
 * support select name value pairs in web form designer v2
