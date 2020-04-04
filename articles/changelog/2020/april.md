@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 4, 2020
+* refactor new lead notification method
+
 ## April 3, 2020
 * web form v2 designer updates
 * redirect hash support for email tracking
