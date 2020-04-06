@@ -5,6 +5,7 @@
 # DailyStory Product Updates for April 2020
 ## April 6, 2020
 * remove text message settings
+* update trial creation logic to block certain countries
 
 ## April 4, 2020
 * refactor new lead notification method
