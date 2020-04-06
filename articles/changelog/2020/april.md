@@ -8,6 +8,8 @@
 * update trial creation logic to block certain countries
 * bug in common tags lookup
 * add tags to advanced search v1
+* update trials to use tags
+* bug with tag ux new tags not linked properly
 
 ## April 4, 2020
 * refactor new lead notification method
