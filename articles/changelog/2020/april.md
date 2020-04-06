@@ -6,6 +6,8 @@
 ## April 6, 2020
 * remove text message settings
 * update trial creation logic to block certain countries
+* bug in common tags lookup
+* add tags to advanced search v1
 
 ## April 4, 2020
 * refactor new lead notification method
