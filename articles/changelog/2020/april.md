@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 7, 2020
+* updates to contacts data table
+
 ## April 6, 2020
 * remove text message settings
 * update trial creation logic to block certain countries
