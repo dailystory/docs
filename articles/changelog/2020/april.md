@@ -5,6 +5,8 @@
 # DailyStory Product Updates for April 2020
 ## April 7, 2020
 * updates to contacts data table
+* handle case where row doesn't exist
+* handle clear behavior in datatables 
 
 ## April 6, 2020
 * remove text message settings
