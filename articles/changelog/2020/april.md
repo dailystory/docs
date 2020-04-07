@@ -7,6 +7,8 @@
 * updates to contacts data table
 * handle case where row doesn't exist
 * handle clear behavior in datatables 
+* graph field api returns full contact property set
+* support new graph api to populate contact field list
 
 ## April 6, 2020
 * remove text message settings
