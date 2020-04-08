@@ -5,6 +5,7 @@
 # DailyStory Product Updates for April 2020
 ## April 8, 2020
 * camapign fields in sidebar
+* ensure table is setup before trying to setup paging
 
 ## April 7, 2020
 * updates to contacts data table
