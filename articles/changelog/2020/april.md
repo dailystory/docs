@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 8, 2020
+* camapign fields in sidebar
+
 ## April 7, 2020
 * updates to contacts data table
 * handle case where row doesn't exist
