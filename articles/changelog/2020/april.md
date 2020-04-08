@@ -7,6 +7,7 @@
 * camapign fields in sidebar
 * ensure table is setup before trying to setup paging
 * Clicking an email report, such as opens, shouldn't constrain by date
+* refactor mailgun api to add support for AMP emails
 
 ## April 7, 2020
 * updates to contacts data table
