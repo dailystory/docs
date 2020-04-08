@@ -10,6 +10,9 @@
 * graph field api returns full contact property set
 * support new graph api to populate contact field list
 * updates to web form designer v2 blocks
+* remove replaced api for graph
+* updates to manage campaign and contact graph
+* getgraphasync should always return by id
 
 ## April 6, 2020
 * remove text message settings
