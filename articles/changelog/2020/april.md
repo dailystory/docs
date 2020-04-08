@@ -6,6 +6,7 @@
 ## April 8, 2020
 * camapign fields in sidebar
 * ensure table is setup before trying to setup paging
+* Clicking an email report, such as opens, shouldn't constrain by date
 
 ## April 7, 2020
 * updates to contacts data table
