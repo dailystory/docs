@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 9, 2020
+* Performance improvments to lead and contact activity
+
 ## April 8, 2020
 * camapign fields in sidebar
 * ensure table is setup before trying to setup paging
