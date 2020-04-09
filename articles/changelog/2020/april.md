@@ -5,6 +5,7 @@
 # DailyStory Product Updates for April 2020
 ## April 9, 2020
 * Performance improvments to lead and contact activity
+* update contact activity ux
 
 ## April 8, 2020
 * camapign fields in sidebar
