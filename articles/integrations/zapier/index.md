@@ -13,6 +13,15 @@ DailyStory's [Zapier integration](https://zapier.com) enables you to connect Dai
 
 DailyStory’s Zapier support includes both Triggers and Actions specific to DailyStory.
 
+## Configuring Zapier Integration
+There are several steps required to configure DailyStory and Zapier integration. These steps are detailed below.
+
+<ol class="step"><li value="1">Create a Mailgun Account</li></ol>
+Visit [Zapier](https://www.zapier.com) and create an account.
+
+<ol class="step"><li value="2">Create a DailyStory API key</li></ol>
+Visit [Zapier](https://www.zapier.com) and create an account.
+
 ## DailyStory Triggers
 DailyStory provides several Zapier Triggers:
 

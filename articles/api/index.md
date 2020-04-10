@@ -9,6 +9,12 @@ The [open source and published on GitHub](https://github.com/dailystory/SDKs/) p
 
 > If you are integrating DailyStory into your existing application you may want to investigate our [Zapier Triggers and Actions](https://zapier.com/). Zapier makes it easy to create workflows without requiring developers.
 
+## API tokens and authentication
+Before you can use the API, SDKs, or integrations such as Zapier. You will need an API authentication token. 
+
+* [API Authentication token](/api/start)
+* [Using the token](/api/start)
+
 ## Software Development Kits (SDKs)
 The DailyStory SDKs are [open source and published on GitHub](https://github.com/dailystory/SDKs/). There are currently two published SDKs.
 
