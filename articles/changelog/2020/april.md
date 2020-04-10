@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 10, 2020
+* zapier endpoint needs to force authentication
+
 ## April 9, 2020
 * Performance improvments to lead and contact activity
 * update contact activity ux
