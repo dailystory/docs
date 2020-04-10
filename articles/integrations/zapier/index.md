@@ -16,11 +16,23 @@ DailyStory’s Zapier support includes both Triggers and Actions specific to Dai
 ## Configuring Zapier Integration
 There are several steps required to configure DailyStory and Zapier integration. These steps are detailed below.
 
-<ol class="step"><li value="1">Create a Mailgun Account</li></ol>
+<ol class="step"><li value="1">Create a Zapier Account</li></ol>
 Visit [Zapier](https://www.zapier.com) and create an account.
 
-<ol class="step"><li value="2">Create a DailyStory API key</li></ol>
-Visit [Zapier](https://www.zapier.com) and create an account.
+<ol class="step"><li value="2">Create a DailyStory authentication token</li></ol>
+Create a [DailyStory Authentication token](/api/start)
+
+<ol class="step"><li value="3">Request an invite to the DailyStory App</li></ol>
+DailyStory's Zapier App is currently invite-only. While logged into Zapier, please [request an invitation](https://zapier.com/developer/invite/110680/51e21b7556cb31cb919bd50e78a0101b/) to the DailyStory App.
+
+<ol class="step"><li value="4">Configure the DailyStory App in Zapier</li></ol>
+After completing Step 3, you should be presented with the following screen:
+
+![Configure DailyStory App](/articles/integrations/zapier/zapier-03.png "Configure DailyStory App")
+
+Enter the DailyStory authentication token and subdomain values obtained in step 2.
+
+Congratulations, you are now ready to use the DailyStory App!
 
 ## DailyStory Triggers
 DailyStory provides several Zapier Triggers:
