@@ -5,6 +5,7 @@
 # DailyStory Product Updates for April 2020
 ## April 13, 2020
 * RhinoFit integration
+* Handle null name fields in email
 
 ## April 10, 2020
 * zapier endpoint needs to force authentication
