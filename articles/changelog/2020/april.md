@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 14, 2020
+* bug in text message designer editor
+
 ## April 13, 2020
 * RhinoFit integration
 * Handle null name fields in email
