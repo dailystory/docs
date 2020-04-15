@@ -10,6 +10,7 @@
 * updates to upgrade and license usage report
 * bug in old campaign license check path
 * bug in twilio status lookup for text messages
+* updates to web forms designer v2
 
 ## April 14, 2020
 * bug in text message designer editor
