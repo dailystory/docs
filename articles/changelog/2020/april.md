@@ -8,6 +8,7 @@
 * Add new license types: start up, standard and growth
 * updates to RhinoFit integration
 * updates to upgrade and license usage report
+* bug in old campaign license check path
 
 ## April 14, 2020
 * bug in text message designer editor
