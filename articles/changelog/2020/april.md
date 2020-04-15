@@ -3,8 +3,18 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 15, 2020
+* remove campaign license limits
+* Add new license types: start up, standard and growth
+* updates to RhinoFit integration
+* updates to upgrade and license usage report
+
 ## April 14, 2020
 * bug in text message designer editor
+* Updates to licensing and how text messages credits are counted
+* RhinoFit install/uninstaller
+* updates to licensing UX
+* add support for RhinoFit in UX
 
 ## April 13, 2020
 * RhinoFit integration
