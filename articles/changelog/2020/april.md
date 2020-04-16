@@ -7,6 +7,7 @@
 * Update whitelabel logic
 * update campaign stats api endpoints to v1
 * add campaign dashboard report
+* update with additional RhinoFit fields
 
 ## April 15, 2020
 * remove campaign license limits
