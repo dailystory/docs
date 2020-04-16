@@ -5,6 +5,8 @@
 # DailyStory Product Updates for April 2020
 ## April 16, 2020
 * Update whitelabel logic
+* update campaign stats api endpoints to v1
+* add campaign dashboard report
 
 ## April 15, 2020
 * remove campaign license limits
