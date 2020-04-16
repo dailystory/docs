@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 16, 2020
+* Update whitelabel logic
+
 ## April 15, 2020
 * remove campaign license limits
 * Add new license types: start up, standard and growth
