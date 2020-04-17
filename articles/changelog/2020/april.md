@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 17, 2020
+* performance work around campaign and lead stats
+
 ## April 16, 2020
 * Update whitelabel logic
 * update campaign stats api endpoints to v1
