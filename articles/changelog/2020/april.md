@@ -5,6 +5,7 @@
 # DailyStory Product Updates for April 2020
 ## April 17, 2020
 * performance work around campaign and lead stats
+* convert to left outer join for stats views
 
 ## April 16, 2020
 * Update whitelabel logic
