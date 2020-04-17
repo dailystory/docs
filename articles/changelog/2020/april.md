@@ -7,6 +7,7 @@
 * performance work around campaign and lead stats
 * convert to left outer join for stats views
 * bug with comma in number
+* work on campaign api
 
 ## April 16, 2020
 * Update whitelabel logic
