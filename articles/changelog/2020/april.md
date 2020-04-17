@@ -9,6 +9,7 @@
 * add campaign dashboard report
 * update with additional RhinoFit fields
 * set isfirsttime for first time the job is registered
+* updates to RhinoFit integration with new fields and error handling
 
 ## April 15, 2020
 * remove campaign license limits
