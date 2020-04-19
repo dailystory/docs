@@ -6,6 +6,7 @@
 ## April 19, 2020
 * update to campaign stats api
 * Add support for v2 forms in web form designer
+* bug in how mapped fields were getting set in web forms v2
 
 ## April 17, 2020
 * performance work around campaign and lead stats
