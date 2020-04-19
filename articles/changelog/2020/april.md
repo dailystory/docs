@@ -8,7 +8,11 @@
 * Add support for v2 forms in web form designer
 * bug in how mapped fields were getting set in web forms v2
 * updates to handle webforms v2 in CMS
-* support v1 and v2 form items in web forms v2 designers
+* supadd additiona web form typesport v1 and v2 form items in web forms v2 designers
+* remove member limits and clean up text message credits
+* add additiona web form types
+* handle urls for v1 and v2 web forms
+* removed license limits on number of users
 
 ## April 17, 2020
 * performance work around campaign and lead stats
