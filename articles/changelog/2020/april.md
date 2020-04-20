@@ -3,6 +3,10 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 20, 2020
+* bug in lead graph when zero records
+* remove redundant api controllers
+
 ## April 19, 2020
 * update to campaign stats api
 * Add support for v2 forms in web form designer
