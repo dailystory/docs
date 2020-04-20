@@ -6,6 +6,7 @@
 ## April 20, 2020
 * bug in lead graph when zero records
 * remove redundant api controllers
+* bug with pager displaying twice in email list
 
 ## April 19, 2020
 * update to campaign stats api
