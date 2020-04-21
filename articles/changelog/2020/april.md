@@ -8,6 +8,7 @@
 * Recaptcha site key needs to get set
 * Add support for web forms v2 in landing pages
 * handle cases where recaptcha is not enabled
+* set recaptcha in landing pages
 
 ## April 20, 2020
 * bug in lead graph when zero records
