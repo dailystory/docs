@@ -10,6 +10,7 @@
 * handle cases where recaptcha is not enabled
 * set recaptcha in landing pages
 * Bug with page designer that causes images to always expand to 100%
+* upgrade to webforms v2
 
 ## April 20, 2020
 * bug in lead graph when zero records
