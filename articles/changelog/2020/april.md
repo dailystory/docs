@@ -11,6 +11,7 @@
 * set recaptcha in landing pages
 * Bug with page designer that causes images to always expand to 100%
 * upgrade to webforms v2
+* web form message not getting set
 
 ## April 20, 2020
 * bug in lead graph when zero records
