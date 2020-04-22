@@ -5,6 +5,8 @@
 # DailyStory Product Updates for April 2020
 ## April 22, 2020
 * bug in regex to match css for single or double quote
+* update web form url paths
+* simplify html designer for content pages
 
 ## April 21, 2020
 * updates to web form controller for hosted forms v2
