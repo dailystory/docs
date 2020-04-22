@@ -7,6 +7,8 @@
 * bug in regex to match css for single or double quote
 * update web form url paths
 * simplify html designer for content pages
+* add support for Weave integration
+* trial check should bypass ip check if not a free email host
 
 ## April 21, 2020
 * updates to web form controller for hosted forms v2
