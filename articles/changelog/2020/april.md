@@ -9,6 +9,7 @@
 * simplify html designer for content pages
 * add support for Weave integration
 * trial check should bypass ip check if not a free email host
+* update installer to setup weave custom fields
 
 ## April 21, 2020
 * updates to web form controller for hosted forms v2
