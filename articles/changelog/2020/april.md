@@ -7,6 +7,9 @@
 * update graph field picklist to store name value json array
 * updates and refactor for contact import in prep for supporting mobile number as alternative key
 * updates to common functions for handling phone number validation
+* standarize phone number format
+* updates to allow mobile phone or email as a contact key
+* validation for phone numbers
 
 ## April 23, 2020
 * updates to web form to manage picklist
