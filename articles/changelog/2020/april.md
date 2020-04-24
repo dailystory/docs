@@ -3,6 +3,9 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 24, 2020
+* update graph field picklist to store name value json array
+
 ## April 23, 2020
 * updates to web form to manage picklist
 * add pick list ux to graph
