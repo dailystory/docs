@@ -10,6 +10,7 @@
 * standarize phone number format
 * updates to allow mobile phone or email as a contact key
 * validation for phone numbers
+* Email no longer required to save a contact
 
 ## April 23, 2020
 * updates to web form to manage picklist
