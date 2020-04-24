@@ -5,6 +5,11 @@
 # DailyStory Product Updates for April 2020
 ## April 23, 2020
 * updates to web form to manage picklist
+* add pick list ux to graph
+* bug on integrations trim id
+* standardize picklist table name
+* standardize picklist css
+* magic form path bug for home pages
 
 ## April 22, 2020
 * bug in regex to match css for single or double quote
