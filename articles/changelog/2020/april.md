@@ -13,6 +13,7 @@
 * Email no longer required to save a contact
 * contact map file validation for email or mobile phone
 * contact import ux validates on email or mobile phone
+* update picklists for custom fields
 
 ## April 23, 2020
 * updates to web form to manage picklist
