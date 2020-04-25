@@ -3,6 +3,10 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 25, 2020
+* bug with loading in file manager modal
+* css updates
+
 ## April 24, 2020
 * update graph field picklist to store name value json array
 * updates and refactor for contact import in prep for supporting mobile number as alternative key
