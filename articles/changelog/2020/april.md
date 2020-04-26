@@ -4,6 +4,11 @@
 }
 # DailyStory Product Updates for April 2020
 ## April 25, 2020
+* parse guids and convert to dsid format
+* updates to weave installer for new fields
+* updates to designer css
+
+## April 25, 2020
 * bug with loading in file manager modal
 * css updates
 
