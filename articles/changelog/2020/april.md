@@ -8,6 +8,7 @@
 * Return lead graph fields when we have a campaign id
 * add funnel controller
 * Add Campaign property to workflows
+* Show campaign name when viewing all automations
 
 ## April 26, 2020
 * parse guids and convert to dsid format
