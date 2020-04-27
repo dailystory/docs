@@ -10,6 +10,7 @@
 * Add Campaign property to workflows
 * Show campaign name when viewing all automations
 * remove unused api and allow null campaign id for webforms all
+* iteration on contact search v2
 
 ## April 26, 2020
 * parse guids and convert to dsid format
