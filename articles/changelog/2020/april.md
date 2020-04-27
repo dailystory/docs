@@ -3,12 +3,13 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
-## April 26, 2020
+## April 27, 2020
 * add support for canRender as some blocks should only be allowed once
 * Return lead graph fields when we have a campaign id
 * add funnel controller
+* Add Campaign property to workflows
 
-## April 25, 2020
+## April 26, 2020
 * parse guids and convert to dsid format
 * updates to weave installer for new fields
 * updates to designer css
