@@ -5,6 +5,7 @@
 # DailyStory Product Updates for April 2020
 ## April 26, 2020
 * add support for canRender as some blocks should only be allowed once
+* Return lead graph fields when we have a campaign id
 
 ## April 25, 2020
 * parse guids and convert to dsid format
