@@ -6,6 +6,7 @@
 ## April 26, 2020
 * add support for canRender as some blocks should only be allowed once
 * Return lead graph fields when we have a campaign id
+* add funnel controller
 
 ## April 25, 2020
 * parse guids and convert to dsid format
