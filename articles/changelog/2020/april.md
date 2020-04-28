@@ -8,6 +8,7 @@
 * age range updates to handle 21
 * search v2 updates
 * bug in advanced search for doubles
+* always reset the pick list table
 
 ## April 27, 2020
 * add support for canRender as some blocks should only be allowed once
