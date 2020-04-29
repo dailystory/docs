@@ -10,6 +10,7 @@
 * set count of matching records
 * encode uri components
 * remove search start
+* support select2 tags
 
 ## April 28, 2020
 * update to latest version of flowy and merge in changes
