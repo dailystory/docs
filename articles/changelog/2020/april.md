@@ -3,6 +3,11 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 29, 2020
+* remove the displayimport url param when seen
+* bug in import wireup for new start page
+* updates to advanced search v2
+
 ## April 28, 2020
 * update to latest version of flowy and merge in changes
 * age range updates to handle 21
