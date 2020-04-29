@@ -12,6 +12,7 @@
 * updates for advanced search v2
 * update common api calls to use promises
 * remove and re-order datatable css library load order
+* decode search components for search v2
 
 ## April 27, 2020
 * add support for canRender as some blocks should only be allowed once
