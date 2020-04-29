@@ -11,6 +11,7 @@
 * encode uri components
 * remove search start
 * support select2 tags
+* added support for additional search filters
 
 ## April 28, 2020
 * update to latest version of flowy and merge in changes
