@@ -7,6 +7,8 @@
 * remove the displayimport url param when seen
 * bug in import wireup for new start page
 * updates to advanced search v2
+* set count of matching records
+* encode uri components
 
 ## April 28, 2020
 * update to latest version of flowy and merge in changes
