@@ -14,6 +14,8 @@
 * refactor split2 to remove javascript
 * update to use new dropdown list apis
 * project clean up
+* updates to weave installer
+* refactor weave properties
 
 ## April 29, 2020
 * remove the displayimport url param when seen
