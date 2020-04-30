@@ -17,6 +17,8 @@
 * updates to weave installer
 * refactor weave properties
 * fix bug with form2
+* add additional contact fields to search
+* add mobile phone to search and other updates
 
 ## April 29, 2020
 * remove the displayimport url param when seen
