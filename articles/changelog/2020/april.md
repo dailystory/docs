@@ -16,6 +16,7 @@
 * project clean up
 * updates to weave installer
 * refactor weave properties
+* fix bug with form2
 
 ## April 29, 2020
 * remove the displayimport url param when seen
