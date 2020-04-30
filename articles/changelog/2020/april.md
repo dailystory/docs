@@ -3,6 +3,17 @@
 	description: 'Product Updates for April 2020'
 }
 # DailyStory Product Updates for April 2020
+## April 30, 2020
+* refactor properties class to common classes
+* modify ranged search filter to be inclusive on dates
+* refactor search filter and update for inclusive dates
+* remove old license contraints
+* updates to weave installer
+* add routes for dropdownlist populating efficiency
+* bug in autopilot campaign links
+* refactor split2 to remove javascript
+* update to use new dropdown list apis
+
 ## April 29, 2020
 * remove the displayimport url param when seen
 * bug in import wireup for new start page
