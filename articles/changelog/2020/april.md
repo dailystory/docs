@@ -13,6 +13,7 @@
 * bug in autopilot campaign links
 * refactor split2 to remove javascript
 * update to use new dropdown list apis
+* project clean up
 
 ## April 29, 2020
 * remove the displayimport url param when seen
