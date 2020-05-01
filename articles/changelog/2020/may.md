@@ -1,0 +1,1 @@
+* standardize pager info styles
