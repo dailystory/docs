@@ -5,3 +5,4 @@
 # DailyStory Product Updates for May 2020
 ## May 1, 2020
 * standardize pager info styles
+* responsive css updates
