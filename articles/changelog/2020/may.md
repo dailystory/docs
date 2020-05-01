@@ -6,3 +6,4 @@
 ## May 1, 2020
 * standardize pager info styles
 * responsive css updates
+* stub support for add tags in contact list
