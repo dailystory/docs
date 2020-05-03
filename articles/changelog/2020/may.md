@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 3, 2020
+* fix datetime bug for search ranges
+
 ## May 1, 2020
 * standardize pager info styles
 * responsive css updates
