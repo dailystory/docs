@@ -5,6 +5,8 @@
 # DailyStory Product Updates for May 2020
 ## May 3, 2020
 * fix datetime bug for search ranges
+* fix range issue on search with past next ranges
+* remove old code in campaign selector
 
 ## May 1, 2020
 * standardize pager info styles
