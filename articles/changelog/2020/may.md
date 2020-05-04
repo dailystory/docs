@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 4, 2020
+* remove check if can run seach
+
 ## May 3, 2020
 * fix datetime bug for search ranges
 * fix range issue on search with past next ranges
