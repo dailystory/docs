@@ -6,6 +6,11 @@
 ## May 4, 2020
 * remove check if can run seach
 * Updates to segment members to support removing contacts
+* add support for campaign tie back in ds scripts
+* convert mailgun jobs to always on
+* add method for looking up campaign by utm campaign id
+* update paths for notifications
+* add campaign support to tracking queue item
 
 ## May 3, 2020
 * fix datetime bug for search ranges
