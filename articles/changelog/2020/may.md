@@ -5,6 +5,7 @@
 # DailyStory Product Updates for May 2020
 ## May 4, 2020
 * remove check if can run seach
+* Updates to segment members to support removing contacts
 
 ## May 3, 2020
 * fix datetime bug for search ranges
