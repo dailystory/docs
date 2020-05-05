@@ -7,6 +7,8 @@
 * set sort order and group name on weave installer
 * support yes/no graph field types
 * add support for generation to search
+* add support to auto pick list building for salesforce
+* update weave installer to support auto update fields
 
 ## May 4, 2020
 * remove check if can run seach
