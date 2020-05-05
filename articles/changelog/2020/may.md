@@ -6,6 +6,7 @@
 ## May 5, 2020
 * set sort order and group name on weave installer
 * support yes/no graph field types
+* add support for generation to search
 
 ## May 4, 2020
 * remove check if can run seach
