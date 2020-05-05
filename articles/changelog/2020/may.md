@@ -9,6 +9,7 @@
 * add support for generation to search
 * add support to auto pick list building for salesforce
 * update weave installer to support auto update fields
+* new fields for weave and support auto picklist updates
 
 ## May 4, 2020
 * remove check if can run seach
