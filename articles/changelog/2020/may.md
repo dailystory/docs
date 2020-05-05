@@ -11,6 +11,10 @@
 * update weave installer to support auto update fields
 * new fields for weave and support auto picklist updates
 * support in cms for forcing page from cache if test user
+* add support for funnels
+* process funnel on web view
+* add support for sort and autoupdate on graph fields
+* common method to quickly convert utc to tenant's timezone
 
 ## May 4, 2020
 * remove check if can run seach
