@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 5, 2020
+* set sort order and group name on weave installer
+
 ## May 4, 2020
 * remove check if can run seach
 * Updates to segment members to support removing contacts
