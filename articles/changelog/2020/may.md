@@ -9,6 +9,7 @@
 * fix formatting issues in Weave sync
 * update installer with picklist settings
 * autopopulate pick lists for RhinoFit
+* add lead status of converted and valid for sending
 
 ## May 5, 2020
 * set sort order and group name on weave installer
