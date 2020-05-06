@@ -8,6 +8,7 @@
 * autopopulate picklists for Telligent
 * fix formatting issues in Weave sync
 * update installer with picklist settings
+* autopopulate pick lists for RhinoFit
 
 ## May 5, 2020
 * set sort order and group name on weave installer
