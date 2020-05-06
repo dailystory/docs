@@ -3,6 +3,12 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 6, 2020
+* autopopulate picklists for Mindbody
+* autopopulate picklists for Telligent
+* fix formatting issues in Weave sync
+* update installer with picklist settings
+
 ## May 5, 2020
 * set sort order and group name on weave installer
 * support yes/no graph field types
