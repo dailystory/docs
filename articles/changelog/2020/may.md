@@ -10,6 +10,8 @@
 * update installer with picklist settings
 * autopopulate pick lists for RhinoFit
 * add lead status of converted and valid for sending
+* convert to use cdn for images
+* funnel controls and apis wired into campaigns
 
 ## May 5, 2020
 * set sort order and group name on weave installer
