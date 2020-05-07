@@ -3,6 +3,10 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 7, 2020
+* suport for campaign folders and favorites
+* File manager clean up
+
 ## May 6, 2020
 * autopopulate picklists for Mindbody
 * autopopulate picklists for Telligent
