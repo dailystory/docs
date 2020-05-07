@@ -11,6 +11,7 @@
 * Lighten paused controller for campaign
 * Remove old material icon formatters
 * SQL param is not used
+* update segment ux
 
 ## May 6, 2020
 * autopopulate picklists for Mindbody
