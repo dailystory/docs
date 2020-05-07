@@ -13,6 +13,8 @@
 * SQL param is not used
 * update segment ux
 * updates to funnels
+* Change height of text message preview area based on content length
+* log campaign id with optout information
 
 ## May 6, 2020
 * autopopulate picklists for Mindbody
