@@ -6,6 +6,11 @@
 ## May 7, 2020
 * suport for campaign folders and favorites
 * File manager clean up
+* Claims check not needed on favorites
+* clean up campaign paused, archive, etc
+* Lighten paused controller for campaign
+* Remove old material icon formatters
+* SQL param is not used
 
 ## May 6, 2020
 * autopopulate picklists for Mindbody
