@@ -12,6 +12,7 @@
 * Remove old material icon formatters
 * SQL param is not used
 * update segment ux
+* updates to funnels
 
 ## May 6, 2020
 * autopopulate picklists for Mindbody
