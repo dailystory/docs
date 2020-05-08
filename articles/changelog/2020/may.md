@@ -8,6 +8,7 @@
 * bug with $ not getting replaces when building the segment
 * formatting to support MMS in text message editor
 * add support for mediaurl for mms messages in twilio api
+* calculate number of credits and include mms cost
 
 ## May 7, 2020
 * suport for campaign folders and favorites
