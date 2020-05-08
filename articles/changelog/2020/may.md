@@ -9,6 +9,8 @@
 * formatting to support MMS in text message editor
 * add support for mediaurl for mms messages in twilio api
 * calculate number of credits and include mms cost
+* support filtering by file types in file manager
+* updates to support MMS text messages
 
 ## May 7, 2020
 * suport for campaign folders and favorites
