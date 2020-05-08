@@ -3,6 +3,12 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 8, 2020
+* search needed to support parentheses for multi value array search
+* bug with $ not getting replaces when building the segment
+* formatting to support MMS in text message editor
+* add support for mediaurl for mms messages in twilio api
+
 ## May 7, 2020
 * suport for campaign folders and favorites
 * File manager clean up
