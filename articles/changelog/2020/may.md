@@ -5,6 +5,8 @@
 # DailyStory Product Updates for May 2020
 ## May 10, 2020
 * Replace spaces in files when preserving filename
+* Attempt to base64 decode u value
+* preview MMS in text messages
 
 ## May 8, 2020
 * search needed to support parentheses for multi value array search
