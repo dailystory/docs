@@ -3,6 +3,19 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 12, 2020
+* perform validation on mobile numbers
+* ensure MSO comments are formatted correctly
+* updates to license and credit management
+* Enable URL hash vs encoded URL in emails
+* Replace invalid apostrophes in text message content that aren't ascii
+* allow comment in email html body
+* handle case where campaign id is null on opt out log
+* return license exception error messages
+* Handle save and close on html emails when there are no changes
+* bug in file manager when progress bar is not in current row's page
+* add handle to email designer to retain html comments
+
 ## May 10, 2020
 * Replace spaces in files when preserving filename
 * Attempt to base64 decode u value
