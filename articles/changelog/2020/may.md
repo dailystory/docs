@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 13, 2020
+* initial check in for manage email senders
+
 ## May 12, 2020
 * perform validation on mobile numbers
 * ensure MSO comments are formatted correctly
