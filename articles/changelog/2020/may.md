@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 14, 2020
+* updated funnel docs and refactor conversions by camapaign
+
 ## May 13, 2020
 * initial check in for manage email senders
 
