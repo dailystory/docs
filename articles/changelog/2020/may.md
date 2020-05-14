@@ -10,6 +10,8 @@
 * add EmailSender for managing list of from addresses
 * Add exception if filename exceeds 256 characters
 * add support for managing a list of email senders
+* add support for handlebars formatdate
+* refresh campaign segments after contact import
 
 ## May 13, 2020
 * initial check in for manage email senders
