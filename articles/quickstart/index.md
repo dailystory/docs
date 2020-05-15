@@ -11,10 +11,8 @@ Welcome to DailyStory! We put this video and guide together to help you get star
 First, watch this video for a quick tutorial on setting up your account and basic navigation.
 <iframe src="https://player.vimeo.com/video/418627431" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-Second, you need to add the DailyStory tracking tag to your website. The tracking tag connects DailyStory and your website and is required to use many of the features of DailyStory.
-
 <ol class="step"><li value="2">Install the Tracking Tag</li></ol>
-The tracking tag is a small piece of JavaScript that needs to be added to the <code>&lt;head&gt;</code> of all your pages.
+The tracking tag connects DailyStory and your website and is required to use many of the features of DailyStory.The tracking tag is a small piece of JavaScript that needs to be added to the <code>&lt;head&gt;</code> of all your pages.
 
 Follow these instructions to [install the DailyStory tracking tag](/install). 
 
