@@ -9,9 +9,7 @@ Welcome to DailyStory! We put this video and guide together to help you get star
 
 <ol class="step"><li value="1">Setup your account</li></ol>
 First, watch this video for a quick tutorial on setting up your account and basic navigation.
-
 <iframe src="https://player.vimeo.com/video/418627431" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
 
 Second, you need to add the DailyStory tracking tag to your website. The tracking tag connects DailyStory and your website and is required to use many of the features of DailyStory.
 
