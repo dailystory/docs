@@ -11,6 +11,7 @@
 * bug with custom reply to address field
 * fix click and reply rate reports for text messages
 * add reportcanview role
+* add autopilot blocks for text message clicks
 
 ## May 14, 2020
 * updated funnel docs and refactor conversions by campaign
