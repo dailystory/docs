@@ -9,6 +9,7 @@
 * bug in segment members including old model reference
 * updates for roles for access control
 * bug with custom reply to address field
+* fix click and reply rate reports for text messages
 
 ## May 14, 2020
 * updated funnel docs and refactor conversions by campaign
