@@ -4,7 +4,7 @@
 }
 # DailyStory Product Updates for May 2020
 ## May 14, 2020
-* updated funnel docs and refactor conversions by camapaign
+* updated funnel docs and refactor conversions by campaign
 * add funnel lookup by uuid
 * move conversion to separate class file in funnel
 * add EmailSender for managing list of from addresses
