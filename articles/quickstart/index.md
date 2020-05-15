@@ -3,13 +3,19 @@
 	description: 'The DailyStory quickstart is a guide designed for new customers to help them get started.'
 }
 # DailyStory Quick Start
-Welcome to DailyStory! We put this guide together to help you get started using DailyStory.
+Welcome to DailyStory! We put this video and guide together to help you get started using DailyStory.
 
 > See the [Technical Setup Guide](/install/setup) for advanced setup options such as setting up a custom subdomain or custom email address.
 
-First, you need to add the DailyStory tracking tag to your website. The tracking tag connects DailyStory and your website and is required to use many of the features of DailyStory.
+<ol class="step"><li value="1">Setup your account</li></ol>
+First, watch this video for a quick tutorial on setting up your account and basic navigation.
 
-<ol class="step"><li value="1">Install the Tracking Tag</li></ol>
+<iframe src="https://player.vimeo.com/video/418627431" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+Second, you need to add the DailyStory tracking tag to your website. The tracking tag connects DailyStory and your website and is required to use many of the features of DailyStory.
+
+<ol class="step"><li value="2">Install the Tracking Tag</li></ol>
 The tracking tag is a small piece of JavaScript that needs to be added to the <code>&lt;head&gt;</code> of all your pages.
 
 Follow these instructions to [install the DailyStory tracking tag](/install). 
@@ -20,7 +26,7 @@ We have instructions for [installing the tracking tag manually](/install/manual)
 
 * [Tracking Tag Frequently Asked Questions](/install#Frequently-Asked-Questions)
 
-<ol class="step"><li value="2">Create a Lead in your Campaign</li></ol>
+<ol class="step"><li value="3">Create a Lead in your Campaign</li></ol>
 
 Leads are created in your campaigns in several ways:
 	
@@ -36,7 +42,7 @@ For example, if you have a Newsletter Signups campaign and Elon Musk signs up fo
 
 ![Sample Lead](/articles/quickstart/quickstart-02.png "Sample Lead")
 
-<ol class="step"><li value="3">Create a Campaign</li></ol>
+<ol class="step"><li value="4">Create a Campaign</li></ol>
 Once you have the tracking tag setup, you'll want to [create some campaigns](/campaigns/#creating-a-campaign).
 
 ![Sample Campaigns](/articles/quickstart/quickstart-01.png "Sample Campaigns")
