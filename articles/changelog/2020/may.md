@@ -12,6 +12,7 @@
 * fix click and reply rate reports for text messages
 * add reportcanview role
 * add autopilot blocks for text message clicks
+* updates to funnel conversion rates
 
 ## May 14, 2020
 * updated funnel docs and refactor conversions by campaign
