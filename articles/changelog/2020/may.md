@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 15, 2020
+* convert search to use POST vs GET due to exceeding querystring length of 2048
+
 ## May 14, 2020
 * updated funnel docs and refactor conversions by campaign
 * add funnel lookup by uuid
