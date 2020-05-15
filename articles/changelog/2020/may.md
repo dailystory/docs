@@ -8,6 +8,7 @@
 * bug with event wire up for paging prev/next
 * bug in segment members including old model reference
 * updates for roles for access control
+* bug with custom reply to address field
 
 ## May 14, 2020
 * updated funnel docs and refactor conversions by campaign
