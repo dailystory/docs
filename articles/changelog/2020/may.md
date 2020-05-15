@@ -7,6 +7,7 @@
 * convert search to use POST vs GET due to exceeding querystring length of 2048
 * bug with event wire up for paging prev/next
 * bug in segment members including old model reference
+* updates for roles for access control
 
 ## May 14, 2020
 * updated funnel docs and refactor conversions by campaign
