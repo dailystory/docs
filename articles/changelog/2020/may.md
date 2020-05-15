@@ -5,6 +5,7 @@
 # DailyStory Product Updates for May 2020
 ## May 15, 2020
 * convert search to use POST vs GET due to exceeding querystring length of 2048
+* bug with event wire up for paging prev/next
 
 ## May 14, 2020
 * updated funnel docs and refactor conversions by campaign
