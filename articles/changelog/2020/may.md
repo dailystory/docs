@@ -6,6 +6,7 @@
 ## May 18, 2020
 * convert tracking links to web publish project and fix 404 issue with expired tenants
 * add system as supported storage type for data center
+* comma separator in totals for autopilot
 
 ## May 15, 2020
 * convert search to use POST vs GET due to exceeding querystring length of 2048
