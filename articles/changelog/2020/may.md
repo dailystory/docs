@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 19, 2020
+* update weave to support batch syncing
+
 ## May 18, 2020
 * convert tracking links to web publish project and fix 404 issue with expired tenants
 * add system as supported storage type for data center
