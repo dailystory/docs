@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 20, 2020
+* improve error message when error occurrs from data center account switch
+
 ## May 19, 2020
 * update weave to support batch syncing
 
