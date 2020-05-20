@@ -6,6 +6,7 @@
 ## May 20, 2020
 * improve error message when error occurrs from data center account switch
 * handle cases where filename cannot be read
+* Scheduled message no older than 15 minutes
 
 ## May 19, 2020
 * update weave to support batch syncing
