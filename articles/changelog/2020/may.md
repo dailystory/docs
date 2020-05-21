@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 21, 2020
+* bugs with web forms create logic
+
 ## May 20, 2020
 * improve error message when error occurrs from data center account switch
 * handle cases where filename cannot be read
