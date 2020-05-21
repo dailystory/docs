@@ -5,6 +5,7 @@
 # DailyStory Product Updates for May 2020
 ## May 21, 2020
 * bugs with web forms create logic
+* mark as contacted prior to sending emails
 
 ## May 20, 2020
 * improve error message when error occurrs from data center account switch
