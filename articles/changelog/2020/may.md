@@ -11,6 +11,7 @@
 * handle clear search area and callback on button click for search
 * include breadcrumbs span even when no content
 * bug with how datatable library handles event wireups
+* display mobile phone if email is an internal email and we don't have name
 
 ## May 20, 2020
 * improve error message when error occurrs from data center account switch
