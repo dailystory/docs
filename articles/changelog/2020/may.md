@@ -10,6 +10,7 @@
 * add typing interval and search callback to datatable
 * handle clear search area and callback on button click for search
 * include breadcrumbs span even when no content
+* bug with how datatable library handles event wireups
 
 ## May 20, 2020
 * improve error message when error occurrs from data center account switch
