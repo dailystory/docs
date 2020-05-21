@@ -7,6 +7,7 @@
 * bugs with web forms create logic
 * mark as contacted prior to sending emails
 * modify text messages to used batch update for contacted
+* add typing interval and search callback to datatable
 
 ## May 20, 2020
 * improve error message when error occurrs from data center account switch
