@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 22, 2020
+* add service point manager max for twilio
+
 ## May 21, 2020
 * bugs with web forms create logic
 * mark as contacted prior to sending emails
