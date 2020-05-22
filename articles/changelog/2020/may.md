@@ -5,6 +5,7 @@
 # DailyStory Product Updates for May 2020
 ## May 22, 2020
 * add service point manager max for twilio
+* set prod twilio queue to 120 min 
 
 ## May 21, 2020
 * bugs with web forms create logic
