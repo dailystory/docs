@@ -10,6 +10,8 @@
 * refactor how text message send queue handles bulk sends
 * update contacts email if lead email is not internal
 * add test user note to text message modal 
+* return file count in folders api
+* updates to file manager to use apis vs server side
 
 ## May 21, 2020
 * bugs with web forms create logic
