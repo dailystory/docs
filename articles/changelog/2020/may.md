@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 25, 2020
+* send from queue pattern similar to emails for text messages
+
 ## May 22, 2020
 * add service point manager max for twilio
 * set prod twilio queue to 120 min 
