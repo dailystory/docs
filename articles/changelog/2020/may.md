@@ -5,6 +5,8 @@
 # DailyStory Product Updates for May 2020
 ## May 25, 2020
 * send from queue pattern similar to emails for text messages
+* updates to job manager for non-tenant specific jobs
+* refactor how lead activity is resolved
 
 ## May 22, 2020
 * add service point manager max for twilio
