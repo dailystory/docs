@@ -10,6 +10,7 @@
 * throw report not ready exception when report is not ready
 * include whitelable logo in message
 * bug with show/hide data table info
+* updates to file manager for better ux
 
 ## May 25, 2020
 * send from queue pattern similar to emails for text messages
