@@ -8,6 +8,7 @@
 * edits to error messages to make them more user friendly
 * bug in pager events with data table
 * throw report not ready exception when report is not ready
+* include whitelable logo in message
 
 ## May 25, 2020
 * send from queue pattern similar to emails for text messages
