@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 26, 2020
+* Add report not ready exception
+
 ## May 25, 2020
 * send from queue pattern similar to emails for text messages
 * updates to job manager for non-tenant specific jobs
