@@ -6,6 +6,7 @@
 ## May 26, 2020
 * Add report not ready exception
 * edits to error messages to make them more user friendly
+* bug in pager events with data table
 
 ## May 25, 2020
 * send from queue pattern similar to emails for text messages
