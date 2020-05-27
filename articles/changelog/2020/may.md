@@ -3,6 +3,10 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 27, 2020
+* convert jobs to use async main
+* better handling of exceptions when email status is not found
+
 ## May 26, 2020
 * Add report not ready exception
 * edits to error messages to make them more user friendly
