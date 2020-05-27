@@ -6,6 +6,7 @@
 ## May 27, 2020
 * convert jobs to use async main
 * better handling of exceptions when email status is not found
+* allow text message lookup with cache skip
 
 ## May 26, 2020
 * Add report not ready exception
