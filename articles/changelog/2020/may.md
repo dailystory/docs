@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 28, 2020
+* don't set internal email when creating contact from text message keyword
+
 ## May 27, 2020
 * convert jobs to use async main
 * better handling of exceptions when email status is not found
