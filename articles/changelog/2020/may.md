@@ -13,6 +13,7 @@
 * change Twilio sync to run continously
 * updates to graph field to use new api
 * styles to leads
+* ensure optin gets reset properly
 
 ## May 27, 2020
 * convert jobs to use async main
