@@ -20,6 +20,9 @@
 * log credits required per text message
 * added logic to handle de-duplicating leads with same number or email when doing queued sends
 * update maintenance job
+* update to weave integration for location and secret
+* bug with file manager too aggresively deleted from storage
+* set permanent delete to 30 days
 
 ## May 27, 2020
 * convert jobs to use async main
