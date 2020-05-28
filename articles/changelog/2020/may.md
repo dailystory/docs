@@ -18,6 +18,7 @@
 * adjustments to contact preferences logic to reset enabled state on optin
 * clean up formatting for logging
 * log credits required per text message
+* added logic to handle de-duplicating leads with same number or email when doing queued sends
 
 ## May 27, 2020
 * convert jobs to use async main
