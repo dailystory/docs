@@ -8,6 +8,7 @@
 * better handling of exceptions when email status is not found
 * allow text message lookup with cache skip
 * allow email lookup with cache skip
+* sync bug with weave to sync on mobile phone when contact not found
 
 ## May 26, 2020
 * Add report not ready exception
