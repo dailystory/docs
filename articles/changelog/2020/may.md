@@ -8,6 +8,7 @@
 * format number of files in folder
 * Refactor file folder asset to handle create updates and re-org code
 * update file manager styles
+* add support for audit event entries in logs
 
 ## May 27, 2020
 * convert jobs to use async main
