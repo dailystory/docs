@@ -6,6 +6,8 @@
 ## May 28, 2020
 * don't set internal email when creating contact from text message keyword
 * format number of files in folder
+* Refactor file folder asset to handle create updates and re-org code
+* update file manager styles
 
 ## May 27, 2020
 * convert jobs to use async main
