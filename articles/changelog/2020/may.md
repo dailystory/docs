@@ -5,6 +5,7 @@
 # DailyStory Product Updates for May 2020
 ## May 28, 2020
 * don't set internal email when creating contact from text message keyword
+* format number of files in folder
 
 ## May 27, 2020
 * convert jobs to use async main
