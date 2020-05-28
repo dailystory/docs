@@ -17,6 +17,7 @@
 * obscure email should accept empty string now that email isn't the only validating property
 * adjustments to contact preferences logic to reset enabled state on optin
 * clean up formatting for logging
+* log credits required per text message
 
 ## May 27, 2020
 * convert jobs to use async main
