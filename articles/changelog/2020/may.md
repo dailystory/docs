@@ -14,6 +14,9 @@
 * updates to graph field to use new api
 * styles to leads
 * ensure optin gets reset properly
+* obscure email should accept empty string now that email isn't the only validating property
+* adjustments to contact preferences logic to reset enabled state on optin
+* clean up formatting for logging
 
 ## May 27, 2020
 * convert jobs to use async main
