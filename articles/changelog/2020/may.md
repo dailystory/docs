@@ -9,6 +9,10 @@
 * Refactor file folder asset to handle create updates and re-org code
 * update file manager styles
 * add support for audit event entries in logs
+* updates to audit event logging
+* change Twilio sync to run continously
+* updates to graph field to use new api
+* styles to leads
 
 ## May 27, 2020
 * convert jobs to use async main
