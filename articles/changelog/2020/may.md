@@ -23,6 +23,7 @@
 * update to weave integration for location and secret
 * bug with file manager too aggresively deleted from storage
 * set permanent delete to 30 days
+* updates to funnel ux / css
 
 ## May 27, 2020
 * convert jobs to use async main
