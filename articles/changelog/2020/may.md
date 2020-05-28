@@ -19,6 +19,7 @@
 * clean up formatting for logging
 * log credits required per text message
 * added logic to handle de-duplicating leads with same number or email when doing queued sends
+* update maintenance job
 
 ## May 27, 2020
 * convert jobs to use async main
