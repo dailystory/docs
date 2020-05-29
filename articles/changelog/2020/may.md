@@ -3,6 +3,9 @@
 	description: 'Product Updates for May 2020'
 }
 # DailyStory Product Updates for May 2020
+## May 29, 2020
+* split logs out
+
 ## May 28, 2020
 * don't set internal email when creating contact from text message keyword
 * format number of files in folder
