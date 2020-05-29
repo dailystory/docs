@@ -5,6 +5,8 @@
 # DailyStory Product Updates for May 2020
 ## May 29, 2020
 * split logs out
+* Set Weave secret to password type
+* Convert audit event to separate audit table
 
 ## May 28, 2020
 * don't set internal email when creating contact from text message keyword
