@@ -13,6 +13,7 @@
 * clean up log reports
 * Updates to conversion funnels
 * bug where file asset reference counts needed to be checked when multiple files of the same name and one gets deleted
+* support for tenant specific lookup in Weave
 
 ## May 28, 2020
 * don't set internal email when creating contact from text message keyword
