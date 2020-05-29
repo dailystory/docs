@@ -10,6 +10,7 @@
 * update weave to support location id
 * add md5 hash alogrithm to integrations
 * Add audit log report
+* clean up log reports
 
 ## May 28, 2020
 * don't set internal email when creating contact from text message keyword
