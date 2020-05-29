@@ -7,6 +7,7 @@
 * split logs out
 * Set Weave secret to password type
 * Convert audit event to separate audit table
+* update weave to support location id
 
 ## May 28, 2020
 * don't set internal email when creating contact from text message keyword
