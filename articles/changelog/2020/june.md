@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
-## June 1, 20202
+## June 2, 2020
+* wire up new inline help documentation
+
+## June 1, 2020
 * update to use helpdocs
 * change tracking code to beacon
