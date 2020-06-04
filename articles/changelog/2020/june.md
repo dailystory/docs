@@ -10,6 +10,7 @@
 * update refresh campaigns to only process 100 at a time
 * link popup help in designers
 * funnel filter by date
+* Remove dashboard report code that was slow
 
 ## June 2, 2020
 * wire up new inline help documentation
