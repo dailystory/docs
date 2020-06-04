@@ -7,6 +7,7 @@
 * fix over reporting issue with link tracking report
 * Update to asset preferences to allow for custom logos
 * updates to help links
+* update refresh campaigns to only process 100 at a time
 
 ## June 2, 2020
 * wire up new inline help documentation
