@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 4, 2020
+* fix over reporting issue with link tracking report
+
 ## June 2, 2020
 * wire up new inline help documentation
 
