@@ -6,6 +6,7 @@
 ## June 4, 2020
 * fix over reporting issue with link tracking report
 * Update to asset preferences to allow for custom logos
+* updates to help links
 
 ## June 2, 2020
 * wire up new inline help documentation
