@@ -3,6 +3,10 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 5, 2020
+* improvements to how campaigns get refreshed
+* updates for help integration
+
 ## June 4, 2020
 * fix over reporting issue with link tracking report
 * Update to asset preferences to allow for custom logos
