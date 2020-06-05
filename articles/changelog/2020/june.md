@@ -7,6 +7,10 @@
 * improvements to how campaigns get refreshed
 * updates for help integration
 * modify to allow for custom nav
+* Add system authorization claim
+* add tenant to audit log
+* refactor get tenant
+* add files for system admin
 
 ## June 4, 2020
 * fix over reporting issue with link tracking report
