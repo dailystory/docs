@@ -6,6 +6,7 @@
 ## June 5, 2020
 * improvements to how campaigns get refreshed
 * updates for help integration
+* modify to allow for custom nav
 
 ## June 4, 2020
 * fix over reporting issue with link tracking report
