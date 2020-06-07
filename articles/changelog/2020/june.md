@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 7, 2020
+* Remove search selectors
+
 ## June 5, 2020
 * improvements to how campaigns get refreshed
 * updates for help integration
