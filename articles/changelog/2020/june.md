@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 8, 2020
+* Bug handling identifier fragment in url hash for emails
+
 ## June 7, 2020
 * Remove search selectors
 
