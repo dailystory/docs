@@ -7,6 +7,7 @@
 * Bug handling identifier fragment in url hash for emails
 * more search selector clean up
 * updates to system
+* better support for multiple sending domains
 
 ## June 7, 2020
 * Remove search selectors
