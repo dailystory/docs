@@ -5,6 +5,8 @@
 # DailyStory Product Updates for June 2020
 ## June 9, 2020
 * update api to support post and patch
+* remove unused color picker
+* update browser version check script
 
 ## June 8, 2020
 * Bug handling identifier fragment in url hash for emails
