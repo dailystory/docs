@@ -9,6 +9,8 @@
 * Verify credentials for each sending domain
 * fix some ux bugs in content pages
 * clean up popup designer javascript
+* api to get popup
+* convert popup design to load from javascript
 
 ## June 9, 2020
 * update api to support post and patch
