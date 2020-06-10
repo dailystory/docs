@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 10, 2020
+* initial check in for anniversary filter in search
+
 ## June 9, 2020
 * update api to support post and patch
 * remove unused color picker
