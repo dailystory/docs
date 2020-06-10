@@ -8,6 +8,7 @@
 * support matching exact domains with Mailgun
 * Verify credentials for each sending domain
 * fix some ux bugs in content pages
+* clean up popup designer javascript
 
 ## June 9, 2020
 * update api to support post and patch
