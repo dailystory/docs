@@ -5,6 +5,7 @@
 # DailyStory Product Updates for June 2020
 ## June 10, 2020
 * initial check in for anniversary filter in search
+* support matching exact domains with Mailgun
 
 ## June 9, 2020
 * update api to support post and patch
