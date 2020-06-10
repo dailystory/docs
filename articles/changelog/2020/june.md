@@ -7,6 +7,7 @@
 * initial check in for anniversary filter in search
 * support matching exact domains with Mailgun
 * Verify credentials for each sending domain
+* fix some ux bugs in content pages
 
 ## June 9, 2020
 * update api to support post and patch
