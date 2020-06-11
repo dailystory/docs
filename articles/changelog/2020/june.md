@@ -7,6 +7,7 @@
 * change popup radio button behavior in layout selection
 * clean up popup CSS
 * remove style on layout preview
+* Calculate validation hash on domain and path only
 
 ## June 10, 2020
 * initial check in for anniversary filter in search
