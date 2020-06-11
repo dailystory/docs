@@ -5,6 +5,7 @@
 # DailyStory Product Updates for June 2020
 ## June 11, 2020
 * change popup radio button behavior in layout selection
+* clean up popup CSS
 
 ## June 10, 2020
 * initial check in for anniversary filter in search
