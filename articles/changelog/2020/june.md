@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 11, 2020
+* change popup radio button behavior in layout selection
+
 ## June 10, 2020
 * initial check in for anniversary filter in search
 * support matching exact domains with Mailgun
