@@ -11,6 +11,7 @@
 * remove browser check from main header include
 * updates to popups
 * add browser checks
+* refactor how popup manages displayed content
 
 ## June 11, 2020
 * change popup radio button behavior in layout selection
