@@ -3,6 +3,15 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 12, 2020
+* Stripe API environment key only looked up on demand
+* Don't apply utm codes to unsubscribe links
+* handle case when get a /ds/ds redirect
+* bug in system admin for create tenant path
+* remove browser check from main header include
+* updates to popups
+* add browser checks
+
 ## June 11, 2020
 * change popup radio button behavior in layout selection
 * clean up popup CSS
