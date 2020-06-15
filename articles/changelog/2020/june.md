@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 15, 2020
+* handle case where salesforce doesn't have an email address
+
 ## June 12, 2020
 * Stripe API environment key only looked up on demand
 * Don't apply utm codes to unsubscribe links
