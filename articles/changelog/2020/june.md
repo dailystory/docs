@@ -8,6 +8,9 @@
 * bug with tags api supporting both patch and post
 * add api to return a list of optouts
 * updates to popup editor
+* handle boolean on contact import for opt out
+* handle case when strip api not present
+* handle case when contact has mobile phone and no email
 
 ## June 15, 2020
 * handle case where salesforce doesn't have an email address
