@@ -11,6 +11,7 @@
 * handle boolean on contact import for opt out
 * handle case when strip api not present
 * handle case when contact has mobile phone and no email
+* only set user-agent header once in singleton http client
 
 ## June 15, 2020
 * handle case where salesforce doesn't have an email address
