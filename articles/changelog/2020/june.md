@@ -5,6 +5,7 @@
 # DailyStory Product Updates for June 2020
 ## June 16, 2020
 * bug with search not returning correct number 
+* bug with tags api supporting both patch and post
 
 ## June 15, 2020
 * handle case where salesforce doesn't have an email address
