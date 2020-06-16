@@ -6,6 +6,7 @@
 ## June 16, 2020
 * bug with search not returning correct number 
 * bug with tags api supporting both patch and post
+* add api to return a list of optouts
 
 ## June 15, 2020
 * handle case where salesforce doesn't have an email address
