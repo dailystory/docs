@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 16, 2020
+* bug with search not returning correct number 
+
 ## June 15, 2020
 * handle case where salesforce doesn't have an email address
 
