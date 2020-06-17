@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 17, 2020
+* update to support running issexpress
+
 ## June 16, 2020
 * bug with search not returning correct number 
 * bug with tags api supporting both patch and post
