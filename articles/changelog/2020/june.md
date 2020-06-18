@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 18, 2020
+* bug with personalization variables in plaintext emails
+
 ## June 17, 2020
 * update to support running issexpress
 
