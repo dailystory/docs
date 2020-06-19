@@ -6,6 +6,10 @@
 ## June 19, 2020
 * update urlhash to allow for query string and fragment
 * on merge, make sure contact optout preferences can be updated
+* refactor mergeasync and handle mobile phone lookups
+* bug plaintext body should get personalization
+* new EmailUrl for managing urls to hashed values for link clicking in emails
+* refactor how email clicks on links are handled
 
 ## June 18, 2020
 * bug with personalization variables in plaintext emails
