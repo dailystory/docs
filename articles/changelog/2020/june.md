@@ -10,6 +10,7 @@
 * bug plaintext body should get personalization
 * new EmailUrl for managing urls to hashed values for link clicking in emails
 * refactor how email clicks on links are handled
+* refactor event webhooks
 
 ## June 18, 2020
 * bug with personalization variables in plaintext emails
