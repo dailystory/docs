@@ -11,6 +11,8 @@
 * new EmailUrl for managing urls to hashed values for link clicking in emails
 * refactor how email clicks on links are handled
 * refactor event webhooks
+* trim settings for user values for urls, etc.
+* add new route for email clicks
 
 ## June 18, 2020
 * bug with personalization variables in plaintext emails
