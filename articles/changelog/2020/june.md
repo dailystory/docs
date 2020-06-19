@@ -16,6 +16,8 @@
 * remove ip blocking from config for iisexpress support
 * refactor designer to include mobile toggle and hide properties
 * Dequeue messages for 24 hours
+* drag and drop notice for content pages
+* text can only be dropped in a column in designer
 
 ## June 18, 2020
 * bug with personalization variables in plaintext emails
