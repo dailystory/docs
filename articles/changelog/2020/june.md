@@ -14,6 +14,7 @@
 * trim settings for user values for urls, etc.
 * add new route for email clicks
 * remove ip blocking from config for iisexpress support
+* refactor designer to include mobile toggle and hide properties
 
 ## June 18, 2020
 * bug with personalization variables in plaintext emails
