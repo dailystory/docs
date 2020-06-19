@@ -13,6 +13,7 @@
 * refactor event webhooks
 * trim settings for user values for urls, etc.
 * add new route for email clicks
+* remove ip blocking from config for iisexpress support
 
 ## June 18, 2020
 * bug with personalization variables in plaintext emails
