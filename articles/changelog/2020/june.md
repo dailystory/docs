@@ -3,8 +3,13 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 19, 2020
+* update urlhash to allow for query string and fragment
+* on merge, make sure contact optout preferences can be updated
+
 ## June 18, 2020
 * bug with personalization variables in plaintext emails
+* url helper bug that didn't properly process fragments with &
 
 ## June 17, 2020
 * update to support running issexpress
