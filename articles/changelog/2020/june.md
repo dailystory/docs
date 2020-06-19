@@ -15,6 +15,7 @@
 * add new route for email clicks
 * remove ip blocking from config for iisexpress support
 * refactor designer to include mobile toggle and hide properties
+* Dequeue messages for 24 hours
 
 ## June 18, 2020
 * bug with personalization variables in plaintext emails
