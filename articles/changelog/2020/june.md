@@ -9,6 +9,9 @@
 * fix bugs in page designer and add support for asset preferences
 * bug when creating new form
 * style updates for flex layout and open/close tab
+* lock on table update for email urls as is not thread safe
+* bug in autopilot name for popups: WhenPopupIsSubmitted
+* remove workflow from campaign ux
 
 ## June 19, 2020
 * update urlhash to allow for query string and fragment
