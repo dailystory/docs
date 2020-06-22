@@ -5,6 +5,7 @@
 # DailyStory Product Updates for June 2020
 ## June 22, 2020
 * style updates to designer
+* disable pre-flood sending for some accounts
 
 ## June 19, 2020
 * update urlhash to allow for query string and fragment
