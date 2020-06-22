@@ -7,6 +7,7 @@
 * style updates to designer
 * disable pre-flood sending for some accounts
 * fix bugs in page designer and add support for asset preferences
+* bug when creating new form
 
 ## June 19, 2020
 * update urlhash to allow for query string and fragment
