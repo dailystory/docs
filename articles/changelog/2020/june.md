@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 22, 2020
+* style updates to designer
+
 ## June 19, 2020
 * update urlhash to allow for query string and fragment
 * on merge, make sure contact optout preferences can be updated
