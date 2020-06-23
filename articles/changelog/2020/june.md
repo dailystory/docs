@@ -12,6 +12,8 @@
 * turn mobile/desktop on and off
 * delete message earlier and hold in queue for 2 horus
 * refactor text messages to use personalized class for handlebars
+* bug wth setting text in tinymce in web form
+* updates to send single message
 
 ## June 22, 2020
 * style updates to designer
