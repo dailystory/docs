@@ -8,6 +8,7 @@
 * reply address wouldn't save if no senders
 * ranged filters are inclusive
 * bug with opt out error message other than email
+* don't set Lighthouse name and email
 
 ## June 22, 2020
 * style updates to designer
