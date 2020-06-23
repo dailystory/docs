@@ -9,6 +9,7 @@
 * ranged filters are inclusive
 * bug with opt out error message other than email
 * don't set Lighthouse name and email
+* turn mobile/desktop on and off
 
 ## June 22, 2020
 * style updates to designer
