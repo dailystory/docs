@@ -6,6 +6,7 @@
 ## June 23, 2020
 * code review and update paths for lead api
 * reply address wouldn't save if no senders
+* ranged filters are inclusive
 
 ## June 22, 2020
 * style updates to designer
