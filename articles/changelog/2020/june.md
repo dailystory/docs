@@ -10,6 +10,8 @@
 * bug with opt out error message other than email
 * don't set Lighthouse name and email
 * turn mobile/desktop on and off
+* delete message earlier and hold in queue for 2 horus
+* refactor text messages to use personalized class for handlebars
 
 ## June 22, 2020
 * style updates to designer
