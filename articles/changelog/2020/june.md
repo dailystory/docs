@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 23, 2020
+* code review and update paths for lead api
+
 ## June 22, 2020
 * style updates to designer
 * disable pre-flood sending for some accounts
