@@ -5,6 +5,7 @@
 # DailyStory Product Updates for June 2020
 ## June 23, 2020
 * code review and update paths for lead api
+* reply address wouldn't save if no senders
 
 ## June 22, 2020
 * style updates to designer
