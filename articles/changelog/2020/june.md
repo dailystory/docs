@@ -15,6 +15,7 @@
 * bug wth setting text in tinymce in web form
 * updates to send single message
 * allow logging of messages with a 0 id for send single
+* add support for sms replies to customers
 
 ## June 22, 2020
 * style updates to designer
