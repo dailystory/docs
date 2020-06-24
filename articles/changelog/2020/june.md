@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 24, 2020
+* send a single text message
+
 ## June 23, 2020
 * code review and update paths for lead api
 * reply address wouldn't save if no senders
