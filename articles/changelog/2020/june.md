@@ -5,6 +5,8 @@
 # DailyStory Product Updates for June 2020
 ## June 24, 2020
 * send a single text message
+* add conversational stub for threaded sms messages
+* ux for search
 
 ## June 23, 2020
 * code review and update paths for lead api
