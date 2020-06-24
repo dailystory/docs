@@ -13,6 +13,7 @@
 * refactor how route lead handles account and subaccount
 * refactor contacts to handle how throws when not found; and find contact by precedence
 * bug with how preferences were set for mobile tenants
+* don't throw just skip bulk upsert records missing email or mobile phone
 
 ## June 23, 2020
 * code review and update paths for lead api
