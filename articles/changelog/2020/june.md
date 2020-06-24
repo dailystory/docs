@@ -7,6 +7,12 @@
 * send a single text message
 * add conversational stub for threaded sms messages
 * ux for search
+* refactor distance calculations to allow for 0
+* return null when filter is not found
+* handle case when results from search is null
+* refactor how route lead handles account and subaccount
+* refactor contacts to handle how throws when not found; and find contact by precedence
+* bug with how preferences were set for mobile tenants
 
 ## June 23, 2020
 * code review and update paths for lead api
