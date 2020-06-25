@@ -6,6 +6,8 @@
 ## June 25, 2020
 * handle case when queue message is already removed
 * throw better exception message when urlhash is not found
+* change logic for when dashboard is shown or welcome screen
+* bug with setting background in popup
 
 ## June 24, 2020
 * send a single text message
