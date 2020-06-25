@@ -3,6 +3,10 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 25, 2020
+* handle case when queue message is already removed
+* throw better exception message when urlhash is not found
+
 ## June 24, 2020
 * send a single text message
 * add conversational stub for threaded sms messages
