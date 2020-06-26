@@ -5,6 +5,7 @@
 # DailyStory Product Updates for June 2020
 ## June 26, 2020
 * bug with uploading svg files to file manager
+* update license expiration date behavior
 
 ## June 25, 2020
 * handle case when queue message is already removed
