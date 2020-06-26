@@ -6,6 +6,7 @@
 ## June 26, 2020
 * bug with uploading svg files to file manager
 * update license expiration date behavior
+* support svg images
 
 ## June 25, 2020
 * handle case when queue message is already removed
