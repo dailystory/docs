@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 26, 2020
+* bug with uploading svg files to file manager
+
 ## June 25, 2020
 * handle case when queue message is already removed
 * throw better exception message when urlhash is not found
