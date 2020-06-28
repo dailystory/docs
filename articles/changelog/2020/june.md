@@ -5,6 +5,7 @@
 # DailyStory Product Updates for June 2020
 ## June 28, 2020
 * bugs with popup rending first time
+* bugs in campaign graph for empty settings
 
 ## June 26, 2020
 * bug with uploading svg files to file manager
