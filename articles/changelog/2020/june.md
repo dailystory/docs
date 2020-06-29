@@ -3,6 +3,10 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 29, 2020
+* refactor scheduled message to support queues
+* add proccess queue job for scheduled messages
+
 ## June 28, 2020
 * bugs with popup rending first time
 * bugs in campaign graph for empty settings
