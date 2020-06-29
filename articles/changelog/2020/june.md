@@ -6,6 +6,9 @@
 ## June 29, 2020
 * refactor scheduled message to support queues
 * add proccess queue job for scheduled messages
+* bug with file manager picker - should empty before populating
+* set font sizes in popup editor
+* remove tooltips
 
 ## June 28, 2020
 * bugs with popup rending first time
