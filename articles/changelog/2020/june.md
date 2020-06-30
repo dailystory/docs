@@ -3,6 +3,9 @@
 	description: 'Product Updates for June 2020'
 }
 # DailyStory Product Updates for June 2020
+## June 30, 2020
+* don't dispose httpclient after request
+
 ## June 29, 2020
 * refactor scheduled message to support queues
 * add proccess queue job for scheduled messages
