@@ -7,6 +7,7 @@
 * don't dispose httpclient after request
 * convert popup import to save on import
 * bug with how popup mce text is set
+* redirect when import to prevent accidental reimport
 
 ## June 29, 2020
 * refactor scheduled message to support queues
