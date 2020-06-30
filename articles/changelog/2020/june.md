@@ -8,6 +8,7 @@
 * convert popup import to save on import
 * bug with how popup mce text is set
 * redirect when import to prevent accidental reimport
+* handle twilio message queued
 
 ## June 29, 2020
 * refactor scheduled message to support queues
