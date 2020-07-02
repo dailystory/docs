@@ -2,6 +2,7 @@
 ## July 2, 2020
 * search dates must contain zulu
 * convert email reports to use view
+* email templates should retrieve from view
 
 ## July 1, 2020
 * dsids search filter must use order by
