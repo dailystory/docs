@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 3, 2020
+* fix compiler warnings
+
 ## July 2, 2020
 * search dates must contain zulu
 * convert email reports to use view
