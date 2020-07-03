@@ -1,6 +1,11 @@
 # DailyStory Product Updates for July 2020
 ## July 3, 2020
 * fix compiler warnings
+* updates for email sending and reporting performance
+* better logging for scheduled messages
+* stream line how email activity is updated
+* longer timeout on segments
+* performance improvements
 
 ## July 2, 2020
 * search dates must contain zulu
