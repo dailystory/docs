@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## July 6, 2020
 * Set date last sent for email from queue send
+* Fields ending in _code won't have casing changed
 
 ## July 3, 2020
 * fix compiler warnings
