@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 6, 2020
+* Set date last sent for email from queue send
+
 ## July 3, 2020
 * fix compiler warnings
 * updates for email sending and reporting performance
