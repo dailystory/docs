@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 7, 2020
+* streamline segment creation flow from search
+
 ## July 6, 2020
 * Set date last sent for email from queue send
 * Fields ending in _code won't have casing changed
