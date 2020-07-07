@@ -2,6 +2,7 @@
 ## July 7, 2020
 * streamline segment creation flow from search
 * handle Twilio exception in workflows
+* reporting range issue in conversion funnel
 
 ## July 6, 2020
 * Set date last sent for email from queue send
