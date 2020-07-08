@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 8, 2020
+* add condition to check if has tag
+
 ## July 7, 2020
 * streamline segment creation flow from search
 * handle Twilio exception in workflows
