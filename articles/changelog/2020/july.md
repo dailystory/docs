@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## July 8, 2020
 * add condition to check if has tag
+* bug with returning leads in automation
 
 ## July 7, 2020
 * streamline segment creation flow from search
