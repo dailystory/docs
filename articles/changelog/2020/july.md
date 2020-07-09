@@ -2,6 +2,7 @@
 ## July 9, 2020
 * add ux for has tag to automation
 * support ninja forms in magic forms
+* bug in remove tag name
 
 ## July 8, 2020
 * add condition to check if has tag
