@@ -3,6 +3,7 @@
 * add ux for has tag to automation
 * support ninja forms in magic forms
 * bug in remove tag name
+* bug with left outer join on emails
 
 ## July 8, 2020
 * add condition to check if has tag
