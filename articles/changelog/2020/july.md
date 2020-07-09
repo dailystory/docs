@@ -1,4 +1,8 @@
 # DailyStory Product Updates for July 2020
+## July 9, 2020
+* add ux for has tag to automation
+* support ninja forms in magic forms
+
 ## July 8, 2020
 * add condition to check if has tag
 * bug with returning leads in automation
