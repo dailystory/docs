@@ -2,6 +2,7 @@
 ## July 10, 2020
 * bug with email templates forcing unlock html
 * bug in save path for retarget pixel
+* bug with case insensitive comparison for text replies
 
 ## July 9, 2020
 * add ux for has tag to automation
