@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 10, 2020
+* bug with email templates forcing unlock html
+
 ## July 9, 2020
 * add ux for has tag to automation
 * support ninja forms in magic forms
