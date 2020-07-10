@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## July 10, 2020
 * bug with email templates forcing unlock html
+* bug in save path for retarget pixel
 
 ## July 9, 2020
 * add ux for has tag to automation
