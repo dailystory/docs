@@ -5,6 +5,7 @@
 * bug with case insensitive comparison for text replies
 * ux updates to better identify automation items
 * if do not send until date is set, return a waiting status on the message
+* update automation action for do not contact until
 
 ## July 9, 2020
 * add ux for has tag to automation
