@@ -1,4 +1,6 @@
 # DailyStory Product Updates for July 2020
+## July 11, 2020
+* updates and refactor for automation test coverage on actions
 ## July 10, 2020
 * bug with email templates forcing unlock html
 * bug in save path for retarget pixel
