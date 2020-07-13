@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 13, 2020
+* Remove create workflow options
+
 ## July 11, 2020
 * updates and refactor for automation test coverage on actions
 ## July 10, 2020
