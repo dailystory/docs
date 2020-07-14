@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## July 14, 2020
 * update MBO sync to force sync clients with memberships
+* handle case when mbo date to sync back is null
 
 ## July 13, 2020
 * Remove create workflow options
