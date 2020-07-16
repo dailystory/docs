@@ -2,6 +2,7 @@
 ## July 15, 2020
 * add delete button on autopilot block properties
 * update naming conventions for conditions in autopilot
+* add support for when tag added/removed triggers
 
 ## July 14, 2020
 * update MBO sync to force sync clients with memberships
