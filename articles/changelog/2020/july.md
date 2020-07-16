@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 15, 2020
+* add delete button on autopilot block properties
+
 ## July 14, 2020
 * update MBO sync to force sync clients with memberships
 * handle case when mbo date to sync back is null
