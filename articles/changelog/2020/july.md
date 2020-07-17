@@ -1,4 +1,9 @@
 # DailyStory Product Updates for July 2020
+## July 16, 2020
+* add UX automation trigger for register device
+* trigger when device is registered
+* enable some triggers to allow for leads to be created if they don't exist
+
 ## July 15, 2020
 * add delete button on autopilot block properties
 * update naming conventions for conditions in autopilot
