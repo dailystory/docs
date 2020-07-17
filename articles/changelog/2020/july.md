@@ -3,6 +3,7 @@
 * add UX automation trigger for register device
 * trigger when device is registered
 * enable some triggers to allow for leads to be created if they don't exist
+* add support for exporting automations
 
 ## July 15, 2020
 * add delete button on autopilot block properties
