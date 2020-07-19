@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 19, 2020
+* add whennone automation trigger
+
 ## July 16, 2020
 * add UX automation trigger for register device
 * trigger when device is registered
