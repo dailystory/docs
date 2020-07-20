@@ -4,6 +4,9 @@
 * import handler for automation
 * handle import for automations
 * bug with non image files attempting to set a preview image
+* more bugs with block index and ids
+* allow import from a url for automations
+* add helper method to download file
 
 ## July 19, 2020
 * add whennone automation trigger
