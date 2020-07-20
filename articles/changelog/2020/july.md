@@ -2,6 +2,7 @@
 ## July 20, 2020
 * bug witth block lookup using array index instead of id
 * import handler for automation
+* handle import for automations
 
 ## July 19, 2020
 * add whennone automation trigger
