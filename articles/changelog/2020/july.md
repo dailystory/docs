@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 20, 2020
+* bug witth block lookup using array index instead of id
+
 ## July 19, 2020
 * add whennone automation trigger
 * add automation action for goto
