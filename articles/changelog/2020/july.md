@@ -3,6 +3,7 @@
 * bug witth block lookup using array index instead of id
 * import handler for automation
 * handle import for automations
+* bug with non image files attempting to set a preview image
 
 ## July 19, 2020
 * add whennone automation trigger
