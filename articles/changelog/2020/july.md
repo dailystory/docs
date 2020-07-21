@@ -2,6 +2,7 @@
 ## July 21, 2020
 * better visual status for running/paused automations
 * trigger when opted out
+* order tags by name
 
 ## July 20, 2020
 * bug witth block lookup using array index instead of id
