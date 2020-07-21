@@ -4,6 +4,7 @@
 * trigger when opted out
 * order tags by name
 * allow creation of tags in automation UX
+* allow creation of segments in automation UX
 
 ## July 20, 2020
 * bug witth block lookup using array index instead of id
