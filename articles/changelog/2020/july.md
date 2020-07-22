@@ -2,6 +2,7 @@
 ## July 22, 2020
 * setup birthday support for search
 * parse regions for country
+* search ux for birthday
 
 ## July 21, 2020
 * better visual status for running/paused automations
