@@ -1,4 +1,8 @@
 # DailyStory Product Updates for July 2020
+## July 22, 2020
+* setup birthday support for search
+* parse regions for country
+
 ## July 21, 2020
 * better visual status for running/paused automations
 * trigger when opted out
