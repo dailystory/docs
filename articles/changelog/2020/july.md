@@ -5,6 +5,7 @@
 * add trigger for when points matches
 * fix various minor bugs in autopilot designers
 * move change status to api
+* fix api paths for segments
 
 ## July 22, 2020
 * setup birthday support for search
