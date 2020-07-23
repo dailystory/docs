@@ -1,6 +1,8 @@
 # DailyStory Product Updates for July 2020
 ## July 23, 2020
 * support donotcontactuntil and lastcontacted for date triggers
+* add tag and add segment in automation shouldn't be called if not provided
+* add trigger for when points matches
 
 ## July 22, 2020
 * setup birthday support for search
