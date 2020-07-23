@@ -4,6 +4,7 @@
 * add tag and add segment in automation shouldn't be called if not provided
 * add trigger for when points matches
 * fix various minor bugs in autopilot designers
+* move change status to api
 
 ## July 22, 2020
 * setup birthday support for search
