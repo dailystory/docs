@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 23, 2020
+* support donotcontactuntil and lastcontacted for date triggers
+
 ## July 22, 2020
 * setup birthday support for search
 * parse regions for country
