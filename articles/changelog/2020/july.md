@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 24, 2020
+* allow emails to support delivery time
+
 ## July 23, 2020
 * support donotcontactuntil and lastcontacted for date triggers
 * add tag and add segment in automation shouldn't be called if not provided
