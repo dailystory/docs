@@ -2,6 +2,7 @@
 ## July 24, 2020
 * allow emails to support delivery time
 * convert mailgun to httpclient
+* add assign task action to automation
 
 ## July 23, 2020
 * support donotcontactuntil and lastcontacted for date triggers
