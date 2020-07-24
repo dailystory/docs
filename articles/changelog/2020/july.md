@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## July 24, 2020
 * allow emails to support delivery time
+* convert mailgun to httpclient
 
 ## July 23, 2020
 * support donotcontactuntil and lastcontacted for date triggers
