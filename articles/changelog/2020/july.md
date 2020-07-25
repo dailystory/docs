@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 25, 2020
+* updates to assign task automation
+
 ## July 24, 2020
 * allow emails to support delivery time
 * convert mailgun to httpclient
