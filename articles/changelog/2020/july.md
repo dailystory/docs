@@ -6,6 +6,7 @@
 * optmize paths for queue send
 * refactor QueueSendBatchesAsync into private function
 * requeue message if fails to dequeue for scheduled messages
+* bug with handling dates from webforms
 
 ## July 27, 2020
 * only recompile handlebars if not already done
