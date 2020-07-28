@@ -1,4 +1,16 @@
 # DailyStory Product Updates for July 2020
+## July 28, 2020
+* add locks for patterns that are thread re-entrant
+* address bug with httpclient formurlencoding
+* locks on handlebars compille and mark as internal
+
+## July 27, 2020
+* only recompile handlebars if not already done
+* lock work around data center lookup
+* allow emails to get a scheduled delivery date and pre-send
+* set delivery time for queued sends
+* Correctly set date to future date for scheduled emails
+
 ## July 25, 2020
 * updates to assign task automation
 
