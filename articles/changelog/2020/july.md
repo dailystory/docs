@@ -4,6 +4,8 @@
 * address bug with httpclient formurlencoding
 * locks on handlebars compille and mark as internal
 * optmize paths for queue send
+* refactor QueueSendBatchesAsync into private function
+* requeue message if fails to dequeue for scheduled messages
 
 ## July 27, 2020
 * only recompile handlebars if not already done
