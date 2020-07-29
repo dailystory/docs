@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 29, 2020
+* bug with recaptcha check
+
 ## July 28, 2020
 * add locks for patterns that are thread re-entrant
 * address bug with httpclient formurlencoding
