@@ -1,4 +1,8 @@
 # DailyStory Product Updates for July 2020
+## July 30, 2020
+* trim and null checks for personalization graph
+* add retry to status queue to add messages back to queue if they are marked as retry
+
 ## July 29, 2020
 * bug with recaptcha check
 * convert status lookup to use httpclient
