@@ -3,6 +3,10 @@
 * add visualization that a message is queued for delivery
 * indicate that a message is queued for delivery in the scheduler
 * set queued status of message and convered to scheduledstatus
+* bug when bulk update not sql max
+* optimize GetLeadsFilteredAsync
+* only queue messages 30 minutes
+* delete the status queue if poisened
 
 ## July 30, 2020
 * trim and null checks for personalization graph
