@@ -1,6 +1,8 @@
 # DailyStory Product Updates for July 2020
 ## July 31, 2020
 * add visualization that a message is queued for delivery
+* indicate that a message is queued for delivery in the scheduler
+* set queued status of message and convered to scheduledstatus
 
 ## July 30, 2020
 * trim and null checks for personalization graph
