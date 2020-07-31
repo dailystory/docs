@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## July 31, 2020
+* add visualization that a message is queued for delivery
+
 ## July 30, 2020
 * trim and null checks for personalization graph
 * add retry to status queue to add messages back to queue if they are marked as retry
