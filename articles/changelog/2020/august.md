@@ -2,6 +2,9 @@
 ## August 4, 2020
 * return urls in email for automation
 * check if a given url in an email is clicked or check for any click
+* display segment stats when viewing members
+* update trigger to allow for specifying the email link that was clicked
+* return the links for a given email
 
 ## August 3, 2020
 * do not allow same message to be scheduled within 1 hour
