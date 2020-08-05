@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## August 5, 2020
 * wildcard url matching trigger
+* bug email conditions weren't defaulting to 72 hours
 
 ## August 4, 2020
 * return urls in email for automation
