@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 5, 2020
+* wildcard url matching trigger
+
 ## August 4, 2020
 * return urls in email for automation
 * check if a given url in an email is clicked or check for any click
