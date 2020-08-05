@@ -3,6 +3,8 @@
 * wildcard url matching trigger
 * bug email conditions weren't defaulting to 72 hours
 * allow email has clicked condition to use specific url
+* check for specific click in email condition
+* when removed from campaign also remove from automation
 
 ## August 4, 2020
 * return urls in email for automation
