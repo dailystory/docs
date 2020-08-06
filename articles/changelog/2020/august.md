@@ -10,6 +10,7 @@
 * everyone is no longer selected by default and time is set to +1 hour for scheduler
 * warning wasn't shown when 0 leads in campaign
 * set email last sent date time
+* Add Yelp as a built in social url for personalization and in settings
 
 ## August 5, 2020
 * wildcard url matching trigger
