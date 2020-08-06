@@ -11,6 +11,9 @@
 * warning wasn't shown when 0 leads in campaign
 * set email last sent date time
 * Add Yelp as a built in social url for personalization and in settings
+* clean up and refactor contact activity
+* Add new action: add note
+* move POST activity for contact to contact API
 
 ## August 5, 2020
 * wildcard url matching trigger
