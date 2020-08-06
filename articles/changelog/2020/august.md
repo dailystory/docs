@@ -7,6 +7,7 @@
 * Ability to access an asset's sub-menu from within the campaign with ...
 * allow dynamic segment search criteria to be updated using search ux
 * bug with duplicate column
+* everyone is no longer selected by default and time is set to +1 hour for scheduler
 
 ## August 5, 2020
 * wildcard url matching trigger
