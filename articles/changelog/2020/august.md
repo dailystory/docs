@@ -5,6 +5,7 @@
 * bug shouldn't be able to go to a go to step in automation
 * set isStartTrigger to indicate that a trigger can only be used to start an automation
 * Ability to access an asset's sub-menu from within the campaign with ...
+* allow dynamic segment search criteria to be updated using search ux
 
 ## August 5, 2020
 * wildcard url matching trigger
