@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## August 6, 2020
 * updates to http helper
+* initial check in for two factor auth support
 
 ## August 5, 2020
 * wildcard url matching trigger
