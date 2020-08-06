@@ -2,6 +2,8 @@
 ## August 6, 2020
 * updates to http helper
 * initial check in for two factor auth support
+* bug shouldn't be able to go to a go to step in automation
+* set isStartTrigger to indicate that a trigger can only be used to start an automation
 
 ## August 5, 2020
 * wildcard url matching trigger
