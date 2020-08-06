@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 6, 2020
+* updates to http helper
+
 ## August 5, 2020
 * wildcard url matching trigger
 * bug email conditions weren't defaulting to 72 hours
