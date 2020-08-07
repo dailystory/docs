@@ -4,6 +4,7 @@
 * Add advanced option for emails to disable/enable click and open tracking
 * Add bulk upsert for tags
 * add support for adding tags during bulk import
+* Add support for bulk add tags to contacts
 
 ## August 6, 2020
 * updates to http helper
