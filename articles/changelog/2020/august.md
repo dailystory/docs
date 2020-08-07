@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## August 7, 2020
 * autorouted lead needed additional detail for notifications
+* Add advanced option for emails to disable/enable click and open tracking
 
 ## August 6, 2020
 * updates to http helper
