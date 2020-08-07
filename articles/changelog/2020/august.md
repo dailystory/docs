@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 7, 2020
+* autorouted lead needed additional detail for notifications
+
 ## August 6, 2020
 * updates to http helper
 * initial check in for two factor auth support
