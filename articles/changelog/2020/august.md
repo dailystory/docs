@@ -2,6 +2,8 @@
 ## August 7, 2020
 * autorouted lead needed additional detail for notifications
 * Add advanced option for emails to disable/enable click and open tracking
+* Add bulk upsert for tags
+* add support for adding tags during bulk import
 
 ## August 6, 2020
 * updates to http helper
