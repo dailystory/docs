@@ -1,7 +1,8 @@
 # DailyStory Product Updates for July 2020
 ## August 8, 2020
 * Shouldn't be able to create duplicate email senders
-* refactor for testing of managed senders
+* Refactor for testing of managed senders
+* Trigger automation when a tag is added in bulk add
 
 ## August 7, 2020
 * autorouted lead needed additional detail for notifications
