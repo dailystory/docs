@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 8, 2020
+* Shouldn't be able to create duplicate email senders
+
 ## August 7, 2020
 * autorouted lead needed additional detail for notifications
 * Add advanced option for emails to disable/enable click and open tracking
