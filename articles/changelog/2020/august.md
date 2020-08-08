@@ -3,6 +3,7 @@
 * Shouldn't be able to create duplicate email senders
 * Refactor for testing of managed senders
 * Trigger automation when a tag is added in bulk add
+* Add quick actions to campaigns
 
 ## August 7, 2020
 * autorouted lead needed additional detail for notifications
