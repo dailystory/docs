@@ -1,4 +1,8 @@
 # DailyStory Product Updates for July 2020
+## August 10, 2020
+* add support for email variants
+* initial check in for multivariate support in ux
+
 ## August 8, 2020
 * Shouldn't be able to create duplicate email senders
 * Refactor for testing of managed senders
