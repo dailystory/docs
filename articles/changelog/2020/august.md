@@ -1,4 +1,8 @@
 # DailyStory Product Updates for July 2020
+## August 11, 2020
+* stub for AMP emails
+* save versions of emails
+
 ## August 10, 2020
 * add support for email variants
 * initial check in for multivariate support in ux
