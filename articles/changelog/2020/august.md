@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 12, 2020
+* Refactor email revisions into asset revisions
+
 ## August 11, 2020
 * stub for AMP emails
 * save versions of emails
