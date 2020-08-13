@@ -5,6 +5,7 @@
 * enhance neverbounce to run processes in parallel
 * only emails of type email can be scheduled
 * bug with start trigger checking logic
+* add conditions for is in segment and is in campaign
 
 ## August 12, 2020
 * Refactor email revisions into asset revisions
