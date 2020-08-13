@@ -1,4 +1,10 @@
 # DailyStory Product Updates for July 2020
+## August 13, 2020
+* updates and improvements to multivariate emails
+* updates for how neverbounce handled exceptions for parallel processing
+* enhance neverbounce to run processes in parallel
+* only emails of type email can be scheduled
+
 ## August 12, 2020
 * Refactor email revisions into asset revisions
 
