@@ -2,6 +2,7 @@
 ## August 14, 2020
 * set favicon, description, author and  keywords in pages
 * set generator an og:site_name in meta tags for pages
+* bug city wasn't included in advanced search
 
 ## August 13, 2020
 * updates and improvements to multivariate emails
