@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## August 14, 2020
 * set favicon, description, author and  keywords in pages
+* set generator an og:site_name in meta tags for pages
 
 ## August 13, 2020
 * updates and improvements to multivariate emails
