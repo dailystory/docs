@@ -3,6 +3,11 @@
 * set favicon, description, author and  keywords in pages
 * set generator an og:site_name in meta tags for pages
 * bug city wasn't included in advanced search
+* add support for select2 in automation ux dropdowns
+* support select2 for tag related items in automation
+* support select2 for segment related items in automation
+* add select2 for campaigns in automation and fix bug with selected item
+* use select2 for user dropdowns in automation
 
 ## August 13, 2020
 * updates and improvements to multivariate emails
