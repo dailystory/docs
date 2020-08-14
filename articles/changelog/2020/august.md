@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 14, 2020
+* set favicon, description, author and  keywords in pages
+
 ## August 13, 2020
 * updates and improvements to multivariate emails
 * updates for how neverbounce handled exceptions for parallel processing
