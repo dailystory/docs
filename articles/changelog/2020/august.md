@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 15, 2020
+* bug with how scheduler calculated stats
+
 ## August 14, 2020
 * set favicon, description, author and  keywords in pages
 * set generator an og:site_name in meta tags for pages
