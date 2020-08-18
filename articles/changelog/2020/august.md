@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 18, 2020
+* better handle 30007 codes from Twilio
+
 ## August 15, 2020
 * bug with how scheduler calculated stats
 
