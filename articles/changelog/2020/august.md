@@ -5,6 +5,7 @@
 * add spam checker
 * add support for deliverability scoring when creating a text message
 * add lookup for phone number to Twilio sync
+* don't process text messages with whenall
 
 ## August 15, 2020
 * bug with how scheduler calculated stats
