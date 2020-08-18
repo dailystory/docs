@@ -3,6 +3,7 @@
 * better handle 30007 codes from Twilio
 * expand length of text message body to accomodate long URLs
 * add spam checker
+* add support for deliverability scoring when creating a text message
 
 ## August 15, 2020
 * bug with how scheduler calculated stats
