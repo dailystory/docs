@@ -2,6 +2,7 @@
 ## August 19, 2020
 * minor bugs and ux improvements to text message deliverability score
 * bug join table to ensure logs exist
+* add birthday to contact record ux
 
 ## August 18, 2020
 * better handle 30007 codes from Twilio
