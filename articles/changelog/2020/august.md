@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 19, 2020
+* minor bugs and ux improvements to text message deliverability score
+
 ## August 18, 2020
 * better handle 30007 codes from Twilio
 * expand length of text message body to accomodate long URLs
