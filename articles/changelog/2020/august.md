@@ -4,6 +4,7 @@
 * bug join table to ensure logs exist
 * add birthday to contact record ux
 * bug don't display example.com emails in ux
+* allow type jpeg for image picker
 
 ## August 18, 2020
 * better handle 30007 codes from Twilio
