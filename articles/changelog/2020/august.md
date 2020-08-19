@@ -5,6 +5,7 @@
 * add birthday to contact record ux
 * bug don't display example.com emails in ux
 * allow type jpeg for image picker
+* add category just for a URL
 
 ## August 18, 2020
 * better handle 30007 codes from Twilio
