@@ -2,6 +2,8 @@
 ## August 20, 2020
 * bug set mobile number when looking up lead
 * progressive lookup by dsid, email and then mobile number
+* remove updates to campaign_workflows
+* add trigger to run when leads are removed from a segment
 
 ## August 19, 2020
 * minor bugs and ux improvements to text message deliverability score
