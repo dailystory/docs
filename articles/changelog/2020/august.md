@@ -1,4 +1,8 @@
 # DailyStory Product Updates for July 2020
+## August 20, 2020
+* bug set mobile number when looking up lead
+* progressive lookup by dsid, email and then mobile number
+
 ## August 19, 2020
 * minor bugs and ux improvements to text message deliverability score
 * bug join table to ensure logs exist
