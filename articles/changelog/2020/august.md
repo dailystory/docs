@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## August 21, 2020
 * added ReportCsvHelper to easily convert DataTable to CSV
+* Add export SMS replies and paging in UX
 
 ## August 20, 2020
 * bug set mobile number when looking up lead
