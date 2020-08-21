@@ -7,6 +7,7 @@
 * Manage tags shouldn't require administrator privlidges
 * reports shouldn't be versioned
 * bug api path updates from refactor
+* updates for funnels to include additional detail
 
 ## August 20, 2020
 * bug set mobile number when looking up lead
