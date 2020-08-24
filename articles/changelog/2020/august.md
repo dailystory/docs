@@ -1,4 +1,8 @@
 # DailyStory Product Updates for July 2020
+## August 22, 2020
+* bad controller paths in the sms report
+* updates to funnels
+
 ## August 21, 2020
 * added ReportCsvHelper to easily convert DataTable to CSV
 * Add export SMS replies and paging in UX
