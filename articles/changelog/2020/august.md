@@ -2,6 +2,9 @@
 ## August 22, 2020
 * bad controller paths in the sms report
 * updates to funnels
+* Renamed OffsetTimezoneFromUTC to ConvertUTCToLocalTimezone
+* Bug with email queue using wrong conversion for UTC to local time
+* track funnel associated with the conversion
 
 ## August 21, 2020
 * added ReportCsvHelper to easily convert DataTable to CSV
