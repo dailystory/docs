@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 25, 2020
+* bug more unwinding of /v1 reports routes
+
 ## August 23, 2020
 * add support for import/export segments
 
