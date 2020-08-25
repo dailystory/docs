@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 23, 2020
+* add support for import/export segments
+
 ## August 22, 2020
 * bad controller paths in the sms report
 * updates to funnels
