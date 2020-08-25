@@ -2,6 +2,7 @@
 ## August 25, 2020
 * add support for import/export segments
 * bug more unwinding of /v1 reports routes
+* updates to support autopilot and segment templates
 
 ## August 24, 2020
 * bad controller paths in the sms report
