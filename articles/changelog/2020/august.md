@@ -1,4 +1,8 @@
 # DailyStory Product Updates for July 2020
+## August 26, 2020
+* Remove references to GetListArray to improve performance
+* Check if dsid is null or empty before attempting to index
+
 ## August 25, 2020
 * add support for import/export segments
 * bug more unwinding of /v1 reports routes
