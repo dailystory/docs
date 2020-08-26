@@ -3,6 +3,7 @@
 * Remove references to GetListArray to improve performance
 * Check if dsid is null or empty before attempting to index
 * Refactor contact search to eliminate unncessary database calls
+* Add support for WhenRemovedFromSegment trigger
 
 ## August 25, 2020
 * add support for import/export segments
