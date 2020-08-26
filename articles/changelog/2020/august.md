@@ -6,6 +6,7 @@
 * Add support for WhenRemovedFromSegment trigger
 * Bug: Activity won't save/post to a contact record
 * add support for import by dsid
+* Refactor funnel to support an aggregate for charts
 
 ## August 25, 2020
 * add support for import/export segments
