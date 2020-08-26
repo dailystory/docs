@@ -4,6 +4,7 @@
 * Check if dsid is null or empty before attempting to index
 * Refactor contact search to eliminate unncessary database calls
 * Add support for WhenRemovedFromSegment trigger
+* Bug: Activity won't save/post to a contact record
 
 ## August 25, 2020
 * add support for import/export segments
