@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 27, 2020
+* Added support for Slack app
+
 ## August 26, 2020
 * Remove references to GetListArray to improve performance
 * Check if dsid is null or empty before attempting to index
