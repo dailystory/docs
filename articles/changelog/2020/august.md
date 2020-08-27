@@ -1,6 +1,7 @@
 # DailyStory Product Updates for July 2020
 ## August 27, 2020
 * Added support for Slack app
+* add support for Slack in UX integrations
 
 ## August 26, 2020
 * Remove references to GetListArray to improve performance
