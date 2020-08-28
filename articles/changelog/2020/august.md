@@ -1,4 +1,7 @@
 # DailyStory Product Updates for July 2020
+## August 28, 2020
+* Better formatting for automation notifications from Slack
+
 ## August 27, 2020
 * Added support for Slack app
 * add support for Slack in UX integrations
