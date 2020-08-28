@@ -2,6 +2,7 @@
 ## August 28, 2020
 * Better formatting for automation notifications from Slack
 * Update search util to support indexing a single tenant
+* add basic support for Slack commands
 
 ## August 27, 2020
 * Added support for Slack app
