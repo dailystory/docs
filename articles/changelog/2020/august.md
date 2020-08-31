@@ -5,6 +5,8 @@
 * Replace LightningContext.Current.Tenant in APIs
 * updates to Slack controllers
 * Add support for deep linking through Firebase
+* Remove all uses of Lightning.Context.Current in web apis
+* bug with how Slack controller received commands
 
 ## August 28, 2020
 * Better formatting for automation notifications from Slack
