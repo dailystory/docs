@@ -4,6 +4,7 @@
 * Add support for Slack Slash command to return contacts
 * Replace LightningContext.Current.Tenant in APIs
 * updates to Slack controllers
+* Add support for deep linking through Firebase
 
 ## August 28, 2020
 * Better formatting for automation notifications from Slack
