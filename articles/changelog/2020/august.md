@@ -1,4 +1,10 @@
 # DailyStory Product Updates for July 2020
+## August 31, 2020
+* clean up integration connection provider
+* Add support for Slack Slash command to return contacts
+* Replace LightningContext.Current.Tenant in APIs
+* updates to Slack controllers
+
 ## August 28, 2020
 * Better formatting for automation notifications from Slack
 * Update search util to support indexing a single tenant
