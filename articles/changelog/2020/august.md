@@ -1,4 +1,4 @@
-# DailyStory Product Updates for July 2020
+# DailyStory Product Updates for August 2020
 ## August 31, 2020
 * clean up integration connection provider
 * Add support for Slack Slash command to return contacts
