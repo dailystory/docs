@@ -3,6 +3,7 @@
 * Increase weight for bad url and some words in sms scoring tool
 * refactor for create edit funnels
 * Improvement to focus screen ux
+* Add support for medical license expiration in Weave sync
 
 ## September 1, 2020
 * Scheduler deleting scheduled items when edited
