@@ -1,4 +1,8 @@
 # DailyStory Product Updates for September 2020
+## September 3, 2020
+* Updates for responsive UX
+* Remove old log redirect url
+
 ## September 2, 2020
 * Increase weight for bad url and some words in sms scoring tool
 * refactor for create edit funnels
