@@ -3,6 +3,10 @@
 * Updates for responsive UX
 * Remove old log redirect url
 * Allow for ranged searchs of 0 to include null when only using from
+* Add support or formatting friendly location
+* Refactor GetNewLeads to GetInboundLeads
+* New apis for leads
+* Improve performance of home page
 
 ## September 2, 2020
 * Increase weight for bad url and some words in sms scoring tool
