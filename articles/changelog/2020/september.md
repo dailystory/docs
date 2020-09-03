@@ -2,6 +2,7 @@
 ## September 3, 2020
 * Updates for responsive UX
 * Remove old log redirect url
+* Allow for ranged searchs of 0 to include null when only using from
 
 ## September 2, 2020
 * Increase weight for bad url and some words in sms scoring tool
