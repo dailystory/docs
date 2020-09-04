@@ -6,6 +6,7 @@
 * Bug Insert Image not working in Email Template Edit screen
 * Update Email HTML Editor for consistency
 * Bug new contact save with empty full name over writes valid name
+* Inline menus need to be consistent
 
 ## September 3, 2020
 * Updates for responsive UX
