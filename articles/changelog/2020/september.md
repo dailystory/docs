@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 4, 2020
+* Add support for custom button position for popups
+
 ## September 3, 2020
 * Updates for responsive UX
 * Remove old log redirect url
