@@ -8,6 +8,7 @@
 * New apis for leads
 * Improve performance of home page
 * bug when checking search array item for space
+* handle unprocess text messages that are returned as status sent
 
 ## September 2, 2020
 * Increase weight for bad url and some words in sms scoring tool
