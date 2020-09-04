@@ -4,6 +4,7 @@
 * Updates for designer consistency across editors
 * Add support for renaming files and folders in file manager
 * Bug Insert Image not working in Email Template Edit screen
+* Update Email HTML Editor for consistency
 
 ## September 3, 2020
 * Updates for responsive UX
