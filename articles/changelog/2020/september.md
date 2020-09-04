@@ -3,6 +3,7 @@
 * Add support for custom button position for popups
 * Updates for designer consistency across editors
 * Add support for renaming files and folders in file manager
+* Bug Insert Image not working in Email Template Edit screen
 
 ## September 3, 2020
 * Updates for responsive UX
