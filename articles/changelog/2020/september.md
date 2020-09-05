@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 5, 2020
+* Status queue items expire after 72 hours
+
 ## September 4, 2020
 * Add support for custom button position for popups
 * Updates for designer consistency across editors
