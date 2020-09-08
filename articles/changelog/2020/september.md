@@ -5,6 +5,7 @@
 * Bug with reports not rendering without fullname
 * Improvements to performance of add segment to campaign
 * Updates to HTML editor and start support for AMP
+* Convert to use Tiny MCE toolbar for consistency
 
 ## September 5, 2020
 * Status queue items expire after 72 hours
