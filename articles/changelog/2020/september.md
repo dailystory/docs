@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 8, 2020
+* Bug Paused campaign has wrong message
+
 ## September 5, 2020
 * Status queue items expire after 72 hours
 * default SMS messages to delivered
