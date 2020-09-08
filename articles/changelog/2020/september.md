@@ -3,6 +3,7 @@
 * Bug Paused campaign has wrong message
 * Add support for dedicated function to GetFullname
 * Bug with reports not rendering without fullname
+* Improvements to performance of add segment to campaign
 
 ## September 5, 2020
 * Status queue items expire after 72 hours
