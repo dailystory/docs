@@ -1,6 +1,8 @@
 # DailyStory Product Updates for September 2020
 ## September 9, 2020
 * Inline menus need to be consistent
+* Main nav documentation link opens full docs
+* Invitation javascript has bugs with setting the password - should be a separate Js file
 
 ## September 8, 2020
 * Bug Paused campaign has wrong message
