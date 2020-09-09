@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 9, 2020
+* Inline menus need to be consistent
+
 ## September 8, 2020
 * Bug Paused campaign has wrong message
 * Add support for dedicated function to GetFullname
