@@ -6,6 +6,7 @@
 * Text Automation has issue with duplicate contact records sharing the same mobile number
 * Refactor and update funnels
 * Merged in design consistency branch
+* Change sequence of when ace editor is initialized for the popup
 
 ## September 8, 2020
 * Bug Paused campaign has wrong message
