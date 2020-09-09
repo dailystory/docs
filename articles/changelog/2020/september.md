@@ -4,6 +4,7 @@
 * Main nav documentation link opens full docs
 * Invitation javascript has bugs with setting the password - should be a separate Js file
 * Text Automation has issue with duplicate contact records sharing the same mobile number
+* Refactor and update funnels
 
 ## September 8, 2020
 * Bug Paused campaign has wrong message
