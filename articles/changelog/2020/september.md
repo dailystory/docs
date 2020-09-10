@@ -4,6 +4,7 @@
 * More refactor on popups
 * Refactor invite to be more personal
 * Add function to check if a dsid guid is already provisioned
+* Refactor create edit ux
 
 ## September 9, 2020
 * Inline menus need to be consistent
