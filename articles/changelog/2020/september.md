@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 10, 2020
+* Bug with callback on file manager - needs to get reset
+
 ## September 9, 2020
 * Inline menus need to be consistent
 * Main nav documentation link opens full docs
