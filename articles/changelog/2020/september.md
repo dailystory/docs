@@ -3,6 +3,7 @@
 * Bug with callback on file manager - needs to get reset
 * More refactor on popups
 * Refactor invite to be more personal
+* Add function to check if a dsid guid is already provisioned
 
 ## September 9, 2020
 * Inline menus need to be consistent
