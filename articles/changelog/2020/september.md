@@ -2,6 +2,7 @@
 ## September 10, 2020
 * Bug with callback on file manager - needs to get reset
 * More refactor on popups
+* Refactor invite to be more personal
 
 ## September 9, 2020
 * Inline menus need to be consistent
