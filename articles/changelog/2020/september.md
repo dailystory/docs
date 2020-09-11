@@ -1,4 +1,8 @@
 # DailyStory Product Updates for September 2020
+## September 11, 2020
+* bug with task association api
+* Add support for RSS driven emails
+
 ## September 10, 2020
 * Bug with callback on file manager - needs to get reset
 * More refactor on popups
