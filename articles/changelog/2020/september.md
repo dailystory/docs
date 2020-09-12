@@ -2,6 +2,7 @@
 ## September 12, 2020
 * Bug with v1 path reference
 * Allow font selection and size in email designer
+* Refactor email designer into component files
 
 ## September 11, 2020
 * bug with task association api
