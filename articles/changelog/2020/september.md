@@ -1,6 +1,7 @@
 # DailyStory Product Updates for September 2020
 ## September 12, 2020
 * Bug with v1 path reference
+* Allow font selection and size in email designer
 
 ## September 11, 2020
 * bug with task association api
