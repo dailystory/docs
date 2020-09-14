@@ -8,6 +8,7 @@
 * Automation for when removed from or added to segment 
 * Remove button location in automation is in the wrong "flow" of the user activity
 * Added anniversary segment to templates
+* Ability to Add Email using a template from within a Campaign
 
 ## September 12, 2020
 * Bug with v1 path reference
