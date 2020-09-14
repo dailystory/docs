@@ -4,6 +4,7 @@
 * Update links to reports in camapign assets for magic forms and web forms
 * Updates to search form description, disable auto-complete on dates and add first engaged
 * Update ContactDocument to support DataFirstSeen
+* Bug need to handle DataFirstSeen as null in search
 
 ## September 12, 2020
 * Bug with v1 path reference
