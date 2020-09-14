@@ -5,6 +5,9 @@
 * Updates to search form description, disable auto-complete on dates and add first engaged
 * Update ContactDocument to support DataFirstSeen
 * Bug need to handle DataFirstSeen as null in search
+* Automation for when removed from or added to segment 
+* Remove button location in automation is in the wrong "flow" of the user activity
+* Added anniversary segment to templates
 
 ## September 12, 2020
 * Bug with v1 path reference
