@@ -2,6 +2,7 @@
 ## September 14, 2020
 * Inline menus need to be consistent
 * Update links to reports in camapign assets for magic forms and web forms
+* Updates to search form description, disable auto-complete on dates and add first engaged
 
 ## September 12, 2020
 * Bug with v1 path reference
