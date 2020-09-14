@@ -1,6 +1,7 @@
 # DailyStory Product Updates for September 2020
 ## September 14, 2020
 * Inline menus need to be consistent
+* Update links to reports in camapign assets for magic forms and web forms
 
 ## September 12, 2020
 * Bug with v1 path reference
