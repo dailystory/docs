@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 14, 2020
+* Inline menus need to be consistent
+
 ## September 12, 2020
 * Bug with v1 path reference
 * Allow font selection and size in email designer
