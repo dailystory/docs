@@ -4,6 +4,8 @@
 * Bug with offset height in page designer
 * Add help article to merge contacts
 * Bugs with system redirect on create tenant
+* Bug with deserializing fullname
+* Change throttle on text messages
 
 ## September 14, 2020
 * Inline menus need to be consistent
