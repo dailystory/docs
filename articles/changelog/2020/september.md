@@ -6,6 +6,7 @@
 * Bugs with system redirect on create tenant
 * Bug with deserializing fullname
 * Change throttle on text messages
+* Run blocks validation on update for automation
 
 ## September 14, 2020
 * Inline menus need to be consistent
