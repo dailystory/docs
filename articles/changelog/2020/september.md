@@ -1,6 +1,9 @@
 # DailyStory Product Updates for September 2020
 ## September 15, 2020
 * Add support for contact merge
+* Bug with offset height in page designer
+* Add help article to merge contacts
+* Bugs with system redirect on create tenant
 
 ## September 14, 2020
 * Inline menus need to be consistent
