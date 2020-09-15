@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 15, 2020
+* Add support for contact merge
+
 ## September 14, 2020
 * Inline menus need to be consistent
 * Update links to reports in camapign assets for magic forms and web forms
