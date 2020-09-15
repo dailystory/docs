@@ -8,6 +8,7 @@
 * Change throttle on text messages
 * Run blocks validation on update for automation
 * Consolidate text message reply handling into single condition
+* Link to replies from menu
 
 ## September 14, 2020
 * Inline menus need to be consistent
