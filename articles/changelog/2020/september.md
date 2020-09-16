@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 16, 2020
+* Add support for scheduling a multivariate email
+
 ## September 15, 2020
 * Add support for contact merge
 * Bug with offset height in page designer
