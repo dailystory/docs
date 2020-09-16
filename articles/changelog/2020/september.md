@@ -3,6 +3,7 @@
 * Add support for scheduling a multivariate email
 * Refactor email experiments
 * Support sending an email experiment
+* Bug with js minification
 
 ## September 15, 2020
 * Add support for contact merge
