@@ -1,6 +1,8 @@
 # DailyStory Product Updates for September 2020
 ## September 16, 2020
 * Add support for scheduling a multivariate email
+* Refactor email experiments
+* Support sending an email experiment
 
 ## September 15, 2020
 * Add support for contact merge
