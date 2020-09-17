@@ -3,6 +3,7 @@
 * Bug with copy popup not setting id correctly
 * Add 2 and 3 col image layouts
 * Update WebTracking to use CosmosDB
+* Bug scheduler should specify message send type
 
 ## September 16, 2020
 * Add support for scheduling a multivariate email
