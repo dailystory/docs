@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 17, 2020
+* Bug with copy popup not setting id correctly
+
 ## September 16, 2020
 * Add support for scheduling a multivariate email
 * Refactor email experiments
