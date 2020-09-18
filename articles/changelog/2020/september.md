@@ -2,6 +2,7 @@
 ## September 18, 2020
 * Convert search to a continuous job
 * Bug with how bad / invalid email addresses were handled in Neverbounce
+* Bug with how birthday was handled in RhinoFit sync
 
 ## September 17, 2020
 * Bug with copy popup not setting id correctly
