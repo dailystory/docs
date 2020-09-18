@@ -4,6 +4,7 @@
 * Bug with how bad / invalid email addresses were handled in Neverbounce
 * Bug with how birthday was handled in RhinoFit sync
 * Bug Value cannot be null or empty.  Parameter name: linkText
+* Bug An item with the same key has already been added.
 
 ## September 17, 2020
 * Bug with copy popup not setting id correctly
