@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 18, 2020
+* Convert search to a continuous job
+
 ## September 17, 2020
 * Bug with copy popup not setting id correctly
 * Add 2 and 3 col image layouts
