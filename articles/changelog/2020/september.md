@@ -9,6 +9,7 @@
 * Handle email format exception from NeverBounce
 * Bug with Weave allowing duplicate customer ids across locations
 * Redirect to login on account not found
+* Bug check for null string on name in file manager
 
 ## September 17, 2020
 * Bug with copy popup not setting id correctly
