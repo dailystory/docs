@@ -8,6 +8,7 @@
 * Bug import should validate dsid and mobile phone too
 * Handle email format exception from NeverBounce
 * Bug with Weave allowing duplicate customer ids across locations
+* Redirect to login on account not found
 
 ## September 17, 2020
 * Bug with copy popup not setting id correctly
