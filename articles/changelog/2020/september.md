@@ -1,4 +1,7 @@
 # DailyStory Product Updates for September 2020
+## September 21, 2020
+* More segment details on recipients for SMS
+
 ## September 18, 2020
 * Convert search to a continuous job
 * Bug with how bad / invalid email addresses were handled in Neverbounce
