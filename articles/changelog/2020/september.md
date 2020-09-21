@@ -5,6 +5,7 @@
 * Update segment stats with email and sms enabled
 * Add support for deleting experiments
 * Add support for AMP emails
+* Bug with load data order in automations
 
 ## September 18, 2020
 * Convert search to a continuous job
