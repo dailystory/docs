@@ -2,6 +2,7 @@
 ## September 21, 2020
 * More segment details on recipients for SMS
 * Export large segments in background task
+* Update segment stats with email and sms enabled
 
 ## September 18, 2020
 * Convert search to a continuous job
