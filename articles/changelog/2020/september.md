@@ -1,6 +1,7 @@
 # DailyStory Product Updates for September 2020
 ## September 22, 2020
 * Iteration on email experiments
+* Handle license exception bug for text messages in automations
 
 ## September 21, 2020
 * More segment details on recipients for SMS
