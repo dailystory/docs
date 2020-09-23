@@ -1,4 +1,8 @@
 # DailyStory Product Updates for September 2020
+## September 23, 2020
+* Import email from URL
+* Updates to add in support for pre-built email templates
+
 ## September 22, 2020
 * Iteration on email experiments
 * Handle license exception bug for text messages in automations
