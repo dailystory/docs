@@ -1,4 +1,8 @@
 # DailyStory Product Updates for September 2020
+## September 24, 2020
+* Enable setting borders in email designer sections
+* Add additional email templates
+
 ## September 23, 2020
 * Import email from URL
 * Updates to add in support for pre-built email templates
