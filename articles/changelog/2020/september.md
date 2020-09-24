@@ -3,6 +3,7 @@
 * Enable setting borders in email designer sections
 * Add additional email templates
 * Bug with image rendering height on email images
+* Update email status change needs to update contact properties
 
 ## September 23, 2020
 * Import email from URL
