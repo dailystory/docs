@@ -4,6 +4,8 @@
 * Add additional email templates
 * Bug with image rendering height on email images
 * Update email status change needs to update contact properties
+* Updates to RSS email component
+* parse RSS for images in email
 
 ## September 23, 2020
 * Import email from URL
