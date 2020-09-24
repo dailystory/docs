@@ -2,6 +2,7 @@
 ## September 24, 2020
 * Enable setting borders in email designer sections
 * Add additional email templates
+* Bug with image rendering height on email images
 
 ## September 23, 2020
 * Import email from URL
