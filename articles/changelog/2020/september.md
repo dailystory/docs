@@ -5,6 +5,7 @@
 * Add conditions for can receive push notifications
 * Add UX for autopilot for receive email, sms or push
 * Updates to support RhinoFit contacts with mobile number
+* Bug with search export including reserved token
 
 ## September 24, 2020
 * Enable setting borders in email designer sections
