@@ -4,6 +4,7 @@
 * Mobile phone validation should fail if the number is less than 10 digits
 * Add conditions for can receive push notifications
 * Add UX for autopilot for receive email, sms or push
+* Updates to support RhinoFit contacts with mobile number
 
 ## September 24, 2020
 * Enable setting borders in email designer sections
