@@ -1,4 +1,8 @@
 # DailyStory Product Updates for September 2020
+## September 25, 2020
+* Add conditions for can receive email or sms
+* Mobile phone validation should fail if the number is less than 10 digits
+
 ## September 24, 2020
 * Enable setting borders in email designer sections
 * Add additional email templates
