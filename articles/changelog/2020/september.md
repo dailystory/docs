@@ -2,6 +2,7 @@
 ## September 29, 2020
 * updates to email designer v2
 * Bugs with undo of fetch async
+* Add support for partial contact indexing
 
 ## September 28, 2020
 * Initial check-in for email designer v2
