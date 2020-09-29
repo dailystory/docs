@@ -1,6 +1,7 @@
 # DailyStory Product Updates for September 2020
 ## September 29, 2020
 * updates to email designer v2
+* Bugs with undo of fetch async
 
 ## September 28, 2020
 * Initial check-in for email designer v2
