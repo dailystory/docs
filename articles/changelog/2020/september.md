@@ -1,6 +1,9 @@
 # DailyStory Product Updates for September 2020
 ## September 30, 2020
 * Bug with async fetch in workflow
+* Add UpdateMobilePhoneAsync similar to update email
+* Randomize dequeue for sms status
+* Move contact segment reindexing to separate queue
 
 ## September 29, 2020
 * updates to email designer v2
