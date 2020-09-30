@@ -5,6 +5,7 @@
 * Randomize dequeue for sms status
 * Move contact segment reindexing to separate queue
 * Move contact campaign reindexing to separate queue
+* Move contact tag reindexing to separate queue
 
 ## September 29, 2020
 * updates to email designer v2
