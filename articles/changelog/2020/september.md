@@ -10,6 +10,7 @@
 * Move contact reindexing to separate queue
 * Text message contact reindexing
 * add support for custom fonts in email designer
+* add send test from email designer
 
 ## September 29, 2020
 * updates to email designer v2
