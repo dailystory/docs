@@ -7,6 +7,8 @@
 * Move contact campaign reindexing to separate queue
 * Move contact tag reindexing to separate queue
 * Move contact email opens and clicks reindexing to separate queue
+* Move contact reindexing to separate queue
+* Text message contact reindexing
 
 ## September 29, 2020
 * updates to email designer v2
