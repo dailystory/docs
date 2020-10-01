@@ -5,3 +5,4 @@
 * Validate that user has mobile number set to receive notifications in automations
 * RhinoFit "Deleted" Contacts not Updating in DailyStory
 * Refactor for tag users in bulk
+* Weave excludes under 21 from import
