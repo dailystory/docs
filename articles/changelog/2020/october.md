@@ -4,3 +4,4 @@
 * Add support for lead reindex queue
 * Validate that user has mobile number set to receive notifications in automations
 * RhinoFit "Deleted" Contacts not Updating in DailyStory
+* Refactor for tag users in bulk
