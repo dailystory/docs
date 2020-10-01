@@ -12,6 +12,7 @@
 * add support for custom fonts in email designer
 * add send test from email designer
 * add class for images to support full width on mobile
+* Check to ensure that the user has a valid phone for mobile notifications in automations
 
 ## September 29, 2020
 * updates to email designer v2
