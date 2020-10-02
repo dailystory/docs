@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 2, 2020
+* Do not allow set on fullname for contacts in json serialization
+
 ## October 1, 2020
 * Remove removeTableIfEmpty from email designer
 * Add support for lead reindex queue
