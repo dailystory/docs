@@ -3,6 +3,7 @@
 * Do not allow set on fullname for contacts in json serialization
 * updates for email designer styles
 * Expand UDF custom contact fields that are indexable
+* Add support for setting background images on email container component
 
 ## October 1, 2020
 * Remove removeTableIfEmpty from email designer
