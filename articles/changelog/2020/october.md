@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 3, 2020
+* Update to search reindexing
+
 ## October 2, 2020
 * Do not allow set on fullname for contacts in json serialization
 * updates for email designer styles
