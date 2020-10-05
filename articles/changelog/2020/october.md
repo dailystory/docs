@@ -3,6 +3,7 @@
 * Support for border radius and backgrounds in email designer
 * Update to button border support and default behavior
 * update drag behavior for email designer
+* updates for social icons sizing
 
 ## October 3, 2020
 * Update to search reindexing
