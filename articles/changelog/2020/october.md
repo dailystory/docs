@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 5, 2020
+* Support for border radius and backgrounds in email designer
+
 ## October 3, 2020
 * Update to search reindexing
 
