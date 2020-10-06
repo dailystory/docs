@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 6, 2020
+* Support changing the size of the social icons
+
 ## October 5, 2020
 * Support for border radius and backgrounds in email designer
 * Update to button border support and default behavior
