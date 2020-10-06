@@ -2,6 +2,7 @@
 ## October 6, 2020
 * Support changing the size of the social icons
 * updates to social icons to support various styles
+* Save contact when processing a lead from the queue
 
 ## October 5, 2020
 * Support for border radius and backgrounds in email designer
