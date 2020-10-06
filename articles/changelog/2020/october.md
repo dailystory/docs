@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 6, 2020
 * Support changing the size of the social icons
+* updates to social icons to support various styles
 
 ## October 5, 2020
 * Support for border radius and backgrounds in email designer
