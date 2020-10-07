@@ -2,6 +2,7 @@
 ## October 7, 2020
 * add support for better placeholders in designer
 * Add required indicator on forms
+* Word/Letter case revisions accepted in contact records for imports
 
 ## October 6, 2020
 * Support changing the size of the social icons
