@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 7, 2020
 * add support for better placeholders in designer
+* Add required indicator on forms
 
 ## October 6, 2020
 * Support changing the size of the social icons
