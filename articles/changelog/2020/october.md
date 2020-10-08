@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 8, 2020
+* Standarize the mobile number before performing validation check
+
 ## October 7, 2020
 * add support for better placeholders in designer
 * Add required indicator on forms
