@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 13, 2020
 * Remove Terms from views
+* Handle case where firstname was single character
 
 ## October 8, 2020
 * Standarize the mobile number before performing validation check
