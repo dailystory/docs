@@ -4,6 +4,7 @@
 * Handle case where firstname was single character
 * Convert text message trigger to use message id vs reply text
 * Sort file manage picker by date created vs. alpha
+* Pattern web form designer after automation and bug fixes
 
 ## October 8, 2020
 * Standarize the mobile number before performing validation check
