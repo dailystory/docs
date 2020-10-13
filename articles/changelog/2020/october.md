@@ -2,6 +2,8 @@
 ## October 13, 2020
 * Remove Terms from views
 * Handle case where firstname was single character
+* Convert text message trigger to use message id vs reply text
+* Sort file manage picker by date created vs. alpha
 
 ## October 8, 2020
 * Standarize the mobile number before performing validation check
