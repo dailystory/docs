@@ -4,6 +4,7 @@
 * additional email designer layouts
 * Move Segment stats to top of page & add "math" line item(s) for who's eligible
 * Add support for email enabled in segments
+* add export and create segment to top of page
 
 ## October 13, 2020
 * Remove Terms from views
