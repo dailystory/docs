@@ -2,6 +2,7 @@
 ## October 14, 2020
 * Update to use SearchUtil Parse Search text
 * additional email designer layouts
+* Move Segment stats to top of page & add "math" line item(s) for who's eligible
 
 ## October 13, 2020
 * Remove Terms from views
