@@ -6,6 +6,7 @@
 * Add support for email enabled in segments
 * add export and create segment to top of page
 * trim search results what parsing
+* Add "Send Email" to advanced options menu form within the assets list of a campaign
 
 ## October 13, 2020
 * Remove Terms from views
