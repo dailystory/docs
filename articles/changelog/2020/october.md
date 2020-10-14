@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 14, 2020
 * Update to use SearchUtil Parse Search text
+* additional email designer layouts
 
 ## October 13, 2020
 * Remove Terms from views
