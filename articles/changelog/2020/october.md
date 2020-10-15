@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 15, 2020
+* bug with handling picklist with empty string
+
 ## October 14, 2020
 * Update to use SearchUtil Parse Search text
 * additional email designer layouts
