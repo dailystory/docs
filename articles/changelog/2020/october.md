@@ -4,6 +4,7 @@
 * Add render async to content page for handle bar personalization
 * Deprioritize updating dynamic segments when multiple items in task queue
 * Update graph fields during sync for Weave
+* Landing Page Footer in Designer does not have built in personalization
 
 ## October 15, 2020
 * bug with handling picklist with empty string
