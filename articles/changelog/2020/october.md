@@ -5,6 +5,7 @@
 * Deprioritize updating dynamic segments when multiple items in task queue
 * Update graph fields during sync for Weave
 * Landing Page Footer in Designer does not have built in personalization
+* Expand udf strings from 10 to 15
 
 ## October 15, 2020
 * bug with handling picklist with empty string
