@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 16, 2020
 * Extract contact GetGraph to tenant
+* Add render async to content page for handle bar personalization
 
 ## October 15, 2020
 * bug with handling picklist with empty string
