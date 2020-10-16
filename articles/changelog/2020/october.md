@@ -2,6 +2,8 @@
 ## October 16, 2020
 * Extract contact GetGraph to tenant
 * Add render async to content page for handle bar personalization
+* Deprioritize updating dynamic segments when multiple items in task queue
+* Update graph fields during sync for Weave
 
 ## October 15, 2020
 * bug with handling picklist with empty string
