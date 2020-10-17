@@ -2,6 +2,7 @@
 ## October 17, 2020
 * Link SMS reports to leads not contacts
 * Handle ellipses and space breaks
+* Enable limiting text returned from RSS results
 
 ## October 16, 2020
 * Extract contact GetGraph to tenant
