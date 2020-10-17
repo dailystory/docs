@@ -3,6 +3,7 @@
 * Link SMS reports to leads not contacts
 * Handle ellipses and space breaks
 * Enable limiting text returned from RSS results
+* Add DailYStory specific Css classes to email css
 
 ## October 16, 2020
 * Extract contact GetGraph to tenant
