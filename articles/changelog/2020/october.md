@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 17, 2020
+* Link SMS reports to leads not contacts
+
 ## October 16, 2020
 * Extract contact GetGraph to tenant
 * Add render async to content page for handle bar personalization
