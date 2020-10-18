@@ -5,6 +5,7 @@
 * Enable limiting text returned from RSS results
 * Add DailyStory specific Css classes to email css
 * set css classes for mobile behavior on images in designer
+* add support for pre-defined templates for rss
 
 ## October 16, 2020
 * Extract contact GetGraph to tenant
