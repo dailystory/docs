@@ -3,7 +3,8 @@
 * Link SMS reports to leads not contacts
 * Handle ellipses and space breaks
 * Enable limiting text returned from RSS results
-* Add DailYStory specific Css classes to email css
+* Add DailyStory specific Css classes to email css
+* set css classes for mobile behavior on images in designer
 
 ## October 16, 2020
 * Extract contact GetGraph to tenant
