@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 19, 2020
 * padding and spacing issues with emails that are image only
+* remove full width on images and add block
 
 ## October 17, 2020
 * Link SMS reports to leads not contacts
