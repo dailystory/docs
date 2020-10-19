@@ -3,6 +3,8 @@
 * padding and spacing issues with emails that are image only
 * remove full width on images and add block
 * Support filtering of leads in campaign view
+* Bug with no breaking space
+* Better format description on RSS feed
 
 ## October 17, 2020
 * Link SMS reports to leads not contacts
