@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 19, 2020
+* padding and spacing issues with emails that are image only
+
 ## October 17, 2020
 * Link SMS reports to leads not contacts
 * Handle ellipses and space breaks
