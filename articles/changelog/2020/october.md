@@ -3,6 +3,7 @@
 * Improvements to text message spam checker
 * Create trial for onetool users
 * Bug in automation when date do not conact is set for sms
+* remove old workflow route
 
 ## October 19, 2020
 * padding and spacing issues with emails that are image only
