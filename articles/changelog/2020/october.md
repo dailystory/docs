@@ -10,6 +10,7 @@
 * Add text message export button similar to email
 * Iteration on Tag users in bulk
 * support for bulk add/remove in api
+* Support for bulk add/remove in tag component
 
 ## October 19, 2020
 * padding and spacing issues with emails that are image only
