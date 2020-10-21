@@ -4,6 +4,8 @@
 * Create trial for onetool users
 * Bug in automation when date do not conact is set for sms
 * remove old workflow route
+* Bug with bounds checking on scheduled dates
+* Bug with null check on rss summary
 
 ## October 19, 2020
 * padding and spacing issues with emails that are image only
