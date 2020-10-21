@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 21, 2020
 * Improvements to text message spam checker
+* Create trial for onetool users
 
 ## October 19, 2020
 * padding and spacing issues with emails that are image only
