@@ -9,6 +9,7 @@
 * Add percentages to export reports
 * Add text message export button similar to email
 * Iteration on Tag users in bulk
+* support for bulk add/remove in api
 
 ## October 19, 2020
 * padding and spacing issues with emails that are image only
