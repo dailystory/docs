@@ -6,6 +6,8 @@
 * remove old workflow route
 * Bug with bounds checking on scheduled dates
 * Bug with null check on rss summary
+* Add percentages to export reports
+* Add text message export button similar to email
 
 ## October 19, 2020
 * padding and spacing issues with emails that are image only
