@@ -8,6 +8,7 @@
 * Bug with null check on rss summary
 * Add percentages to export reports
 * Add text message export button similar to email
+* Iteration on Tag users in bulk
 
 ## October 19, 2020
 * padding and spacing issues with emails that are image only
