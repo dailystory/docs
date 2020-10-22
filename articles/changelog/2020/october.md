@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 22, 2020
 * Update CheckHasWorkflowAsync to use autopilot
+* Bug with handling "any" condition on opt out trigger
 
 ## October 21, 2020
 * Improvements to text message spam checker
