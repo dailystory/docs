@@ -3,6 +3,7 @@
 * Update CheckHasWorkflowAsync to use autopilot
 * Bug with handling "any" condition on opt out trigger
 * Refactor naming and add condition for has submitted popup
+* Add support for has submitted Magic Form condition
 
 ## October 21, 2020
 * Improvements to text message spam checker
