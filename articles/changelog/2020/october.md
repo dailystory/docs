@@ -5,6 +5,7 @@
 * Refactor naming and add condition for has submitted popup
 * Add support for has submitted Magic Form condition
 * Add condition for has visited page
+* Add support for WhenApiIsCalledAsync trigger
 
 ## October 21, 2020
 * Improvements to text message spam checker
