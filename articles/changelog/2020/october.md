@@ -2,6 +2,7 @@
 ## October 23, 2020
 * Update search filter to support is numeric
 * Bug handle check for null tag
+* Remove old paged leads from campaign view
 
 ## October 22, 2020
 * Update CheckHasWorkflowAsync to use autopilot
