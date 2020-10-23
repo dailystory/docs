@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 23, 2020
 * Update search filter to support is numeric
+* Bug handle check for null tag
 
 ## October 22, 2020
 * Update CheckHasWorkflowAsync to use autopilot
