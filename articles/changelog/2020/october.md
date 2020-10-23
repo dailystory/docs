@@ -6,6 +6,7 @@
 * Add support for has submitted Magic Form condition
 * Add condition for has visited page
 * Add support for WhenApiIsCalledAsync trigger
+* Bug with handling empty strings in import
 
 ## October 21, 2020
 * Improvements to text message spam checker
