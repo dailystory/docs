@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 24, 2020
+* Add support for personalization picker
+
 ## October 23, 2020
 * Update search filter to support is numeric
 * Bug handle check for null tag
