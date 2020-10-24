@@ -2,6 +2,7 @@
 ## October 24, 2020
 * Add support for personalization picker
 * Automations in campaigns should clone
+* Convert edit email html to use api for amp emails
 
 ## October 23, 2020
 * Update search filter to support is numeric
