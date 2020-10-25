@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 25, 2020
+* Favorites aren't updated for rows in DataTable
+
 ## October 24, 2020
 * Add support for personalization picker
 * Automations in campaigns should clone
