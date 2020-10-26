@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 26, 2020
+* Add batch update to graph fields
+
 ## October 25, 2020
 * Favorites aren't updated for rows in DataTable
 * Move graph field to api driven
