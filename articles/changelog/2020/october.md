@@ -3,6 +3,7 @@
 * Add batch update to graph fields
 * popover stats in scheduler
 * Activity Note on Contact Record doesn't save once hit "Add Activity"
+* toggle email optout
 
 ## October 25, 2020
 * Favorites aren't updated for rows in DataTable
