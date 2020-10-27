@@ -1,6 +1,10 @@
 # DailyStory Product Updates for October 2020
 ## October 27, 2020
 * Handle deleting leads in automation action
+* Remove leads in batch should be by lead id
+* Remove dead code
+* Move email optout info to optout object
+* handle unknowns as valid in neverbounce
 
 ## October 26, 2020
 * Add batch update to graph fields
