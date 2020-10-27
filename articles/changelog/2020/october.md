@@ -5,6 +5,7 @@
 * Remove dead code
 * Move email optout info to optout object
 * handle unknowns as valid in neverbounce
+* Re-organizze how opt out reports are accessed
 
 ## October 26, 2020
 * Add batch update to graph fields
