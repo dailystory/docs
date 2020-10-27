@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 27, 2020
+* Handle deleting leads in automation action
+
 ## October 26, 2020
 * Add batch update to graph fields
 * popover stats in scheduler
