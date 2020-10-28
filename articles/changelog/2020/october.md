@@ -4,6 +4,7 @@
 * Updates to email unsubscribe
 * Bug with optout email report
 * Validate step type of when added to segment
+* trigger can refire if sequence id < 0
 
 ## October 27, 2020
 * Handle deleting leads in automation action
