@@ -3,6 +3,7 @@
 * Updates to Telligent sync for how fields are processed
 * Updates to email unsubscribe
 * Bug with optout email report
+* Validate step type of when added to segment
 
 ## October 27, 2020
 * Handle deleting leads in automation action
