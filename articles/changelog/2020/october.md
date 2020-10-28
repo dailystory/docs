@@ -7,6 +7,7 @@
 * trigger can refire if sequence id < 0
 * Add ability to add Opt Out information to Search for Dynamic Segments
 * Handle null values in contact doc for isoptout
+* set autoupdate to true for custom weave fields
 
 ## October 27, 2020
 * Handle deleting leads in automation action
