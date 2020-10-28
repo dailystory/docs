@@ -1,4 +1,8 @@
 # DailyStory Product Updates for October 2020
+## October 28, 2020
+* Updates to Telligent sync for how fields are processed
+* Updates to email unsubscribe
+
 ## October 27, 2020
 * Handle deleting leads in automation action
 * Remove leads in batch should be by lead id
