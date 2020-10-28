@@ -2,6 +2,7 @@
 ## October 28, 2020
 * Updates to Telligent sync for how fields are processed
 * Updates to email unsubscribe
+* Bug with optout email report
 
 ## October 27, 2020
 * Handle deleting leads in automation action
