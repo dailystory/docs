@@ -5,6 +5,7 @@
 * Updated graph fields to better compress pick list values
 * sms opt out reports
 * Batch and single remove lead from new campaign leads view
+* clean up tag formatting for multiple tags
 
 ## October 28, 2020
 * Updates to Telligent sync for how fields are processed
