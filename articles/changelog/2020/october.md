@@ -2,6 +2,7 @@
 ## October 29. 2020
 * Refactor to remove lead stats
 * Delete parent Twilio account throws exception
+* Updated graph fields to better compress pick list values
 
 ## October 28, 2020
 * Updates to Telligent sync for how fields are processed
