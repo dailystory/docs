@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 29. 2020
 * Refactor to remove lead stats
+* Delete parent Twilio account throws exception
 
 ## October 28, 2020
 * Updates to Telligent sync for how fields are processed
