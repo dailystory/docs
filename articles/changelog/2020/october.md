@@ -3,6 +3,7 @@
 * Add support for active/pause toggle on popup
 * Move drop and tether to header
 * Contact Record Revisions to Campaigns Section
+* Return id for contact activity notes
 
 ## October 29. 2020
 * Refactor to remove lead stats
