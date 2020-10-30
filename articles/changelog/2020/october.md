@@ -5,6 +5,7 @@
 * Contact Record Revisions to Campaigns Section
 * Return id for contact activity notes
 * Check if Amp string is null or empty
+* Move personalize style into main css and add media query
 
 ## October 29. 2020
 * Refactor to remove lead stats
