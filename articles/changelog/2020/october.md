@@ -1,6 +1,7 @@
 # DailyStory Product Updates for October 2020
 ## October 30, 2020
 * Add support for active/pause toggle on popup
+* Move drop and tether to header
 
 ## October 29. 2020
 * Refactor to remove lead stats
