@@ -4,6 +4,7 @@
 * Move drop and tether to header
 * Contact Record Revisions to Campaigns Section
 * Return id for contact activity notes
+* Check if Amp string is null or empty
 
 ## October 29. 2020
 * Refactor to remove lead stats
