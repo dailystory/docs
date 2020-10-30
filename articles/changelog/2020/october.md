@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 30, 2020
+* Add support for active/pause toggle on popup
+
 ## October 29. 2020
 * Refactor to remove lead stats
 * Delete parent Twilio account throws exception
