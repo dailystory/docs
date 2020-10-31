@@ -2,6 +2,7 @@
 ## October 31, 2020
 * Shouldn't be able to set alpha/transparency in email designer
 * Return full date time for personalization of system.today
+* Send a reply on top of an existing email design widget
 
 ## October 30, 2020
 * Add support for active/pause toggle on popup
