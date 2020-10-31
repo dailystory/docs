@@ -1,4 +1,7 @@
 # DailyStory Product Updates for October 2020
+## October 31, 2020
+* Shouldn't be able to set alpha/transparency in email designer
+
 ## October 30, 2020
 * Add support for active/pause toggle on popup
 * Move drop and tether to header
