@@ -6,3 +6,4 @@
 * Define a user id for log entries written by automation
 * Update contact preferences to use ContactLog
 * Stacked images in email should be display block if width is 100%
+* Set styles for designer emails
