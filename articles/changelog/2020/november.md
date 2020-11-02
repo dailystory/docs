@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 2, 2020
+* Clean up and reorganize css
+
 ## November 1, 2020
 * Convert contact activity to contact log and to javascript
 * Convert autopilot action to use contact log
