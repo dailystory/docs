@@ -4,6 +4,7 @@
 * Specify the lead origin when lead's created through automation
 * Move images to CDN
 * Consolidate lighthouse script
+* contact log post method wasn't sending back new entry id
 
 ## November 1, 2020
 * Convert contact activity to contact log and to javascript
