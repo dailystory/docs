@@ -2,6 +2,7 @@
 ## November 2, 2020
 * Clean up and reorganize css
 * Specify the lead origin when lead's created through automation
+* Move images to CDN
 
 ## November 1, 2020
 * Convert contact activity to contact log and to javascript
