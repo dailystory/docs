@@ -2,6 +2,8 @@
 ## November 3, 2020
 * Replace Poshy tooltip with Tooltip.js
 * More style clean up
+* Timeout issue on contact activity
+* Graph field need to check for null or empty pick list
 
 ## November 2, 2020
 * Clean up and reorganize css
