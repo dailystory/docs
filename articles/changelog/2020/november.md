@@ -1,6 +1,7 @@
 # DailyStory Product Updates for November 2020
 ## November 3, 2020
 * Replace Poshy tooltip with Tooltip.js
+* More style clean up
 
 ## November 2, 2020
 * Clean up and reorganize css
