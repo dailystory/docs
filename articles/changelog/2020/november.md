@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 3, 2020
+* Replace Poshy tooltip with Tooltip.js
+
 ## November 2, 2020
 * Clean up and reorganize css
 * Specify the lead origin when lead's created through automation
