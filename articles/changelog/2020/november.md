@@ -5,6 +5,7 @@
 * Timeout issue on contact activity
 * Graph field need to check for null or empty pick list
 * Email Bounced List EXPORT report not working
+* update to latest version of jquery
 
 ## November 2, 2020
 * Clean up and reorganize css
