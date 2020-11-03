@@ -6,6 +6,7 @@
 * Graph field need to check for null or empty pick list
 * Email Bounced List EXPORT report not working
 * update to latest version of jquery
+* update to latest bootstrap
 
 ## November 2, 2020
 * Clean up and reorganize css
