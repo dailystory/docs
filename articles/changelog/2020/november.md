@@ -1,6 +1,7 @@
 # DailyStory Product Updates for November 2020
 ## November 4, 2020
 * Column sort order for last modified on leads is not returning correctly
+* Iteration on Send a reply on top of an existing email design widget
 
 ## November 3, 2020
 * Replace Poshy tooltip with Tooltip.js
