@@ -7,6 +7,7 @@
 * Better routine for generating plaintext without requiring additional html parsing
 * more css/html optimization
 * handle nulls in graph field exports
+* Updates for email opt out detail by email id
 
 ## November 4, 2020
 * Column sort order for last modified on leads is not returning correctly
