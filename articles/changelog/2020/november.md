@@ -4,6 +4,7 @@
 * Allow magic form to auto-choose form with most fields
 * optimize TZ lookup to skip exceptions
 * Don't auto create plaintext for email
+* Better routine for generating plaintext without requiring additional html parsing
 
 ## November 4, 2020
 * Column sort order for last modified on leads is not returning correctly
