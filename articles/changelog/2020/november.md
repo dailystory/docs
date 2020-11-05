@@ -1,6 +1,7 @@
 # DailyStory Product Updates for November 2020
 ## November 5, 2020
 * Opt out reports needs to include contact details
+* Allow magic form to auto-choose form with most fields
 
 ## November 4, 2020
 * Column sort order for last modified on leads is not returning correctly
