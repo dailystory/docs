@@ -2,6 +2,7 @@
 ## November 6, 2020
 * Convert click report to use datatable and include URLs
 * Add support for AMP emails
+* Tracking links need to set campaign id
 
 ## November 5, 2020
 * Opt out reports needs to include contact details
