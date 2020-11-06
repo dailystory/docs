@@ -5,6 +5,7 @@
 * Tracking links need to set campaign id
 * Set utm_content to id of email in email redirects
 * Add bulk add/remove tags from contacts
+* add additional activity types such as send sms
 
 ## November 5, 2020
 * Opt out reports needs to include contact details
