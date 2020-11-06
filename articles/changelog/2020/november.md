@@ -3,6 +3,7 @@
 * Convert click report to use datatable and include URLs
 * Add support for AMP emails
 * Tracking links need to set campaign id
+* Set utm_content to id of email in email redirects
 
 ## November 5, 2020
 * Opt out reports needs to include contact details
