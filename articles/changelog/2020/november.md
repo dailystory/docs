@@ -1,4 +1,8 @@
 # DailyStory Product Updates for November 2020
+## November 6, 2020
+* Convert click report to use datatable and include URLs
+* Add support for AMP emails
+
 ## November 5, 2020
 * Opt out reports needs to include contact details
 * Allow magic form to auto-choose form with most fields
