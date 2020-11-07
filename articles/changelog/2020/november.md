@@ -1,4 +1,8 @@
 # DailyStory Product Updates for November 2020
+## November 7, 2020
+* Add RSS trigger block
+* Allow automation block to be set as disabled
+
 ## November 6, 2020
 * Convert click report to use datatable and include URLs
 * Add support for AMP emails
