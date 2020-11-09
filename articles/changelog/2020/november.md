@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 9, 2020
+* Reorg RssEmailUtility into RssHelper
+
 ## November 7, 2020
 * Add RSS trigger block
 * Allow automation block to be set as disabled
