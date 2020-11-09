@@ -2,6 +2,7 @@
 ## November 9, 2020
 * Reorg RssEmailUtility into RssHelper
 * allow block to specify which children are allowed to snap
+* Add TriggerWhenRssUpdated
 
 ## November 7, 2020
 * Add RSS trigger block
