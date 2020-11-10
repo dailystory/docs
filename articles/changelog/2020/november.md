@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 10, 2020
+* Bug with reindex partial never ending loop
+
 ## November 9, 2020
 * Reorg RssEmailUtility into RssHelper
 * allow block to specify which children are allowed to snap
