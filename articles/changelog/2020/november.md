@@ -3,6 +3,7 @@
 * Bug with reindex partial never ending loop
 * Partial reindex of status was int should be string
 * Filter get contact by status
+* improvements to auto generated plaintext
 
 ## November 9, 2020
 * Reorg RssEmailUtility into RssHelper
