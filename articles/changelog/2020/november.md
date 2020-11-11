@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 11, 2020
+* Helper in asset preferences to format email address
+
 ## November 10, 2020
 * Bug with reindex partial never ending loop
 * Partial reindex of status was int should be string
