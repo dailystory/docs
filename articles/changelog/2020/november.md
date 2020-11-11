@@ -2,6 +2,7 @@
 ## November 11, 2020
 * Helper in asset preferences to format email address
 * Track clicks and opens by domain for emails
+* Delivered should be clickable from email summary report
 
 ## November 10, 2020
 * Bug with reindex partial never ending loop
