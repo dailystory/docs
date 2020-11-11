@@ -3,6 +3,7 @@
 * Helper in asset preferences to format email address
 * Track clicks and opens by domain for emails
 * Delivered should be clickable from email summary report
+* Update texts and push notifications to use tenant's timezone for date logging
 
 ## November 10, 2020
 * Bug with reindex partial never ending loop
