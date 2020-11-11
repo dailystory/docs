@@ -6,6 +6,7 @@
 * Update texts and push notifications to use tenant's timezone for date logging
 * Bug with frequency selection in rss updates
 * Support for TriggerWhenRssUpdatedAsync
+* Handle SQL timeout exceptiosn and cool down
 
 ## November 10, 2020
 * Bug with reindex partial never ending loop
