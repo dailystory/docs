@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 12, 2020
+* Update old activities to render correctly in activity log
+
 ## November 11, 2020
 * Helper in asset preferences to format email address
 * Track clicks and opens by domain for emails
