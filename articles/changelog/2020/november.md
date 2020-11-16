@@ -1,4 +1,11 @@
 # DailyStory Product Updates for November 2020
+## November 16, 2020
+* Add caching for favorites look ups
+
+## November 12, 2020
+* Update old activities to render correctly in activity log
+* UX improvement to lead activity
+
 ## November 11, 2020
 * Helper in asset preferences to format email address
 * Track clicks and opens by domain for emails
