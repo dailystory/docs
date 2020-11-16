@@ -1,6 +1,7 @@
 # DailyStory Product Updates for November 2020
 ## November 16, 2020
 * Add caching for favorites look ups
+* Retry on sql timeout exception
 
 ## November 12, 2020
 * Update old activities to render correctly in activity log
