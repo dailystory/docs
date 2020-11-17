@@ -2,6 +2,7 @@
 ## November 17, 2020
 * Updates to RSS trigger logic
 * Azure function to trigger RSS changes
+* Set font sizes and default back to Helvetica
 
 ## November 16, 2020
 * Add caching for favorites look ups
