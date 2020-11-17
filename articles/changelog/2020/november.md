@@ -1,6 +1,7 @@
 # DailyStory Product Updates for November 2020
 ## November 17, 2020
 * Updates to RSS trigger logic
+* Azure function to trigger RSS changes
 
 ## November 16, 2020
 * Add caching for favorites look ups
