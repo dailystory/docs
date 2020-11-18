@@ -1,6 +1,7 @@
 # DailyStory Product Updates for November 2020
 ## November 18, 2020
 * Add link on Failed SMS report page to article with violation codes
+* Ensure a valid email can't be swapped to a @example.com email
 
 ## November 17, 2020
 * Updates to RSS trigger logic
