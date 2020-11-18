@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 18, 2020
+* Add link on Failed SMS report page to article with violation codes
+
 ## November 17, 2020
 * Updates to RSS trigger logic
 * Azure function to trigger RSS changes
