@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 20, 2020
+* Style updates
+
 ## November 19, 2020
 * Only drag using handle
 
