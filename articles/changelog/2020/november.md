@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 21, 2020
+* Automation condition "Is in segment" should allow multiple segments to be selected
+
 ## November 20, 2020
 * Style updates
 * Bug with file / folder load order in file picker'
