@@ -1,6 +1,7 @@
 # DailyStory Product Updates for November 2020
 ## November 21, 2020
 * Automation condition "Is in segment" should allow multiple segments to be selected
+* Convert elipse drop downs to boostrap 4
 
 ## November 20, 2020
 * Style updates
