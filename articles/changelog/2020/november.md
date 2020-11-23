@@ -1,4 +1,8 @@
 # DailyStory Product Updates for November 2020
+## November 23, 2020
+* Sort order on tasks
+* temporary fix for setting bool values when editing contacts
+
 ## November 21, 2020
 * Automation condition "Is in segment" should allow multiple segments to be selected
 * Convert elipse drop downs to boostrap 4
