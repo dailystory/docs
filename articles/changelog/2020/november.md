@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 24, 2020
+* Automation fix for handling no only condition in some cases
+
 ## November 23, 2020
 * Sort order on tasks
 * temporary fix for setting bool values when editing contacts
