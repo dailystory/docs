@@ -1,6 +1,7 @@
 # DailyStory Product Updates for November 2020
 ## November 24, 2020
 * Automation fix for handling no only condition in some cases
+* Add lead to campaign when lead exists but is deleted
 
 ## November 23, 2020
 * Sort order on tasks
