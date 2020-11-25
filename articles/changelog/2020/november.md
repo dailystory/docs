@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 25, 2020
+* Add support for create, edit and view accounts
+
 ## November 24, 2020
 * Automation fix for handling no only condition in some cases
 * Add lead to campaign when lead exists but is deleted
