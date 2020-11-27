@@ -1,4 +1,7 @@
 # DailyStory Product Updates for November 2020
+## November 27, 2020
+* Validate from address matching to allowed sender when creating an email
+
 ## November 25, 2020
 * Add support for create, edit and view accounts
 
