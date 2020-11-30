@@ -1,6 +1,7 @@
 # DailyStory Product Updates for November 2020
 ## November 30, 2020
 * Contact Search not returning correct results for Custom Field: Coterie/Role Field
+* Progression on support for accounts
 
 ## November 27, 2020
 * Validate from address matching to allowed sender when creating an email
