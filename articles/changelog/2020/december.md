@@ -1,6 +1,7 @@
 # DailyStory Product Updates for December 2020
 ## December 3, 2020
 * Add support for picklists when editing a contact record
+* Handle 3 letter word casing in import unchanged vs. to title case
 
 ## December 2, 2020
 * Set sort order for scheduled send report
