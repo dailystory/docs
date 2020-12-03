@@ -1,4 +1,7 @@
 # DailyStory Product Updates for December 2020
+## December 3, 2020
+* Add support for picklists when editing a contact record
+
 ## December 2, 2020
 * Set sort order for scheduled send report
 * Web forms not in campaign are showing available to select for landing page
