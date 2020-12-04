@@ -1,4 +1,7 @@
 # DailyStory Product Updates for December 2020
+## December 4, 2020
+* Updates for deals and accounts
+
 ## December 3, 2020
 * Add support for picklists when editing a contact record
 * Handle 3 letter word casing in import unchanged vs. to title case
