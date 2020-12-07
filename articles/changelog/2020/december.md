@@ -1,6 +1,7 @@
 # DailyStory Product Updates for December 2020
 ## December 7, 2020
 * Updates to accounts and deals\
+* Add emojis to personalization shortcuts for SMS and EMAIL
 
 ## December 4, 2020
 * Updates for deals and accounts
