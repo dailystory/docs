@@ -1,6 +1,7 @@
 # DailyStory Product Updates for December 2020
 ## December 8, 2020
 * Update row padding for email designer updates
+* Set variable container width in email designer
 
 ## December 7, 2020
 * Updates to accounts and deals\
