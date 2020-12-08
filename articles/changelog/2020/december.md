@@ -1,4 +1,7 @@
 # DailyStory Product Updates for December 2020
+## December 8, 2020
+* Update row padding for email designer updates
+
 ## December 7, 2020
 * Updates to accounts and deals\
 * Add emojis to personalization shortcuts for SMS and EMAIL
