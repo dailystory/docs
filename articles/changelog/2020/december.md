@@ -2,6 +2,7 @@
 ## December 9, 2020
 * New replacement images not overwriting existing image in file manager
 * Remove file if updated with new file in drag and drop
+* Show warning when scheduled message is within 30 min of send time
 
 ## December 8, 2020
 * Update row padding for email designer updates
