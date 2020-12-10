@@ -2,6 +2,7 @@
 ## December 10, 2020
 * Email Settings Screen locking up when attempt to import an email
 * Better exception messages for missing from address in emails
+* bug with trying to re-open connection
 
 ## December 9, 2020
 * New replacement images not overwriting existing image in file manager
