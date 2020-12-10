@@ -1,4 +1,8 @@
 # DailyStory Product Updates for December 2020
+## December 10, 2020
+* Email Settings Screen locking up when attempt to import an email
+* Better exception messages for missing from address in emails
+
 ## December 9, 2020
 * New replacement images not overwriting existing image in file manager
 * Remove file if updated with new file in drag and drop
