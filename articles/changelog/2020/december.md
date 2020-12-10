@@ -3,6 +3,7 @@
 * Email Settings Screen locking up when attempt to import an email
 * Better exception messages for missing from address in emails
 * bug with trying to re-open connection
+* handle null campaigns in keywords
 
 ## December 9, 2020
 * New replacement images not overwriting existing image in file manager
