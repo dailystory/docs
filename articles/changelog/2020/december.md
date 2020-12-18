@@ -1,4 +1,7 @@
 # DailyStory Product Updates for December 2020
+## December 18, 2020
+* Create profile.arm.jsoSegment names not showing up on autopilot blocksn
+
 ## December 10, 2020
 * Email Settings Screen locking up when attempt to import an email
 * Better exception messages for missing from address in emails
