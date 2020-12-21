@@ -1,6 +1,7 @@
 # DailyStory Product Updates for December 2020
 ## December 21, 2020
 * Bug with create email not having initial address set
+* Bug with reply to not set
 
 ## December 18, 2020
 * Create profile.arm.jsoSegment names not showing up on autopilot blocksn
