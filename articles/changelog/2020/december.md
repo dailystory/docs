@@ -1,4 +1,7 @@
 # DailyStory Product Updates for December 2020
+## December 21, 2020
+* Can't create a new email - won't let me save and create in any account
+
 ## December 18, 2020
 * Create profile.arm.jsoSegment names not showing up on autopilot blocksn
 
