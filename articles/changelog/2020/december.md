@@ -1,4 +1,8 @@
 # DailyStory Product Updates for December 2020
+## December 22, 2020
+* Convert array filter to use semi-colon instead of pipe
+* Set contact to active if inactive when updating email address
+
 ## December 21, 2020
 * Bug with create email not having initial address set
 * Bug with reply to not set
