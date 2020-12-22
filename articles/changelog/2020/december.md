@@ -2,6 +2,7 @@
 ## December 22, 2020
 * Convert array filter to use semi-colon instead of pipe
 * Set contact to active if inactive when updating email address
+* Rename email experiment a/b test
 
 ## December 21, 2020
 * Bug with create email not having initial address set
