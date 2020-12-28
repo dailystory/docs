@@ -1,4 +1,7 @@
 # DailyStory Product Updates for December 2020
+## December 28, 2020
+* Handle DST in UTC date conversion
+
 ## December 22, 2020
 * Convert array filter to use semi-colon instead of pipe
 * Set contact to active if inactive when updating email address
