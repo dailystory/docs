@@ -3,6 +3,7 @@
 * Handle DST in UTC date conversion
 * Handle camel cased last name like demarco
 * Eval of today should not include time in graph
+* handle null check in web tracking queue
 
 ## December 22, 2020
 * Convert array filter to use semi-colon instead of pipe
