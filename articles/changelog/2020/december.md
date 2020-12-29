@@ -5,6 +5,7 @@
 * Update invite api to include inviter
 * Merge updates to email designer into master
 * Add web form from campaign add assets menu
+* updates to page designer from email designer enhancements
 
 ## December 28, 2020
 * Handle DST in UTC date conversion
