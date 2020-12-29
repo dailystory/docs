@@ -1,6 +1,9 @@
 # DailyStory Product Updates for December 2020
 ## December 29, 2020
 * Remove achievements
+* Remove support for onetool
+* Update invite api to include inviter
+* Merge updates to email designer into master
 
 ## December 28, 2020
 * Handle DST in UTC date conversion
