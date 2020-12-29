@@ -4,6 +4,7 @@
 * Remove support for onetool
 * Update invite api to include inviter
 * Merge updates to email designer into master
+* Add web form from campaign add assets menu
 
 ## December 28, 2020
 * Handle DST in UTC date conversion
