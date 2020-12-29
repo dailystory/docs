@@ -6,6 +6,7 @@
 * Merge updates to email designer into master
 * Add web form from campaign add assets menu
 * updates to page designer from email designer enhancements
+* Convert page designer to use new email style designer
 
 ## December 28, 2020
 * Handle DST in UTC date conversion
