@@ -1,4 +1,7 @@
 # DailyStory Product Updates for December 2020
+## December 29, 2020
+* Remove achievements
+
 ## December 28, 2020
 * Handle DST in UTC date conversion
 * Handle camel cased last name like demarco
