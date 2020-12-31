@@ -2,7 +2,17 @@
 	title: 'Product Updates',
 	description: 'DailyStory Product Updates'
 }
+# Product Updates for 2021
+* [December 2021](2021/january)
+
 # Product Updates for 2020
+* [December 2020](2020/december)
+* [November 2020](2020/november)
+* [October 2020](2020/october)
+* [September 2020](2020/september)
+* [August 2020](2020/august)
+* [July 2020](2020/july)
+* [June 2020](2020/june)
 * [May 2020](2020/may)
 * [April 2020](2020/april)
 * [March 2020](2020/march)
