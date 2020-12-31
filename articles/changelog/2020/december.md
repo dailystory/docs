@@ -6,6 +6,7 @@
 * InsufficientLeadsToTestException for A/B tests
 * Refactor how email a/b tests get processed
 * Allow for exclude of array list filter items
+* Bug in Alphabetical listing of contact lists
 
 ## December 29, 2020
 * Remove achievements
