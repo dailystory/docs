@@ -2,6 +2,7 @@
 ## December 31, 2020
 * Updates to email A/B tests
 * force designer css file update
+* Email designer row sections should size to the current selected size
 
 ## December 29, 2020
 * Remove achievements
