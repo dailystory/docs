@@ -1,6 +1,7 @@
 # DailyStory Product Updates for December 2020
 ## December 31, 2020
 * Updates to email A/B tests
+* force designer css file update
 
 ## December 29, 2020
 * Remove achievements
