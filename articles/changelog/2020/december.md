@@ -4,6 +4,7 @@
 * force designer css file update
 * Email designer row sections should size to the current selected size
 * InsufficientLeadsToTestException for A/B tests
+* Refactor how email a/b tests get processed
 
 ## December 29, 2020
 * Remove achievements
