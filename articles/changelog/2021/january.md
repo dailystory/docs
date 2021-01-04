@@ -3,6 +3,9 @@
 	description: 'Product Updates for January 2021'
 }
 # DailyStory Product Updates for January 2021
+## January 4, 2021
+* bug with media urls in text messages
+
 ## January 2, 2021
 * Comment out invalid sending domain
 
