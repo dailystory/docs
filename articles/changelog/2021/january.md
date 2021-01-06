@@ -5,6 +5,7 @@
 # DailyStory Product Updates for January 2021
 ## January 5, 2021
 * Bug in editing or deleting email template
+* Bug when try to create a new contact record
 
 ## January 4, 2021
 * bug with media urls in text messages
