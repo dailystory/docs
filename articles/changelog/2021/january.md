@@ -3,6 +3,7 @@
 * Don't spell check SMS editing area
 * Add "Date Sent" column to email delivered report
 * update copyright to 2021
+* Multi-field select on contact edit isn't saving
 
 ## January 5, 2021
 * Bug in editing or deleting email template
