@@ -8,6 +8,7 @@
 * Update email 2 column widget to support placeholders
 * Value shouldn't be required in pick list to be saved
 * Standardize column icons and names in email editor
+* Bug with handling leap year birthdays
 
 ## January 5, 2021
 * Bug in editing or deleting email template
