@@ -4,6 +4,7 @@
 * Add "Date Sent" column to email delivered report
 * update copyright to 2021
 * Multi-field select on contact edit isn't saving
+* Pick list values should be shown when available
 
 ## January 5, 2021
 * Bug in editing or deleting email template
