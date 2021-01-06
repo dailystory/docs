@@ -1,4 +1,7 @@
 # DailyStory Product Updates for January 2021
+## January 6, 2021
+* Don't spell check SMS editing area
+
 ## January 5, 2021
 * Bug in editing or deleting email template
 * Bug when try to create a new contact record
