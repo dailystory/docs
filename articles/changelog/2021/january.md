@@ -4,6 +4,7 @@
 * Ability to exclude segments/lists when building dynamic searches/segments
 * Duplicates in opt-out report
 * Undefined status changes in contact log
+* Bug with handling ds_rid and setting redirect url
 
 ## January 6, 2021
 * Don't spell check SMS editing area
