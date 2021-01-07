@@ -1,4 +1,7 @@
 # DailyStory Product Updates for January 2021
+## January 7, 2021
+* Add link on Bounced Report in DS to HelpDocs article
+
 ## January 6, 2021
 * Don't spell check SMS editing area
 * Add "Date Sent" column to email delivered report
