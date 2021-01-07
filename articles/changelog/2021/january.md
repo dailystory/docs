@@ -5,6 +5,7 @@
 * Duplicates in opt-out report
 * Undefined status changes in contact log
 * Bug with handling ds_rid and setting redirect url
+* Convert LinkTracking url builder to use Url Helper's querystring methods
 
 ## January 6, 2021
 * Don't spell check SMS editing area
