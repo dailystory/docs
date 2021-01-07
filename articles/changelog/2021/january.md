@@ -3,6 +3,7 @@
 * Add link on Bounced Report in DS to HelpDocs article
 * Ability to exclude segments/lists when building dynamic searches/segments
 * Duplicates in opt-out report
+* Undefined status changes in contact log
 
 ## January 6, 2021
 * Don't spell check SMS editing area
