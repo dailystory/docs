@@ -3,6 +3,7 @@
 * bug with re-building a url wth querystring
 * Manage fields shouldn't change sort order when a field is updates
 * Refactor CheckIfAlreadyRecievedMessage to allow list of ids
+* add scheduled message type for SendEmailExperimentResult
 
 ## January 7, 2021
 * Add link on Bounced Report in DS to HelpDocs article
