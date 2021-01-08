@@ -1,4 +1,7 @@
 # DailyStory Product Updates for January 2021
+## January 8, 2021
+* bug with re-building a url wth querystring
+
 ## January 7, 2021
 * Add link on Bounced Report in DS to HelpDocs article
 * Ability to exclude segments/lists when building dynamic searches/segments
