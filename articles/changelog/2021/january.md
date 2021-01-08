@@ -5,6 +5,7 @@
 * Refactor CheckIfAlreadyRecievedMessage to allow list of ids
 * add scheduled message type for SendEmailExperimentResult
 * Support scheduling the test winner
+* Remove check on recipient count in UX for a/b test
 
 ## January 7, 2021
 * Add link on Bounced Report in DS to HelpDocs article
