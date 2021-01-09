@@ -2,6 +2,7 @@
 ## January 9, 2021
 * name changes of text widget for consistency
 * Enable editing of HTML of the text / html widget
+* updates to rss email template
 
 ## January 8, 2021
 * bug with re-building a url wth querystring
