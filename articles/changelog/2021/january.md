@@ -1,4 +1,8 @@
 # DailyStory Product Updates for January 2021
+## January 9, 2021
+* name changes of text widget for consistency
+* Enable editing of HTML of the text / html widget
+
 ## January 8, 2021
 * bug with re-building a url wth querystring
 * Manage fields shouldn't change sort order when a field is updates
