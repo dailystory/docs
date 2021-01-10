@@ -1,4 +1,7 @@
 # DailyStory Product Updates for January 2021
+## January 10, 2021
+* Convert events to use change vs keydown for right-click paste
+
 ## January 9, 2021
 * name changes of text widget for consistency
 * Enable editing of HTML of the text / html widget
