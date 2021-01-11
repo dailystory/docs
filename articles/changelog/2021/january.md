@@ -1,4 +1,7 @@
 # DailyStory Product Updates for January 2021
+## January 11, 2021
+* Use change event and not keyup in designer
+
 ## January 10, 2021
 * Convert events to use change vs keydown for right-click paste
 
