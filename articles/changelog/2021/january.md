@@ -3,6 +3,7 @@
 * Use change event and not keyup in designer
 * Add support for Is contact new? condition
 * Add support for for double opt in management in preferences
+* Add support for *|DOUBLE_OPTIN|* merge tag in emails
 
 ## January 10, 2021
 * Convert events to use change vs keydown for right-click paste
