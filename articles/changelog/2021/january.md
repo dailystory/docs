@@ -6,6 +6,7 @@
 * Add support for *|DOUBLE_OPTIN|* merge tag in emails
 * Add support for double optin routes and confirmation screen
 * Add email double opt-in widget to automation and automation templates
+* Enable weave selective sync
 
 ## January 10, 2021
 * Convert events to use change vs keydown for right-click paste
