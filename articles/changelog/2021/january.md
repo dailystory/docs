@@ -3,6 +3,7 @@
 * Use of a start keyword counts as a double opt-in for sms
 * Refactor experiment a/b test when winner is selected
 * Update batch handling of received message id checks on leads
+* Updates to scheduler to handle a/b test emails
 
 ## January 11, 2021
 * Use change event and not keyup in designer
