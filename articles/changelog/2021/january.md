@@ -5,6 +5,7 @@
 * Update batch handling of received message id checks on leads
 * Updates to scheduler to handle a/b test emails
 * Bug setting campaign id in breadcrumb path
+* Refactor a/b tests for emails
 
 ## January 11, 2021
 * Use change event and not keyup in designer
