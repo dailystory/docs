@@ -1,4 +1,8 @@
 # DailyStory Product Updates for January 2021
+## January 12, 2021
+* Use of a start keyword counts as a double opt-in for sms
+* Refactor experiment a/b test when winner is selected
+
 ## January 11, 2021
 * Use change event and not keyup in designer
 * Add support for Is contact new? condition
