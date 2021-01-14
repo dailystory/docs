@@ -1,4 +1,7 @@
 # DailyStory Product Updates for January 2021
+## January 14, 2021
+* Remove padding on th flex for mobile view of emails
+
 ## January 12, 2021
 * Use of a start keyword counts as a double opt-in for sms
 * Refactor experiment a/b test when winner is selected
