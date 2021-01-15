@@ -1,6 +1,8 @@
 # DailyStory Product Updates for January 2021
 ## January 15, 2021
 * Reports should still be available for non-active assets
+* Trim inputs for Twilio integration to remove extra spaces
+* Text message with image url shouldn't require text
 
 ## January 14, 2021
 * Remove padding on th flex for mobile view of emails
