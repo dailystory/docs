@@ -5,6 +5,7 @@
 * Text message with image url shouldn't require text
 * Handle all caps warning message in deliverability tool
 * Update magic form builder to better work with form ids
+* change score weighting for all caps in text messages
 
 ## January 14, 2021
 * Remove padding on th flex for mobile view of emails
