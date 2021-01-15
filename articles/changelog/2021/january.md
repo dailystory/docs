@@ -1,4 +1,7 @@
 # DailyStory Product Updates for January 2021
+## January 15, 2021
+* Reports should still be available for non-active assets
+
 ## January 14, 2021
 * Remove padding on th flex for mobile view of emails
 
