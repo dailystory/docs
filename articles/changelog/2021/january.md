@@ -3,6 +3,8 @@
 * Reports should still be available for non-active assets
 * Trim inputs for Twilio integration to remove extra spaces
 * Text message with image url shouldn't require text
+* Handle all caps warning message in deliverability tool
+* Update magic form builder to better work with form ids
 
 ## January 14, 2021
 * Remove padding on th flex for mobile view of emails
