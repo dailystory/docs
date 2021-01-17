@@ -1,4 +1,10 @@
 # DailyStory Product Updates for January 2021
+## January 17, 2021
+* Enable Mindbody integration to support multiple locations in a single instance
+* Update Mindbody installer to handle multiple site ids
+* Change Mindbody integration configuration for retrieving activation code
+* Change more option in link tracking to be consistent
+
 ## January 15, 2021
 * Reports should still be available for non-active assets
 * Trim inputs for Twilio integration to remove extra spaces
