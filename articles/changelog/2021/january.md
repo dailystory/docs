@@ -4,6 +4,7 @@
 * Update Mindbody installer to handle multiple site ids
 * Change Mindbody integration configuration for retrieving activation code
 * Change more option in link tracking to be consistent
+* Support for tenant with multiple site ids in Mindbody
 
 ## January 15, 2021
 * Reports should still be available for non-active assets
