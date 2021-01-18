@@ -10,6 +10,7 @@
 * Preview and edit magic and web forms from within automation
 * View and edit segments from within automation
 * Edit push notifications from within automation
+* View and edit campaigns from within automation
 
 ## January 17, 2021
 * Enable Mindbody integration to support multiple locations in a single instance
