@@ -5,6 +5,7 @@
 * Bug in SendEmailNotification item name
 * Preview and edit email from within automation
 * Bug with check waittime vs hours
+* Preview and edit text message from within automation
 
 ## January 17, 2021
 * Enable Mindbody integration to support multiple locations in a single instance
