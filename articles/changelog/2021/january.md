@@ -7,6 +7,7 @@
 * Bug with check waittime vs hours
 * Preview and edit text message from within automation
 * Preview and edit popup from within automation
+* Preview and edit magic and web forms from within automation
 
 ## January 17, 2021
 * Enable Mindbody integration to support multiple locations in a single instance
