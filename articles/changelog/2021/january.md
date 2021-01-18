@@ -2,6 +2,9 @@
 ## January 18, 2021
 * Update placeholder color and positioning for search
 * Refactor magic form javascript and support click to open
+* Bug in SendEmailNotification item name
+* Preview and edit email from within automation
+* Bug with check waittime vs hours
 
 ## January 17, 2021
 * Enable Mindbody integration to support multiple locations in a single instance
