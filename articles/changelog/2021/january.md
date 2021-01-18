@@ -1,6 +1,7 @@
 # DailyStory Product Updates for January 2021
 ## January 18, 2021
 * Update placeholder color and positioning for search
+* Refactor magic form javascript and support click to open
 
 ## January 17, 2021
 * Enable Mindbody integration to support multiple locations in a single instance
