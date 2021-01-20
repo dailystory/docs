@@ -1,12 +1,14 @@
 # DailyStory Product Updates for January 2021
-## January 19, 2021
-* Bug with how tenant id was set in magic forms
-* Export automation includes all automation assets
+## January 20, 2021
 * Updates to autopilot to support importing new export format
 * Remove legacy autopilot export/import
 * Update AutomationExport to support tags
 * Handle encoded urls for automation url import
 * Decode url in url helper
+
+## January 19, 2021
+* Bug with how tenant id was set in magic forms
+* Export automation includes all automation assets
 
 ## January 18, 2021
 * Update placeholder color and positioning for search
