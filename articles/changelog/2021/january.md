@@ -5,6 +5,8 @@
 * Updates to autopilot to support importing new export format
 * Remove legacy autopilot export/import
 * Update AutomationExport to support tags
+* Handle encoded urls for automation url import
+* Decode url in url helper
 
 ## January 18, 2021
 * Update placeholder color and positioning for search
