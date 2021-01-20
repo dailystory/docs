@@ -1,4 +1,8 @@
 # DailyStory Product Updates for January 2021
+## January 19, 2021
+* Bug with how tenant id was set in magic forms
+* Export automation includes all automation assets
+
 ## January 18, 2021
 * Update placeholder color and positioning for search
 * Refactor magic form javascript and support click to open
