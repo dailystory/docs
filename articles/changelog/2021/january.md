@@ -4,6 +4,7 @@
 * Export automation includes all automation assets
 * Updates to autopilot to support importing new export format
 * Remove legacy autopilot export/import
+* Update AutomationExport to support tags
 
 ## January 18, 2021
 * Update placeholder color and positioning for search
