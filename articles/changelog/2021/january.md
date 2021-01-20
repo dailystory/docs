@@ -6,6 +6,8 @@
 * Handle encoded urls for automation url import
 * Decode url in url helper
 * include doc links in white labeled instances
+* Possible bug with create segment in system
+* Support please wait when segment is new and building
 
 ## January 19, 2021
 * Bug with how tenant id was set in magic forms
