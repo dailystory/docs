@@ -3,6 +3,7 @@
 * Bug with how tenant id was set in magic forms
 * Export automation includes all automation assets
 * Updates to autopilot to support importing new export format
+* Remove legacy autopilot export/import
 
 ## January 18, 2021
 * Update placeholder color and positioning for search
