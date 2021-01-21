@@ -2,6 +2,7 @@
 ## January 21, 2021
 * Filter out spammy looking leads
 * Double opt-in should record IP address
+* Remove UpdateSearch webhook, no longer needed and refactor webhook enum
 
 ## January 20, 2021
 * Updates to autopilot to support importing new export format
