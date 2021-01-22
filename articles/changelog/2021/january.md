@@ -1,4 +1,7 @@
 # DailyStory Product Updates for January 2021
+## January 22, 2021
+* Swap label and placeholder on web form designer
+
 ## January 21, 2021
 * Filter out spammy looking leads
 * Double opt-in should record IP address
