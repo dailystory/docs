@@ -1,6 +1,7 @@
 # DailyStory Product Updates for January 2021
 ## January 25, 2021
 * Bool data types in for contact custom fields should pass a querystring parameter
+* Audit log for send message should use message id not schedule id
 
 ## January 22, 2021
 * Swap label and placeholder on web form designer
