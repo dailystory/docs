@@ -3,6 +3,7 @@
 * Bool data types in for contact custom fields should pass a querystring parameter
 * Audit log for send message should use message id not schedule id
 * Automations need "Draft" mode
+*Add MindBody Field NUMBER OF VISITS to sync
 
 ## January 22, 2021
 * Swap label and placeholder on web form designer
