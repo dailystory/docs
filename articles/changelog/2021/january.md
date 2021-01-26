@@ -5,6 +5,8 @@
 * Bug that could cause wrong lead id to trigger when there are duplicates
 * Text message should trigger condition checks on message reply
 * Add condition handler for text message replies
+* HIde properties when drag to delete in automation
+* Larger canvas size for automation designer
 
 ## January 25, 2021
 * Bool data types in for contact custom fields should pass a querystring parameter
