@@ -1,6 +1,7 @@
 # DailyStory Product Updates for January 2021
 ## January 26, 2021
 * Campaign has sms activity and message should not be shown for inactivity
+* bug in workflow is valid
 
 ## January 25, 2021
 * Bool data types in for contact custom fields should pass a querystring parameter
