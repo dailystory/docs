@@ -1,9 +1,12 @@
 # DailyStory Product Updates for January 2021
+## January 26, 2021
+* Campaign has sms activity and message should not be shown for inactivity
+
 ## January 25, 2021
 * Bool data types in for contact custom fields should pass a querystring parameter
 * Audit log for send message should use message id not schedule id
 * Automations need "Draft" mode
-*Add MindBody Field NUMBER OF VISITS to sync
+* Add MindBody Field NUMBER OF VISITS to sync
 
 ## January 22, 2021
 * Swap label and placeholder on web form designer
