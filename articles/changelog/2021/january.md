@@ -1,4 +1,7 @@
 # DailyStory Product Updates for January 2021
+## January 27, 2021
+* Handle drag position when screen is scrolled horizontally
+
 ## January 26, 2021
 * Campaign has sms activity and message should not be shown for inactivity
 * bug in workflow is valid
