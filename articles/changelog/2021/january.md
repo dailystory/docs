@@ -3,6 +3,7 @@
 * Handle drag position when screen is scrolled horizontally
 * Handle enable/disable if automation is invalid in a campaign
 * Add shortcut link to CREATE NEW.. SMS or Email from their list screens
+* Add Evaluate text message reply
 
 ## January 26, 2021
 * Campaign has sms activity and message should not be shown for inactivity
