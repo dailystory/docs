@@ -5,6 +5,7 @@
 * Add shortcut link to CREATE NEW.. SMS or Email from their list screens
 * Add Evaluate text message reply
 * One off email send giving an API error
+* Add support for auto deduplicate tools
 
 ## January 26, 2021
 * Campaign has sms activity and message should not be shown for inactivity
