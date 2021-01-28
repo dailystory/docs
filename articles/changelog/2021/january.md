@@ -2,6 +2,8 @@
 ## January 28, 2021
 * Trigger automation job
 * Updates to how contact auto-merge occurs
+* Add task for when RSS feed changes
+* If min updates is less than 1 set to 1 for RSS
 
 ## January 27, 2021
 * Handle drag position when screen is scrolled horizontally
