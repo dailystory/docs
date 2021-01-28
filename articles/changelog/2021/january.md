@@ -1,4 +1,8 @@
 # DailyStory Product Updates for January 2021
+## January 28, 2021
+* Trigger automation job
+* Updates to how contact auto-merge occurs
+
 ## January 27, 2021
 * Handle drag position when screen is scrolled horizontally
 * Handle enable/disable if automation is invalid in a campaign
