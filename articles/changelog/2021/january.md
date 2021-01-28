@@ -8,6 +8,8 @@
 * Add automation condition HasSubmittedWebForm
 * Add condition to automation for HasSubmittedWebFormAsync
 * Add quick create link for automations
+* Send single text wasn't shortening link
+* Bad null check on automation export
 
 ## January 27, 2021
 * Handle drag position when screen is scrolled horizontally
