@@ -10,6 +10,7 @@
 * Add quick create link for automations
 * Send single text wasn't shortening link
 * Bad null check on automation export
+* Handle click tracking for double opt in email links
 
 ## January 27, 2021
 * Handle drag position when screen is scrolled horizontally
