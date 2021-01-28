@@ -13,6 +13,7 @@
 * Handle click tracking for double opt in email links
 * Bug with image width for emails when set to a fixed width
 * Sory automations by last updated by default
+* Condition for new contact need to use timestamp contact created
 
 ## January 27, 2021
 * Handle drag position when screen is scrolled horizontally
