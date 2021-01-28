@@ -7,6 +7,7 @@
 * Refactor contact merge
 * Add automation condition HasSubmittedWebForm
 * Add condition to automation for HasSubmittedWebFormAsync
+* Add quick create link for automations
 
 ## January 27, 2021
 * Handle drag position when screen is scrolled horizontally
