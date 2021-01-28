@@ -5,6 +5,7 @@
 * Add task for when RSS feed changes
 * If min updates is less than 1 set to 1 for RSS
 * Refactor contact merge
+* Add automation condition HasSubmittedWebForm
 
 ## January 27, 2021
 * Handle drag position when screen is scrolled horizontally
