@@ -14,6 +14,7 @@
 * Bug with image width for emails when set to a fixed width
 * Sory automations by last updated by default
 * Condition for new contact need to use timestamp contact created
+* Trigger automation to run when conditions are met
 
 ## January 27, 2021
 * Handle drag position when screen is scrolled horizontally
