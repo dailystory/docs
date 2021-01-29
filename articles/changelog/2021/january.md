@@ -3,6 +3,8 @@
 * Updates to deduplicate logic to support mobile phone
 * Refactor condition wait time and process specific url clicks for emails
 * If a step fails, should be logged as failure not complete
+* Remove GetDsidsChunkedAsync
+* Add groupname to api graph output
 
 ## January 28, 2021
 * Trigger automation job
