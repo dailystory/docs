@@ -2,6 +2,7 @@
 ## January 29, 2021
 * Updates to deduplicate logic to support mobile phone
 * Refactor condition wait time and process specific url clicks for emails
+* If a step fails, should be logged as failure not complete
 
 ## January 28, 2021
 * Trigger automation job
