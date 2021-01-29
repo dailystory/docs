@@ -1,4 +1,7 @@
 # DailyStory Product Updates for January 2021
+## January 29, 2021
+* Updates to deduplicate logic to support mobile phone
+
 ## January 28, 2021
 * Trigger automation job
 * Updates to how contact auto-merge occurs
