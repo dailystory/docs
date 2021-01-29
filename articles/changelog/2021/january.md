@@ -5,6 +5,7 @@
 * If a step fails, should be logged as failure not complete
 * Remove GetDsidsChunkedAsync
 * Add groupname to api graph output
+* Disply custom section for Mindbody information in profile
 
 ## January 28, 2021
 * Trigger automation job
