@@ -1,6 +1,7 @@
 # DailyStory Product Updates for January 2021
 ## January 29, 2021
 * Updates to deduplicate logic to support mobile phone
+* Refactor condition wait time and process specific url clicks for emails
 
 ## January 28, 2021
 * Trigger automation job
