@@ -3,6 +3,7 @@
 * Add api end point to run SyncMindBody for a given client id
 * Refactor trigger web jobs and add support for calling syncmindbody to sync a client id
 * Refactor contact detail javascript and wire up Mindbody sync
+* Add privacy blurring of PII text
 
 ## January 29, 2021
 * Updates to deduplicate logic to support mobile phone
