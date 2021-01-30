@@ -7,6 +7,7 @@
 * Add groupname to api graph output
 * Disply custom section for Mindbody information in profile
 * Add support for custom fields types in contact detail
+* Custom contact fields should use sections, e.g. "Salesforce" vs listing all together
 
 ## January 28, 2021
 * Trigger automation job
