@@ -2,6 +2,7 @@
 ## January 30, 2021
 * Add api end point to run SyncMindBody for a given client id
 * Refactor trigger web jobs and add support for calling syncmindbody to sync a client id
+* Refactor contact detail javascript and wire up Mindbody sync
 
 ## January 29, 2021
 * Updates to deduplicate logic to support mobile phone
