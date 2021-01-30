@@ -6,6 +6,7 @@
 * Remove GetDsidsChunkedAsync
 * Add groupname to api graph output
 * Disply custom section for Mindbody information in profile
+* Add support for custom fields types in contact detail
 
 ## January 28, 2021
 * Trigger automation job
