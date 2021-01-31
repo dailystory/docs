@@ -2,6 +2,8 @@
 ## January 31, 2021
 * Add support for allow autopause in segments
 * Refactor segment editing to handle allow auto pause and add pause button
+* Handle Url in ToProperCase to return all lowercase
+* Import contacts to use Common.ToProperCase
 
 ## January 30, 2021
 * Add api end point to run SyncMindBody for a given client id
