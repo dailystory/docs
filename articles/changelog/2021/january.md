@@ -1,4 +1,8 @@
 # DailyStory Product Updates for January 2021
+## January 31, 2021
+* Add support for allow autopause in segments
+* Refactor segment editing to handle allow auto pause and add pause button
+
 ## January 30, 2021
 * Add api end point to run SyncMindBody for a given client id
 * Refactor trigger web jobs and add support for calling syncmindbody to sync a client id
