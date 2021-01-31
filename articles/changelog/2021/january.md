@@ -5,6 +5,7 @@
 * Handle Url in ToProperCase to return all lowercase
 * Import contacts to use Common.ToProperCase
 * Clean up custom field names
+* Only indexed fields should show up in search UX
 
 ## January 30, 2021
 * Add api end point to run SyncMindBody for a given client id
