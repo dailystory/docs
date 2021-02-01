@@ -6,3 +6,5 @@
 * Log activities better in bulk import webjob
 * Update contact activity to use moment for date times
 * Convert activity timeline on contact to use javascript
+* WebActivity should return URL and title
+* Limit contact activity to 25 records
