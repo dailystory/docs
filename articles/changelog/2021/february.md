@@ -10,3 +10,4 @@
 * Limit contact activity to 25 records
 * Custom field picklists should sort alphabetically
 * Contact export should include all fields
+* Add support to sync a single user in telligent
