@@ -9,3 +9,4 @@
 * WebActivity should return URL and title
 * Limit contact activity to 25 records
 * Custom field picklists should sort alphabetically
+* Contact export should include all fields
