@@ -3,8 +3,8 @@
 	description: 'DailyStory Product Updates'
 }
 # Product Updates for 2021
-* [December 2021](2021/january)
-* [February 2021](2021/february)
+* [December 2021](2021/january.md)
+* [February 2021](2021/february.md)
 
 # Product Updates for 2020
 * [December 2020](2020/december)
