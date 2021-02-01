@@ -11,3 +11,6 @@
 * Custom field picklists should sort alphabetically
 * Contact export should include all fields
 * Add support to sync a single user in telligent
+* Add on demand sync support for Telligent
+* Mindbody and Telligent sync clear contact cache
+* Add support for social urls as extended profile fields
