@@ -14,3 +14,4 @@
 * Add on demand sync support for Telligent
 * Mindbody and Telligent sync clear contact cache
 * Add support for social urls as extended profile fields
+* Add sync support for degree37/bbcs
