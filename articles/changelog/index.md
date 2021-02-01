@@ -4,6 +4,7 @@
 }
 # Product Updates for 2021
 * [December 2021](2021/january)
+* [February 2021](2021/february)
 
 # Product Updates for 2020
 * [December 2020](2020/december)
