@@ -8,3 +8,4 @@
 * Convert activity timeline on contact to use javascript
 * WebActivity should return URL and title
 * Limit contact activity to 25 records
+* Custom field picklists should sort alphabetically
