@@ -5,3 +5,4 @@
 * BulkImportContacts missing from WebJob enum
 * Log activities better in bulk import webjob
 * Update contact activity to use moment for date times
+* Convert activity timeline on contact to use javascript
