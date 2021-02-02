@@ -2,6 +2,7 @@
 ## Feburary 2, 2021
 * Allow divider to be dropped into email sections
 * Convert export contacts task to use ContactEocument export
+* Add support for refresh donor by donor id
 
 ## February 1, 2021
 * Pop Up not working on a DailyStory landing page
