@@ -1,4 +1,6 @@
 # DailyStory Product Updates for February 2021
+## Feburary 2, 2021
+* Allow divider to be dropped into email sections
 
 ## February 1, 2021
 * Pop Up not working on a DailyStory landing page
