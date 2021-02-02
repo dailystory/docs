@@ -1,6 +1,7 @@
 # DailyStory Product Updates for February 2021
 ## Feburary 2, 2021
 * Allow divider to be dropped into email sections
+* Convert export contacts task to use ContactEocument export
 
 ## February 1, 2021
 * Pop Up not working on a DailyStory landing page
