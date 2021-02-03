@@ -1,4 +1,7 @@
 # DailyStory Product Updates for February 2021
+## Febryary 3, 2021
+* Scheduler is expanded by default
+
 ## Feburary 2, 2021
 * Allow divider to be dropped into email sections
 * Convert export contacts task to use ContactEocument export
