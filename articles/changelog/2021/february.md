@@ -1,8 +1,11 @@
 # DailyStory Product Updates for February 2021
-## Febryary 3, 2021
+## February 5, 2021
+* Don't show is segment ready if segment is not dynamic
+
+## February 3, 2021
 * Scheduler is expanded by default
 
-## Feburary 2, 2021
+## February 2, 2021
 * Allow divider to be dropped into email sections
 * Convert export contacts task to use ContactEocument export
 * Add support for refresh donor by donor id
