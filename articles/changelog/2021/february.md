@@ -1,4 +1,8 @@
 # DailyStory Product Updates for February 2021
+## February 8, 2021
+* Ensure that search string can't contain ?s=
+* Bug with formatting of email delivery on failure for activity
+
 ## February 5, 2021
 * Don't show is segment ready if segment is not dynamic
 
