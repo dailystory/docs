@@ -2,6 +2,7 @@
 ## February 9, 2021
 * Add image picker to text content in web forms
 * URL decode search text when using search to add to a static segment
+* Sort pick list values in contact detail alphabetically
 
 ## February 8, 2021
 * Ensure that search string can't contain ?s=
