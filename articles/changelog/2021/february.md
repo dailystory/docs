@@ -1,6 +1,7 @@
 # DailyStory Product Updates for February 2021
 ## February 9, 2021
 * Add image picker to text content in web forms
+* URL decode search text when using search to add to a static segment
 
 ## February 8, 2021
 * Ensure that search string can't contain ?s=
