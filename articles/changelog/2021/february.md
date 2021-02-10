@@ -4,6 +4,7 @@
 * Email summary report includes first and last name in separate columns
 * Segment export for automation must include name and description
 * Set a name for the segment if not specified in automation import
+* IsNew check on segment should use UTC date
 
 ## February 9, 2021
 * Add image picker to text content in web forms
