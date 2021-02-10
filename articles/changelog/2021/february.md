@@ -1,6 +1,8 @@
 # DailyStory Product Updates for February 2021
 ## February 10 2021
 * Enable segment building message to be hidden
+* Email summary report includes first and last name in separate columns
+* Segment export for automation must include name and description
 
 ## February 9, 2021
 * Add image picker to text content in web forms
