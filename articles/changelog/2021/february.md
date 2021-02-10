@@ -1,4 +1,7 @@
 # DailyStory Product Updates for February 2021
+## February 10 2021
+* Enable segment building message to be hidden
+
 ## February 9, 2021
 * Add image picker to text content in web forms
 * URL decode search text when using search to add to a static segment
