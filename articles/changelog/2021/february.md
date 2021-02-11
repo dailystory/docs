@@ -1,4 +1,7 @@
 # DailyStory Product Updates for February 2021
+## February 11, 2021
+* Update to create edit with sections, e.g. mindbody
+
 ## February 10 2021
 * Enable segment building message to be hidden
 * Email summary report includes first and last name in separate columns
