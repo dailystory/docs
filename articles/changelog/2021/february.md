@@ -1,6 +1,7 @@
 # DailyStory Product Updates for February 2021
 ## February 11, 2021
 * Update to create edit with sections, e.g. mindbody
+* Allow for meta name, description and social image to be set for web forms
 
 ## February 10 2021
 * Enable segment building message to be hidden
