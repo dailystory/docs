@@ -8,7 +8,7 @@
 * Deduplicate works in batch sets of 500
 * Typed properties for web form meta fields
 
-## February 10 2021
+## February 10, 2021
 * Enable segment building message to be hidden
 * Email summary report includes first and last name in separate columns
 * Segment export for automation must include name and description
