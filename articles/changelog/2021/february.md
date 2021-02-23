@@ -1,4 +1,8 @@
 # DailyStory Product Updates for February 2021
+## February 23, 2021
+* Allow mailto as a url in validation
+* Special case URL hashing for mailto
+
 ## February 12, 2021
 * Add pre-built fields to methods
 
