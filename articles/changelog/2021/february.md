@@ -2,6 +2,7 @@
 ## February 24, 2021
 * Remove workflow id column dependency
 * Performance improvement to email detail reporting
+* Add dns-prefetch and preconnect hints
 
 ## February 23, 2021
 * Allow mailto as a url in validation
