@@ -1,6 +1,7 @@
 # DailyStory Product Updates for February 2021
 ## February 24, 2021
 * Remove workflow id column dependency
+* Performance improvement to email detail reporting
 
 ## February 23, 2021
 * Allow mailto as a url in validation
