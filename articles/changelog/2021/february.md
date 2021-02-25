@@ -16,7 +16,7 @@
 * Better logging for sms opt in
 * Edits to optin and optout messages for text messaging
 * add JOIN as opt in keyword for SMS
-* 
+
 ## February 24, 2021
 * Remove workflow id column dependency
 * Performance improvement to email detail reporting
