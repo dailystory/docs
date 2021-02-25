@@ -2,6 +2,7 @@
 ## February 25, 2021
 * Additional dns-prefetch and preconnect hints for fontawesome
 * Leave drop down open to allow multi-select for campaign and scheduler
+* Sms index view was set to return messages with any status
 
 ## February 24, 2021
 * Remove workflow id column dependency
