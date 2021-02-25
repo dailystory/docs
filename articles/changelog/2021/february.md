@@ -13,6 +13,7 @@
 * Better error message when lead isn't in campaign
 * Refactor email API controller name
 * Update to send email / sms single to require lead to be in campaign
+* Better logging for sms opt in
 
 ## February 24, 2021
 * Remove workflow id column dependency
