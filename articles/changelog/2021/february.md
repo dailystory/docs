@@ -10,6 +10,7 @@
 * Convert SentTestAsync to SendAsync to handle single lead sends
 * Trigger an automation when assigned a task
 * Support trigger when assigned task in automation triggers
+* Better error message when lead isn't in campaign
 
 ## February 24, 2021
 * Remove workflow id column dependency
