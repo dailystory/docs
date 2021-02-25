@@ -5,6 +5,7 @@
 * Sms index view was set to return messages with any status
 * Bug with email api path missing v1 and add support for campaigns
 * Delivered display in activity list missing
+* Update email and sms send single to send to lead in campaign
 
 ## February 24, 2021
 * Remove workflow id column dependency
