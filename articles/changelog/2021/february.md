@@ -6,6 +6,10 @@
 * Bug with email api path missing v1 and add support for campaigns
 * Delivered display in activity list missing
 * Update email and sms send single to send to lead in campaign
+* Refactor to allow for istransactional messages
+* Convert SentTestAsync to SendAsync to handle single lead sends
+* Trigger an automation when assigned a task
+* Support trigger when assigned task in automation triggers
 
 ## February 24, 2021
 * Remove workflow id column dependency
