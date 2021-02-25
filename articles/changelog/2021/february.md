@@ -11,6 +11,8 @@
 * Trigger an automation when assigned a task
 * Support trigger when assigned task in automation triggers
 * Better error message when lead isn't in campaign
+* Refactor email API controller name
+* Update to send email / sms single to require lead to be in campaign
 
 ## February 24, 2021
 * Remove workflow id column dependency
