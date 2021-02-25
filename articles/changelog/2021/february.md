@@ -1,6 +1,7 @@
 # DailyStory Product Updates for February 2021
 ## February 25, 2021
 * Additional dns-prefetch and preconnect hints for fontawesome
+* Leave drop down open to allow multi-select for campaign and scheduler
 
 ## February 24, 2021
 * Remove workflow id column dependency
