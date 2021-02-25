@@ -14,6 +14,7 @@
 * Refactor email API controller name
 * Update to send email / sms single to require lead to be in campaign
 * Better logging for sms opt in
+* Edits to optin and optout messages for text messaging
 
 ## February 24, 2021
 * Remove workflow id column dependency
