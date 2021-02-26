@@ -3,6 +3,8 @@
 * Text keyword into campaign counts as a double opt-in
 * Add text message optout report
 * Convert segments to use separate js file
+* Bug with archive link
+* Add bulk archive and delete to segments
 
 ## February 25, 2021
 * Additional dns-prefetch and preconnect hints for fontawesome
