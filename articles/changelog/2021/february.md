@@ -5,6 +5,7 @@
 * Convert segments to use separate js file
 * Bug with archive link
 * Add bulk archive and delete to segments
+* Add ability to bulk edit campaigns
 
 ## February 25, 2021
 * Additional dns-prefetch and preconnect hints for fontawesome
