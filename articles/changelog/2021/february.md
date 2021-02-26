@@ -2,6 +2,7 @@
 ## February 26, 2021
 * Text keyword into campaign counts as a double opt-in
 * Add text message optout report
+* Convert segments to use separate js file
 
 ## February 25, 2021
 * Additional dns-prefetch and preconnect hints for fontawesome
