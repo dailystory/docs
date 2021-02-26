@@ -6,6 +6,8 @@
 * Bug with archive link
 * Add bulk archive and delete to segments
 * Add ability to bulk edit campaigns
+* Campaign archive links should go to campaign edit
+* Support bulk pause for segments
 
 ## February 25, 2021
 * Additional dns-prefetch and preconnect hints for fontawesome
