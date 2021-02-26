@@ -1,6 +1,7 @@
 # DailyStory Product Updates for February 2021
 ## February 26, 2021
 * Text keyword into campaign counts as a double opt-in
+* Add text message optout report
 
 ## February 25, 2021
 * Additional dns-prefetch and preconnect hints for fontawesome
