@@ -1,4 +1,7 @@
 # DailyStory Product Updates for February 2021
+## February 27, 2021
+* Remove select all option on segment bulk edit
+
 ## February 26, 2021
 * Text keyword into campaign counts as a double opt-in
 * Add text message optout report
