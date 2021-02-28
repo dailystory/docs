@@ -1,6 +1,9 @@
 # DailyStory Product Updates for February 2021
 ## February 28, 2021
 * Bug with event wireup in campaigns
+* Trim on URL check
+* Cache funnel results
+* Cache domain results
 
 ## February 27, 2021
 * Remove select all option on segment bulk edit
