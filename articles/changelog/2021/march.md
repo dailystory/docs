@@ -2,3 +2,4 @@
 ## March 1, 2021
 * Performance updates
 * Templates not populating Template Gallery UX Page from "Template Gallery" link
+* Handle sql deadlock retries
