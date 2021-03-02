@@ -1,6 +1,7 @@
 # DailyStory Product Updates for March 2021
 ## March 2, 2021
 * Reset designer pill tabs
+* Performance improvement for license checks that are not needed
 
 ## March 1, 2021
 * Performance updates
