@@ -4,6 +4,7 @@
 * Performance improvement for license checks that are not needed
 * Begin conversion to CosmosDb
 * Date and time on activity feed is incorrect
+* Ability to assign a task from within a contact record
 
 ## March 1, 2021
 * Performance updates
