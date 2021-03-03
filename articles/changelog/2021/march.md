@@ -1,4 +1,7 @@
 # DailyStory Product Updates for March 2021
+## March 3, 2021
+* Azure functions need to run at 6am UTC to run at midnight
+
 ## March 2, 2021
 * Reset designer pill tabs
 * Performance improvement for license checks that are not needed
