@@ -2,6 +2,7 @@
 ## March 3, 2021
 * Azure functions need to run at 6am UTC to run at midnight
 * Clicking favorite need to prevent default scroll
+* Add padding to email subject in editor to prevent overflow
 
 ## March 2, 2021
 * Reset designer pill tabs
