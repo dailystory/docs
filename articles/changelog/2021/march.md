@@ -1,6 +1,7 @@
 # DailyStory Product Updates for March 2021
 ## March 4, 2021
 * Lead id not properly set for popover in campaign more than once
+* Contacts that come through the lead queue and are marked as spam
 
 ## March 3, 2021
 * Azure functions need to run at 6am UTC to run at midnight
