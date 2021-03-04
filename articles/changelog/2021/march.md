@@ -4,6 +4,7 @@
 * Contacts that come through the lead queue and are marked as spam
 * Link click condition needs to handle first url in list as no change event is fired
 * Better css for automation designer
+* Add segments to campaign from segments list view
 
 ## March 3, 2021
 * Azure functions need to run at 6am UTC to run at midnight
