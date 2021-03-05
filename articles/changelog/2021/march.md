@@ -1,6 +1,10 @@
 # DailyStory Product Updates for March 2021
 ## March 5, 2021
 * MMS size check and impact to deliverability score
+* Allow send single for email
+* Add new cache layer for Redis
+* Update segments and tenant to use redis
+* Update SmsActivityItem to use Redis
 
 ## March 4, 2021
 * Lead id not properly set for popover in campaign more than once
