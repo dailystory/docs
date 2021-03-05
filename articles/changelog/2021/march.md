@@ -5,6 +5,8 @@
 * Add new cache layer for Redis
 * Update segments and tenant to use redis
 * Update SmsActivityItem to use Redis
+* Refactor contact and lead for redis caching
+* Refactor campaign and segments for Redis caching
 
 ## March 4, 2021
 * Lead id not properly set for popover in campaign more than once
