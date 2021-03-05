@@ -1,4 +1,7 @@
 # DailyStory Product Updates for March 2021
+## March 5, 2021
+* MMS size check and impact to deliverability score
+
 ## March 4, 2021
 * Lead id not properly set for popover in campaign more than once
 * Contacts that come through the lead queue and are marked as spam
