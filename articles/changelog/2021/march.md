@@ -9,6 +9,7 @@
 * Refactor campaign and segments for Redis caching
 * Refactor how avatar URL lookups are handled
 * Use Redis for contact lookup
+* Leads in inactive campaigns should not be included
 
 ## March 4, 2021
 * Lead id not properly set for popover in campaign more than once
