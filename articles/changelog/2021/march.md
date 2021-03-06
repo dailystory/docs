@@ -2,6 +2,7 @@
 ## March 6, 2021
 * Longer cache duration for sms logs
 * Use Redis for DataManager caching
+* Undo changes to use Redis for contact avatar
 
 ## March 5, 2021
 * MMS size check and impact to deliverability score
