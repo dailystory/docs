@@ -7,7 +7,8 @@
 * Update SmsActivityItem to use Redis
 * Refactor contact and lead for redis caching
 * Refactor campaign and segments for Redis caching
-
+* Refactor how avatar URL lookups are handled
+* 
 ## March 4, 2021
 * Lead id not properly set for popover in campaign more than once
 * Contacts that come through the lead queue and are marked as spam
