@@ -11,6 +11,7 @@
 * Use Redis for contact lookup
 * Leads in inactive campaigns should not be included
 * Sort segments and campaigns in contact detail
+* Sort tags alpha on contact
 
 ## March 4, 2021
 * Lead id not properly set for popover in campaign more than once
