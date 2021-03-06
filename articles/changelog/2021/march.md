@@ -1,4 +1,7 @@
 # DailyStory Product Updates for March 2021
+## March 6, 2021
+* Longer cache duration for sms logs
+
 ## March 5, 2021
 * MMS size check and impact to deliverability score
 * Allow send single for email
