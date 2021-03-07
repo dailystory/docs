@@ -4,6 +4,8 @@
 * Refactor tenant to use Redis cache
 * Refactor Text Message activity for performance and batch updating
 * Twilio throws messagenotfound exception
+* Ensure exception logging is string bounds checked
+* Bug with Tenant switching
 
 ## March 6, 2021
 * Longer cache duration for sms logs
