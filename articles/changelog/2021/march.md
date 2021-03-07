@@ -1,4 +1,9 @@
 # DailyStory Product Updates for March 2021
+## March 7, 2021
+* Refactor email activity item
+* Refactor tenant to use Redis cache
+* Refactor Text Message activity for performance and batch updating
+
 ## March 6, 2021
 * Longer cache duration for sms logs
 * Use Redis for DataManager caching
