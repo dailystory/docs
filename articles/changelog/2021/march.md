@@ -3,6 +3,7 @@
 * Refactor email activity item
 * Refactor tenant to use Redis cache
 * Refactor Text Message activity for performance and batch updating
+* Twilio throws messagenotfound exception
 
 ## March 6, 2021
 * Longer cache duration for sms logs
