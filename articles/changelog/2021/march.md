@@ -2,6 +2,7 @@
 ## March 8, 2021
 * Remove reindexing from functions
 * Clean up salesforce sync
+* Helper method to update string if value has changed
 
 ## March 7, 2021
 * Refactor email activity item
