@@ -1,4 +1,7 @@
 # DailyStory Product Updates for March 2021
+## March 8, 2021
+* Remove reindexing from functions
+
 ## March 7, 2021
 * Refactor email activity item
 * Refactor tenant to use Redis cache
