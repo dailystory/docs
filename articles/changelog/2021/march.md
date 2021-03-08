@@ -4,6 +4,7 @@
 * Clean up salesforce sync
 * Helper method to update string if value has changed
 * Bug with new tenant creation script
+* Contacts support bulk edit mode
 
 ## March 7, 2021
 * Refactor email activity item
