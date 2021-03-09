@@ -1,11 +1,13 @@
 # DailyStory Product Updates for March 2021
+## March 9, 2021
+* Text message MMS image check should be 640 not 600
+
 ## March 8, 2021
 * Remove reindexing from functions
 * Clean up salesforce sync
 * Helper method to update string if value has changed
 * Bug with new tenant creation script
 * Contacts support bulk edit mode
-* Text message MMS image check should be 640 not 600
 
 ## March 7, 2021
 * Refactor email activity item
