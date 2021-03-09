@@ -1,6 +1,7 @@
 # DailyStory Product Updates for March 2021
 ## March 9, 2021
 * Text message MMS image check should be 640 not 600
+* Updates for allow local cache
 
 ## March 8, 2021
 * Remove reindexing from functions
