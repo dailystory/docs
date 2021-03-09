@@ -5,6 +5,7 @@
 * Helper method to update string if value has changed
 * Bug with new tenant creation script
 * Contacts support bulk edit mode
+* Text message MMS image check should be 640 not 600
 
 ## March 7, 2021
 * Refactor email activity item
