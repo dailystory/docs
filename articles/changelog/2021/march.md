@@ -2,6 +2,7 @@
 ## March 9, 2021
 * Text message MMS image check should be 640 not 600
 * Updates for allow local cache
+* Update to tenant to handle Account Owner
 
 ## March 8, 2021
 * Remove reindexing from functions
