@@ -6,6 +6,7 @@
 * Refactor how unsubscribes in emails get logged
 * Ensure a contact look up happens if not found in cache
 * Convert email opt out reports to not use ds_email_log
+* Reload the email prior to saving
 
 ## March 9, 2021
 * Text message MMS image check should be 640 not 600
