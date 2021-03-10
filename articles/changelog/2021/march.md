@@ -1,4 +1,11 @@
 # DailyStory Product Updates for March 2021
+## March 10, 2021
+* Bug with submitted web form automation trigger
+* Support segment cloning
+* Updates to cache logic for Redis
+* Refactor how unsubscribes in emails get logged
+* Ensure a contact look up happens if not found in cache
+
 ## March 9, 2021
 * Text message MMS image check should be 640 not 600
 * Updates for allow local cache
