@@ -2,6 +2,7 @@
 ## March 11, 2021
 * Skip null activities
 * Updates for responsive
+* Exception handling when trying to convert an extended property for export
 
 ## March 10, 2021
 * Bug with submitted web form automation trigger
