@@ -3,6 +3,7 @@
 * Skip null activities
 * Updates for responsive
 * Exception handling when trying to convert an extended property for export
+* Optimize records returned in delivery report
 
 ## March 10, 2021
 * Bug with submitted web form automation trigger
