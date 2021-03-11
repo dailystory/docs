@@ -5,6 +5,8 @@
 * Exception handling when trying to convert an extended property for export
 * Optimize records returned in delivery report
 * Leads in workflow should return full list
+* Cache workflow leads for reports
+* Check for dsid instead of lead id for submits
 
 ## March 10, 2021
 * Bug with submitted web form automation trigger
