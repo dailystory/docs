@@ -4,6 +4,7 @@
 * Updates for responsive
 * Exception handling when trying to convert an extended property for export
 * Optimize records returned in delivery report
+* Leads in workflow should return full list
 
 ## March 10, 2021
 * Bug with submitted web form automation trigger
