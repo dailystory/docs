@@ -1,4 +1,7 @@
 # DailyStory Product Updates for March 2021
+## March 11, 2021
+* Skip null activities
+
 ## March 10, 2021
 * Bug with submitted web form automation trigger
 * Support segment cloning
