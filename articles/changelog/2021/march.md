@@ -5,6 +5,7 @@
 * Updates to contact preference logging with auditing
 * Updates to return leads in progress for autopilot
 * Bug with sms reporting
+* Bug an item with the same key has already been added
 
 ## March 11, 2021
 * Skip null activities
