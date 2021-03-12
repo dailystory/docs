@@ -1,4 +1,8 @@
 # DailyStory Product Updates for March 2021
+## March 12, 2021
+* New popups are paused by default
+* Fix some save issues in popup
+
 ## March 11, 2021
 * Skip null activities
 * Updates for responsive
