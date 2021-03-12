@@ -6,6 +6,7 @@
 * Updates to return leads in progress for autopilot
 * Bug with sms reporting
 * Bug an item with the same key has already been added
+* Convert to use utm_source with email name
 
 ## March 11, 2021
 * Skip null activities
