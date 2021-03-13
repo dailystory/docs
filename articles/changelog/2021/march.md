@@ -3,6 +3,7 @@
 * When saving an automation parent step relationships should be checked
 * previous page link on contact list is not working
 * Undo private-data for pii
+* Add api/v1/contact/{dsid}/automations endpoint
 
 ## March 12, 2021
 * New popups are paused by default
