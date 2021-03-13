@@ -2,6 +2,7 @@
 ## March 13, 2021
 * When saving an automation parent step relationships should be checked
 * previous page link on contact list is not working
+* Undo private-data for pii
 
 ## March 12, 2021
 * New popups are paused by default
