@@ -1,4 +1,7 @@
 # DailyStory Product Updates for March 2021
+## March 13, 2021
+* When saving an automation parent step relationships should be checked
+
 ## March 12, 2021
 * New popups are paused by default
 * Fix some save issues in popup
