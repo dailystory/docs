@@ -5,6 +5,7 @@
 * Undo private-data for pii
 * Add api/v1/contact/{dsid}/automations endpoint
 * Do not allow message to be scheduled if campaign is not populated
+* View the automations that a contact is in
 
 ## March 12, 2021
 * New popups are paused by default
