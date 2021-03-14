@@ -1,4 +1,8 @@
 # DailyStory Product Updates for March 2021
+## March 14, 2021
+* Optimize task processing when queue is full
+* Optimize is in segment logic
+
 ## March 13, 2021
 * When saving an automation parent step relationships should be checked
 * previous page link on contact list is not working
