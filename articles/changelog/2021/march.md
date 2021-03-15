@@ -1,6 +1,7 @@
 # DailyStory Product Updates for March 2021
 ## March 15, 2021
 * Add QR codes to tracking links
+* Add support for Vidyard videos
 
 ## March 14, 2021
 * Optimize task processing when queue is full
