@@ -2,6 +2,7 @@
 ## March 15, 2021
 * Add QR codes to tracking links
 * Add support for Vidyard videos
+* When updating the segment don't use the cache
 
 ## March 14, 2021
 * Optimize task processing when queue is full
