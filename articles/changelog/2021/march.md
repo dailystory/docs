@@ -3,6 +3,7 @@
 * Add QR codes to tracking links
 * Add support for Vidyard videos
 * When updating the segment don't use the cache
+* Better error message when tenant not found
 
 ## March 14, 2021
 * Optimize task processing when queue is full
