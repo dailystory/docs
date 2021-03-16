@@ -1,4 +1,8 @@
 # DailyStory Product Updates for March 2021
+## March 16, 2021
+* More efficient management of tasks
+* pass exception management state
+
 ## March 15, 2021
 * Add QR codes to tracking links
 * Add support for Vidyard videos
