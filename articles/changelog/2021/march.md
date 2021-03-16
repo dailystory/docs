@@ -4,7 +4,8 @@
 * Add support for Vidyard videos
 * When updating the segment don't use the cache
 * Better error message when tenant not found
-
+* Bug with how draw is calculated in datatable
+ 
 ## March 14, 2021
 * Optimize task processing when queue is full
 * Optimize is in segment logic
