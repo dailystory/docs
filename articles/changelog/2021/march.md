@@ -2,6 +2,7 @@
 ## March 16, 2021
 * More efficient management of tasks
 * pass exception management state
+* Bug ensure itson is removed when resetting web form designer
 
 ## March 15, 2021
 * Add QR codes to tracking links
